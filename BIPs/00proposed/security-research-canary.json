@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "meta": {
+    "createdFromSafeAddress": "0x0000000000000000000000000000000000000000",
+    "description": "Security research canary - LOTP PoC by @robertprast"
+  },
+  "transactions": []
+}
