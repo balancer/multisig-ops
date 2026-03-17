@@ -9,6 +9,10 @@ on:
       checkout_ref:
         required: true
         type: string
+      checkout_branch:
+        required: false
+        type: string
+        default: ""
 
 jobs:
   generate_reports:
@@ -38,6 +42,10 @@ jobs:
           ref: ${{ inputs.checkout_ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           fetch-depth: 0
+
+      - name: Switch to PR branch
+        if: inputs.checkout_branch != ''
+        run: git checkout -B ${{ inputs.checkout_branch }}
 
       - name: Restore Compiler Caches
         id: restore-compiler-caches

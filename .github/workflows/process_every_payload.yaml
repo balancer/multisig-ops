@@ -15,3 +15,4 @@ jobs:
     with:
       pr_number: ${{ github.event.number }}
       checkout_ref: ${{ github.event.pull_request.head.sha }}
+      checkout_branch: ${{ github.event.pull_request.head.ref }}
