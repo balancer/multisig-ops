@@ -45,7 +45,7 @@ jobs:
 
       - name: Switch to PR branch
         if: inputs.checkout_branch != ''
-        run: git checkout -B ${{ inputs.checkout_branch }}
+        run: git checkout -B ${{ inputs.checkout_branch }} && git branch --set-upstream-to=origin/${{ inputs.checkout_branch }}
 
       - name: Restore Compiler Caches
         id: restore-compiler-caches
