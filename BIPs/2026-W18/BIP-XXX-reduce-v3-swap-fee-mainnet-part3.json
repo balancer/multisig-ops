@@ -1,0 +1,3811 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1774513407910,
+  "meta": {
+    "name": "Transactions Batch",
+    "createdFromSafeAddress": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+  },
+  "transactions": [
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x74e93bed1e05b679e6c3e48f4e677c3a18fb26cd"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x822b0d8f23b8b4c8bdfd6c8653d202bb57cb2402"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xf8a292663dbcef32251598810f91ecaa4383beb9"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x40e6213d4dd6703055413f06d2d49050ec84347b"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x0fea3efd8e943869f5ae9885ef239f3efce63621"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x7a23afb3464c14c5fc07d332259004636617ba7c"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x9d3ac29dc313cba5f14e7c38c4de1ec2212a17ea"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x1095cd10d63464cead5b90c105d90077f891c8e2"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x8f2e38cfa995c367f3301c541f42a3affe20b156"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x248faa97fbf0377c83f6ce7e25a67d5c136f55e1"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x541e81e6ca29908e5b289a57677d77addcfde78a"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xa769d1fd2f81b06418047b43efd8f54c0caf2451"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x4774ed6c123dfaeb799f408e41c0679f781961e4"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xc405808dc01e9aa63836484532b61ae88d5f403c"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x777c206c7f8c6166d41ae99d947ee1a99b60fc0c"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x77784c4c56c0b8beca067689f17974b634d07fbc"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xc068d07836b068264d638ab04b59b297c3590c90"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xbfab2cf6d4c50373b6ebc1a843f7ef5a0e97e056"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x660699b05dbc2ee8ad8c2d059fa72a85645c88c2"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xe389e6d6e8398042788a358b4f3da03a658cd4c6"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x683d5eaffaf8d03d7c8a3bcd8b7b9045837334aa"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x73d98bb69e943f4636959e807121d8230b38366b"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x05a7044c00afeaa8da56e91f5ca0b7f46263be9f"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x97fc34a54ffa2de241ef4efa82607c619fa511c6"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x6f9ffa3eec44eda8e4e71a28affde99bf3cfe045"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x5a2dd12d36268bd70c974ae16c7a00cab9586298"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x92f3a67c020d5bcd24dd135a445f18747bdc016e"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xdd7e291a3f1ced1ff0c93d33620ec270b18ac6a9"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x297fbd720d28199bd68f4256bfae873d111be993"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xe2256a9b5ae42362e1970f178171f610af2cbf2a"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x8b289ed538491d962fcc6dacea7a04b905af953b"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x0b616b953e1e8508d67e1ffb87d8dffd2e3ec900"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xea031fd03c21462709e6a7e4d8ba36a49d0b1313"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x5039b0bc492bd7ee9bf48873417cd8225ad343d8"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x5ee5eba40749b248eadd1de3d3ac8ae9a8071638"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xdbcc49e7c08d44cbeed48aed3265e2464ca11e4a"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x6465713d94f17919afd8c4bc38a9bb65a2a26f8e"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x90ff8bf3f5f28a2bf9101f4fba588febc70fef8d"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xe9ece246ed39a52bbf9b4cc02f6db27b0ef41c66"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x2f049513ce01c77c5cc0b2e42bc039d1385673fd"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x89af1edeead45828b39722dd4db1052da69bdc4f"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x5f30ac37537a65d1d6eddcec7ea05ee97efe15ca"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xcdb39a4eb6498b1ff0919f6009bc92057a9a42de"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x6ca7bab86550b4b4983f33ac618d8c8e41826a09"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xd83d3e7cfc48600fc89f0c44685c63c597af73a5"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xf43e698341ab94568e6956e0055206deb8b469ea"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x55b76e760eee2bfd27e9932e4941c202f7e48ce9"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x3fb60afaadc12d5229edd837beb5f8dd29225112"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xf982b31215b6323e0e8dcb058844f684130a65cd"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x8366a2cb6b9c106c03db2778cc83b7bf6b311559"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xf0ad3bee7111a1ad804d087965d450d4c48e87e1"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x6c3a18fffed2cd02fc2a90b1aae85d680964e465"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x1c0a18fd04fa535df619728ddc9b06b724b18495"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x3ef4db624cd0446d946ac1811e23bda9220a31fc"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xcc656ad8518d955177de4c0e4abd2bc57c1a843a"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xe94e05cfd034abb84842e6132ac2982c87d9688f"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x19e05f1811fce0acd0512d633c3f4e314ad25eb9"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xd55c35950976933a98db321a7f56df51d85a45a9"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x7252f06dfe467647328df6da30b8478ebe96e575"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x13682697fa9c73a257c294d28ac6c4d511237280"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x6f1e2e306c9e2521b98846bad9036749c709f8e5"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x6cced224579f59b8fb7de19a742b7cea41cd68a2"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x5fa6f85e73eb9dcfdaf1c5fd6e6b929f47568e12"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xa2e7df4918fb56dcaebece499b03e0c2754d6b1b"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xe89d6bb5fb2ac77291dad803ee19cc6fe3535bd5"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x5775af2f69993d3c3307a71c7c2aaea6d28a0b99"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x9aa0a830b176401c5bccfc384fd5857903180211"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x0a01f6cfc83bc82722a8eaf28f183afb6793abb3"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x00f0a6ef690e34c5df6f907e3277cafd32f7f55c"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x21508898233afedfa8050ed861d1c9625da0160e"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xed065b2ac3921d78f26ecd14a58d5135bae09fdd"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xa1f4ea6aedd29dc584712811f206c159888f1e9a"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x66b5e22331f34b3aa260fa76791020c3c81d7f33"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x45795800a34e9cf5e8ba29af3853662e9bfd3754"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xd96f01dfc2f9963b93a410a1feb2b867978df7cf"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x3d3386089f05199abe7d43df65c1ec771b1f8e7b"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x6c32adcecbaa9eb086eab39273bc606335a50464"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x1ee11d9dccf7a4b4574553f3e3b924bc841748bb"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xb73b34ab4af545b82dddc04698ac2d7e89c3cc92"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xd6ae7e1c41176b95b0afaf7383e9d0e146100258"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x497484f02239c5b66e0fb0cd2f27cd8101aeb602"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x471c5375df7cba75762da96c7c52f54f88b20bdf"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xa0b38d732bad09f5d955aeba4a76889cd71fc7be"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x6ccddc6dc1c247be42116e9bb7f52fc0b137ae24"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xbab3292f9dd3d3ad035288a1d5be92057d6b5d2b"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xa9878b39f80acdf97a14058e0747a1ddf1942a58"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xc682a5de5103d1fbeb19b87e1c5300fe11f1b6dd"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xe60a8e6f9160d497ebe0daf5cf34a9ba0d154336"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xb592838656412a06b538a86cb919ac3b593a5fa4"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xfb7caf2eb30ea80b1d109d64f83fd72bd08caa1c"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x3a86d7101c435f50bd5ff92e241d65d6d6f070ad"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x13e7cc94685d7cbd8e575f4d503dcfcb73fda912"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xc649d643644bcf9aa52a5a8f852cd9afecf01d30"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xd9832fd654077316537b017b2f732a9511489321"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x7ef6658aa96fc21a017537bbec09198dfc29766f"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x05375ef2ccb8822beaf2c95e5e01163a572e40a8"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x3c1435ebc278fc32c644791f63dd81874dbd6e1d"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xab5a01adcf96f815a165b4bb737da6787a1eb7c2"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x628cfd3cb6834cc21e5c2caaa274e44d3bde64e2"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xb5df2dd7381a3c5b17f13af1ba35edfbad808eff"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xbd8b0a7311995bb7e6454f1f4e113f99139e5e56"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x1ea6a315c63ee9a67ae4341cfcaafe6fd96a27ba"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x70165111dcc1dda41c78eb277e6cf598214125c3"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x9317c6b572f495b1174b74f361e3cac3bf86e71e"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xd99095881f672d64a6ea8e2b9f4abad00aa76f66"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x5357e91f06caa3f75fee3f239f8700ddf3de6e4b"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x1d6af38624cbfe159d205f6c9fd9d7d4c5d2d169"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x5492c578cb10cf244855fdca8b752bcc832d3a79"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x1d8d75070841f5c1dd839f9abc196f3603897612"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xfdabee3bb82e6e8e1575c6fbc68c09ac03310719"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x1edcaf7cdb0023374c1ef39641a3730be3864574"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xeeef18bb05f8f819a97448e762e2babaeae3d918"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xb5933d88997bf369b3f98d4837d311537bf2abc8"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x99a170c8c85a785fd5379e913282cbb642c56c42"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x4937a31afbfe2e06c5335ce9b0a66383a5ba0d76"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xde472a5bcc8112cc6e5bf6fa295525967b1da2bc"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xc81e952b51cd5c918165c79d947ce2216d1c84da"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xbdd876400481942bb0ccedaed09fb8e57026d268"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x57077e7e424df250fe533ae589020b96df7708d6"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x504a4d7d63b172f41d6fc7d077da58f35991af11"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x92eb39f1974c24fa76efb9f671c5fb744238524c"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xbc51408f8e03182afb6c8935eb7ac9948a1b3380"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xbdc3ccca6f59b90b53dade7f123948c984c730e9"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xbe74693542a8e2a6f4cfda8affa4eb7ea6eb4823"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xa85357d05f8195b7f94774f943f132747fbd9241"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x2d95a65b71105202c18e9cfd22f2d1d9623e3641"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x4c47d24b41b53c6a1eb174bb1a699a072d2877f7"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x6058ce6a3bf346353ec4d972a125e8d7f6613b20"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x939033efcf17c649dc0fe4c0d73a54267fb90f60"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xb5e0a4d8773f685d6736f92e83df7d4e6ece88fd"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x30f8ff7aa7da92a2fb871363720cab315135b6b0"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xb48ac8d575540af055ec84ef771e1d61a15db693"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x7565b2a5ea207146e3fb7e47187637472938733f"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x8e49a4e4ad159c33a27a3ffedb40f0a9b24bedf3"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x6e3eb66064534334765079c0e6d1f46b18d3dece"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x967af6b1c5fe1fb64d11cb5b57368964375db9cc"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x55a21e16e18381cb013856aaadbf9149138dda5e"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x23fb808920a4ed82ce57bb28188c357c24dbc8ce"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x981bef4960fd34f7583613a6e1935241a7905eb9"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xaafb70b1a8970534cde68031e156ad9fb6fb00c9"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xc1b21c91de80621fb2a273c3b6e4606ea885d764"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xd9e31eb0971495cb90eba793b53a5d2f662e5217"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xfece2c2dd9f5edbffd05340cc87dbff076062730"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xaf5acc0cb15d6bd06a4a4afe141b8a337d04b9d7"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x9b75b8af2e5a9e830ddb13aa7b168c9b57b68b5f"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x424e0b8845a089bf95b9c36e074ddc5193fd8956"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x9ae48fb730fa869fc15708b2c9378d0f5ea2695f"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x72ce72c71b5754844c42e35fe8dad0fabbf924f5"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x64ac505d0cfbe367d826c27cdbca5afc4e985e38"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x13eb9d42c2a2ea71d3864e8d79aad16854d1b28b"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x589181016299de85fd443141e2615d0f015e9e9a"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x74f1f705247e2231838c16f8e2a5119b81f49168"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x271fc14ba840164e81879d4fb2be3a22738e0ac3"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xe0eef6b40fe3774df247e86ca9f39d2aed08fb9b"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x66f6e95c5c943cf8ffa0b290ec39806edfe38708"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x2a6b4d901abf329d7c6a103c03627ce34f8bd95c"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x2833b38715d362810a0b67cda75470fd4d6038ca"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x20db3cd6d9e2264d6f3e2fb40907d6fc836ae85a"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x2efa137c3f02d4684688b928644fd26615ffcf70"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xc00862f4775345b547fca56ec97bdb383ebf3f62"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xc1aed8072f809ec6a792946ad016f5a85678e888"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x9b2600d7bb7812757e9c080078987621d65c5dad"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xb53588f59d2003d790dc903ee2d1a5c68b260ed4"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x96e9dfebce264f5f197291e3db090dbb1895b97f"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xe06b33eaa4584d3028e70860f0a51d5bbdd99263"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x899f0274d44b84f97b9b4f4cc055f64688ca509c"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x1915ce9edc9c98fa931aac20b96a5f4bda91da11"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x28f30d9ddcaaf31834e9abaae3bf103f809b8973"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x2b98672b184eabe8c9c4bb920951f31941491eeb"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xf6f795443909f74458fde3a909aa4e4ac81a6273"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xd91d1e90285d3d0b2920b6c50630f3d526082dc4"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x7a1af8a0f1c6a2e1a4b12f5c05fdd605fdf20a0e"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xa76e00c66e53d92522a311507066ae9f723d6957"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x47cba49488ff33d5a1cd471c77053b07a1b0c021"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x5842b3dfe110cde4bd6e50162be6407552b21b6c"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x0dea288ee104bd74a5546bca49b7b878a4b192e1"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xfae5db26cd6fd4451f841fbe06676923a1843166"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x07e0f59e67f1a5d02f49a69b6124b67e124555d8"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x425f473bcb11c119367b8cb35fac64de4363eaa8"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xf7a0cbb60a20b03f42a2ce830c0c662618830296"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x0b9e9b749c78b7f45e5f5a7ce54e32d0974983d9"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xf96d4f48f7cb48ca5381b4c084c9538b9f676850"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x06a5c43b594726fa5c9939a63c0558e9606c160d"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x8ba063eae22fc59e1f0d8944be515a3ddc879f6f"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xc150de3a8d48fc9ee66306e623dbe6cc40a6fb73"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xd3a725b913f03a6ec2cf970c7d312c5e0c27b099"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xb9fbbe4cac6351b11839a30fac0faf3569165986"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xdb9847ca3ad499fbcf6ac07aefebbfbfeb8d85ac"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xc971ecf12c7a201a26e3d46a612add9cb1d5b086"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x2d7fadc4af18c2a6c3190845e84e440ccca03e06"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xff971b2728a0539d23a208c9f2d97c64111c82f7"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x34d1f38e6ba1849329d14a58e2d15f9dd1eaa2b1"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xac18e5a7178a861877692138e8ad0fce4cba5928"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xa9ec5e66bd0eedb7b76e9c51561af534320fc223"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x887eac1e7b0ca47ed81759477603fd10784037ba"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xa84e0d6c96168ef09ac0c845ffe679a28e7ea33a"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x56aa0bfb4db1f96212246a293c327901d4e3f7cf"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x13265d87dc64c09232de36bb5260b8f174868d13"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0xd5249b5cebaaa4409a343f9b519b97491e9d9cc0"
+      }
+    },
+    {
+      "to": "0x212F884252792ebaaA811FB0678444b21c7C2879",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x7424666645ada4052c0a2e1efbaa73a3a6c7eefb"
+      }
+    }
+  ]
+}

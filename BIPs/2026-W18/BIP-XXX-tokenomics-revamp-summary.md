@@ -195,7 +195,13 @@ Separate per-chain payloads reduce the V3 global protocol swap fee from 50% to 2
 
 | Chain | File | Txs |
 |-------|------|-----|
-| Mainnet | `BIP-XXX-reduce-v3-swap-fee-mainnet.json` | 1,182 (1 global + 1,181 pools) |
+| Mainnet (part 1) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part1.json` | 151 (1 global + 150 pools) |
+| Mainnet (part 2) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part2.json` | 200 pools |
+| Mainnet (part 3) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part3.json` | 200 pools |
+| Mainnet (part 4) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part4.json` | 200 pools |
+| Mainnet (part 5) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part5.json` | 200 pools |
+| Mainnet (part 6) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part6.json` | 200 pools |
+| Mainnet (part 7) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part7.json` | 28 pools |
 | Arbitrum | `BIP-XXX-reduce-v3-swap-fee-arbitrum.json` | 76 (1 global + 75 pools) |
 | Base | `BIP-XXX-reduce-v3-swap-fee-base.json` | 308 (1 global + 307 pools) |
 | Gnosis | `BIP-XXX-reduce-v3-swap-fee-gnosis.json` | 44 (1 global + 43 pools) |
