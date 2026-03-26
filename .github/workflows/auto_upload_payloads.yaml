@@ -24,8 +24,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Checkout safe-queue-action
+        uses: actions/checkout@v6
+        with:
+          repository: maxyz-xyz/safe-queue-action
+          ref: v1
+          token: ${{ secrets.SAFE_QUEUE_ACTION_PAT }}
+          path: .github/actions/safe-queue-action
+
       - name: Upload payloads to Safe
-        uses: maxyz-xyz/safe-queue-action@v1
+        uses: ./.github/actions/safe-queue-action
         with:
           payload-directory: ${{ github.event.inputs.payload-directory || 'auto-upload/' }}
           drpc-key: ${{ secrets.DRPC_KEY }}
