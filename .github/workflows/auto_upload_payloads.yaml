@@ -1,0 +1,48 @@
+name: Auto Upload Payloads to Safe
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "auto-upload/**/*.json"
+  workflow_dispatch:
+    inputs:
+      payload-file:
+        description: "Path to a specific payload JSON (e.g. auto-upload/my-payload.json)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    if: github.repository == 'balancer/multisig-ops'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Checkout safe-queue-action
+        uses: actions/checkout@v6
+        with:
+          repository: maxyz-xyz/safe-queue-action
+          ref: v1
+          token: ${{ secrets.SAFE_QUEUE_ACTION_PAT }}
+          path: .github/actions/safe-queue-action
+
+      - name: Upload payloads to Safe
+        uses: ./.github/actions/safe-queue-action
+        with:
+          payload-directory: ${{ github.event_name == 'push' && 'auto-upload/' || '' }}
+          payload-file: ${{ github.event.inputs.payload-file || '' }}
+          drpc-key: ${{ secrets.DRPC_KEY }}
+          signer-private-key: ${{ secrets.SAFE_QUEUE_ACTION_PROPOSER }}
+          nested-safe: "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878"
+          tenderly-access-key: ${{ secrets.TENDERLY_ACCESS_KEY }}
+          tenderly-account-name: ${{ secrets.TENDERLY_ACCOUNT_NAME }}
+          tenderly-project-name: ${{ secrets.TENDERLY_PROJECT_NAME }}
