@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1744099200,
+  "meta": {
+    "name": "Transactions Batch",
+    "description": "Grant amp update and protocol fee permissions to Omni multisig for new V3 pool factories and ProtocolFeePercentagesProvider on Mainnet",
+    "txBuilderVersion": "1.18.0",
+    "createdFromSafeAddress": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
+  },
+  "transactions": [
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32[]",
+            "name": "roles",
+            "type": "bytes32[]"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "grantRoles",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "roles": "[0xf019efb33fadcd92c847fd863b9a8273ce47b81a4e59a3bd17ced56370207dbb,0x0a095a996507c13952d3a5b1b925c33f16dfa0b0fd1f3911267a7d4db8d7746e,0xae3c32b51d2f665af511c834d401a6a10a9cd306f48ca55155043ee3372f54eb,0xd1a6e2609256f6be44eb38a98194761f270b99e2151a9926ad7b2a1739a7d332,0x4907aec017cb19a28528e722251b40fd7c5eadd4f4a0f0c6a9bca9888f8a0b7f]",
+        "account": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+      }
+    }
+  ]
+}
