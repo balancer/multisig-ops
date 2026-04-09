@@ -1,45 +1,45 @@
 FILENAME: `BIPs/2026-W18/merkl_redirects_notional_ethereum.json`
 MULTISIG: `multisigs/dao (mainnet:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f)`
-COMMIT: `da366ad5f5c24edb3a6964d9ffbfbae02ae8ec44`
+COMMIT: `7ad733be12c790598a148a989774ef67061b5fbd`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/99732dbb-b0cd-4b94-b764-bccaf0f5ec53)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/c59f84ce-96af-48b4-9873-ac9577e3efde)
 
 ```
-+---------------------------+-------------------------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
-| fx_name                   | to                                                                      | value | inputs                                                                   | bip_number | tx_index |
-+---------------------------+-------------------------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
-| reallocateCampaignRewards | 0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd (angle/distribution_creator) | 0     | {                                                                        | N/A        |   N/A    |
-|                           |                                                                         |       |   "_campaignId": [                                                       |            |          |
-|                           |                                                                         |       |     "0xa01fef4e107482ecf322c67b93a6e446693b079428c6b46a3da53456c9cd3db1" |            |          |
-|                           |                                                                         |       |   ],                                                                     |            |          |
-|                           |                                                                         |       |   "froms": [                                                             |            |          |
-|                           |                                                                         |       |     "0x32d82a1c8618c7be7fe85b2f1c44357a871d52d1 (N/A)"                   |            |          |
-|                           |                                                                         |       |   ],                                                                     |            |          |
-|                           |                                                                         |       |   "to": [                                                                |            |          |
-|                           |                                                                         |       |     "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909 (N/A)"                   |            |          |
-|                           |                                                                         |       |   ]                                                                      |            |          |
-|                           |                                                                         |       | }                                                                        |            |          |
-| reallocateCampaignRewards | 0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd (angle/distribution_creator) | 0     | {                                                                        | N/A        |   N/A    |
-|                           |                                                                         |       |   "_campaignId": [                                                       |            |          |
-|                           |                                                                         |       |     "0xe5e912e6c3b9db1094a50db444e4a47b2ee236f0964087b386a558c4c880f661" |            |          |
-|                           |                                                                         |       |   ],                                                                     |            |          |
-|                           |                                                                         |       |   "froms": [                                                             |            |          |
-|                           |                                                                         |       |     "0x32d82a1c8618c7be7fe85b2f1c44357a871d52d1 (N/A)"                   |            |          |
-|                           |                                                                         |       |   ],                                                                     |            |          |
-|                           |                                                                         |       |   "to": [                                                                |            |          |
-|                           |                                                                         |       |     "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909 (N/A)"                   |            |          |
-|                           |                                                                         |       |   ]                                                                      |            |          |
-|                           |                                                                         |       | }                                                                        |            |          |
-| reallocateCampaignRewards | 0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd (angle/distribution_creator) | 0     | {                                                                        | N/A        |   N/A    |
-|                           |                                                                         |       |   "_campaignId": [                                                       |            |          |
-|                           |                                                                         |       |     "0x4d04ad64bfbdebfee07420ae45e16cb36a002cdbe80376413559396950b79c07" |            |          |
-|                           |                                                                         |       |   ],                                                                     |            |          |
-|                           |                                                                         |       |   "froms": [                                                             |            |          |
-|                           |                                                                         |       |     "0xf94507f3dece4cc4c73b6cf228912b85eadc9cfb (N/A)"                   |            |          |
-|                           |                                                                         |       |   ],                                                                     |            |          |
-|                           |                                                                         |       |   "to": [                                                                |            |          |
-|                           |                                                                         |       |     "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909 (N/A)"                   |            |          |
-|                           |                                                                         |       |   ]                                                                      |            |          |
-|                           |                                                                         |       | }                                                                        |            |          |
-+---------------------------+-------------------------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
++---------------------------+-------------------------------------------------------------------------+-------+----------------------------------------------------------------------------+------------+----------+
+| fx_name                   | to                                                                      | value | inputs                                                                     | bip_number | tx_index |
++---------------------------+-------------------------------------------------------------------------+-------+----------------------------------------------------------------------------+------------+----------+
+| reallocateCampaignRewards | 0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd (angle/distribution_creator) | 0     | {                                                                          | N/A        |   N/A    |
+|                           |                                                                         |       |   "_campaignId": [                                                         |            |          |
+|                           |                                                                         |       |     "0xa01fef4e107482ecf322c67b93a6e446693b079428c6b46a3da53456c9cd3db1"   |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "froms": [                                                               |            |          |
+|                           |                                                                         |       |     "0x32d82a1c8618c7be7fe85b2f1c44357a871d52d1 (N/A)"                     |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "to": [                                                                  |            |          |
+|                           |                                                                         |       |     "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909 (notional/exponent_admin)" |            |          |
+|                           |                                                                         |       |   ]                                                                        |            |          |
+|                           |                                                                         |       | }                                                                          |            |          |
+| reallocateCampaignRewards | 0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd (angle/distribution_creator) | 0     | {                                                                          | N/A        |   N/A    |
+|                           |                                                                         |       |   "_campaignId": [                                                         |            |          |
+|                           |                                                                         |       |     "0xe5e912e6c3b9db1094a50db444e4a47b2ee236f0964087b386a558c4c880f661"   |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "froms": [                                                               |            |          |
+|                           |                                                                         |       |     "0x32d82a1c8618c7be7fe85b2f1c44357a871d52d1 (N/A)"                     |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "to": [                                                                  |            |          |
+|                           |                                                                         |       |     "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909 (notional/exponent_admin)" |            |          |
+|                           |                                                                         |       |   ]                                                                        |            |          |
+|                           |                                                                         |       | }                                                                          |            |          |
+| reallocateCampaignRewards | 0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd (angle/distribution_creator) | 0     | {                                                                          | N/A        |   N/A    |
+|                           |                                                                         |       |   "_campaignId": [                                                         |            |          |
+|                           |                                                                         |       |     "0x4d04ad64bfbdebfee07420ae45e16cb36a002cdbe80376413559396950b79c07"   |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "froms": [                                                               |            |          |
+|                           |                                                                         |       |     "0xf94507f3dece4cc4c73b6cf228912b85eadc9cfb (N/A)"                     |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "to": [                                                                  |            |          |
+|                           |                                                                         |       |     "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909 (notional/exponent_admin)" |            |          |
+|                           |                                                                         |       |   ]                                                                        |            |          |
+|                           |                                                                         |       | }                                                                          |            |          |
++---------------------------+-------------------------------------------------------------------------+-------+----------------------------------------------------------------------------+------------+----------+
 ```
