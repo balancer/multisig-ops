@@ -1,0 +1,158 @@
+{
+  "version": "1.0",
+  "chainId": "137",
+  "createdAt": 1675891944772,
+  "meta": {
+    "name": "Transactions Batch",
+    "description": "",
+    "txBuilderVersion": "1.13.2",
+    "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+    "createdFromOwnerAddress": ""
+  },
+  "transactions": [
+    {
+      "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "prevOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "oldOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "newOwner",
+            "type": "address"
+          }
+        ],
+        "name": "swapOwner",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "prevOwner": "0x11E450C72C2258ec792D5f64a263Ecb18e8c0f06",
+        "oldOwner": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "newOwner": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+      },
+      "meta": {
+        "tx_index": 0,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W18/BIP-918-operational-restructure-tc-signer-swap-polygon.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "prevOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "oldOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "newOwner",
+            "type": "address"
+          }
+        ],
+        "name": "swapOwner",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "prevOwner": "0x0000000000000000000000000000000000000001",
+        "oldOwner": "0xd17a9f089862351af82fA782435faC0f9e17786c",
+        "newOwner": "0xA574Af018138bBC2bf065f68015687Aa67388A2A"
+      },
+      "meta": {
+        "tx_index": 1,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W18/BIP-918-operational-restructure-tc-signer-swap-polygon.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "prevOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "oldOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "newOwner",
+            "type": "address"
+          }
+        ],
+        "name": "swapOwner",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "prevOwner": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+        "oldOwner": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D",
+        "newOwner": "0xF162D64Cab37fD3335122024f23680AF7cf067ad"
+      },
+      "meta": {
+        "tx_index": 2,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W18/BIP-918-operational-restructure-tc-signer-swap-polygon.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "prevOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "oldOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "newOwner",
+            "type": "address"
+          }
+        ],
+        "name": "swapOwner",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "prevOwner": "0xF162D64Cab37fD3335122024f23680AF7cf067ad",
+        "oldOwner": "0x606681E47afC7869482660eCD61bd45B53523D83",
+        "newOwner": "0x7984aB7e6B51A50d970b74a437BC82156753b866"
+      },
+      "meta": {
+        "tx_index": 3,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W18/BIP-918-operational-restructure-tc-signer-swap-polygon.json",
+        "bip_number": "BIP-918"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "chainId": "196",
+  "createdAt": 1675891944772,
+  "meta": {
+    "name": "Transactions Batch",
+    "description": "",
+    "txBuilderVersion": "1.13.2",
+    "createdFromSafeAddress": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "createdFromOwnerAddress": ""
+  },
+  "transactions": [
+    {
+      "to": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "prevOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "oldOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "newOwner",
+            "type": "address"
+          }
+        ],
+        "name": "swapOwner",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "prevOwner": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+        "oldOwner": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "newOwner": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+      },
+      "meta": {
+        "tx_index": 0,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W18/BIP-918-operational-restructure-onchain-ltd-signer-swap-xlayer.json",
+        "bip_number": "BIP-918"
+      }
+    }
+  ]
+}
