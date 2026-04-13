@@ -1,0 +1,65 @@
+gm signers!!! big changes queued up, and we need your help. easy txs though :)
+
+most notably we are executing bip919 which stops the allocation of new mintable $bal; no more future emissions. the timing is crucial on this; it needs to be executed in the last epoch (between april 16th and april 23rd). it is therefore queued up as a separate nonce. please sign only, i will take care of the exec
+
+then bip918 which transfers admin permissions from the dao to the omni multisig on all chains except ethereum. effectively this means no more signing on these chains for you; retirement of dao signers on non ethereum chains thereafter! that mandate is with the core team now
+
+expect the dao signing cadence and intensity to drastically reduce going forward.
+
+### Ethereum: `multisigs/dao`
+
+#### Nonce279: https://app.safe.global/transactions/tx?safe=eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f&id=multisig_0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f_0x18400445905d805311f543749ee8d68800b7a9712e996e869b24a004fa10833f
+- BIP-919: stop allocating new mintable $bal by setting GaugeController gauge type weights to zero
+
+#### Nonce280: https://app.safe.global/transactions/tx?safe=eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f&id=multisig_0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f_0x3d50f20273d8feca2ec021a368931e8708e41fdf0e217e7743c7d8c6e9d0d515
+- BIP-892: reallocate notional whitehat rewards via merkl
+- BIP-918: grant amp update and protocol fee permissions to omni safe
+
+### Polygon: `multisigs/dao`
+
+#### Nonce45: https://app.safe.global/transactions/tx?safe=matic:0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85&id=multisig_0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85_0x42c0c072ceb6588c86224af020865bcdfe3d5020a6e13efdd1eedca40a7a5190
+- BIP-918: transfer DEFAULT_ADMIN_ROLE from dao to omni multisig
+- BIP-892: redo WPOL campaign
+
+### Arbitrum: `multisigs/dao`
+
+#### Nonce58: https://app.safe.global/transactions/tx?safe=arb1:0xaF23DC5983230E9eEAf93280e312e57539D098D0&id=multisig_0xaF23DC5983230E9eEAf93280e312e57539D098D0_0xfe77a1e47782a1020bf41306200b431c1f9c684a3cc0ecce63ffb84744cc3947
+- BIP-918: transfer DEFAULT_ADMIN_ROLE from dao to omni multisig
+- BIP-892: reallocate notional whitehat rewards via merkl
+
+### Optimism: `multisigs/dao`
+
+#### Nonce43: https://app.safe.global/transactions/tx?safe=oeth:0x043f9687842771b3dF8852c1E9801DCAeED3f6bc&id=multisig_0x043f9687842771b3dF8852c1E9801DCAeED3f6bc_0x095c9342919f8eba8f79f91057dd11017ff7b0ecb028b1f5d966abc7180a32d7
+- BIP-918: transfer DEFAULT_ADMIN_ROLE from dao to omni multisig
+
+### Gnosis: `multisigs/dao`
+
+#### Nonce37: https://app.safe.global/transactions/tx?safe=gno:0x2a5AEcE0bb9EfFD7608213AE1745873385515c18&id=multisig_0x2a5AEcE0bb9EfFD7608213AE1745873385515c18_0xdef7d46cbe8acbedc7e8758a086dcbd51b9d74310b378f1358fbce35900e2994
+- BIP-918: transfer DEFAULT_ADMIN_ROLE from dao to omni multisig
+
+### Base: `multisigs/dao`
+
+#### Nonce22: https://app.safe.global/transactions/tx?safe=base:0xC40DCFB13651e64C8551007aa57F9260827B6462&id=multisig_0xC40DCFB13651e64C8551007aa57F9260827B6462_0x537fbf174c103cd764456eefc46b276eac390d1e55c80f89635e7c23945cb671
+- BIP-918: transfer DEFAULT_ADMIN_ROLE from dao to omni multisig
+
+### Avalanche: `multisigs/dao`
+
+#### Nonce31: https://app.safe.global/transactions/tx?safe=avax:0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3&id=multisig_0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3_0xf2a0758456d4c43e5192f8f4216afdf52ff473a3e0517f39acb9d8ea9c0e71c4
+- BIP-918: transfer DEFAULT_ADMIN_ROLE from dao to omni multisig
+
+### Polygon ZkEVM: `multisigs/dao`
+
+#### Nonce17: https://app.safe.global/transactions/tx?safe=zkevm:0x2f237e7643a3bF6Ef265dd6FCBcd26a7Cc38dbAa&id=multisig_0x2f237e7643a3bF6Ef265dd6FCBcd26a7Cc38dbAa_0x01578807be7ca7e6edf89dfcebf113b921a58cf563170d01da4a51f434f1e9c7
+- BIP-918: transfer DEFAULT_ADMIN_ROLE from dao to omni multisig
+
+### Fraxtal: `multisigs/dao`
+
+#### Nonce7: https://safe.mainnet.frax.com/transactions/tx?safe=fraxtal:0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e&id=multisig_0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e_0x5808eebca9c9c4ab10d54aaf99f6b654d97130de413c2d905822432906f8e2cc
+- BIP-918: transfer DEFAULT_ADMIN_ROLE from dao to omni multisig
+
+### Mode: `multisigs/dao`
+
+#### Nonce6: https://safe.optimism.io/transactions/tx?safe=mode:0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e&id=multisig_0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e_0x421737d60f55a14ecd4ca8590495432a10d8813ccc04d0488cce9da932319efd
+- BIP-918: transfer DEFAULT_ADMIN_ROLE from dao to omni multisig
+
+@hubirb @alextnetto @elbagococina @garaigram @0xMaki @mouph @eboado @StefanGeorge @bonustrack @mikeisballin
