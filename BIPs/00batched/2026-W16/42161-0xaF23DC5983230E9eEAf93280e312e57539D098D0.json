@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "chainId": "42161",
+  "createdAt": 1675891944772,
+  "meta": {
+    "name": "Transactions Batch",
+    "description": "",
+    "txBuilderVersion": "1.13.2",
+    "createdFromSafeAddress": "0xaF23DC5983230E9eEAf93280e312e57539D098D0",
+    "createdFromOwnerAddress": ""
+  },
+  "transactions": [
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "role",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "grantRole",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "role": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "account": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+      },
+      "meta": {
+        "tx_index": 0,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W16/BIP-918-transfer-admin-to-omni-arbitrum.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "role",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "revokeRole",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "role": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "account": "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
+      },
+      "meta": {
+        "tx_index": 1,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W16/BIP-918-transfer-admin-to-omni-arbitrum.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x0ea60f446dbf42cc7f686f597880343cb6ebbe8f1497b007e48f82cd54ef85f4",
+        "froms": "[\"0xcac9c01d1207e5d06bb0fd5b854832f35fe97e68\"]",
+        "to": "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909"
+      },
+      "meta": {
+        "tx_index": 0,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W16/BIP-892-merkl_redirects_notional_arbitrum.json",
+        "bip_number": "BIP-892"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x99c51d036eeda1804aa91bcf7b1a9bd52c453d28d6858acc89f1e66b5efa61f2",
+        "froms": "[\"0xa0d61c08e642103158fc6a1495e7ff82baf25857\"]",
+        "to": "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909"
+      },
+      "meta": {
+        "tx_index": 1,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W16/BIP-892-merkl_redirects_notional_arbitrum.json",
+        "bip_number": "BIP-892"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x06d7e2f0263310d230e695c6a4fcccb81df4165c8b84da2db0121302b51c736e",
+        "froms": "[\"0xa0d61c08e642103158fc6a1495e7ff82baf25857\"]",
+        "to": "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909"
+      },
+      "meta": {
+        "tx_index": 2,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W16/BIP-892-merkl_redirects_notional_arbitrum.json",
+        "bip_number": "BIP-892"
+      }
+    }
+  ]
+}
