@@ -23,7 +23,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x5f28a71aedc4c8a1ee3762f2945ff268a3591f79"
+        "pool": "0x45694ab7fb9dfd57b501d76fbc36acd556ac736c"
       }
     },
     {
@@ -42,7 +42,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xcb80b1a9e7b319a4c5ec6b0666967ca1e309e40f"
+        "pool": "0xea7cd0ebef41bb2e2cae8cdc401611fda67ee135"
       }
     },
     {
@@ -61,7 +61,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xb97459fe72708603d822f4edf24bff8ecc07d8f6"
+        "pool": "0xd64cd43a709862060089c2248e360ca06868eaa2"
       }
     },
     {
@@ -80,7 +80,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x3b09a0110e53fed611fcc448eb60ec9646251b5a"
+        "pool": "0xfd313536b97d4f65b86f9a2fed42ec34adf0c9ef"
       }
     },
     {
@@ -99,7 +99,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xa58615da337e75268f3e9a568cc6e4239093abe1"
+        "pool": "0x66d7b6ead3d1bc1a7d54f4812f33d3b276aa4b68"
       }
     },
     {
@@ -118,7 +118,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x333c2ffb30aead8cccbec348e520741081625d45"
+        "pool": "0xd2ceeac300b98bb6bd30d21015491f0d884cec95"
       }
     },
     {
@@ -137,7 +137,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xc2bd3f3b973ee8528697108407503c01d0270bf9"
+        "pool": "0xe6bfd5ea9f16f17a438d86d257e15c1d63947747"
       }
     },
     {
@@ -156,7 +156,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x5c78c3ed185de595f3181d2506419506c7313e20"
+        "pool": "0x7248e39cc0f67ab5592860e3463b400ef1386aa4"
       }
     },
     {
@@ -175,7 +175,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xeb065d81155ac1905ed1cefa34dc065fb4da4de6"
+        "pool": "0xade600bde7b15c212285ca13845509c2bb049f99"
       }
     },
     {
@@ -194,7 +194,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x5a5ab87e60e0bb2a8fcc296a53a79f982b371f56"
+        "pool": "0x302cb7c5235361f50d01f665ba3e4e136272d344"
       }
     },
     {
@@ -213,7 +213,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xae688e9caa15de22ebf1ddc5db97945dbf16eee7"
+        "pool": "0x1fe9cc48474a44e0ec9da242763cf45237c6012a"
       }
     },
     {
@@ -232,7 +232,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x936a661b685d496a4ef94ad3f45a582a3d91d555"
+        "pool": "0x240783d667950ed27c82684374ad600d59b810b3"
       }
     },
     {
@@ -251,7 +251,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xdb373fd670c1767db9ac9f2512ccf3ef15fd9d3d"
+        "pool": "0x286f9b3537687461b2fa99cde524364f9b019646"
       }
     },
     {
@@ -270,7 +270,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xb129a4f356b6f3019265436cbe12e84f94a4fa5b"
+        "pool": "0x2ccf60d7dc8376aca567f1b476dd6a9480996999"
       }
     },
     {
@@ -289,7 +289,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xaaf48e5366e9263eb5c31d7f6ba00319439f0ffe"
+        "pool": "0x61b536882e9903948d66e75d21f78482f1d57f72"
       }
     },
     {
@@ -308,7 +308,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x36948f3d3a7ad03630f68a2268b824312818966f"
+        "pool": "0x62d275d6cb85e857df04932750fdd58008c1fdf8"
       }
     },
     {
@@ -327,7 +327,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x920752193370de02bcdea5360254246f05d8788a"
+        "pool": "0x6a47a1a06b7c919753784462eb5189ed344801ce"
       }
     },
     {
@@ -346,7 +346,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xcc6467bfdceca6425ec10028ce73833f597c8f8c"
+        "pool": "0x6dc36bf7f74ca92b0e01970da6e3f7667e0397e0"
       }
     },
     {
@@ -365,7 +365,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x046f0cc3c311eb5a3b3bcbdd2220471a12d98de7"
+        "pool": "0x7eb68433938cda5fa79669162a59b8a1353bb73a"
       }
     },
     {
@@ -384,7 +384,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x8446e1408b44d0fa760d83d70bd6d4bae2567cf4"
+        "pool": "0x88818da6f9797264ad520452f52c6285ad4cb22b"
       }
     },
     {
@@ -403,7 +403,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xb6a9a815d98cb98fd9f2353ec59de07b63f5b485"
+        "pool": "0x8d8c853c2961c896158eb05730fe7309570c9172"
       }
     },
     {
@@ -422,7 +422,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xaf3938b8c2d16d764d0e5a15b871d71be6d4c000"
+        "pool": "0x9201c14db2987e8853d81c50dc9ba14d65d6da4a"
       }
     },
     {
@@ -441,7 +441,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0x9708fdbbc4a887890fd8d1f9ea2ebd943a076342"
+        "pool": "0xa2ccd6cad4b827b711a1effec463764a097c27c8"
       }
     },
     {
@@ -460,7 +460,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xda35b40ab9e82604cd2e6942525db65393014678"
+        "pool": "0xd3a6ab19128a8e36ec9902042048e544f453ac31"
       }
     },
     {
@@ -479,7 +479,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xf1feec34d5bc99765f00a08a26b2f992072268b1"
+        "pool": "0xd5f68d208d7bbfd5b1e8181e0390bb6854e8ff6d"
       }
     },
     {
@@ -498,178 +498,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "pool": "0xc7f8e86eccf42c6d57cc847c249445722a34d292"
-      }
-    },
-    {
-      "to": "0x2FF226CD12C80511a641A6101F071d853A4e5363",
-      "value": "0",
-      "data": null,
-      "contractMethod": {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "pool",
-            "type": "address"
-          }
-        ],
-        "name": "updateProtocolSwapFeePercentage",
-        "payable": false
-      },
-      "contractInputsValues": {
-        "pool": "0x7585ef4316cb83c065ecf1bb6b9fbe55f8a4ac38"
-      }
-    },
-    {
-      "to": "0x2FF226CD12C80511a641A6101F071d853A4e5363",
-      "value": "0",
-      "data": null,
-      "contractMethod": {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "pool",
-            "type": "address"
-          }
-        ],
-        "name": "updateProtocolSwapFeePercentage",
-        "payable": false
-      },
-      "contractInputsValues": {
-        "pool": "0xc658564b7cfa31b1545e1e329c44eee0173bd1ec"
-      }
-    },
-    {
-      "to": "0x2FF226CD12C80511a641A6101F071d853A4e5363",
-      "value": "0",
-      "data": null,
-      "contractMethod": {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "pool",
-            "type": "address"
-          }
-        ],
-        "name": "updateProtocolSwapFeePercentage",
-        "payable": false
-      },
-      "contractInputsValues": {
-        "pool": "0x88c32a6226af9b74491fc1434b9fdfa416a9e8ca"
-      }
-    },
-    {
-      "to": "0x2FF226CD12C80511a641A6101F071d853A4e5363",
-      "value": "0",
-      "data": null,
-      "contractMethod": {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "pool",
-            "type": "address"
-          }
-        ],
-        "name": "updateProtocolSwapFeePercentage",
-        "payable": false
-      },
-      "contractInputsValues": {
-        "pool": "0x93611fd07f66054ed9c3774baaa43279feaba07c"
-      }
-    },
-    {
-      "to": "0x2FF226CD12C80511a641A6101F071d853A4e5363",
-      "value": "0",
-      "data": null,
-      "contractMethod": {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "pool",
-            "type": "address"
-          }
-        ],
-        "name": "updateProtocolSwapFeePercentage",
-        "payable": false
-      },
-      "contractInputsValues": {
-        "pool": "0x7851d6559859e88cf2d1cbfcfe920b978aaeee41"
-      }
-    },
-    {
-      "to": "0x2FF226CD12C80511a641A6101F071d853A4e5363",
-      "value": "0",
-      "data": null,
-      "contractMethod": {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "pool",
-            "type": "address"
-          }
-        ],
-        "name": "updateProtocolSwapFeePercentage",
-        "payable": false
-      },
-      "contractInputsValues": {
-        "pool": "0xa0e5102e86ca56f018df5b65c427e2434ac74c6b"
-      }
-    },
-    {
-      "to": "0x2FF226CD12C80511a641A6101F071d853A4e5363",
-      "value": "0",
-      "data": null,
-      "contractMethod": {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "pool",
-            "type": "address"
-          }
-        ],
-        "name": "updateProtocolSwapFeePercentage",
-        "payable": false
-      },
-      "contractInputsValues": {
-        "pool": "0xfe5475e27927b7d0bb03d16beb196b63a000fc1b"
-      }
-    },
-    {
-      "to": "0x2FF226CD12C80511a641A6101F071d853A4e5363",
-      "value": "0",
-      "data": null,
-      "contractMethod": {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "pool",
-            "type": "address"
-          }
-        ],
-        "name": "updateProtocolSwapFeePercentage",
-        "payable": false
-      },
-      "contractInputsValues": {
-        "pool": "0xb65f6cba1efbcdd79b45d8927aa789b15a74c270"
-      }
-    },
-    {
-      "to": "0x2FF226CD12C80511a641A6101F071d853A4e5363",
-      "value": "0",
-      "data": null,
-      "contractMethod": {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "pool",
-            "type": "address"
-          }
-        ],
-        "name": "updateProtocolSwapFeePercentage",
-        "payable": false
-      },
-      "contractInputsValues": {
-        "pool": "0xc965bd2a2fbfe98918d1d20690c7f749bc82a68f"
+        "pool": "0xda491a8e24bc89d61d916a3cec4ef545103400c9"
       }
     }
   ]
