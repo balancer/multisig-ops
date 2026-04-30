@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "chainId": "143",
+  "createdAt": 1777458513000,
+  "meta": {
+    "name": "setup raw v3 fee collection on monad",
+    "createdFromSafeAddress": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+  },
+  "transactions": [
+    {
+      "to": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32[]",
+            "name": "roles",
+            "type": "bytes32[]"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "grantRoles",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "roles": "[0xd8f952fca9feeca8075fa8cf14298353b4b424103a602b3879b031c57cf6def7]",
+        "account": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f"
+      }
+    },
+    {
+      "to": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "feeRecipient",
+            "type": "address"
+          }
+        ],
+        "name": "setFeeRecipient",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "feeRecipient": "0x74E283B985EA76c55C8B48d6bD1067a418188424"
+      }
+    }
+  ]
+}
