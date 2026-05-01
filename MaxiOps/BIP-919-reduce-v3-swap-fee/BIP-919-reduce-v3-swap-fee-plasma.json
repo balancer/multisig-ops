@@ -747,6 +747,25 @@
       "contractInputsValues": {
         "pool": "0x3945e9e3177bc82ca21596b46ce039e494114c6f"
       }
+    },
+    {
+      "to": "0xCaCC7E1efEEA8BB3af6d5720d12C1876aa6EE76b",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          }
+        ],
+        "name": "updateProtocolSwapFeePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "pool": "0x7717283977f253aae01a5be9929c31cdc79f14fd"
+      }
     }
   ]
 }

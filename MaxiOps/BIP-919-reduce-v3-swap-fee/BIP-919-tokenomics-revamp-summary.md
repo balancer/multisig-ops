@@ -27,22 +27,23 @@ Separate per-chain payloads reduce the V3 global protocol swap fee from 50% to 2
 
 | Chain | File | Txs |
 |-------|------|-----|
-| Mainnet (part 1) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part1.json` | 151 (1 global + 150 pools) |
-| Mainnet (part 2) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part2.json` | 200 pools |
+| Mainnet (part 1) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part1.json` | 76 (1 global + 75 pools) |
+| Mainnet (part 2) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part2.json` | 75 pools |
 | Mainnet (part 3) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part3.json` | 200 pools |
 | Mainnet (part 4) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part4.json` | 200 pools |
 | Mainnet (part 5) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part5.json` | 200 pools |
 | Mainnet (part 6) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part6.json` | 200 pools |
-| Mainnet (part 7) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part7.json` | 28 pools |
-| Arbitrum | `BIP-XXX-reduce-v3-swap-fee-arbitrum.json` | 76 (1 global + 75 pools) |
-| Base | `BIP-XXX-reduce-v3-swap-fee-base.json` | 308 (1 global + 307 pools) |
-| Gnosis | `BIP-XXX-reduce-v3-swap-fee-gnosis.json` | 44 (1 global + 43 pools) |
+| Mainnet (part 7) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part7.json` | 200 pools |
+| Mainnet (part 8) | `BIP-XXX-reduce-v3-swap-fee-mainnet-part8.json` | 37 pools (28 original + 9 delta) |
+| Arbitrum | `BIP-XXX-reduce-v3-swap-fee-arbitrum.json` | 81 (1 global + 80 pools) |
+| Base | `BIP-XXX-reduce-v3-swap-fee-base.json` | 324 (1 global + 323 pools) |
+| Gnosis | `BIP-XXX-reduce-v3-swap-fee-gnosis.json` | 49 (1 global + 48 pools) |
 | Avalanche | `BIP-XXX-reduce-v3-swap-fee-avalanche.json` | 46 (1 global + 45 pools) |
 | HyperEVM | `BIP-XXX-reduce-v3-swap-fee-hyperevm.json` | 34 (1 global + 33 pools) |
-| Plasma | `BIP-XXX-reduce-v3-swap-fee-plasma.json` | 39 (1 global + 38 pools) |
+| Plasma | `BIP-XXX-reduce-v3-swap-fee-plasma.json` | 40 (1 global + 39 pools) |
 | Monad | `BIP-XXX-reduce-v3-swap-fee-monad.json` | 20 (1 global + 19 pools) |
 | X Layer | `BIP-XXX-reduce-v3-swap-fee-xlayer.json` | 3 (1 global + 2 pools) |
 
 Each payload calls `setGlobalProtocolSwapFeePercentage(250000000000000000)` followed by `updateProtocolSwapFeePercentage(pool)` for every V3 pool on that chain via the ProtocolFeeController v2.
 
-Mainnet split into 7 parts due to block gas limit (~30M). Part 1 must execute first (contains the global fee change). 3 pools excluded due to transfer-restricted tokens (CMTDE_V3, fake USDT).
+Mainnet split into 8 parts due to block gas limit (~30M). Part 1 must execute first (contains the global fee change). Part 2 is intentionally kept at 75 pools because those pools have higher execution gas. Part 8 absorbs the 9-pool delta of v3 pools created after the initial payload (the WETH-EIGEN Gyro-ECLP pool cluster was intentionally excluded). 3 pools excluded due to transfer-restricted tokens (CMTDE_V3, fake USDT).
