@@ -1,0 +1,32 @@
+FILENAME: `MaxiOps/ManualFeeSweeps/payloads/base-erc20-sweep.json`
+MULTISIG: `multisigs/omni (base:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `b76e7fde541b0edaa9b9f892b4ee5ba9b88c9e3d`
+CHAIN(S): `base`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/aa02345d-098d-4416-a72a-02846e0f769f)
+
+```
++----------+-----------------------------------------------------+-------------------------------------------------------------------+--------------------------------------------------+-----+----------+
+| function | token_symbol                                        | recipient                                                         | amount                                           | bip | tx_index |
++----------+-----------------------------------------------------+-------------------------------------------------------------------+--------------------------------------------------+-----+----------+
+| transfer | LINK:0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196     | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 43.25827103597493 (RAW: 43258271035974931389)    | N/A |    0     |
+| transfer | VIRTUAL:0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b  | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 412.86958296687936 (RAW: 412869582966879380176)  | N/A |    1     |
+| transfer | yoUSD:0x0000000f2eB9f69274678c76222B35eEc7588a65    | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 118.700774 (RAW: 118700774)                      | N/A |    2     |
+| transfer | rETH:0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c     | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 0.0442149982695378 (RAW: 44214998269537803)      | N/A |    3     |
+| transfer | COW:0xc694a91e6b071bF030A18BD3053A7fE09B6DaE69      | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 359.2237436461684 (RAW: 359223743646168370935)   | N/A |    4     |
+| transfer | PRL:0xfD28f108e95f4D41daAE9dbfFf707D677985998E      | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 59759.81427514979 (RAW: 59759814275149787412376) | N/A |    5     |
+| transfer | DAG:0x74299A718b2c44483a27325d7725F0B2646DE3B1      | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 265197.64837515 (RAW: 26519764837515)            | N/A |    6     |
+| transfer | aBasWETH:0xD4a0e0b9149BCee3C920d2E00b5dE09138fd8bb7 | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 0.000270872651934169 (RAW: 270872651934169)      | N/A |    7     |
+| transfer | cbBTC:0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf    | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 2e-08 (RAW: 2)                                   | N/A |    8     |
+| transfer | WGC:0x3d63825B0d8669307366E6c8202f656b9E91D368      | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 0.01 (RAW: 10000)                                | N/A |    9     |
+| transfer | WETH:0x4200000000000000000000000000000000000006     | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 8.73e-16 (RAW: 873)                              | N/A |    10    |
+| transfer | MORPHO:0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842   | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 1.152e-14 (RAW: 11520)                           | N/A |    11    |
+| transfer | SEAM:0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85     | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 4.4801e-14 (RAW: 44801)                          | N/A |    12    |
+| transfer | NEWBASE:0x6f127a32c05a7097E62e56239DA5b0B2bAC417b3  | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 359.2237436461684 (RAW: 359223743646168370935)   | N/A |    13    |
+| transfer | BLOXX:0x243801E360285343f2BC5672B7F485daFf78af5f    | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 234.0 (RAW: 234000000000000000000)               | N/A |    14    |
+| transfer | AXOME:0x8C6F889888d22Ee1d8Aa2954B61b9F10E7402b95    | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 160.0 (RAW: 160000000000000000000)               | N/A |    15    |
+| transfer | BRM:0xbd33da1f9a0Cc70224e9a71C80Baa92Fd0Eb82d0      | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 10.0 (RAW: 10000000000000000000)                 | N/A |    16    |
+| transfer | cbXRP:0x41e357ea17eEd8e3Ee32451F8E5CBa824AF58Dbf    | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 10.0 (RAW: 10000000000000000000)                 | N/A |    17    |
+| transfer | aBasUSDC:0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 96.739683 (RAW: 96739683)                        | N/A |    18    |
+| transfer | aBasGHO:0x067ae75628177FD257c2B1e500993e1a0baBcBd1  | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 1.68555e-13 (RAW: 168555)                        | N/A |    19    |
++----------+-----------------------------------------------------+-------------------------------------------------------------------+--------------------------------------------------+-----+----------+
+```
