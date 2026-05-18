@@ -1,0 +1,23 @@
+FILENAME: `MaxiOps/Emergency-Multisigs/Signer-Swap-Danko/emergency-avalanche.json`
+MULTISIG: `multisigs/emergency (avalanche:0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0)`
+COMMIT: `7138f50c3ffc31b3d769aec9c92a1cb4ee9d6fae`
+CHAIN(S): `avalanche`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/48b7596c-0c60-4f63-b765-2e71fadf6bcb)
+
+```
++-----------+------------------------------------------------------------------+-------+--------------------------------------------------------------------------------+------------+----------+
+| fx_name   | to                                                               | value | inputs                                                                         | bip_number | tx_index |
++-----------+------------------------------------------------------------------+-------+--------------------------------------------------------------------------------+------------+----------+
+| swapOwner | 0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0 (multisigs/emergency) | 0     | {                                                                              | N/A        |   N/A    |
+|           |                                                                  |       |   "prevOwner": [                                                               |            |          |
+|           |                                                                  |       |     "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516 (EOA/emergency/xeonus)"        |            |          |
+|           |                                                                  |       |   ],                                                                           |            |          |
+|           |                                                                  |       |   "oldOwner": [                                                                |            |          |
+|           |                                                                  |       |     "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293 (EOA/emergency/juani)"         |            |          |
+|           |                                                                  |       |   ],                                                                           |            |          |
+|           |                                                                  |       |   "newOwner": [                                                                |            |          |
+|           |                                                                  |       |     "0x122AFb4667C5f80e45721a42C7c81e9140C62FA4 (EOA/kyc/Arbitrum/kycsigner4)" |            |          |
+|           |                                                                  |       |   ]                                                                            |            |          |
+|           |                                                                  |       | }                                                                              |            |          |
++-----------+------------------------------------------------------------------+-------+--------------------------------------------------------------------------------+------------+----------+
+```
