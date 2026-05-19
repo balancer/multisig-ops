@@ -112,7 +112,7 @@ def get_changed_files() -> list[dict]:
                 continue
         filename = file_json["filename"]
         if (
-            "BIPs/" in filename or "MaxiOps/" in filename or "TreasuryOps/" in filename
+            "BIPs/" in filename or "MaxiOps/" in filename or "OmniOps/" in filename or "TreasuryOps/" in filename
         ) and filename.endswith(".json"):
             # Check if file exists first
             try:
