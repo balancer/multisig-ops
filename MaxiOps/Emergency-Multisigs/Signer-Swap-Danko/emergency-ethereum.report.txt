@@ -1,0 +1,23 @@
+FILENAME: `MaxiOps/Emergency-Multisigs/Signer-Swap-Danko/emergency-ethereum.json`
+MULTISIG: `multisigs/emergency (mainnet:0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888)`
+COMMIT: `7138f50c3ffc31b3d769aec9c92a1cb4ee9d6fae`
+CHAIN(S): `mainnet`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/7535ae97-0405-481c-97f5-8ca9c79881fa)
+
+```
++-----------+------------------------------------------------------------------+-------+--------------------------------------------------------------------------------+------------+----------+
+| fx_name   | to                                                               | value | inputs                                                                         | bip_number | tx_index |
++-----------+------------------------------------------------------------------+-------+--------------------------------------------------------------------------------+------------+----------+
+| swapOwner | 0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888 (multisigs/emergency) | 0     | {                                                                              | N/A        |   N/A    |
+|           |                                                                  |       |   "prevOwner": [                                                               |            |          |
+|           |                                                                  |       |     "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516 (EOA/emergency/xeonus)"        |            |          |
+|           |                                                                  |       |   ],                                                                           |            |          |
+|           |                                                                  |       |   "oldOwner": [                                                                |            |          |
+|           |                                                                  |       |     "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293 (EOA/emergency/juani)"         |            |          |
+|           |                                                                  |       |   ],                                                                           |            |          |
+|           |                                                                  |       |   "newOwner": [                                                                |            |          |
+|           |                                                                  |       |     "0x122AFb4667C5f80e45721a42C7c81e9140C62FA4 (EOA/kyc/Arbitrum/kycsigner4)" |            |          |
+|           |                                                                  |       |   ]                                                                            |            |          |
+|           |                                                                  |       | }                                                                              |            |          |
++-----------+------------------------------------------------------------------+-------+--------------------------------------------------------------------------------+------------+----------+
+```

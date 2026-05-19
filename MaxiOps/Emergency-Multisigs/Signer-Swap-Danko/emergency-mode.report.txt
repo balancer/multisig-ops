@@ -1,0 +1,23 @@
+FILENAME: `MaxiOps/Emergency-Multisigs/Signer-Swap-Danko/emergency-mode.json`
+MULTISIG: `multisigs/emergency (mode:0x66C4b8Ba38a7B57495b7D0581f25784E629516c2)`
+COMMIT: `7138f50c3ffc31b3d769aec9c92a1cb4ee9d6fae`
+CHAIN(S): `mode`
+TENDERLY: `🟪 SKIPPED (ValueError({'error': {'id': 'dc020d21-227c-453f-93d5-f1d56dd2497c', 'slug': 'internal_server_error', 'message': 'Internal server error'}}))`
+
+```
++-----------+------------------------------------------------------------------+-------+---------------------------------------------------------------------------------+------------+----------+
+| fx_name   | to                                                               | value | inputs                                                                          | bip_number | tx_index |
++-----------+------------------------------------------------------------------+-------+---------------------------------------------------------------------------------+------------+----------+
+| swapOwner | 0x66C4b8Ba38a7B57495b7D0581f25784E629516c2 (multisigs/emergency) | 0     | {                                                                               | N/A        |   N/A    |
+|           |                                                                  |       |   "prevOwner": [                                                                |            |          |
+|           |                                                                  |       |     "0x606681E47afC7869482660eCD61bd45B53523D83 (EOA/emeritus/danielmk_TC_old)" |            |          |
+|           |                                                                  |       |   ],                                                                            |            |          |
+|           |                                                                  |       |   "oldOwner": [                                                                 |            |          |
+|           |                                                                  |       |     "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293 (EOA/emergency/juani)"          |            |          |
+|           |                                                                  |       |   ],                                                                            |            |          |
+|           |                                                                  |       |   "newOwner": [                                                                 |            |          |
+|           |                                                                  |       |     "0x122AFb4667C5f80e45721a42C7c81e9140C62FA4 (EOA/kyc/Arbitrum/kycsigner4)"  |            |          |
+|           |                                                                  |       |   ]                                                                             |            |          |
+|           |                                                                  |       | }                                                                               |            |          |
++-----------+------------------------------------------------------------------+-------+---------------------------------------------------------------------------------+------------+----------+
+```
