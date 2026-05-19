@@ -1,0 +1,17 @@
+FILENAME: `BIPs/2026-W21/BIP-919-ReCLAMM-v3-perms-ethereum.json`
+MULTISIG: `multisigs/dao (mainnet:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f)`
+COMMIT: `450385f233ec27571caed79bc959a762edf86239`
+CHAIN(S): `mainnet`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/b4f58bf6-e282-4c5b-8636-88e6d4caf7bf)
+
+```
++-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+| function              | caller_name         | caller_address                             | fx_paths                                                                               | action_ids                                                         |   bip   | tx_index |
++-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+| Authorizer/grantRoles | multisigs/emergency | 0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888 | 20260428-v3-reclamm-pool-v3/ReClammPoolFactory/disable()                               | 0xbf15008f80846e2c02997bacfd212e9d833b54945f1017902b349e7a8c2d9976 | BIP-919 |    0     |
+| Authorizer/grantRoles | multisigs/omni      | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20260428-v3-reclamm-pool-v3/ReClammPool/setCenterednessMargin(uint256)                 | 0xeb187e36efa09d3d26728a9a448945c79bd8cac75df196c2b1c4c03bc4cbafc8 | BIP-919 |    1     |
+|                       |                     |                                            | 20260428-v3-reclamm-pool-v3/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0xf4827c1e0309781e9b5cdeb4bf492f58e626346aebcfcbf31ad020fa00716095 |         |          |
+|                       |                     |                                            | 20260428-v3-reclamm-pool-v3/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0x738c2ec73b383b904cad291fe5a3dfa4b013d718b4b458ebf46dc13baa53edf8 |         |          |
+|                       |                     |                                            | 20260428-v3-reclamm-pool-v3/ReClammPool/stopPriceRatioUpdate()                         | 0xfe129b27994511fbdfac72d94ca6db208913a2387f9678c6d65ef606398e34a1 |         |          |
++-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+```
