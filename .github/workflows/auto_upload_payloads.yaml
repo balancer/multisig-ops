@@ -36,7 +36,7 @@ jobs:
         id: archive-token
         uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ vars.MAXYZ_ACTIONS_APP_ID }}
+          app-id: ${{ secrets.MAXYZ_ACTIONS_APP_ID }}
           private-key: ${{ secrets.MAXYZ_ACTIONS_PRIVATE_KEY }}
           permission-contents: write
 
@@ -44,7 +44,7 @@ jobs:
         id: action-token
         uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ vars.MAXYZ_ACTIONS_APP_ID }}
+          app-id: ${{ secrets.MAXYZ_ACTIONS_APP_ID }}
           private-key: ${{ secrets.MAXYZ_ACTIONS_PRIVATE_KEY }}
           owner: maxyz-xyz
           repositories: safe-queue-action
