@@ -8,6 +8,7 @@ on:
       - "config/**"
       - "MaxiOps/**"
       - "OmniOps/**"
+      - "OmniAutoOps/**"
       - "TreasuryOps/**"
 jobs:
   run_reports:
