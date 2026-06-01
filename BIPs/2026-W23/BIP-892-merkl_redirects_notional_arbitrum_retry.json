@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "chainId": "42161",
+  "createdAt": 1780318141000,
+  "meta": {
+    "name": "Retry Reallocate Notional Whitehat Rewards",
+    "description": "Retry Arbitrum Merkl reallocation from the intermediate recipient to the final recipient.",
+    "txBuilderVersion": "1.17.0",
+    "createdFromSafeAddress": "0xaF23DC5983230E9eEAf93280e312e57539D098D0",
+    "createdFromOwnerAddress": ""
+  },
+  "transactions": [
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x0ea60f446dbf42cc7f686f597880343cb6ebbe8f1497b007e48f82cd54ef85f4",
+        "froms": "[\"0x02479BFC7Dce53A02e26fE7baea45a0852CB0909\"]",
+        "to": "0xbf778Fc19d0B55575711B6339A3680d07352B221"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x99c51d036eeda1804aa91bcf7b1a9bd52c453d28d6858acc89f1e66b5efa61f2",
+        "froms": "[\"0x02479BFC7Dce53A02e26fE7baea45a0852CB0909\"]",
+        "to": "0xbf778Fc19d0B55575711B6339A3680d07352B221"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x06d7e2f0263310d230e695c6a4fcccb81df4165c8b84da2db0121302b51c736e",
+        "froms": "[\"0x02479BFC7Dce53A02e26fE7baea45a0852CB0909\"]",
+        "to": "0xbf778Fc19d0B55575711B6339A3680d07352B221"
+      }
+    }
+  ]
+}
