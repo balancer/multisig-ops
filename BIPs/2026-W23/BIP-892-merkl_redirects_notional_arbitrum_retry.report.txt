@@ -1,0 +1,45 @@
+FILENAME: `BIPs/2026-W23/BIP-892-merkl_redirects_notional_arbitrum_retry.json`
+MULTISIG: `multisigs/dao (arbitrum:0xaF23DC5983230E9eEAf93280e312e57539D098D0)`
+COMMIT: `1bce995026c72170073be4445bd95a6a4b7111b2`
+CHAIN(S): `arbitrum`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/caf51c25-9be0-44eb-babb-9c7d2a01f1eb)
+
+```
++---------------------------+-------------------------------------------------------------------------+-------+----------------------------------------------------------------------------+------------+----------+
+| fx_name                   | to                                                                      | value | inputs                                                                     | bip_number | tx_index |
++---------------------------+-------------------------------------------------------------------------+-------+----------------------------------------------------------------------------+------------+----------+
+| reallocateCampaignRewards | 0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd (angle/distribution_creator) | 0     | {                                                                          | BIP-892    |   N/A    |
+|                           |                                                                         |       |   "_campaignId": [                                                         |            |          |
+|                           |                                                                         |       |     "0x0ea60f446dbf42cc7f686f597880343cb6ebbe8f1497b007e48f82cd54ef85f4"   |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "froms": [                                                               |            |          |
+|                           |                                                                         |       |     "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909 (notional/exponent_admin)" |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "to": [                                                                  |            |          |
+|                           |                                                                         |       |     "0xbf778Fc19d0B55575711B6339A3680d07352B221 (notional/treasury_safe)"  |            |          |
+|                           |                                                                         |       |   ]                                                                        |            |          |
+|                           |                                                                         |       | }                                                                          |            |          |
+| reallocateCampaignRewards | 0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd (angle/distribution_creator) | 0     | {                                                                          | BIP-892    |   N/A    |
+|                           |                                                                         |       |   "_campaignId": [                                                         |            |          |
+|                           |                                                                         |       |     "0x99c51d036eeda1804aa91bcf7b1a9bd52c453d28d6858acc89f1e66b5efa61f2"   |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "froms": [                                                               |            |          |
+|                           |                                                                         |       |     "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909 (notional/exponent_admin)" |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "to": [                                                                  |            |          |
+|                           |                                                                         |       |     "0xbf778Fc19d0B55575711B6339A3680d07352B221 (notional/treasury_safe)"  |            |          |
+|                           |                                                                         |       |   ]                                                                        |            |          |
+|                           |                                                                         |       | }                                                                          |            |          |
+| reallocateCampaignRewards | 0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd (angle/distribution_creator) | 0     | {                                                                          | BIP-892    |   N/A    |
+|                           |                                                                         |       |   "_campaignId": [                                                         |            |          |
+|                           |                                                                         |       |     "0x06d7e2f0263310d230e695c6a4fcccb81df4165c8b84da2db0121302b51c736e"   |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "froms": [                                                               |            |          |
+|                           |                                                                         |       |     "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909 (notional/exponent_admin)" |            |          |
+|                           |                                                                         |       |   ],                                                                       |            |          |
+|                           |                                                                         |       |   "to": [                                                                  |            |          |
+|                           |                                                                         |       |     "0xbf778Fc19d0B55575711B6339A3680d07352B221 (notional/treasury_safe)"  |            |          |
+|                           |                                                                         |       |   ]                                                                        |            |          |
+|                           |                                                                         |       | }                                                                          |            |          |
++---------------------------+-------------------------------------------------------------------------+-------+----------------------------------------------------------------------------+------------+----------+
+```
