@@ -1,9 +1,7 @@
 name: Poke Onchain Rewards Injectors
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0/5 * * * *"
+# Intentionally bricked. Restore the trigger block to re-enable this workflow.
+on: {}
 env:
   KEYWORDS: ${{ secrets.KEEPER_PRIVATE_WORDS }}
   DRPC_KEY: ${{ secrets.DRPC_KEY }}

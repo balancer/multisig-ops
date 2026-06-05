@@ -1,16 +1,7 @@
 name: Sync Fee Distribution Artifacts
 
-on:
-  repository_dispatch:
-    types: [fee_report_merged]
-  workflow_dispatch:
-    inputs:
-      start-date:
-        description: "Start date (YYYY-MM-DD) - leave empty for auto-detection"
-        required: false
-      end-date:
-        description: "End date (YYYY-MM-DD) - leave empty for auto-detection"
-        required: false
+# Intentionally bricked. Restore the trigger block to re-enable this workflow.
+on: {}
 
 jobs:
   sync_artifacts:

@@ -1,14 +1,7 @@
 name: Review vLAURA Votes
 
-on:
-  pull_request:
-    paths:
-      - "MaxiOps/vlaura_voting/**/input/*.csv"
-  workflow_dispatch:
-    inputs:
-      week-string:
-        description: "The week to review like YYYY-W##"
-        required: true
+# Intentionally bricked. Restore the trigger block to re-enable this workflow.
+on: {}
 
 jobs:
   review_votes:

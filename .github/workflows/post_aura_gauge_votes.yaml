@@ -1,17 +1,7 @@
 name: Post vlAURA snapshot votes to voter multisig and send to the vote relayer
 
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - "MaxiOps/vlaura_voting/**/input/*.csv"
-  workflow_dispatch:
-    inputs:
-      week-string:
-        description: "Week string in YYYY-W## format"
-        required: true
-        type: string
+# Intentionally bricked. Restore the trigger block to re-enable this workflow.
+on: {}
 
 jobs:
   post_aura_gauge_votes:
