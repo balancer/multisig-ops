@@ -1,8 +1,22 @@
 FILENAME: `OmniAutoOps/stable-surge-params-10-0x8f2f228ef6ae71fcfe523c2d584acd653286470c-2026-06-10_1630.json`
 MULTISIG: `multisigs/omni (optimism:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `1954f5da2caacafdceeb899c6130f57718d1461f`
+COMMIT: `f4cf444c4da67e4056e3e8b42e8c407fe4d64929`
 CHAIN(S): `optimism`
-TENDERLY: [`🟥 FAILURE (execution reverted)`](https://www.tdly.co/shared/simulation/213a909f-ed76-4df4-8d78-95a433de7166)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/c48b084d-f2b2-4439-a4f1-a1939930f8a7)
+
+```
++-----------------------+----------------+--------------------------------------------+-----------------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+
+| function              | caller_name    | caller_address                             | fx_paths                                                                                      | action_ids                                                         | bip | tx_index |
++-----------------------+----------------+--------------------------------------------+-----------------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+
+| Authorizer/grantRoles | multisigs/omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250403-v3-stable-surge-hook-v2/StableSurgeHook/setMaxSurgeFeePercentage(address,uint256)    | 0x03e6a9de1a91717d836d86a8f70e57e100ecd22520384bd081238f063e503996 | N/A |    0     |
+|                       |                |                                            | 20250403-v3-stable-surge-hook-v2/StableSurgeHook/setSurgeThresholdPercentage(address,uint256) | 0x1d1506ec636bdb5b6fad1a2ef33ee5dca321fd2da12b241f38aa4253e4970d17 |     |          |
++-----------------------+----------------+--------------------------------------------+-----------------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+
+```
+FILENAME: `OmniAutoOps/stable-surge-params-10-0x8f2f228ef6ae71fcfe523c2d584acd653286470c-2026-06-10_1630.json`
+MULTISIG: `multisigs/omni (optimism:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `f4cf444c4da67e4056e3e8b42e8c407fe4d64929`
+CHAIN(S): `optimism`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/c48b084d-f2b2-4439-a4f1-a1939930f8a7)
 
 ```
 +-----------------------------+-----------------------------------------------------------------------------------------------+-------+--------------------------------------------------------+------------+----------+
