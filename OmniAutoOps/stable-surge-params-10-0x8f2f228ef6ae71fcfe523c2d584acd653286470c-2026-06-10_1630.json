@@ -4,10 +4,27 @@
   "createdAt": 1781122889010,
   "meta": {
     "name": "Transactions Batch",
-    "description": "Set surge threshold to 70% and max surge fee to 0.3% for pool 0x8f2f228ef6ae71fcfe523c2d584acd653286470c",
+    "description": "Grant surge param permissions, then set surge threshold to 70% and max surge fee to 0.3% for pool 0x8f2f228ef6ae71fcfe523c2d584acd653286470c",
     "createdFromSafeAddress": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
   },
   "transactions": [
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          { "internalType": "bytes32[]", "name": "roles", "type": "bytes32[]" },
+          { "internalType": "address", "name": "account", "type": "address" }
+        ],
+        "name": "grantRoles",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "roles": "[0x03e6a9de1a91717d836d86a8f70e57e100ecd22520384bd081238f063e503996, 0x1d1506ec636bdb5b6fad1a2ef33ee5dca321fd2da12b241f38aa4253e4970d17]",
+        "account": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+      }
+    },
     {
       "to": "0xf39ca6ede9bf7820a952b52f3c94af526bab9015",
       "value": "0",
