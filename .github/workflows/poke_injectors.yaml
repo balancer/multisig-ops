@@ -24,7 +24,7 @@ jobs:
 
       - name: Restore Compiler Caches
         id: restore-compiler-caches
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           path: |
             ~/.solcx
@@ -52,7 +52,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Save EVM Compiler Caches
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@v6
         with:
           path: |
             ~/.solcx
