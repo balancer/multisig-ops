@@ -1,0 +1,47 @@
+FILENAME: `BIPs/2026-W28/BIP-xxx-recover-unclaimed-legacy-merkleredeem-funds-mainnet.json`
+MULTISIG: `multisigs/blabs_team (mainnet:0xCdCeBF1F28678eb4A1478403BA7f34C94F7ddBC5)`
+COMMIT: `9204b064f46c9cd9cb4bcd7c137a33ed3c399b80`
+CHAIN(S): `mainnet`
+TENDERLY: `🟪 SKIPPED (TxBuilderEncodingError('Error encoding current form values to hex data:', EncodingTypeError("Value `'0xCdCeBF1F28678eb4A1478403BA7f34C94F7ddBC5'` of type <class 'str'> cannot be encoded by AddressEncoder")))`
+
+```
++----------+------------------------------------------------+----------------------------------------------------------------------+---------------------------------------------------+-----+----------+
+| function | token_symbol                                   | recipient                                                            | amount                                            | bip | tx_index |
++----------+------------------------------------------------+----------------------------------------------------------------------+---------------------------------------------------+-----+----------+
+| transfer | BAL:0xba100000625a3754423978a60c9317c58a424e3D | multisigs/balancer_bizdev:0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e | 364419.5431180666 (RAW: 364419543118066600111998) | N/A |    2     |
++----------+------------------------------------------------+----------------------------------------------------------------------+---------------------------------------------------+-----+----------+
+```
+FILENAME: `BIPs/2026-W28/BIP-xxx-recover-unclaimed-legacy-merkleredeem-funds-mainnet.json`
+MULTISIG: `multisigs/blabs_team (mainnet:0xCdCeBF1F28678eb4A1478403BA7f34C94F7ddBC5)`
+COMMIT: `9204b064f46c9cd9cb4bcd7c137a33ed3c399b80`
+CHAIN(S): `mainnet`
+TENDERLY: `🟪 SKIPPED (TxBuilderEncodingError('Error encoding current form values to hex data:', EncodingTypeError("Value `'0xCdCeBF1F28678eb4A1478403BA7f34C94F7ddBC5'` of type <class 'str'> cannot be encoded by AddressEncoder")))`
+
+```
++-----------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
+| fx_name         | to                                                     | value | inputs                                                                   | bip_number | tx_index |
++-----------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
+| seedAllocations | 0x6d19b2bf3a36a61530909ae65445a906d98a2fa8 (Not Found) | 0     | {                                                                        | N/A        |   N/A    |
+|                 |                                                        |       |   "_week": [                                                             |            |          |
+|                 |                                                        |       |     "99999"                                                              |            |          |
+|                 |                                                        |       |   ],                                                                     |            |          |
+|                 |                                                        |       |   "_merkleRoot": [                                                       |            |          |
+|                 |                                                        |       |     "0x316f69d2d6583de4a995234183e469d0f53b70c23b4524e4d3cf86e0b07052ae" |            |          |
+|                 |                                                        |       |   ],                                                                     |            |          |
+|                 |                                                        |       |   "_totalAllocation": [                                                  |            |          |
+|                 |                                                        |       |     "0"                                                                  |            |          |
+|                 |                                                        |       |   ]                                                                      |            |          |
+|                 |                                                        |       | }                                                                        |            |          |
+| claimWeek       | 0x6d19b2bf3a36a61530909ae65445a906d98a2fa8 (Not Found) | 0     | {                                                                        | N/A        |   N/A    |
+|                 |                                                        |       |   "_liquidityProvider": [                                                |            |          |
+|                 |                                                        |       |     "0xCdCeBF1F28678eb4A1478403BA7f34C94F7ddBC5"                         |            |          |
+|                 |                                                        |       |   ],                                                                     |            |          |
+|                 |                                                        |       |   "_week": [                                                             |            |          |
+|                 |                                                        |       |     "99999"                                                              |            |          |
+|                 |                                                        |       |   ],                                                                     |            |          |
+|                 |                                                        |       |   "_claimedBalance": [                                                   |            |          |
+|                 |                                                        |       |     "364419543118066600111998"                                           |            |          |
+|                 |                                                        |       |   ]                                                                      |            |          |
+|                 |                                                        |       | }                                                                        |            |          |
++-----------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
+```
