@@ -191,13 +191,13 @@ def _parse_aura_direct_incentive(transaction: dict, **kwargs) -> Optional[dict]:
     chain_id = kwargs["chain_id"]
     chain_name = AddrBook.chain_names_by_id.get(int(chain_id))
     chainbook = AddrBook(chain_name)
-    aura = Aura(chain_name)
     if not transaction.get("contractInputsValues") or not transaction.get(
         "contractMethod"
     ):
         return
     if not transaction["contractMethod"].get("name") == "fundPool":
         return
+    aura = Aura(chain_name)
     to_address = to_checksum_address(transaction["to"])
     switch_chain_if_needed(chain_id)
     tokenAddress = to_checksum_address(transaction["contractInputsValues"]["_token"])

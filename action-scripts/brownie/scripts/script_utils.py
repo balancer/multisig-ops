@@ -361,6 +361,14 @@ def run_tenderly_sim(network_id: str, safe_addr: str, transactions: list[dict]):
                 if not isinstance(value, str):
                     return original_parse_func(field_type, value)
 
+                if field_type == "address" and isinstance(value, str):
+                    stripped = value.strip()
+                    if stripped.startswith("0x") and len(stripped) == 42:
+                        return to_checksum_address(stripped)
+
+                if field_type == "bytes32" and value.startswith("0x"):
+                    return HexBytes(value)
+
                 # Arrays: Remove quotes by parsing as JSON and reformatting
                 if value.strip().startswith("[") and "]" in field_type:
                     try:
