@@ -6,7 +6,7 @@
     "name": "BIP-XXX Recover Unclaimed Legacy MerkleRedeem Funds",
     "description": "Seed and claim week 99999 BAL from legacy MerkleRedeem via LM multisig, then forward to bizdev multisig (0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e)",
     "txBuilderVersion": "1.16.5",
-    "createdFromSafeAddress": "0xCdCeBF1F28678eb4A1478403BA7f34C94F7ddBC5",
+    "createdFromSafeAddress": "0xCDcEBF1f28678eb4A1478403BA7f34C94F7dDBc5",
     "createdFromOwnerAddress": "",
     "checksum": ""
   },
@@ -73,7 +73,7 @@
         "payable": false
       },
       "contractInputsValues": {
-        "_liquidityProvider": "0xCdCeBF1F28678eb4A1478403BA7f34C94F7ddBC5",
+        "_liquidityProvider": "0xCDcEBF1f28678eb4A1478403BA7f34C94F7dDBc5",
         "_week": "99999",
         "_claimedBalance": "364419543118066600111998",
         "_merkleProof": "[]"
