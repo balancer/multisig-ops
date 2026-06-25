@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1782388800000,
+  "meta": {
+    "name": "BIP-XXX Recover Unclaimed Legacy MerkleRedeem Funds",
+    "description": "Seed and claim week 99999 BAL allocation from legacy MerkleRedeem (0x6d19b2bf3a36a61530909ae65445a906d98a2fa8) to the LM multisig",
+    "txBuilderVersion": "1.16.5",
+    "createdFromSafeAddress": "0xCdCeBF1F28678eb4A1478403BA7f34C94F7ddBC5",
+    "createdFromOwnerAddress": "",
+    "checksum": ""
+  },
+  "transactions": [
+    {
+      "to": "0x6d19b2bf3a36a61530909ae65445a906d98a2fa8",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_week",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "_merkleRoot",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_totalAllocation",
+            "type": "uint256"
+          }
+        ],
+        "name": "seedAllocations",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_week": "99999",
+        "_merkleRoot": "0x316f69d2d6583de4a995234183e469d0f53b70c23b4524e4d3cf86e0b07052ae",
+        "_totalAllocation": "0"
+      }
+    },
+    {
+      "to": "0x6d19b2bf3a36a61530909ae65445a906d98a2fa8",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_liquidityProvider",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_week",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_claimedBalance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32[]",
+            "name": "_merkleProof",
+            "type": "bytes32[]"
+          }
+        ],
+        "name": "claimWeek",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_liquidityProvider": "0xCdCeBF1F28678eb4A1478403BA7f34C94F7ddBC5",
+        "_week": "99999",
+        "_claimedBalance": "364419543118066600111998",
+        "_merkleProof": "[]"
+      }
+    }
+  ]
+}
