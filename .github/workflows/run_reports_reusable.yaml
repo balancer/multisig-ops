@@ -42,6 +42,7 @@ jobs:
           ref: ${{ inputs.checkout_ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           fetch-depth: 0
+          allow-unsafe-pr-checkout: true
 
       - name: Switch to PR branch
         if: inputs.checkout_branch != ''
