@@ -1,8 +1,8 @@
 FILENAME: `OmniAutoOps/cancel_upkeeps_mainnet.json`
 MULTISIG: `multisigs/omni (mainnet:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `a937534ddd4bf44c5d3843c38919254704fb98e5`
+COMMIT: `a6ea2e1fc6ac6787dd37991537104f7b3516159e`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟥 FAILURE (execution reverted)`](https://www.tdly.co/shared/simulation/4b128dbd-ed98-4d60-9d95-0001d952ae28)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/061f267a-f402-4f6d-a6f9-7eeead83d422)
 
 ```
 +--------------+-----------------------------------------------------------------------------+-------+--------------------------------------------------------------------------------------+------------+----------+
@@ -36,11 +36,6 @@ TENDERLY: [`🟥 FAILURE (execution reverted)`](https://www.tdly.co/shared/simul
 | cancelUpkeep | 0x6593c7De001fC8542bB1703532EE1E5aA0D458fD (chainlink/keeper_registry_v2_1) | 0     | {                                                                                    | N/A        |   N/A    |
 |              |                                                                             |       |   "id": [                                                                            |            |          |
 |              |                                                                             |       |     "62842736432107058551778461049554531560542249488608194358124312150734868646225"  |            |          |
-|              |                                                                             |       |   ]                                                                                  |            |          |
-|              |                                                                             |       | }                                                                                    |            |          |
-| cancelUpkeep | 0x6593c7De001fC8542bB1703532EE1E5aA0D458fD (chainlink/keeper_registry_v2_1) | 0     | {                                                                                    | N/A        |   N/A    |
-|              |                                                                             |       |   "id": [                                                                            |            |          |
-|              |                                                                             |       |     "40305523722992080402351714746975125106126474818076404755869056153858011700019"  |            |          |
 |              |                                                                             |       |   ]                                                                                  |            |          |
 |              |                                                                             |       | }                                                                                    |            |          |
 +--------------+-----------------------------------------------------------------------------+-------+--------------------------------------------------------------------------------------+------------+----------+

@@ -1,8 +1,8 @@
 FILENAME: `OmniAutoOps/cancel_upkeeps_gnosis.json`
 MULTISIG: `multisigs/omni (gnosis:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `a937534ddd4bf44c5d3843c38919254704fb98e5`
+COMMIT: `a6ea2e1fc6ac6787dd37991537104f7b3516159e`
 CHAIN(S): `gnosis`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/cb7a73d4-54aa-44b1-b4a8-b0220d4b2b54)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/362e048b-98fd-421f-a1e0-2d010615c73d)
 
 ```
 +--------------+-----------------------------------------------------------------------------+-------+-------------------------------------------------------------------------------------+------------+----------+
