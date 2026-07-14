@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "chainId": "100",
+  "createdAt": 1784046811140,
+  "meta": {
+    "name": "Approve and deposit treasury GNO into GIP-151 RedemptionDeposit",
+    "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
+  },
+  "transactions": [
+    {
+      "to": "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "spender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "approve",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "spender": "0xB53e4a513C1fbb11a66Da851643126D933489C4D",
+        "amount": "10332241146549438564023"
+      }
+    },
+    {
+      "to": "0xB53e4a513C1fbb11a66Da851643126D933489C4D",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "token",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "deposit",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "token": "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb",
+        "amount": "10332241146549438564023"
+      }
+    }
+  ]
+}
