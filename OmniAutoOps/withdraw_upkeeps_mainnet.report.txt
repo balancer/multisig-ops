@@ -1,8 +1,8 @@
 FILENAME: `OmniAutoOps/withdraw_upkeeps_mainnet.json`
 MULTISIG: `multisigs/omni (mainnet:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `fc0ed1a7f2b70281c19cf613a17b4b56b4de3569`
+COMMIT: `c78ee855d2bd23622a057797d4f1578e83804dd3`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟥 FAILURE (execution reverted)`](https://www.tdly.co/shared/simulation/26f42f40-1167-4d76-a2d0-50b3f71c9f80)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/2a4f5740-bca4-4e96-b2b2-b9c9bee7199b)
 
 ```
 +---------------+-----------------------------------------------------------------------------+-------+--------------------------------------------------------------------------------------+------------+----------+

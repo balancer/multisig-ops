@@ -1,8 +1,8 @@
 FILENAME: `OmniAutoOps/withdraw_upkeeps_avalanche.json`
 MULTISIG: `multisigs/omni (avalanche:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `fc0ed1a7f2b70281c19cf613a17b4b56b4de3569`
+COMMIT: `c78ee855d2bd23622a057797d4f1578e83804dd3`
 CHAIN(S): `avalanche`
-TENDERLY: [`🟥 FAILURE (execution reverted)`](https://www.tdly.co/shared/simulation/cef5a681-2443-4d3f-908e-eb4cd0144dcf)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/22fe89e8-2d47-430b-b144-7438b52a04c8)
 
 ```
 +---------------+-----------------------------------------------------------------------------+-------+-------------------------------------------------------------------------------------+------------+----------+

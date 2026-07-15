@@ -1,8 +1,8 @@
 FILENAME: `OmniAutoOps/withdraw_upkeeps_arbitrum.json`
 MULTISIG: `multisigs/omni (arbitrum:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `fc0ed1a7f2b70281c19cf613a17b4b56b4de3569`
+COMMIT: `c78ee855d2bd23622a057797d4f1578e83804dd3`
 CHAIN(S): `arbitrum`
-TENDERLY: [`🟥 FAILURE (execution reverted)`](https://www.tdly.co/shared/simulation/09cf0729-5986-45c1-a0d5-ca4298b28619)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/5210e085-8c08-4a9c-9c58-c2d24e932ee8)
 
 ```
 +---------------+-----------------------------------------------------------------------------+-------+-------------------------------------------------------------------------------------+------------+----------+

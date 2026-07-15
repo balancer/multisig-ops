@@ -1,8 +1,8 @@
 FILENAME: `OmniAutoOps/withdraw_upkeeps_optimism.json`
 MULTISIG: `multisigs/omni (optimism:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `fc0ed1a7f2b70281c19cf613a17b4b56b4de3569`
+COMMIT: `c78ee855d2bd23622a057797d4f1578e83804dd3`
 CHAIN(S): `optimism`
-TENDERLY: [`🟥 FAILURE (execution reverted)`](https://www.tdly.co/shared/simulation/1f45e53f-c758-4f23-91ee-af93cb2b2327)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/fece5c6d-6e5f-48ca-8377-9e2c4503cd37)
 
 ```
 +---------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------------------+------------+----------+
