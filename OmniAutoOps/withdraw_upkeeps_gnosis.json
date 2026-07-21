@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "chainId": "100",
+  "createdAt": 1783674972705,
+  "meta": {
+    "name": "Withdraw LINK from cancelled Chainlink upkeeps",
+    "description": "Withdraw LINK from 1 cancelled Chainlink Automation upkeeps to 0x4BC8121278056BFCaC2BD14D455659224d6dDf48. Assumes the matching cancel_upkeeps_gnosis.json batch has confirmed and at least 50 blocks have passed.",
+    "txBuilderVersion": "1.18.0",
+    "createdFromSafeAddress": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "createdFromOwnerAddress": "",
+    "txCount": 1
+  },
+  "transactions": [
+    {
+      "to": "0x299c92a219F61a82E91d2062A262f7157F155AC1",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "id",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "withdrawFunds",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "id": "51275457462711301170724725347664046536233518759579141567815787018122162360515",
+        "to": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48"
+      }
+    }
+  ]
+}
