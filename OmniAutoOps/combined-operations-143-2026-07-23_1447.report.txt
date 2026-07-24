@@ -1,0 +1,45 @@
+FILENAME: `OmniAutoOps/combined-operations-143-2026-07-23_1447.json`
+MULTISIG: `multisigs/omni (monad:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `95640d4afad9d8c177193eb653e0d06de76de922`
+CHAIN(S): `monad`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/91abee9a-1fc3-43c1-af61-0818db033a67)
+
+```
++-----------------------+-----------------------------------------------------------------------------+-------+----------------------------------+------------+----------+
+| fx_name               | to                                                                          | value | inputs                           | bip_number | tx_index |
++-----------------------+-----------------------------------------------------------------------------+-------+----------------------------------+------------+----------+
+| startPriceRatioUpdate | 0x067abd928147282fb06475a09f6be22cee933ea3 (pools/AutoRange-WMON-WETH-067a) | 0     | {                                | N/A        |   N/A    |
+|                       |                                                                             |       |   "endPriceRatio": [             |            |          |
+|                       |                                                                             |       |     "2000000000000000000"        |            |          |
+|                       |                                                                             |       |   ],                             |            |          |
+|                       |                                                                             |       |   "priceRatioUpdateStartTime": [ |            |          |
+|                       |                                                                             |       |     "1784937600"                 |            |          |
+|                       |                                                                             |       |   ],                             |            |          |
+|                       |                                                                             |       |   "priceRatioUpdateEndTime": [   |            |          |
+|                       |                                                                             |       |     "1785110400"                 |            |          |
+|                       |                                                                             |       |   ]                              |            |          |
+|                       |                                                                             |       | }                                |            |          |
+| startPriceRatioUpdate | 0xad4779c425fefdf8c0fddf72ec53be34bae0809d (pools/AutoRange-WMON-WBTC-ad47) | 0     | {                                | N/A        |   N/A    |
+|                       |                                                                             |       |   "endPriceRatio": [             |            |          |
+|                       |                                                                             |       |     "2000000000000000000"        |            |          |
+|                       |                                                                             |       |   ],                             |            |          |
+|                       |                                                                             |       |   "priceRatioUpdateStartTime": [ |            |          |
+|                       |                                                                             |       |     "1784937600"                 |            |          |
+|                       |                                                                             |       |   ],                             |            |          |
+|                       |                                                                             |       |   "priceRatioUpdateEndTime": [   |            |          |
+|                       |                                                                             |       |     "1785110400"                 |            |          |
+|                       |                                                                             |       |   ]                              |            |          |
+|                       |                                                                             |       | }                                |            |          |
+| startPriceRatioUpdate | 0x696e219bc37954154291ebcd66b40ba0b1a26148 (pools/AutoRange-WMON-USDC-696e) | 0     | {                                | N/A        |   N/A    |
+|                       |                                                                             |       |   "endPriceRatio": [             |            |          |
+|                       |                                                                             |       |     "1750000000000000000"        |            |          |
+|                       |                                                                             |       |   ],                             |            |          |
+|                       |                                                                             |       |   "priceRatioUpdateStartTime": [ |            |          |
+|                       |                                                                             |       |     "1784937600"                 |            |          |
+|                       |                                                                             |       |   ],                             |            |          |
+|                       |                                                                             |       |   "priceRatioUpdateEndTime": [   |            |          |
+|                       |                                                                             |       |     "1785110400"                 |            |          |
+|                       |                                                                             |       |   ]                              |            |          |
+|                       |                                                                             |       | }                                |            |          |
++-----------------------+-----------------------------------------------------------------------------+-------+----------------------------------+------------+----------+
+```
