@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1785397348384,
+  "meta": {
+    "name": "vlAURA locker unwind, Aura Stage-1 redeem, forward to treasury",
+    "createdFromSafeAddress": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28"
+  },
+  "transactions": [
+    {
+      "to": "0x3Fa73f1E5d8A792C80F426fc8F84FBF7Ce9bBCAC",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bool",
+            "name": "_relock",
+            "type": "bool"
+          }
+        ],
+        "name": "processExpiredLocks",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_relock": "false"
+      }
+    },
+    {
+      "to": "0xc0c293ce456ff0ed870add98a0828dd4d2903dbf",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "spender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "approve",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "spender": "0x928966752dc0cc0d7babe343fc2937ba13a5120c",
+        "amount": "2323130846613930312685739"
+      }
+    },
+    {
+      "to": "0x928966752dc0cc0d7babe343fc2937ba13a5120c",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "redeem",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "amount": "2323130846613930312685739"
+      }
+    },
+    {
+      "to": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "transfer",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "amount": "8523538416751656905"
+      }
+    },
+    {
+      "to": "0x4da27a545c0c5B758a6BA100e3a049001de870f5",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "transfer",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "amount": "106437605870390542641"
+      }
+    },
+    {
+      "to": "0x928966752dc0cc0d7babe343fc2937ba13a5120c",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "transfer",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "amount": "2323130846613930312685739"
+      }
+    }
+  ]
+}
