@@ -4,7 +4,7 @@
   "createdAt": 1785493391230,
   "meta": {
     "name": "DAO: claim SAFE vestings + transfer COW + unlock SafeTokenLock",
-    "description": "Stage 1 for DAO (0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f): (1-2) claimVestedTokens from pools 0xa0b937D5c8e32A80e3a8ed4227CD020221544Ee6 / 0xc0FdE70a65C7569fe919BE57492228dEE8cdb585 directly to treasury 0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89 (~5635 SAFE total). (3) transfer already-claimed COW 88705956376404686012177 wei (~88705.956376) to treasury (via prior EOA claimTo(DAO) on TokenDistro 0x68FFAaC7\u2026). (4) unlock full SafeTokenLock balance 124374160017847396583275 wei (~124374.160018 SAFE) at 0x0a7CB434f96f65972D46A5c1A64a9654dC9959b2. After unlock confirms, wait >=86400s then execute dao_withdraw_and_transfer_payload.json. Tenderly: https://www.tdly.co/shared/simulation/46043af2-bc8a-46a4-9be8-eb391a4adda1",
+    "description": "Stage 1 for DAO (0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f): (1-2) claimVestedTokens from pools 0xa0b937D5c8e32A80e3a8ed4227CD020221544Ee6 / 0xc0FdE70a65C7569fe919BE57492228dEE8cdb585 directly to treasury 0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89 (~5635 SAFE total). (3) transfer already-claimed COW 88705956376404686012177 wei (~88705.956376) to treasury (via prior EOA claimTo(DAO) on TokenDistro 0x68FFAaC7\u2026). (4) unlock full SafeTokenLock balance 124374160017847396583275 wei (~124374.160018 SAFE) at 0x0a7CB434f96f65972D46A5c1A64a9654dC9959b2. After unlock confirms, wait >=86400s then a follow-up withdraw+transfer payload can be submitted after the cooldown. Tenderly: https://www.tdly.co/shared/simulation/46043af2-bc8a-46a4-9be8-eb391a4adda1",
     "txBuilderVersion": "1.18.2",
     "createdFromSafeAddress": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
   },
