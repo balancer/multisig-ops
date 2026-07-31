@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1785491008862,
+  "meta": {
+    "name": "Claim blabs_ops SAFE vesting to kpk treasury",
+    "description": "Claim currently vested/unclaimed SAFE from the blabs_ops Safe vesting pool and send directly to the kpk-managed treasury multisig 0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89. Pool 0xa0b937D5c8e32A80e3a8ed4227CD020221544Ee6 vestingId 0xc1df9e7dbe6df53d1bebb29ecc2c3c9e94862f80ca3e4e8155cc5b2f1f0b5e4c (~2261.29 SAFE). tokensToClaim uses max(uint128). Tenderly: https://www.tdly.co/shared/simulation/d0c85df8-39fd-4eac-bec8-0b9a005f39fb",
+    "txBuilderVersion": "1.18.2",
+    "createdFromSafeAddress": "0x02f35dA6A02017154367Bc4d47bb6c7D06C7533B"
+  },
+  "transactions": [
+    {
+      "to": "0xa0b937D5c8e32A80e3a8ed4227CD020221544Ee6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "vestingId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "beneficiary",
+            "type": "address"
+          },
+          {
+            "internalType": "uint128",
+            "name": "tokensToClaim",
+            "type": "uint128"
+          }
+        ],
+        "name": "claimVestedTokens",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "vestingId": "0xc1df9e7dbe6df53d1bebb29ecc2c3c9e94862f80ca3e4e8155cc5b2f1f0b5e4c",
+        "beneficiary": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "tokensToClaim": "340282366920938463463374607431768211455"
+      }
+    }
+  ]
+}

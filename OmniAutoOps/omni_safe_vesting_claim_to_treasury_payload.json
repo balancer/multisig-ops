@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1785489900000,
+  "meta": {
+    "name": "Claim Omni Safe{Pass} SAFE vesting to kpk treasury",
+    "description": "Claim the fully vested 416 SAFE (416000000000000000000 wei) from Safe{Pass} vesting pool 0xdd57784BDd85bBda811Cc0b47981d9188e83F703 (vestingId 0xe860679b18ad1c0759e66e5a9c54e20f11d9215bafa026938e5b976db85402d5) and send it directly to the kpk-managed treasury multisig 0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89. tokensToClaim uses max(uint128) so the contract pays out the full currently vested/unclaimed amount. Tenderly: https://www.tdly.co/shared/simulation/bf215861-2a61-40b6-917c-22964957faea",
+    "txBuilderVersion": "1.18.2",
+    "createdFromSafeAddress": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+  },
+  "transactions": [
+    {
+      "to": "0xdd57784BDd85bBda811Cc0b47981d9188e83F703",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "vestingId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "beneficiary",
+            "type": "address"
+          },
+          {
+            "internalType": "uint128",
+            "name": "tokensToClaim",
+            "type": "uint128"
+          }
+        ],
+        "name": "claimVestedTokens",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "vestingId": "0xe860679b18ad1c0759e66e5a9c54e20f11d9215bafa026938e5b976db85402d5",
+        "beneficiary": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "tokensToClaim": "340282366920938463463374607431768211455"
+      }
+    }
+  ]
+}
