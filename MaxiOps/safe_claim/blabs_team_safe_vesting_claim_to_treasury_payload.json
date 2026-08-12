@@ -4,13 +4,13 @@
   "createdAt": 1785491008862,
   "meta": {
     "name": "Claim blabs_team SAFE vestings to kpk treasury",
-    "description": "Claim currently vested/unclaimed SAFE from both blabs_team Safe vesting pools and send directly to the kpk-managed treasury multisig 0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89. (1) 0xa0b937D5c8e32A80e3a8ed4227CD020221544Ee6 vestingId 0x898323c61ddfa9173b808a8825922ffdf05e8c4eeeba12b58a09dadcc6ae1f5c (~756.90 SAFE). (2) 0xdd57784BDd85bBda811Cc0b47981d9188e83F703 vestingId 0x477698397d2324280dc5d08d3e8878017f9d0dc7da803ad5e16156edaccb3b0c (416 SAFE). tokensToClaim uses max(uint128). Approximate total ~1172.90 SAFE. Tenderly: https://www.tdly.co/shared/simulation/3709ec32-a5e8-492e-ba78-b26a189391a8",
+    "description": "Claim currently vested/unclaimed SAFE from both blabs_team Safe vesting pools and send directly to the kpk-managed treasury multisig 0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89. (1) 0xA0b937D5c8E32a80E3a8ed4227CD020221544ee6 vestingId 0x898323c61ddfa9173b808a8825922ffdf05e8c4eeeba12b58a09dadcc6ae1f5c (~756.90 SAFE). (2) 0xdd57784bDD85bBda811CC0B47981D9188e83f703 vestingId 0x477698397d2324280dc5d08d3e8878017f9d0dc7da803ad5e16156edaccb3b0c (416 SAFE). tokensToClaim uses max(uint128). Approximate total ~1172.90 SAFE. Tenderly: https://www.tdly.co/shared/simulation/3709ec32-a5e8-492e-ba78-b26a189391a8",
     "txBuilderVersion": "1.18.2",
     "createdFromSafeAddress": "0xCDcEBF1f28678eb4A1478403BA7f34C94F7dDBc5"
   },
   "transactions": [
     {
-      "to": "0xa0b937D5c8e32A80e3a8ed4227CD020221544Ee6",
+      "to": "0xA0b937D5c8E32a80E3a8ed4227CD020221544ee6",
       "value": "0",
       "data": null,
       "contractMethod": {
@@ -41,7 +41,7 @@
       }
     },
     {
-      "to": "0xdd57784BDd85bBda811Cc0b47981d9188e83F703",
+      "to": "0xdd57784bDD85bBda811CC0B47981D9188e83f703",
       "value": "0",
       "data": null,
       "contractMethod": {
