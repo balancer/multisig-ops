@@ -1,14 +1,14 @@
 FILENAME: `OmniAutoOps/omni_safe_vesting_claim_to_treasury_payload.json`
 MULTISIG: `multisigs/omni (mainnet:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `c99fc7474aa9cf646f55322d8e6f79109e4cfdb4`
+COMMIT: `19fb4955c4fa1779d504bda56ea5a18c8e1b3fba`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/1e39339c-2ab2-46af-a9ba-55b7404b6f91)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/8816414d-4108-4f70-bfa0-b4ec3c3fa185)
 
 ```
 +-------------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
 | fx_name           | to                                                     | value | inputs                                                                   | bip_number | tx_index |
 +-------------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
-| claimVestedTokens | 0xdd57784BDd85bBda811Cc0b47981d9188e83F703 (Not Found) | 0     | {                                                                        | N/A        |   N/A    |
+| claimVestedTokens | 0xdd57784bDD85bBda811CC0B47981D9188e83f703 (Not Found) | 0     | {                                                                        | N/A        |   N/A    |
 |                   |                                                        |       |   "vestingId": [                                                         |            |          |
 |                   |                                                        |       |     "0xe860679b18ad1c0759e66e5a9c54e20f11d9215bafa026938e5b976db85402d5" |            |          |
 |                   |                                                        |       |   ],                                                                     |            |          |
