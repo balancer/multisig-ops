@@ -1,8 +1,8 @@
 FILENAME: `MaxiOps/safe_claim/dao_claim_vestings_and_unlock_payload.json`
 MULTISIG: `multisigs/dao (mainnet:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f)`
-COMMIT: `19fb4955c4fa1779d504bda56ea5a18c8e1b3fba`
+COMMIT: `95bf49d12f73b02a12cb302c55ac28ae32d0d562`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/d1ee5ea4-6705-4f9e-9fa6-acf5ee0276e0)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/0827401e-f1b2-4df5-9d1e-3e500ce468e9)
 
 ```
 +----------+------------------------------------------------+---------------------------------------------------------------+--------------------------------------------------+-----+----------+
@@ -13,9 +13,9 @@ TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/d1ee5ea4-6705-4
 ```
 FILENAME: `MaxiOps/safe_claim/dao_claim_vestings_and_unlock_payload.json`
 MULTISIG: `multisigs/dao (mainnet:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f)`
-COMMIT: `19fb4955c4fa1779d504bda56ea5a18c8e1b3fba`
+COMMIT: `95bf49d12f73b02a12cb302c55ac28ae32d0d562`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/d1ee5ea4-6705-4f9e-9fa6-acf5ee0276e0)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/0827401e-f1b2-4df5-9d1e-3e500ce468e9)
 
 ```
 +-------------------+----------------------------------------------------------------+-------+------------------------------------------------------------------------------------------------------------------+------------+----------+
