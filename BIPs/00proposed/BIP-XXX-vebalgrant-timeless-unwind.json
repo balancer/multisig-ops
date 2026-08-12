@@ -4,7 +4,7 @@
   "createdAt": 1786371851351,
   "meta": {
     "name": "Transactions Batch",
-    "description": "Unwind Timeless VeBalGrant (BIP-252) at 0x89f67f3054bFD662971854190Dbc18dcaBb416f6: setActive(false), release expired veBAL lock (~23,708 BPT), redeem 80/20 BPT to BAL+WETH with 10% slippage vs queryExit (~116,456 BAL / ~1.652 WETH), then withdrawBalances (BAL to DAO, WETH to Timeless project 0x9a8FEe232DCF73060Af348a1B62Cdb0a19852d13). Refresh redeem mins near execution if pool moves.",
+    "description": "Unwind Timeless VeBalGrant (BIP-252) at 0x89f67f3054bFD662971854190Dbc18dcaBb416f6: setActive(false), release expired veBAL lock (~23,708 BPT), redeem 80/20 BPT to BAL+WETH with 10% slippage vs queryExit (~116,818 BAL / ~1.632 WETH), withdrawBalances (BAL to DAO, WETH to Timeless project 0x9a8FEe232DCF73060Af348a1B62Cdb0a19852d13), then forward recovered BAL to managed treasury 0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89. Refresh redeem mins and BAL transfer amount near execution if pool moves.",
     "txBuilderVersion": "1.18.0",
     "createdFromSafeAddress": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
   },
@@ -60,8 +60,8 @@
         "payable": false
       },
       "contractInputsValues": {
-        "_minBalOut": "104810400997185835469259",
-        "_minWethOut": "1487045709714640859"
+        "_minBalOut": "105136193060487029845814",
+        "_minWethOut": "1468898875084523177"
       }
     },
     {
@@ -74,6 +74,31 @@
         "payable": false
       },
       "contractInputsValues": null
+    },
+    {
+      "to": "0xba100000625a3754423978a60c9317c58a424e3D",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "recipient",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "transfer",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "recipient": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "amount": "116817992289430033162016"
+      }
     }
   ]
 }
