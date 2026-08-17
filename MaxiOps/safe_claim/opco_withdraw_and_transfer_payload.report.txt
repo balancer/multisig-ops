@@ -1,8 +1,8 @@
 FILENAME: `MaxiOps/safe_claim/opco_withdraw_and_transfer_payload.json`
 MULTISIG: `multisigs/foundation_opco (mainnet:0x3B8910F378034FD6E103Df958863e5c684072693)`
-COMMIT: `89a30a253f862fef1b694fddde9c8af802b9f925`
+COMMIT: `b5b9ded6d94000e3a99bb454b54f06356dc59c50`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/fa72d8da-0409-40a1-a84b-7923a80b5a16)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/832482d8-8f8c-4104-bdb3-bcfd58104cab)
 
 ```
 +----------+-------------------------------------------------+---------------------------------------------------------------+--------------------------------------------------+-----+----------+
@@ -13,9 +13,9 @@ TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/fa72d8da-0409-4
 ```
 FILENAME: `MaxiOps/safe_claim/opco_withdraw_and_transfer_payload.json`
 MULTISIG: `multisigs/foundation_opco (mainnet:0x3B8910F378034FD6E103Df958863e5c684072693)`
-COMMIT: `89a30a253f862fef1b694fddde9c8af802b9f925`
+COMMIT: `b5b9ded6d94000e3a99bb454b54f06356dc59c50`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/fa72d8da-0409-40a1-a84b-7923a80b5a16)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/832482d8-8f8c-4104-bdb3-bcfd58104cab)
 
 ```
 +----------+----------------------------------------------------------------+-------+-------------------+------------+----------+

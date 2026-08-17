@@ -1,8 +1,8 @@
 FILENAME: `MaxiOps/safe_claim/blabs_team_safe_vesting_claim_to_treasury_payload.json`
 MULTISIG: `multisigs/blabs_team (mainnet:0xCDcEBF1f28678eb4A1478403BA7f34C94F7dDBc5)`
-COMMIT: `89a30a253f862fef1b694fddde9c8af802b9f925`
+COMMIT: `b5b9ded6d94000e3a99bb454b54f06356dc59c50`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/ed12a2fc-80d5-4473-9d01-c6b83c676d0a)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/5f61e8a1-2520-4b0a-94fa-120bd31c995e)
 
 ```
 +-------------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+

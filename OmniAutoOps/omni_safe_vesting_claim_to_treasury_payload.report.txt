@@ -1,8 +1,8 @@
 FILENAME: `OmniAutoOps/omni_safe_vesting_claim_to_treasury_payload.json`
 MULTISIG: `multisigs/omni (mainnet:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `89a30a253f862fef1b694fddde9c8af802b9f925`
+COMMIT: `b5b9ded6d94000e3a99bb454b54f06356dc59c50`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/42b77dd7-f28d-40c9-9084-91ae6c22a90e)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/987254da-ef05-413a-a2ba-0aa38a8e2ecc)
 
 ```
 +-------------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
