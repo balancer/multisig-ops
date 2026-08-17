@@ -1,8 +1,8 @@
 FILENAME: `MaxiOps/safe_claim/fees_safe_vesting_claim_to_treasury_payload.json`
 MULTISIG: `multisigs/fees (mainnet:0x7c68c42De679ffB0f16216154C996C354cF1161B)`
-COMMIT: `95bf49d12f73b02a12cb302c55ac28ae32d0d562`
+COMMIT: `89a30a253f862fef1b694fddde9c8af802b9f925`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/f7a16174-a08f-4eae-b571-743ba8af7620)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/2c690b44-8754-4748-9dbe-47da001d5a63)
 
 ```
 +-------------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+

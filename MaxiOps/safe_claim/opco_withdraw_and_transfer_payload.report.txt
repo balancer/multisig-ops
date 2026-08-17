@@ -1,8 +1,8 @@
 FILENAME: `MaxiOps/safe_claim/opco_withdraw_and_transfer_payload.json`
 MULTISIG: `multisigs/foundation_opco (mainnet:0x3B8910F378034FD6E103Df958863e5c684072693)`
-COMMIT: `95bf49d12f73b02a12cb302c55ac28ae32d0d562`
+COMMIT: `89a30a253f862fef1b694fddde9c8af802b9f925`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟥 FAILURE (ERC20: transfer amount exceeds balance)`](https://www.tdly.co/shared/simulation/ff27a821-9565-4a2e-8d70-d1fc7bcbf98d)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/fa72d8da-0409-40a1-a84b-7923a80b5a16)
 
 ```
 +----------+-------------------------------------------------+---------------------------------------------------------------+--------------------------------------------------+-----+----------+
@@ -13,9 +13,9 @@ TENDERLY: [`🟥 FAILURE (ERC20: transfer amount exceeds balance)`](https://www.
 ```
 FILENAME: `MaxiOps/safe_claim/opco_withdraw_and_transfer_payload.json`
 MULTISIG: `multisigs/foundation_opco (mainnet:0x3B8910F378034FD6E103Df958863e5c684072693)`
-COMMIT: `95bf49d12f73b02a12cb302c55ac28ae32d0d562`
+COMMIT: `89a30a253f862fef1b694fddde9c8af802b9f925`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟥 FAILURE (ERC20: transfer amount exceeds balance)`](https://www.tdly.co/shared/simulation/ff27a821-9565-4a2e-8d70-d1fc7bcbf98d)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/fa72d8da-0409-40a1-a84b-7923a80b5a16)
 
 ```
 +----------+----------------------------------------------------------------+-------+-------------------+------------+----------+
