@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1785493391230,
+  "meta": {
+    "name": "OpCo: claim SAFE vestings to treasury + unlock SafeTokenLock",
+    "description": "Stage 1 for OpCo (0x3B8910F378034FD6E103Df958863e5c684072693): (1-2) claimVestedTokens from pools 0xA0b937D5c8E32a80E3a8ed4227CD020221544ee6 / 0xC0fde70A65C7569Fe919bE57492228DEE8cDb585 directly to kpk treasury 0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89 (~1925 SAFE total, max uint128). (3) unlock full SafeTokenLock balance 2586566407387299348028 wei (~2586.566407 SAFE) at 0x0a7CB434f96f65972D46A5c1A64a9654dC9959b2. After unlock confirms, wait >=86400s then a follow-up withdraw+transfer payload can be submitted after the cooldown. Tenderly: https://www.tdly.co/shared/simulation/90ce39c4-2116-46bb-8c83-be4b41f5e56c",
+    "txBuilderVersion": "1.18.2",
+    "createdFromSafeAddress": "0x3B8910F378034FD6E103Df958863e5c684072693"
+  },
+  "transactions": [
+    {
+      "to": "0xA0b937D5c8E32a80E3a8ed4227CD020221544ee6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "vestingId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "beneficiary",
+            "type": "address"
+          },
+          {
+            "internalType": "uint128",
+            "name": "tokensToClaim",
+            "type": "uint128"
+          }
+        ],
+        "name": "claimVestedTokens",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "vestingId": "0x9c8620a730d442c9b90445ee1f63a56b8bbf96d780b9b460f0bada2f6e9743ad",
+        "beneficiary": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "tokensToClaim": "340282366920938463463374607431768211455"
+      }
+    },
+    {
+      "to": "0xC0fde70A65C7569Fe919bE57492228DEE8cDb585",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "vestingId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "beneficiary",
+            "type": "address"
+          },
+          {
+            "internalType": "uint128",
+            "name": "tokensToClaim",
+            "type": "uint128"
+          }
+        ],
+        "name": "claimVestedTokens",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "vestingId": "0x68ea171aaa358e7fd0fbcfd20d6248bb70fed0c4629e89cb964a68d41af83abc",
+        "beneficiary": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "tokensToClaim": "340282366920938463463374607431768211455"
+      }
+    },
+    {
+      "to": "0x0a7CB434f96f65972D46A5c1A64a9654dC9959b2",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint96",
+            "name": "amount",
+            "type": "uint96"
+          }
+        ],
+        "name": "unlock",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "amount": "2586566407387299348028"
+      }
+    }
+  ]
+}
