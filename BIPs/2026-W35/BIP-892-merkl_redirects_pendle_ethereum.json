@@ -1,0 +1,322 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "meta": {
+    "name": "Reallocate Pendle Whitehat Rewards",
+    "description": "BIP-892: reallocate unclaimed whitehat recovery rewards from 5 Pendle SY contracts to Pendle's multisig 0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1 so Pendle can claim and distribute.",
+    "txBuilderVersion": "1.16.3",
+    "createdFromSafeAddress": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
+  },
+  "transactions": [
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x4d04ad64bfbdebfee07420ae45e16cb36a002cdbe80376413559396950b79c07",
+        "froms": "[\"0xdf7083f2a0f8a191ab5eeafebe92ed21cd3dd915\"]",
+        "to": "0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0xe5e912e6c3b9db1094a50db444e4a47b2ee236f0964087b386a558c4c880f661",
+        "froms": "[\"0xdf7083f2a0f8a191ab5eeafebe92ed21cd3dd915\"]",
+        "to": "0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x4d04ad64bfbdebfee07420ae45e16cb36a002cdbe80376413559396950b79c07",
+        "froms": "[\"0x677885afde857b70f40741ff8b60f9afba95dd49\"]",
+        "to": "0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x662ff2ce20d55a253f54b61829a383cff185b67d50555675afcc3080a27f1768",
+        "froms": "[\"0x677885afde857b70f40741ff8b60f9afba95dd49\"]",
+        "to": "0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x4d04ad64bfbdebfee07420ae45e16cb36a002cdbe80376413559396950b79c07",
+        "froms": "[\"0x8267fdabd1b8c8645138f2de5b0fe24988dc9820\"]",
+        "to": "0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x3af402a810f3b2b678de7ceebae505451635a730ae398e76ee16cad68ec18f49",
+        "froms": "[\"0x8267fdabd1b8c8645138f2de5b0fe24988dc9820\"]",
+        "to": "0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x4d04ad64bfbdebfee07420ae45e16cb36a002cdbe80376413559396950b79c07",
+        "froms": "[\"0xc0dd85720e3bc7959890127b5d3af2d29f6c74f4\"]",
+        "to": "0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0xe5e912e6c3b9db1094a50db444e4a47b2ee236f0964087b386a558c4c880f661",
+        "froms": "[\"0xc0dd85720e3bc7959890127b5d3af2d29f6c74f4\"]",
+        "to": "0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0x4d04ad64bfbdebfee07420ae45e16cb36a002cdbe80376413559396950b79c07",
+        "froms": "[\"0x9bdb1dfd15d9051d127c3cd6882e194ca1c89e56\"]",
+        "to": "0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1"
+      }
+    },
+    {
+      "to": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "_campaignId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[]",
+            "name": "froms",
+            "type": "address[]"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "reallocateCampaignRewards",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_campaignId": "0xe5e912e6c3b9db1094a50db444e4a47b2ee236f0964087b386a558c4c880f661",
+        "froms": "[\"0x9bdb1dfd15d9051d127c3cd6882e194ca1c89e56\"]",
+        "to": "0xE6F0489ED91dc27f40f9dbe8f81fccbFC16b9cb1"
+      }
+    }
+  ]
+}
