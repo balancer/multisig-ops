@@ -1,0 +1,28 @@
+FILENAME: `OmniAutoOps/set-autorange-parameters-1-0xa1aac37642c7a057daa7dd4f8837b26e11a0a8aa-2026-08-17_1602.json`
+MULTISIG: `multisigs/omni (mainnet:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `5e38d1e9b7eb0b88fff1d5848925cd117b04b084`
+CHAIN(S): `mainnet`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/a8e51ec1-4277-48c3-af3a-a52c85c87e11)
+
+```
++-----------------------+------------------------------------------------------------------------------+-------+----------------------------------+------------+----------+
+| fx_name               | to                                                                           | value | inputs                           | bip_number | tx_index |
++-----------------------+------------------------------------------------------------------------------+-------+----------------------------------+------------+----------+
+| setCenterednessMargin | 0xa1aac37642c7a057daa7dd4f8837b26e11a0a8aa (pools/AutoRange-sINV-sDOLA-a1aa) | 0     | {                                | N/A        |   N/A    |
+|                       |                                                                              |       |   "newCenterednessMargin": [     |            |          |
+|                       |                                                                              |       |     "250000000000000000"         |            |          |
+|                       |                                                                              |       |   ]                              |            |          |
+|                       |                                                                              |       | }                                |            |          |
+| startPriceRatioUpdate | 0xa1aac37642c7a057daa7dd4f8837b26e11a0a8aa (pools/AutoRange-sINV-sDOLA-a1aa) | 0     | {                                | N/A        |   N/A    |
+|                       |                                                                              |       |   "endPriceRatio": [             |            |          |
+|                       |                                                                              |       |     "2000000000000000000"        |            |          |
+|                       |                                                                              |       |   ],                             |            |          |
+|                       |                                                                              |       |   "priceRatioUpdateStartTime": [ |            |          |
+|                       |                                                                              |       |     "1787097600"                 |            |          |
+|                       |                                                                              |       |   ],                             |            |          |
+|                       |                                                                              |       |   "priceRatioUpdateEndTime": [   |            |          |
+|                       |                                                                              |       |     "1787356800"                 |            |          |
+|                       |                                                                              |       |   ]                              |            |          |
+|                       |                                                                              |       | }                                |            |          |
++-----------------------+------------------------------------------------------------------------------+-------+----------------------------------+------------+----------+
+```
