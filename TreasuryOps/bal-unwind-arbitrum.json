@@ -1,10 +1,10 @@
 {
   "version": "1.0",
   "chainId": "42161",
-  "createdAt": 1787132968846,
+  "createdAt": 1787133511408,
   "meta": {
     "name": "Treasury: unwind BAL-axlBAL pool (Arbitrum)",
-    "description": "Single-sided exit of full axlBAL/BAL composable stable BPT to BAL on Balancer v2 Arbitrum for karpatkey-managed treasury (0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89).",
+    "description": "Single-sided exit of axlBAL/BAL composable stable BPT to BAL on Balancer v2 Arbitrum for karpatkey-managed treasury (0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89). Amounts include execution lag margins for a 1-2 day review/queue window: Aave withdraws use max uint256; wallet BPT/LP amounts use a 0.5% haircut; nested B-80BAL-20WETH exit uses a 1% haircut on the estimated BPT received from the prior composable exit.",
     "txBuilderVersion": "1.18.2",
     "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
   },
@@ -76,7 +76,7 @@
             0,
             0
           ],
-          "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000043c33c19375647ffffe0000000000000000000000000000000000000000000000000000000000000000",
+          "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000436c7fa3548016ffffe0000000000000000000000000000000000000000000000000000000000000000",
           false
         ]
       }
