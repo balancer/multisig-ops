@@ -1,10 +1,10 @@
 {
   "version": "1.0",
   "chainId": "42161",
-  "createdAt": 1787134012344,
+  "createdAt": 1787134266030,
   "meta": {
     "name": "Treasury: unwind BAL-axlBAL pool (Arbitrum)",
-    "description": "Single-sided exit of axlBAL/BAL composable stable BPT to BAL for karpatkey-managed treasury (0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89). Aave v2/v3 BAL withdrawals use max uint256 to capture interest accrual over review/queue time. BPT and Across LP input amounts are exact on-chain wallet balances (they do not drift while idle). Balancer exitPool minAmountsOut are set to zero (standard for treasury unwinds); pool-rate movement over 1-2 days affects output size, not whether the exit amount can be spent. Nested B-80BAL-20WETH exit uses a floored estimate of BPT received from the prior composable exit in the same batch.",
+    "description": "Single-sided exit of axlBAL/BAL composable stable BPT to BAL for karpatkey-managed treasury (0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89). Aave v2/v3 BAL withdrawals use max uint256 (interest accrual). BPT/LP inputs are exact wallet balances. Balancer exitPool minAmountsOut are quoted via BalancerQueries on mainnet (or fee-adjusted proportional quote on Arbitrum) then reduced by 10% as a slippage guardrail for pool-rate movement between review and execution.",
     "txBuilderVersion": "1.18.2",
     "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
   },
@@ -72,7 +72,7 @@
             "0x3f09c77b19ad8bb527355ec32d5ce98421fec2e3"
           ],
           [
-            0,
+            10372051500348239083253,
             0,
             0
           ],

@@ -1,10 +1,10 @@
 {
   "version": "1.0",
   "chainId": "1",
-  "createdAt": 1787134012344,
+  "createdAt": 1787134266030,
   "meta": {
     "name": "Treasury: unwind unnecessary BAL positions (Ethereum)",
-    "description": "Batch unwind for karpatkey-managed treasury (0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89). Aave v2/v3 BAL withdrawals use max uint256 to capture interest accrual over review/queue time. BPT and Across LP input amounts are exact on-chain wallet balances (they do not drift while idle). Balancer exitPool minAmountsOut are set to zero (standard for treasury unwinds); pool-rate movement over 1-2 days affects output size, not whether the exit amount can be spent. Nested B-80BAL-20WETH exit uses a floored estimate of BPT received from the prior composable exit in the same batch.",
+    "description": "Batch unwind for karpatkey-managed treasury (0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89). Aave v2/v3 BAL withdrawals use max uint256 (interest accrual). BPT/LP inputs are exact wallet balances. Balancer exitPool minAmountsOut are quoted via BalancerQueries on mainnet (or fee-adjusted proportional quote on Arbitrum) then reduced by 10% as a slippage guardrail for pool-rate movement between review and execution.",
     "txBuilderVersion": "1.18.2",
     "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
   },
@@ -129,12 +129,12 @@
         "recipient": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
         "request": [
           [
-            "0x5c6ee304399dbdb9c8ef030ab642b10820db8f56",
-            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            "0x5c6Ee304399DBdB9C8Ef030aB642B10820DB8F56",
+            "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
           ],
           [
-            0,
-            0
+            18538093172178070721919,
+            6459577819881882540
           ],
           "0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000002760165e9cc3863b5e",
           false
@@ -199,12 +199,12 @@
         "recipient": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
         "request": [
           [
-            "0xba100000625a3754423978a60c9317c58a424e3d",
-            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            "0xba100000625a3754423978a60c9317c58a424e3D",
+            "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
           ],
           [
-            0,
-            0
+            92170130889906831405868,
+            1283427985446291619
           ],
           "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000465d47c46bf98f492fd",
           false
