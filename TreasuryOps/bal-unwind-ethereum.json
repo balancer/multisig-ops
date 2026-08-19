@@ -1,10 +1,10 @@
 {
   "version": "1.0",
   "chainId": "1",
-  "createdAt": 1787133511408,
+  "createdAt": 1787134012344,
   "meta": {
     "name": "Treasury: unwind unnecessary BAL positions (Ethereum)",
-    "description": "Batch unwind for karpatkey-managed treasury (0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89): withdraw all BAL from Aave v2/v3, exit 80BAL20wETH/wETH composable BPT then nested B-80BAL-20WETH BPT, and remove Across BAL LP from HubPool. Amounts include execution lag margins for a 1-2 day review/queue window: Aave withdraws use max uint256; wallet BPT/LP amounts use a 0.5% haircut; nested B-80BAL-20WETH exit uses a 1% haircut on the estimated BPT received from the prior composable exit.",
+    "description": "Batch unwind for karpatkey-managed treasury (0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89). Aave v2/v3 BAL withdrawals use max uint256 to capture interest accrual over review/queue time. BPT and Across LP input amounts are exact on-chain wallet balances (they do not drift while idle). Balancer exitPool minAmountsOut are set to zero (standard for treasury unwinds); pool-rate movement over 1-2 days affects output size, not whether the exit amount can be spent. Nested B-80BAL-20WETH exit uses a floored estimate of BPT received from the prior composable exit in the same batch.",
     "txBuilderVersion": "1.18.2",
     "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
   },
@@ -136,7 +136,7 @@
             0,
             0
           ],
-          "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000272dafdb944cc96697",
+          "0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000002760165e9cc3863b5e",
           false
         ]
       }
@@ -206,7 +206,7 @@
             0,
             0
           ],
-          "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000454ffb573b833afb05e",
+          "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000465d47c46bf98f492fd",
           false
         ]
       }
@@ -233,7 +233,7 @@
       },
       "contractInputsValues": {
         "spender": "0xc186fA914353c44b2E33eBE05f21846F1048bEda",
-        "amount": "78872651889894922023877"
+        "amount": "79268996874266253290329"
       }
     },
     {
@@ -263,7 +263,7 @@
       },
       "contractInputsValues": {
         "l1Token": "0xba100000625a3754423978a60c9317c58a424e3D",
-        "lpTokenAmount": "78872651889894922023877",
+        "lpTokenAmount": "79268996874266253290329",
         "sendEth": "false"
       }
     }
