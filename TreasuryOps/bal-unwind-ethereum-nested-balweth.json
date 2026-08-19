@@ -4,8 +4,6 @@
   "createdAt": 1787134722266,
   "meta": {
     "name": "Treasury: exit nested B-80BAL-20WETH BPT (Ethereum)",
-    "description": "Execute after bal-unwind-ethereum.json (or once B-80BAL-20WETH BPT is in the treasury wallet). If composable exit ran earlier, refresh the exit amount to the wallet's exact B-80BAL-20WETH BPT balance before signing. Current amount assumes full exit of the 80BAL20wETH/wETH composable position (~20,767.90 nested BPT). minAmountsOut are 90% of BalancerQueries quote at payload creation.",
-    "txBuilderVersion": "1.18.2",
     "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
   },
   "transactions": [
