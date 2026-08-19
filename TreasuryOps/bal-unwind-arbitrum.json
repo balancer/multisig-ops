@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "chainId": "42161",
+  "createdAt": 1787132968846,
+  "meta": {
+    "name": "Treasury: unwind BAL-axlBAL pool (Arbitrum)",
+    "description": "Single-sided exit of full axlBAL/BAL composable stable BPT to BAL on Balancer v2 Arbitrum for karpatkey-managed treasury (0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89).",
+    "txBuilderVersion": "1.18.2",
+    "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
+  },
+  "transactions": [
+    {
+      "to": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "poolId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "internalType": "address payable",
+            "name": "recipient",
+            "type": "address payable"
+          },
+          {
+            "components": [
+              {
+                "internalType": "contract IAsset[]",
+                "name": "assets",
+                "type": "address[]"
+              },
+              {
+                "internalType": "uint256[]",
+                "name": "minAmountsOut",
+                "type": "uint256[]"
+              },
+              {
+                "internalType": "bytes",
+                "name": "userData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bool",
+                "name": "toInternalBalance",
+                "type": "bool"
+              }
+            ],
+            "internalType": "struct IVault.ExitPoolRequest",
+            "name": "request",
+            "type": "tuple"
+          }
+        ],
+        "name": "exitPool",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "poolId": "0x3f09c77b19ad8bb527355ec32d5ce98421fec2e30000000000000000000004b2",
+        "sender": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "recipient": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "request": [
+          [
+            "0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8",
+            "0x11c1879227d463b60db18c17c20ae739ae8e961a",
+            "0x3f09c77b19ad8bb527355ec32d5ce98421fec2e3"
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000043c33c19375647ffffe0000000000000000000000000000000000000000000000000000000000000000",
+          false
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1787132968846,
+  "meta": {
+    "name": "Treasury: unwind unnecessary BAL positions (Ethereum)",
+    "description": "Batch unwind for karpatkey-managed treasury (0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89): withdraw all BAL from Aave v2/v3, exit 80BAL20wETH/wETH composable BPT then nested B-80BAL-20WETH BPT, and remove Across BAL LP from HubPool. Amounts are exact on-chain balances at payload creation.",
+    "txBuilderVersion": "1.18.2",
+    "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
+  },
+  "transactions": [
+    {
+      "to": "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "withdraw",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "asset": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "amount": "58491558631053890277",
+        "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
+      }
+    },
+    {
+      "to": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "withdraw",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "asset": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "amount": "320461322227068622775255",
+        "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
+      }
+    },
+    {
+      "to": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "poolId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "internalType": "address payable",
+            "name": "recipient",
+            "type": "address payable"
+          },
+          {
+            "components": [
+              {
+                "internalType": "contract IAsset[]",
+                "name": "assets",
+                "type": "address[]"
+              },
+              {
+                "internalType": "uint256[]",
+                "name": "minAmountsOut",
+                "type": "uint256[]"
+              },
+              {
+                "internalType": "bytes",
+                "name": "userData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bool",
+                "name": "toInternalBalance",
+                "type": "bool"
+              }
+            ],
+            "internalType": "struct IVault.ExitPoolRequest",
+            "name": "request",
+            "type": "tuple"
+          }
+        ],
+        "name": "exitPool",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "poolId": "0xc5c91aea7551095c3e1ff0f94f682c45b347ad730002000000000000000006c0",
+        "sender": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "recipient": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "request": [
+          [
+            "0x5c6ee304399dbdb9c8ef030ab642b10820db8f56",
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          ],
+          [
+            0,
+            0
+          ],
+          "0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000002760165e9cc3863b5e",
+          false
+        ]
+      }
+    },
+    {
+      "to": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "poolId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "internalType": "address payable",
+            "name": "recipient",
+            "type": "address payable"
+          },
+          {
+            "components": [
+              {
+                "internalType": "contract IAsset[]",
+                "name": "assets",
+                "type": "address[]"
+              },
+              {
+                "internalType": "uint256[]",
+                "name": "minAmountsOut",
+                "type": "uint256[]"
+              },
+              {
+                "internalType": "bytes",
+                "name": "userData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bool",
+                "name": "toInternalBalance",
+                "type": "bool"
+              }
+            ],
+            "internalType": "struct IVault.ExitPoolRequest",
+            "name": "request",
+            "type": "tuple"
+          }
+        ],
+        "name": "exitPool",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "poolId": "0x5c6ee304399dbdb9c8ef030ab642b10820db8f56000200000000000000000014",
+        "sender": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "recipient": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "request": [
+          [
+            "0xba100000625a3754423978a60c9317c58a424e3d",
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          ],
+          [
+            0,
+            0
+          ],
+          "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000465d47c46bf98f492fd",
+          false
+        ]
+      }
+    },
+    {
+      "to": "0xfacd2eC4647df2Cb758F684C2aAAB56A93288f9e",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "spender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "approve",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "spender": "0xc186fA914353c44b2E33eBE05f21846F1048bEda",
+        "amount": "79268996874266253290329"
+      }
+    },
+    {
+      "to": "0xc186fA914353c44b2E33eBE05f21846F1048bEda",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "l1Token",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lpTokenAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "sendEth",
+            "type": "bool"
+          }
+        ],
+        "name": "removeLiquidity",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "l1Token": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "lpTokenAmount": "79268996874266253290329",
+        "sendEth": "false"
+      }
+    }
+  ]
+}
