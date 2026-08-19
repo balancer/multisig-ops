@@ -88,7 +88,7 @@
           {
             "internalType": "address payable",
             "name": "recipient",
-            "type": "address payable"
+            "type": "address"
           },
           {
             "components": [
