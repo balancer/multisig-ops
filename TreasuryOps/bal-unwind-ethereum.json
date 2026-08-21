@@ -1,0 +1,188 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1787134722266,
+  "meta": {
+    "name": "Treasury: unwind unnecessary BAL positions (Ethereum)",
+    "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
+  },
+  "transactions": [
+    {
+      "to": "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "withdraw",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "asset": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "amount": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+        "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
+      }
+    },
+    {
+      "to": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          }
+        ],
+        "name": "withdraw",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "asset": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "amount": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+        "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
+      }
+    },
+    {
+      "to": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "poolId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "internalType": "address payable",
+            "name": "recipient",
+            "type": "address"
+          },
+          {
+            "components": [
+              {
+                "internalType": "contract IAsset[]",
+                "name": "assets",
+                "type": "address[]"
+              },
+              {
+                "internalType": "uint256[]",
+                "name": "minAmountsOut",
+                "type": "uint256[]"
+              },
+              {
+                "internalType": "bytes",
+                "name": "userData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bool",
+                "name": "toInternalBalance",
+                "type": "bool"
+              }
+            ],
+            "internalType": "struct IVault.ExitPoolRequest",
+            "name": "request",
+            "type": "tuple"
+          }
+        ],
+        "name": "exitPool",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "poolId": "0xc5c91aea7551095c3e1ff0f94f682c45b347ad730002000000000000000006c0",
+        "sender": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "recipient": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "request": "[[\"0x5c6Ee304399DBdB9C8Ef030aB642B10820DB8F56\",\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\"],[\"18538093172178070721919\",\"6459577819881882540\"],\"0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000002760165e9cc3863b5e\",\"false\"]"
+      }
+    },
+    {
+      "to": "0xfacd2eC4647df2Cb758F684C2aAAB56A93288f9e",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "spender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "approve",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "spender": "0xc186fA914353c44b2E33eBE05f21846F1048bEda",
+        "amount": "79268996874266253290329"
+      }
+    },
+    {
+      "to": "0xc186fA914353c44b2E33eBE05f21846F1048bEda",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "l1Token",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lpTokenAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "sendEth",
+            "type": "bool"
+          }
+        ],
+        "name": "removeLiquidity",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "l1Token": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "lpTokenAmount": "79268996874266253290329",
+        "sendEth": "false"
+      }
+    }
+  ]
+}
