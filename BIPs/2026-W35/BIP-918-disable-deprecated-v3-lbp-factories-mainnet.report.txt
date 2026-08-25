@@ -1,0 +1,33 @@
+FILENAME: `BIPs/2026-W35/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json`
+MULTISIG: `multisigs/dao (mainnet:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f)`
+COMMIT: `b97b3fe0c38f3ebe17c288e6afd9ded4f58e72a8`
+CHAIN(S): `mainnet`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/ee727adb-f7a0-4fe5-9389-cad2b6f70571)
+
+```
++-----------------------+---------------+--------------------------------------------+---------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+| function              | caller_name   | caller_address                             | fx_paths                                                            | action_ids                                                         |   bip   | tx_index |
++-----------------------+---------------+--------------------------------------------+---------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+| Authorizer/grantRole  | multisigs/dao | 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f | 20250307-v3-liquidity-bootstrapping-pool/LBPoolFactory/disable()    | 0xcaf85986241f9906113741c5e12e9d1d7a67832f717d4ed507beb522e69334b1 | BIP-918 |    0     |
+| Authorizer/revokeRole | multisigs/dao | 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f | 20250307-v3-liquidity-bootstrapping-pool/LBPoolFactory/disable()    | 0xcaf85986241f9906113741c5e12e9d1d7a67832f717d4ed507beb522e69334b1 | BIP-918 |    2     |
+| Authorizer/grantRole  | multisigs/dao | 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f | 20250701-v3-liquidity-bootstrapping-pool-v2/LBPoolFactory/disable() | 0xec386230b43d2777141af97e47dae057801371989fd72e32faacec52147502db | BIP-918 |    3     |
+| Authorizer/revokeRole | multisigs/dao | 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f | 20250701-v3-liquidity-bootstrapping-pool-v2/LBPoolFactory/disable() | 0xec386230b43d2777141af97e47dae057801371989fd72e32faacec52147502db | BIP-918 |    5     |
+| Authorizer/grantRole  | multisigs/dao | 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f | 20251219-v3-liquidity-bootstrapping-pool-v3/LBPoolFactory/disable() | 0x72fd4963dcf180d1df4e653ff72a27ca0c9e8943829fa0a6de70f3dde5a0c7ed | BIP-918 |    6     |
+| Authorizer/revokeRole | multisigs/dao | 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f | 20251219-v3-liquidity-bootstrapping-pool-v3/LBPoolFactory/disable() | 0x72fd4963dcf180d1df4e653ff72a27ca0c9e8943829fa0a6de70f3dde5a0c7ed | BIP-918 |    8     |
++-----------------------+---------------+--------------------------------------------+---------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+```
+FILENAME: `BIPs/2026-W35/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json`
+MULTISIG: `multisigs/dao (mainnet:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f)`
+COMMIT: `b97b3fe0c38f3ebe17c288e6afd9ded4f58e72a8`
+CHAIN(S): `mainnet`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/ee727adb-f7a0-4fe5-9389-cad2b6f70571)
+
+```
++---------+--------------------------------------------------------------------------------------------------------+-------+--------+------------+----------+
+| fx_name | to                                                                                                     | value | inputs | bip_number | tx_index |
++---------+--------------------------------------------------------------------------------------------------------+-------+--------+------------+----------+
+| disable | 0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5 (20250307-v3-liquidity-bootstrapping-pool/LBPoolFactory)    | 0     | {}     | BIP-918    |   N/A    |
+| disable | 0x02916d8F0891309806FCb347Bf4191692cbDDcAF (20250701-v3-liquidity-bootstrapping-pool-v2/LBPoolFactory) | 0     | {}     | BIP-918    |   N/A    |
+| disable | 0xD5584b37D1845fFeD958C2d94bC675603DdCce68 (20251219-v3-liquidity-bootstrapping-pool-v3/LBPoolFactory) | 0     | {}     | BIP-918    |   N/A    |
++---------+--------------------------------------------------------------------------------------------------------+-------+--------+------------+----------+
+```
