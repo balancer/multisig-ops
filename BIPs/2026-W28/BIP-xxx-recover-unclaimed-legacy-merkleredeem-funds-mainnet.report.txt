@@ -1,8 +1,8 @@
 FILENAME: `BIPs/2026-W28/BIP-xxx-recover-unclaimed-legacy-merkleredeem-funds-mainnet.json`
 MULTISIG: `multisigs/blabs_team (mainnet:0xCDcEBF1f28678eb4A1478403BA7f34C94F7dDBc5)`
-COMMIT: `80bb56dca57165153ebbe2452da470846c189222`
+COMMIT: `4f03c0c0a09dd2432504b782a66281967dbdac9d`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/aba48d83-4507-4618-b0a2-a542da1a0b1b)
+TENDERLY: [`🟨 PARTIAL`](https://www.tdly.co/shared/simulation/618c0ddb-9ec5-4de4-8db2-c4e9067f6036)
 
 ```
 +----------+------------------------------------------------+----------------------------------------------------------------------+---------------------------------------------------+-----+----------+
@@ -13,9 +13,9 @@ TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/aba48d83-4507-4
 ```
 FILENAME: `BIPs/2026-W28/BIP-xxx-recover-unclaimed-legacy-merkleredeem-funds-mainnet.json`
 MULTISIG: `multisigs/blabs_team (mainnet:0xCDcEBF1f28678eb4A1478403BA7f34C94F7dDBc5)`
-COMMIT: `80bb56dca57165153ebbe2452da470846c189222`
+COMMIT: `4f03c0c0a09dd2432504b782a66281967dbdac9d`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/aba48d83-4507-4618-b0a2-a542da1a0b1b)
+TENDERLY: [`🟨 PARTIAL`](https://www.tdly.co/shared/simulation/618c0ddb-9ec5-4de4-8db2-c4e9067f6036)
 
 ```
 +-----------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
