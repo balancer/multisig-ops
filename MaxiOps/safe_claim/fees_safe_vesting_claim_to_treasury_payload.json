@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1785491008862,
+  "meta": {
+    "name": "Claim Fees SAFE vestings to kpk treasury",
+    "description": "Claim currently vested/unclaimed SAFE from three Fees Safe vesting pools and send directly to the kpk-managed treasury multisig 0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89. (1) 0xA0b937D5c8E32a80E3a8ed4227CD020221544ee6 vestingId 0x7b2ede21a32088495b14ba550b7c1f155016663d98e194d3011de3d1dfe8c605 (~476.27 SAFE). (2) 0xC0fde70A65C7569Fe919bE57492228DEE8cDb585 vestingId 0x350bbbe3873bfb0638ef82b3011ca003a9e0c71372d576170e65610fba8ed0ed (~861.57 SAFE). (3) 0xdd57784bDD85bBda811CC0B47981D9188e83f703 vestingId 0x9c55148dafdd25371101ef4d13f68d203a231ca494c8e9085e0223a178dd7a8b (416 SAFE). tokensToClaim uses max(uint128). Approximate total ~1753.84 SAFE. Tenderly: https://www.tdly.co/shared/simulation/1c1645c4-ff61-45b1-95a6-d228a857bb31",
+    "txBuilderVersion": "1.18.2",
+    "createdFromSafeAddress": "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  },
+  "transactions": [
+    {
+      "to": "0xA0b937D5c8E32a80E3a8ed4227CD020221544ee6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "vestingId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "beneficiary",
+            "type": "address"
+          },
+          {
+            "internalType": "uint128",
+            "name": "tokensToClaim",
+            "type": "uint128"
+          }
+        ],
+        "name": "claimVestedTokens",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "vestingId": "0x7b2ede21a32088495b14ba550b7c1f155016663d98e194d3011de3d1dfe8c605",
+        "beneficiary": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "tokensToClaim": "340282366920938463463374607431768211455"
+      }
+    },
+    {
+      "to": "0xC0fde70A65C7569Fe919bE57492228DEE8cDb585",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "vestingId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "beneficiary",
+            "type": "address"
+          },
+          {
+            "internalType": "uint128",
+            "name": "tokensToClaim",
+            "type": "uint128"
+          }
+        ],
+        "name": "claimVestedTokens",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "vestingId": "0x350bbbe3873bfb0638ef82b3011ca003a9e0c71372d576170e65610fba8ed0ed",
+        "beneficiary": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "tokensToClaim": "340282366920938463463374607431768211455"
+      }
+    },
+    {
+      "to": "0xdd57784bDD85bBda811CC0B47981D9188e83f703",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "vestingId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "beneficiary",
+            "type": "address"
+          },
+          {
+            "internalType": "uint128",
+            "name": "tokensToClaim",
+            "type": "uint128"
+          }
+        ],
+        "name": "claimVestedTokens",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "vestingId": "0x9c55148dafdd25371101ef4d13f68d203a231ca494c8e9085e0223a178dd7a8b",
+        "beneficiary": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "tokensToClaim": "340282366920938463463374607431768211455"
+      }
+    }
+  ]
+}

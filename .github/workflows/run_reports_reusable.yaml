@@ -42,6 +42,7 @@ jobs:
           ref: ${{ inputs.checkout_ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           fetch-depth: 0
+          allow-unsafe-pr-checkout: true
 
       - name: Switch to PR branch
         if: inputs.checkout_branch != ''
@@ -57,7 +58,7 @@ jobs:
           key: evm-compiler-caches
 
       - name: Setup Python 3.10
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: "3.10"
           cache: "pip"

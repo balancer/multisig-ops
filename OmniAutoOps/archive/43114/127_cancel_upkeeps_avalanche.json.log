@@ -1,0 +1,15 @@
+{
+  "posted_at": "2026-07-10T14:47:07+00:00",
+  "chain_id": 43114,
+  "target_safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+  "is_nested": true,
+  "nested_safe": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
+  "nonce": 127,
+  "child_nonce": 33,
+  "tx_hash": "2c4c8eeaa7c6f140d8bcf923bf2b5ab285ea71ea439ca8789c9f530aa7a48f86",
+  "child_tx_hash": "8b047c3643086673ed60321389059b84120432725eb359a62b7afc141895bdac",
+  "tenderly_url": "https://dashboard.tenderly.co/shared/simulation/aed83dc5-b715-4a33-b4f5-1654a9462343",
+  "safe_ui_url": "https://app.safe.global/transactions/tx?safe=avax:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e&id=multisig_0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e_0x2c4c8eeaa7c6f140d8bcf923bf2b5ab285ea71ea439ca8789c9f530aa7a48f86",
+  "child_safe_ui_url": "https://app.safe.global/transactions/tx?safe=avax:0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878&id=multisig_0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878_0x8b047c3643086673ed60321389059b84120432725eb359a62b7afc141895bdac",
+  "action_run_url": "https://github.com/balancer/multisig-ops/actions/runs/29101102841"
+}

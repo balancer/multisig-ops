@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1786996963590,
+  "meta": {
+    "name": "Transactions Batch",
+    "description": "Set centeredness margin to 250000000000000000 and price ratio update from 8/18/2026, 8:00:00 PM to 8/21/2026, 8:00:00 PM with end ratio 2000000000000000000 for Balancer AutoRange sINV-sDOLA",
+    "createdFromSafeAddress": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+  },
+  "transactions": [
+    {
+      "to": "0xa1aac37642c7a057daa7dd4f8837b26e11a0a8aa",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "name": "newCenterednessMargin",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "name": "setCenterednessMargin",
+        "payable": false
+      },
+      "contractInputsValues": { "newCenterednessMargin": "250000000000000000" }
+    },
+    {
+      "to": "0xa1aac37642c7a057daa7dd4f8837b26e11a0a8aa",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "name": "endPriceRatio",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "priceRatioUpdateStartTime",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "priceRatioUpdateEndTime",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "name": "startPriceRatioUpdate",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "endPriceRatio": "2000000000000000000",
+        "priceRatioUpdateStartTime": "1787097600",
+        "priceRatioUpdateEndTime": "1787356800"
+      }
+    }
+  ]
+}
