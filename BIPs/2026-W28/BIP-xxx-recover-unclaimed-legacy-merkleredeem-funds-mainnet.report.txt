@@ -1,21 +1,21 @@
 FILENAME: `BIPs/2026-W28/BIP-xxx-recover-unclaimed-legacy-merkleredeem-funds-mainnet.json`
 MULTISIG: `multisigs/blabs_team (mainnet:0xCDcEBF1f28678eb4A1478403BA7f34C94F7dDBc5)`
-COMMIT: `4f03c0c0a09dd2432504b782a66281967dbdac9d`
+COMMIT: `0e4b110af1e4e58747bc99d1f12ae396c80f1667`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟨 PARTIAL`](https://www.tdly.co/shared/simulation/618c0ddb-9ec5-4de4-8db2-c4e9067f6036)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/c2c59dac-3337-40f4-8198-7f25f564c2ef)
 
 ```
 +----------+------------------------------------------------+----------------------------------------------------------------------+---------------------------------------------------+-----+----------+
 | function | token_symbol                                   | recipient                                                            | amount                                            | bip | tx_index |
 +----------+------------------------------------------------+----------------------------------------------------------------------+---------------------------------------------------+-----+----------+
-| transfer | BAL:0xba100000625a3754423978a60c9317c58a424e3D | multisigs/balancer_bizdev:0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e | 364419.5431180666 (RAW: 364419543118066600111998) | N/A |    2     |
+| transfer | BAL:0xba100000625a3754423978a60c9317c58a424e3D | multisigs/balancer_bizdev:0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e | 364402.2489953926 (RAW: 364402248995392590193237) | N/A |    2     |
 +----------+------------------------------------------------+----------------------------------------------------------------------+---------------------------------------------------+-----+----------+
 ```
 FILENAME: `BIPs/2026-W28/BIP-xxx-recover-unclaimed-legacy-merkleredeem-funds-mainnet.json`
 MULTISIG: `multisigs/blabs_team (mainnet:0xCDcEBF1f28678eb4A1478403BA7f34C94F7dDBc5)`
-COMMIT: `4f03c0c0a09dd2432504b782a66281967dbdac9d`
+COMMIT: `0e4b110af1e4e58747bc99d1f12ae396c80f1667`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟨 PARTIAL`](https://www.tdly.co/shared/simulation/618c0ddb-9ec5-4de4-8db2-c4e9067f6036)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/c2c59dac-3337-40f4-8198-7f25f564c2ef)
 
 ```
 +-----------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
@@ -26,7 +26,7 @@ TENDERLY: [`🟨 PARTIAL`](https://www.tdly.co/shared/simulation/618c0ddb-9ec5-4
 |                 |                                                        |       |     "99999"                                                              |            |          |
 |                 |                                                        |       |   ],                                                                     |            |          |
 |                 |                                                        |       |   "_merkleRoot": [                                                       |            |          |
-|                 |                                                        |       |     "0x316f69d2d6583de4a995234183e469d0f53b70c23b4524e4d3cf86e0b07052ae" |            |          |
+|                 |                                                        |       |     "0xe26e71cb7a7d4ac5ad364f62b8089d3ae3262b7f2a4b94bb3124e9073227e61a" |            |          |
 |                 |                                                        |       |   ],                                                                     |            |          |
 |                 |                                                        |       |   "_totalAllocation": [                                                  |            |          |
 |                 |                                                        |       |     "0"                                                                  |            |          |
@@ -40,7 +40,7 @@ TENDERLY: [`🟨 PARTIAL`](https://www.tdly.co/shared/simulation/618c0ddb-9ec5-4
 |                 |                                                        |       |     "99999"                                                              |            |          |
 |                 |                                                        |       |   ],                                                                     |            |          |
 |                 |                                                        |       |   "_claimedBalance": [                                                   |            |          |
-|                 |                                                        |       |     "364419543118066600111998"                                           |            |          |
+|                 |                                                        |       |     "364402248995392590193237"                                           |            |          |
 |                 |                                                        |       |   ]                                                                      |            |          |
 |                 |                                                        |       | }                                                                        |            |          |
 +-----------------+--------------------------------------------------------+-------+--------------------------------------------------------------------------+------------+----------+
