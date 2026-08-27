@@ -1,0 +1,289 @@
+[
+  {
+    "version": "v1",
+    "task": "20250307-v3-liquidity-bootstrapping-pool",
+    "network": "mainnet",
+    "factory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+    "raw": {
+      "LBPoolFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+      "MockLBPool": "0xdBB8aD38C990Bd4ca2c88A6E6CfDF5045B0d4FB0"
+    },
+    "actionId": "0xcaf85986241f9906113741c5e12e9d1d7a67832f717d4ed507beb522e69334b1",
+    "safe": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  },
+  {
+    "version": "v2",
+    "task": "20250701-v3-liquidity-bootstrapping-pool-v2",
+    "network": "mainnet",
+    "factory": "0x02916d8F0891309806FCb347Bf4191692cbDDcAF",
+    "raw": {
+      "LBPMigrationRouter": "0xCC267D25576b48f08A90C3605624Ab62a73a7A4E",
+      "LBPoolFactory": "0x02916d8F0891309806FCb347Bf4191692cbDDcAF",
+      "MockLBPool": "0xa1E9e74BbDBDE4B8F9F624E71641F54e3b7F11bf"
+    },
+    "actionId": "0xec386230b43d2777141af97e47dae057801371989fd72e32faacec52147502db",
+    "safe": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  },
+  {
+    "version": "v3",
+    "task": "20251219-v3-liquidity-bootstrapping-pool-v3",
+    "network": "mainnet",
+    "factory": "0xD5584b37D1845fFeD958C2d94bC675603DdCce68",
+    "raw": {
+      "LBPMigrationRouter": "0x9B8168e330776feE6f857914FACA5FB831Dd2ab0",
+      "LBPoolFactory": "0xD5584b37D1845fFeD958C2d94bC675603DdCce68",
+      "MockLBPool": "0x0954601F4b1fFECe41A411A66F4546620F121b8c"
+    },
+    "actionId": "0x72fd4963dcf180d1df4e653ff72a27ca0c9e8943829fa0a6de70f3dde5a0c7ed",
+    "safe": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  },
+  {
+    "version": "v1",
+    "task": "20250307-v3-liquidity-bootstrapping-pool",
+    "network": "optimism",
+    "factory": "0xC1A64500E035D9159C8826E982dFb802003227f0",
+    "raw": {
+      "LBPoolFactory": "0xC1A64500E035D9159C8826E982dFb802003227f0",
+      "MockLBPool": "0x6957F5752767268b8D762f2e62DF06e5de117CF5"
+    },
+    "actionId": "0x63917ea03eefb14da2515f5d2ec64da1d52edecca471b857d62e2fe7bb62660f",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  },
+  {
+    "version": "v1",
+    "task": "20250307-v3-liquidity-bootstrapping-pool",
+    "network": "gnosis",
+    "factory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+    "raw": {
+      "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+      "MockLBPool": "0xc08dDF053003efa63eC7CA1B0ecd4024445A5c51"
+    },
+    "actionId": "0x6febf9f238dc2ec20e86da0ec49412a1a4d6f6a3a5de38e57a31d7f05dd323f8",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  },
+  {
+    "version": "v2",
+    "task": "20250701-v3-liquidity-bootstrapping-pool-v2",
+    "network": "gnosis",
+    "factory": "0x53EFf5068A1A3b39a9157DA6eF5A18d555c479eF",
+    "raw": {
+      "LBPMigrationRouter": "0xF9309a99836b5F07a2440c177C049b0f0A9A2c33",
+      "LBPoolFactory": "0x53EFf5068A1A3b39a9157DA6eF5A18d555c479eF",
+      "MockLBPool": "0xf4404306c2fb1c9C93dB173B7595eE086B45859D"
+    },
+    "actionId": "0xa58fd4a4bf957636db02af34ea4f6b78cc0dc1a1246aa3314baf7f972d0c9ee9",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  },
+  {
+    "version": "v3",
+    "task": "20251219-v3-liquidity-bootstrapping-pool-v3",
+    "network": "gnosis",
+    "factory": "0x2FAa140F90f76eeEEBC191f4eF4b2634be1E4e91",
+    "raw": {
+      "LBPMigrationRouter": "0xcb3FE6cC529101AF5880a05429729f967501c9E7",
+      "LBPoolFactory": "0x2FAa140F90f76eeEEBC191f4eF4b2634be1E4e91",
+      "MockLBPool": "0xb9A47E725828d432C06Eeba654B4F865051c90e7"
+    },
+    "actionId": "0x063cae26eb3f9aaad18da492e015286aa80679463c4eed391ec4559ff072e940",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  },
+  {
+    "version": "v3",
+    "task": "20251219-v3-liquidity-bootstrapping-pool-v3",
+    "network": "monad",
+    "factory": "0xa3b370092aeb56770B23315252aB5E16DAcBF62B",
+    "raw": {
+      "LBPMigrationRouter": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
+      "LBPoolFactory": "0xa3b370092aeb56770B23315252aB5E16DAcBF62B",
+      "MockLBPool": "0xCEeaaA79222DB3bE51d82FAE9A32A1A04e7b3884"
+    },
+    "actionId": "0x544c6420e7cdee475b31065882694ecf59beaee0baf58f5d68d87f1a08039e8b",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
+  },
+  {
+    "version": "v3",
+    "task": "20251219-v3-liquidity-bootstrapping-pool-v3",
+    "network": "xlayer",
+    "factory": "0xa3b370092aeb56770B23315252aB5E16DAcBF62B",
+    "raw": {
+      "LBPMigrationRouter": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
+      "LBPoolFactory": "0xa3b370092aeb56770B23315252aB5E16DAcBF62B",
+      "MockLBPool": "0x599D2905094FA689099BeE62cEAA7144cd30dBA0"
+    },
+    "actionId": "0x544c6420e7cdee475b31065882694ecf59beaee0baf58f5d68d87f1a08039e8b",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
+  },
+  {
+    "version": "v1",
+    "task": "20250307-v3-liquidity-bootstrapping-pool",
+    "network": "hyperevm",
+    "factory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
+    "raw": {
+      "LBPoolFactory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
+      "MockLBPool": "0xa2bf625Fb0793Bc70885C3cB248dc50608d49157"
+    },
+    "actionId": "0x8a09a4e6ece4d90d1e061f59a0083a9ea8b51542e5c17d1533148b57910e2c67",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0x85a80afee867aDf27B50BdB7b76DA70f1E853062"
+  },
+  {
+    "version": "v2",
+    "task": "20250701-v3-liquidity-bootstrapping-pool-v2",
+    "network": "hyperevm",
+    "factory": "0xa1D0791a41318c775707C56eAe247AF81a05322C",
+    "raw": {
+      "LBPMigrationRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A",
+      "LBPoolFactory": "0xa1D0791a41318c775707C56eAe247AF81a05322C",
+      "MockLBPool": "0x40330BB045E24CdE97B019F13c44D0B552CD3be5"
+    },
+    "actionId": "0x668986fc2832f58b18f6dbb6bd3930239eb176f8c74768d3386c75061f84eabd",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0x85a80afee867aDf27B50BdB7b76DA70f1E853062"
+  },
+  {
+    "version": "v3",
+    "task": "20251219-v3-liquidity-bootstrapping-pool-v3",
+    "network": "hyperevm",
+    "factory": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484",
+    "raw": {
+      "LBPMigrationRouter": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad",
+      "LBPoolFactory": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484",
+      "MockLBPool": "0x834653c8D2C1d2464368Fcf33b58490Ad4ec1c59"
+    },
+    "actionId": "0xe3ac7b0854230587876d79e6d6fd0b1667117a72c169379e4c47a1b2a5d53b00",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0x85a80afee867aDf27B50BdB7b76DA70f1E853062"
+  },
+  {
+    "version": "v1",
+    "task": "20250307-v3-liquidity-bootstrapping-pool",
+    "network": "base",
+    "factory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
+    "raw": {
+      "LBPoolFactory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
+      "MockLBPool": "0x9Ce89Efb4EbE2BC692003Af804e7A33FBBE93043"
+    },
+    "actionId": "0xb4abfdf0a490599e9a35cfefa92ed81b15bcf767a883899f9aaf250dd67fa6ed",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0x809B79b53F18E9bc08A961ED4678B901aC93213a"
+  },
+  {
+    "version": "v2",
+    "task": "20250701-v3-liquidity-bootstrapping-pool-v2",
+    "network": "base",
+    "factory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
+    "raw": {
+      "LBPMigrationRouter": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14",
+      "LBPoolFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
+      "MockLBPool": "0x743A84A1bAbE13Ac131EE7a56604497AF710266B"
+    },
+    "actionId": "0x3f6401a12ca8f8048783a6e5b059877235fcf452f62691cbcbe45ebe6bf3c217",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0x809B79b53F18E9bc08A961ED4678B901aC93213a"
+  },
+  {
+    "version": "v3",
+    "task": "20251219-v3-liquidity-bootstrapping-pool-v3",
+    "network": "base",
+    "factory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+    "raw": {
+      "LBPMigrationRouter": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+      "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+      "MockLBPool": "0x2Ad32195858fDe121251cFF637Ef4Cf0851fBe00"
+    },
+    "actionId": "0x6febf9f238dc2ec20e86da0ec49412a1a4d6f6a3a5de38e57a31d7f05dd323f8",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0x809B79b53F18E9bc08A961ED4678B901aC93213a"
+  },
+  {
+    "version": "v2",
+    "task": "20250701-v3-liquidity-bootstrapping-pool-v2",
+    "network": "plasma",
+    "factory": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c",
+    "raw": {
+      "LBPMigrationRouter": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
+      "LBPoolFactory": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c",
+      "MockLBPool": "0xc49a3d36aD36c69216b4B534b3cCf34039143f87"
+    },
+    "actionId": "0xc4947a848de6cca284acda6c460b475a939b9ad4ed6361cb81514fb0c723493e",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
+  },
+  {
+    "version": "v3",
+    "task": "20251219-v3-liquidity-bootstrapping-pool-v3",
+    "network": "plasma",
+    "factory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+    "raw": {
+      "LBPMigrationRouter": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015",
+      "LBPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+      "MockLBPool": "0x5841260f6C89e32f1070532B9C176b6257ba9997"
+    },
+    "actionId": "0xfd7d049f57516387fe0b442e1455675b11c641859ce76b39f121f650f51650ac",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
+  },
+  {
+    "version": "v1",
+    "task": "20250307-v3-liquidity-bootstrapping-pool",
+    "network": "arbitrum",
+    "factory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
+    "raw": {
+      "LBPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
+      "MockLBPool": "0x9d3E72c11aD7bF7132a141FF6F716491c6d01518"
+    },
+    "actionId": "0x2cb59d35a7a1b89d4ca6e466034d4d7bba7efe0e0dbb3bbe125e78def0cbdac1",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  },
+  {
+    "version": "v2",
+    "task": "20250701-v3-liquidity-bootstrapping-pool-v2",
+    "network": "arbitrum",
+    "factory": "0x8D217CB74f675B46cC2767C8cF0aAB53BE1c4818",
+    "raw": {
+      "LBPMigrationRouter": "0xFc2986feAB34713E659da84F3B1FA32c1da95832",
+      "LBPoolFactory": "0x8D217CB74f675B46cC2767C8cF0aAB53BE1c4818",
+      "MockLBPool": "0x791fEf0FE92A522DC82D0ea800708b035495147d"
+    },
+    "actionId": "0x420e98f887204e24065ca464f7424e10e354754d5a9fa42b526de06cdefb61ec",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  },
+  {
+    "version": "v3",
+    "task": "20251219-v3-liquidity-bootstrapping-pool-v3",
+    "network": "arbitrum",
+    "factory": "0xF9309a99836b5F07a2440c177C049b0f0A9A2c33",
+    "raw": {
+      "LBPMigrationRouter": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58",
+      "LBPoolFactory": "0xF9309a99836b5F07a2440c177C049b0f0A9A2c33",
+      "MockLBPool": "0xb34243828e846Fb7dA8919a74802b2eafc90479C"
+    },
+    "actionId": "0x9cfdab4beadfcae7d0f179599ccd11866e01cf1ee5c21374f6261d4c8338d914",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  },
+  {
+    "version": "v1",
+    "task": "20250307-v3-liquidity-bootstrapping-pool",
+    "network": "avalanche",
+    "factory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+    "raw": {
+      "LBPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+      "MockLBPool": "0x4BdEA6CdcD01422f514363245B74BC2212Fd2aa4"
+    },
+    "actionId": "0xfd7d049f57516387fe0b442e1455675b11c641859ce76b39f121f650f51650ac",
+    "safe": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
+  }
+]
