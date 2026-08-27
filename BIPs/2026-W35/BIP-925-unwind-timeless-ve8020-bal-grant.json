@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1786371851351,
+  "meta": {
+    "name": "BIP-925 Unwind Timeless ve8020 BAL Grant",
+    "description": "BIP-925: Unwind Timeless VeBalGrant (BIP-252) at 0x89f67f3054bFD662971854190Dbc18dcaBb416f6. Forum: https://forum.balancer.fi/t/bip-925-unwind-timeless-ve8020-bal-grant/7095. setActive(false), release expired veBAL lock (~23,708 BPT), redeem 80/20 BPT to BAL+WETH with 10% slippage vs queryExit (~120,277 BAL / ~1.454 WETH), withdrawBalances (BAL to DAO, WETH to Timeless project 0x9a8FEe232DCF73060Af348a1B62Cdb0a19852d13), then forward minBalOut BAL to managed treasury 0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89 (amount equals _minBalOut so transfer cannot revert if redeem succeeds; any excess BAL remains on the DAO). Refresh redeem mins and matching transfer amount near execution if pool moves.",
+    "txBuilderVersion": "1.18.0",
+    "createdFromSafeAddress": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
+    "bipNumber": 925
+  },
+  "transactions": [
+    {
+      "to": "0x89f67f3054bFD662971854190Dbc18dcaBb416f6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bool",
+            "name": "_active",
+            "type": "bool"
+          }
+        ],
+        "name": "setActive",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_active": "false"
+      }
+    },
+    {
+      "to": "0x89f67f3054bFD662971854190Dbc18dcaBb416f6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [],
+        "name": "release",
+        "payable": false
+      },
+      "contractInputsValues": null
+    },
+    {
+      "to": "0x89f67f3054bFD662971854190Dbc18dcaBb416f6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_minBalOut",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_minWethOut",
+            "type": "uint256"
+          }
+        ],
+        "name": "redeem",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_minBalOut": "108249682646092825287258",
+        "_minWethOut": "1308537890075399148"
+      }
+    },
+    {
+      "to": "0x89f67f3054bFD662971854190Dbc18dcaBb416f6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [],
+        "name": "withdrawBalances",
+        "payable": false
+      },
+      "contractInputsValues": null
+    },
+    {
+      "to": "0xba100000625a3754423978a60c9317c58a424e3D",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "recipient",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "transfer",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "recipient": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "amount": "108249682646092825287258"
+      }
+    }
+  ]
+}
