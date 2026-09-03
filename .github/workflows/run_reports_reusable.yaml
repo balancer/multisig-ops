@@ -100,89 +100,26 @@ jobs:
             echo "payload_reports=false" >> $GITHUB_OUTPUT
           fi
 
-      # Replaces thollander/actions-comment-pull-request@v3 (node20 deprecated) with
-      # actions/github-script@v9 (node24). Keeps the same hidden comment-tag markers so
-      # existing validation/payload PR comments continue to upsert.
-      # Scripts are inlined (not a local composite) because this job checks out the PR head.
+      # Replaces thollander/actions-comment-pull-request@v3 (node20 deprecated).
+      # marocchino/sticky-pull-request-comment@v3 is the common drop-in: node24,
+      # supports path + header (same role as file-path + comment-tag).
       - name: Post Validation Report as Comment
         continue-on-error: false
         if: steps.check_files.outputs.validation_exists == 'true'
-        uses: actions/github-script@v9
-        env:
-          REPORT_FILE: action-scripts/brownie/validate_bip_results.txt
-          COMMENT_TAG: validation_report
-          PR_NUMBER: ${{ inputs.pr_number }}
+        uses: marocchino/sticky-pull-request-comment@v3
         with:
-          script: |
-            const fs = require('fs');
-            const filePath = process.env.REPORT_FILE;
-            const commentTag = process.env.COMMENT_TAG;
-            const issueNumber = Number(process.env.PR_NUMBER);
-            const commentTagPattern = `<!-- thollander/actions-comment-pull-request "${commentTag}" -->`;
-            const body = `${fs.readFileSync(filePath, 'utf8')}\n${commentTagPattern}`;
-
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issueNumber,
-            });
-            const existing = comments.find((comment) => comment.body?.includes(commentTagPattern));
-
-            if (existing) {
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: existing.id,
-                body,
-              });
-            } else {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issueNumber,
-                body,
-              });
-            }
+          header: validation_report
+          number_force: ${{ inputs.pr_number }}
+          path: action-scripts/brownie/validate_bip_results.txt
 
       - name: Post Payload Report as Comment
         continue-on-error: true
         if: steps.check_files.outputs.payload_reports == 'true'
-        uses: actions/github-script@v9
-        env:
-          REPORT_FILE: action-scripts/brownie/payload_reports.txt
-          COMMENT_TAG: payload_report
-          PR_NUMBER: ${{ inputs.pr_number }}
+        uses: marocchino/sticky-pull-request-comment@v3
         with:
-          script: |
-            const fs = require('fs');
-            const filePath = process.env.REPORT_FILE;
-            const commentTag = process.env.COMMENT_TAG;
-            const issueNumber = Number(process.env.PR_NUMBER);
-            const commentTagPattern = `<!-- thollander/actions-comment-pull-request "${commentTag}" -->`;
-            const body = `${fs.readFileSync(filePath, 'utf8')}\n${commentTagPattern}`;
-
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issueNumber,
-            });
-            const existing = comments.find((comment) => comment.body?.includes(commentTagPattern));
-
-            if (existing) {
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: existing.id,
-                body,
-              });
-            } else {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issueNumber,
-                body,
-              });
-            }
+          header: payload_report
+          number_force: ${{ inputs.pr_number }}
+          path: action-scripts/brownie/payload_reports.txt
 
       - name: Prettify code
         uses: creyD/prettier_action@v4.5
