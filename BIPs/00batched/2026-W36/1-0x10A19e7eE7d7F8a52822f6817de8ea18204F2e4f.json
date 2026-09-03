@@ -1,0 +1,484 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1675891944772,
+  "meta": {
+    "name": "Transactions Batch",
+    "description": "",
+    "txBuilderVersion": "1.13.2",
+    "createdFromSafeAddress": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
+    "createdFromOwnerAddress": ""
+  },
+  "transactions": [
+    {
+      "to": "0xA0b937D5c8E32a80E3a8ed4227CD020221544ee6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "vestingId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "beneficiary",
+            "type": "address"
+          },
+          {
+            "internalType": "uint128",
+            "name": "tokensToClaim",
+            "type": "uint128"
+          }
+        ],
+        "name": "claimVestedTokens",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "vestingId": "0x0348741aae78ee3ae9ac34b37e8dbc68753367eea275850c4208e3a040a91bbe",
+        "beneficiary": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "tokensToClaim": "340282366920938463463374607431768211455"
+      },
+      "meta": {
+        "tx_index": 0,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-850-dao_claim_vestings_and_unlock_payload.json",
+        "bip_number": "BIP-850"
+      }
+    },
+    {
+      "to": "0xC0fde70A65C7569Fe919bE57492228DEE8cDb585",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "vestingId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "beneficiary",
+            "type": "address"
+          },
+          {
+            "internalType": "uint128",
+            "name": "tokensToClaim",
+            "type": "uint128"
+          }
+        ],
+        "name": "claimVestedTokens",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "vestingId": "0x7737be5963938ff3a68c4b15e6e5fe2517f8fa2e7256959fcd85982885d1d673",
+        "beneficiary": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "tokensToClaim": "340282366920938463463374607431768211455"
+      },
+      "meta": {
+        "tx_index": 1,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-850-dao_claim_vestings_and_unlock_payload.json",
+        "bip_number": "BIP-850"
+      }
+    },
+    {
+      "to": "0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          }
+        ],
+        "name": "transfer",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "to": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "value": "88705956376404686012177"
+      },
+      "meta": {
+        "tx_index": 2,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-850-dao_claim_vestings_and_unlock_payload.json",
+        "bip_number": "BIP-850"
+      }
+    },
+    {
+      "to": "0x0a7CB434f96f65972D46A5c1A64a9654dC9959b2",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint96",
+            "name": "amount",
+            "type": "uint96"
+          }
+        ],
+        "name": "unlock",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "amount": "124374160017847396583275"
+      },
+      "meta": {
+        "tx_index": 3,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-850-dao_claim_vestings_and_unlock_payload.json",
+        "bip_number": "BIP-850"
+      }
+    },
+    {
+      "to": "0x89f67f3054bFD662971854190Dbc18dcaBb416f6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bool",
+            "name": "_active",
+            "type": "bool"
+          }
+        ],
+        "name": "setActive",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_active": "false"
+      },
+      "meta": {
+        "tx_index": 0,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-925-unwind-timeless-ve8020-bal-grant.json",
+        "bip_number": "BIP-925"
+      }
+    },
+    {
+      "to": "0x89f67f3054bFD662971854190Dbc18dcaBb416f6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [],
+        "name": "release",
+        "payable": false
+      },
+      "contractInputsValues": null,
+      "meta": {
+        "tx_index": 1,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-925-unwind-timeless-ve8020-bal-grant.json",
+        "bip_number": "BIP-925"
+      }
+    },
+    {
+      "to": "0x89f67f3054bFD662971854190Dbc18dcaBb416f6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_minBalOut",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_minWethOut",
+            "type": "uint256"
+          }
+        ],
+        "name": "redeem",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_minBalOut": "108249682646092825287258",
+        "_minWethOut": "1308537890075399148"
+      },
+      "meta": {
+        "tx_index": 2,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-925-unwind-timeless-ve8020-bal-grant.json",
+        "bip_number": "BIP-925"
+      }
+    },
+    {
+      "to": "0x89f67f3054bFD662971854190Dbc18dcaBb416f6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [],
+        "name": "withdrawBalances",
+        "payable": false
+      },
+      "contractInputsValues": null,
+      "meta": {
+        "tx_index": 3,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-925-unwind-timeless-ve8020-bal-grant.json",
+        "bip_number": "BIP-925"
+      }
+    },
+    {
+      "to": "0xba100000625a3754423978a60c9317c58a424e3D",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "recipient",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "transfer",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "recipient": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
+        "amount": "108249682646092825287258"
+      },
+      "meta": {
+        "tx_index": 4,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-925-unwind-timeless-ve8020-bal-grant.json",
+        "bip_number": "BIP-925"
+      }
+    },
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "role",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "grantRole",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "role": "0xcaf85986241f9906113741c5e12e9d1d7a67832f717d4ed507beb522e69334b1",
+        "account": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
+      },
+      "meta": {
+        "tx_index": 0,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+      "value": "0",
+      "data": "0x2f2770db",
+      "contractMethod": {
+        "inputs": [],
+        "name": "disable",
+        "payable": false
+      },
+      "contractInputsValues": {},
+      "meta": {
+        "tx_index": 1,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "role",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "revokeRole",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "role": "0xcaf85986241f9906113741c5e12e9d1d7a67832f717d4ed507beb522e69334b1",
+        "account": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
+      },
+      "meta": {
+        "tx_index": 2,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "role",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "grantRole",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "role": "0xec386230b43d2777141af97e47dae057801371989fd72e32faacec52147502db",
+        "account": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
+      },
+      "meta": {
+        "tx_index": 3,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0x02916d8F0891309806FCb347Bf4191692cbDDcAF",
+      "value": "0",
+      "data": "0x2f2770db",
+      "contractMethod": {
+        "inputs": [],
+        "name": "disable",
+        "payable": false
+      },
+      "contractInputsValues": {},
+      "meta": {
+        "tx_index": 4,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "role",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "revokeRole",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "role": "0xec386230b43d2777141af97e47dae057801371989fd72e32faacec52147502db",
+        "account": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
+      },
+      "meta": {
+        "tx_index": 5,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "role",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "grantRole",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "role": "0x72fd4963dcf180d1df4e653ff72a27ca0c9e8943829fa0a6de70f3dde5a0c7ed",
+        "account": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
+      },
+      "meta": {
+        "tx_index": 6,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0xD5584b37D1845fFeD958C2d94bC675603DdCce68",
+      "value": "0",
+      "data": "0x2f2770db",
+      "contractMethod": {
+        "inputs": [],
+        "name": "disable",
+        "payable": false
+      },
+      "contractInputsValues": {},
+      "meta": {
+        "tx_index": 7,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json",
+        "bip_number": "BIP-918"
+      }
+    },
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "role",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "revokeRole",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "role": "0x72fd4963dcf180d1df4e653ff72a27ca0c9e8943829fa0a6de70f3dde5a0c7ed",
+        "account": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
+      },
+      "meta": {
+        "tx_index": 8,
+        "origin_file_name": "/home/runner/work/multisig-ops/multisig-ops/BIPs/2026-W36/BIP-918-disable-deprecated-v3-lbp-factories-mainnet.json",
+        "bip_number": "BIP-918"
+      }
+    }
+  ]
+}
