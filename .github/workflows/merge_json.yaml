@@ -43,7 +43,7 @@ jobs:
         with:
           commit-message: "Combined JSON Payloads ${{ github.event.inputs.runWeek }}"
           title: "Combined JSON payloads ${{ github.event.inputs.runWeek }}"
-          reviewers: gosuto-inzasheru,xeonus
+          reviewers: gosuto-inzasheru,zekraken-bot
           branch: gha-payload-merge-${{ github.event.inputs.runWeek }}
           delete-branch: true
           labels: "Merged Payloads"
