@@ -100,23 +100,26 @@ jobs:
             echo "payload_reports=false" >> $GITHUB_OUTPUT
           fi
 
+      # Replaces thollander/actions-comment-pull-request@v3 (node20 deprecated).
+      # marocchino/sticky-pull-request-comment@v3 is the common drop-in: node24,
+      # supports path + header (same role as file-path + comment-tag).
       - name: Post Validation Report as Comment
         continue-on-error: false
         if: steps.check_files.outputs.validation_exists == 'true'
-        uses: thollander/actions-comment-pull-request@v3
+        uses: marocchino/sticky-pull-request-comment@v3
         with:
-          file-path: action-scripts/brownie/validate_bip_results.txt
-          comment-tag: validation_report
-          pr-number: ${{ inputs.pr_number }}
+          header: validation_report
+          number_force: ${{ inputs.pr_number }}
+          path: action-scripts/brownie/validate_bip_results.txt
 
       - name: Post Payload Report as Comment
         continue-on-error: true
-        uses: thollander/actions-comment-pull-request@v3
         if: steps.check_files.outputs.payload_reports == 'true'
+        uses: marocchino/sticky-pull-request-comment@v3
         with:
-          file-path: action-scripts/brownie/payload_reports.txt
-          comment-tag: payload_report
-          pr-number: ${{ inputs.pr_number }}
+          header: payload_report
+          number_force: ${{ inputs.pr_number }}
+          path: action-scripts/brownie/payload_reports.txt
 
       - name: Prettify code
         uses: creyD/prettier_action@v4.5
