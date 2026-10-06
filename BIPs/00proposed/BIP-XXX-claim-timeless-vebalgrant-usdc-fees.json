@@ -41,7 +41,7 @@
       },
       "contractInputsValues": {
         "_feeDistributor": "0xD3cf852898b21fc233251427c2DC93d3d604F3BB",
-        "_token": "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "_token": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "_to": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
         "_minAmountOut": "0"
       }
@@ -78,7 +78,7 @@
       },
       "contractInputsValues": {
         "_feeDistributor": "0xD3cf852898b21fc233251427c2DC93d3d604F3BB",
-        "_token": "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "_token": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "_to": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
         "_minAmountOut": "0"
       }
@@ -115,7 +115,7 @@
       },
       "contractInputsValues": {
         "_feeDistributor": "0xD3cf852898b21fc233251427c2DC93d3d604F3BB",
-        "_token": "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "_token": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "_to": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
         "_minAmountOut": "0"
       }
@@ -152,7 +152,7 @@
       },
       "contractInputsValues": {
         "_feeDistributor": "0xD3cf852898b21fc233251427c2DC93d3d604F3BB",
-        "_token": "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "_token": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "_to": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
         "_minAmountOut": "0"
       }
