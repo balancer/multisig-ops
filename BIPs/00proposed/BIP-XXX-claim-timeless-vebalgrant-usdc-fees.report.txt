@@ -1,8 +1,8 @@
 FILENAME: `BIPs/00proposed/BIP-XXX-claim-timeless-vebalgrant-usdc-fees.json`
 MULTISIG: `multisigs/dao (mainnet:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f)`
-COMMIT: `b932c775d329b2df236c43542876e18ad378ad33`
+COMMIT: `fb67c3fe083e0e94695d98230bce97faa5fc9b51`
 CHAIN(S): `mainnet`
-TENDERLY: `🟪 SKIPPED (TxBuilderEncodingError('Error encoding current form values to hex data:', EncodingTypeError("Value `'0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'` of type <class 'str'> cannot be encoded by AddressEncoder")))`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/cd0ae265-7f01-476b-9982-a0826bd69abd)
 
 ```
 +-----------+-----------------------------------------------------------------------+-------+-----------------------------------------------------------------------------------------------+------------+----------+
@@ -13,7 +13,7 @@ TENDERLY: `🟪 SKIPPED (TxBuilderEncodingError('Error encoding current form val
 |           |                                                                       |       |     "0xD3cf852898b21fc233251427c2DC93d3d604F3BB (20220714-fee-distributor-v2/FeeDistributor)" |            |          |
 |           |                                                                       |       |   ],                                                                                          |            |          |
 |           |                                                                       |       |   "_token": [                                                                                 |            |          |
-|           |                                                                       |       |     "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"                                              |            |          |
+|           |                                                                       |       |     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 (tokens/USDC)"                                |            |          |
 |           |                                                                       |       |   ],                                                                                          |            |          |
 |           |                                                                       |       |   "_to": [                                                                                    |            |          |
 |           |                                                                       |       |     "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f (multisigs/dao)"                              |            |          |
@@ -27,7 +27,7 @@ TENDERLY: `🟪 SKIPPED (TxBuilderEncodingError('Error encoding current form val
 |           |                                                                       |       |     "0xD3cf852898b21fc233251427c2DC93d3d604F3BB (20220714-fee-distributor-v2/FeeDistributor)" |            |          |
 |           |                                                                       |       |   ],                                                                                          |            |          |
 |           |                                                                       |       |   "_token": [                                                                                 |            |          |
-|           |                                                                       |       |     "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"                                              |            |          |
+|           |                                                                       |       |     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 (tokens/USDC)"                                |            |          |
 |           |                                                                       |       |   ],                                                                                          |            |          |
 |           |                                                                       |       |   "_to": [                                                                                    |            |          |
 |           |                                                                       |       |     "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f (multisigs/dao)"                              |            |          |
@@ -41,7 +41,7 @@ TENDERLY: `🟪 SKIPPED (TxBuilderEncodingError('Error encoding current form val
 |           |                                                                       |       |     "0xD3cf852898b21fc233251427c2DC93d3d604F3BB (20220714-fee-distributor-v2/FeeDistributor)" |            |          |
 |           |                                                                       |       |   ],                                                                                          |            |          |
 |           |                                                                       |       |   "_token": [                                                                                 |            |          |
-|           |                                                                       |       |     "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"                                              |            |          |
+|           |                                                                       |       |     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 (tokens/USDC)"                                |            |          |
 |           |                                                                       |       |   ],                                                                                          |            |          |
 |           |                                                                       |       |   "_to": [                                                                                    |            |          |
 |           |                                                                       |       |     "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f (multisigs/dao)"                              |            |          |
@@ -55,7 +55,7 @@ TENDERLY: `🟪 SKIPPED (TxBuilderEncodingError('Error encoding current form val
 |           |                                                                       |       |     "0xD3cf852898b21fc233251427c2DC93d3d604F3BB (20220714-fee-distributor-v2/FeeDistributor)" |            |          |
 |           |                                                                       |       |   ],                                                                                          |            |          |
 |           |                                                                       |       |   "_token": [                                                                                 |            |          |
-|           |                                                                       |       |     "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"                                              |            |          |
+|           |                                                                       |       |     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 (tokens/USDC)"                                |            |          |
 |           |                                                                       |       |   ],                                                                                          |            |          |
 |           |                                                                       |       |   "_to": [                                                                                    |            |          |
 |           |                                                                       |       |     "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f (multisigs/dao)"                              |            |          |
