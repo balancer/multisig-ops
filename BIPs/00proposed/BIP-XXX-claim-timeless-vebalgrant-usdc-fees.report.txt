@@ -1,0 +1,68 @@
+FILENAME: `BIPs/00proposed/BIP-XXX-claim-timeless-vebalgrant-usdc-fees.json`
+MULTISIG: `multisigs/dao (mainnet:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f)`
+COMMIT: `b932c775d329b2df236c43542876e18ad378ad33`
+CHAIN(S): `mainnet`
+TENDERLY: `🟪 SKIPPED (TxBuilderEncodingError('Error encoding current form values to hex data:', EncodingTypeError("Value `'0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'` of type <class 'str'> cannot be encoded by AddressEncoder")))`
+
+```
++-----------+-----------------------------------------------------------------------+-------+-----------------------------------------------------------------------------------------------+------------+----------+
+| fx_name   | to                                                                    | value | inputs                                                                                        | bip_number | tx_index |
++-----------+-----------------------------------------------------------------------+-------+-----------------------------------------------------------------------------------------------+------------+----------+
+| claimFees | 0x89f67f3054bFD662971854190Dbc18dcaBb416f6 (aura/vebalgrant_timeless) | 0     | {                                                                                             | N/A        |   N/A    |
+|           |                                                                       |       |   "_feeDistributor": [                                                                        |            |          |
+|           |                                                                       |       |     "0xD3cf852898b21fc233251427c2DC93d3d604F3BB (20220714-fee-distributor-v2/FeeDistributor)" |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_token": [                                                                                 |            |          |
+|           |                                                                       |       |     "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"                                              |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_to": [                                                                                    |            |          |
+|           |                                                                       |       |     "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f (multisigs/dao)"                              |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_minAmountOut": [                                                                          |            |          |
+|           |                                                                       |       |     "raw:0, 18 decimals:0, 6 decimals: 0"                                                     |            |          |
+|           |                                                                       |       |   ]                                                                                           |            |          |
+|           |                                                                       |       | }                                                                                             |            |          |
+| claimFees | 0x89f67f3054bFD662971854190Dbc18dcaBb416f6 (aura/vebalgrant_timeless) | 0     | {                                                                                             | N/A        |   N/A    |
+|           |                                                                       |       |   "_feeDistributor": [                                                                        |            |          |
+|           |                                                                       |       |     "0xD3cf852898b21fc233251427c2DC93d3d604F3BB (20220714-fee-distributor-v2/FeeDistributor)" |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_token": [                                                                                 |            |          |
+|           |                                                                       |       |     "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"                                              |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_to": [                                                                                    |            |          |
+|           |                                                                       |       |     "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f (multisigs/dao)"                              |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_minAmountOut": [                                                                          |            |          |
+|           |                                                                       |       |     "raw:0, 18 decimals:0, 6 decimals: 0"                                                     |            |          |
+|           |                                                                       |       |   ]                                                                                           |            |          |
+|           |                                                                       |       | }                                                                                             |            |          |
+| claimFees | 0x89f67f3054bFD662971854190Dbc18dcaBb416f6 (aura/vebalgrant_timeless) | 0     | {                                                                                             | N/A        |   N/A    |
+|           |                                                                       |       |   "_feeDistributor": [                                                                        |            |          |
+|           |                                                                       |       |     "0xD3cf852898b21fc233251427c2DC93d3d604F3BB (20220714-fee-distributor-v2/FeeDistributor)" |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_token": [                                                                                 |            |          |
+|           |                                                                       |       |     "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"                                              |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_to": [                                                                                    |            |          |
+|           |                                                                       |       |     "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f (multisigs/dao)"                              |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_minAmountOut": [                                                                          |            |          |
+|           |                                                                       |       |     "raw:0, 18 decimals:0, 6 decimals: 0"                                                     |            |          |
+|           |                                                                       |       |   ]                                                                                           |            |          |
+|           |                                                                       |       | }                                                                                             |            |          |
+| claimFees | 0x89f67f3054bFD662971854190Dbc18dcaBb416f6 (aura/vebalgrant_timeless) | 0     | {                                                                                             | N/A        |   N/A    |
+|           |                                                                       |       |   "_feeDistributor": [                                                                        |            |          |
+|           |                                                                       |       |     "0xD3cf852898b21fc233251427c2DC93d3d604F3BB (20220714-fee-distributor-v2/FeeDistributor)" |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_token": [                                                                                 |            |          |
+|           |                                                                       |       |     "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"                                              |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_to": [                                                                                    |            |          |
+|           |                                                                       |       |     "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f (multisigs/dao)"                              |            |          |
+|           |                                                                       |       |   ],                                                                                          |            |          |
+|           |                                                                       |       |   "_minAmountOut": [                                                                          |            |          |
+|           |                                                                       |       |     "raw:0, 18 decimals:0, 6 decimals: 0"                                                     |            |          |
+|           |                                                                       |       |   ]                                                                                           |            |          |
+|           |                                                                       |       | }                                                                                             |            |          |
++-----------+-----------------------------------------------------------------------+-------+-----------------------------------------------------------------------------------------------+------------+----------+
+```
