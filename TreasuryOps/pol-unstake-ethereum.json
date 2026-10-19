@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1790748213705,
+  "meta": {
+    "name": "Treasury: unstake all POL (Ethereum) — step 1/2",
+    "description": "Sell the full BIP-851 POL validator-share position on 0x97997023aAB1D6b9760538Eb621bF10cfCD84868. sellVoucher_newPOL also claims ~1002 POL liquid rewards to the treasury Safe. After the StakeManager withdrawalDelay (~80 checkpoints), execute pol-unstake-claim-ethereum.json.",
+    "txBuilderVersion": "1.18.2",
+    "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
+  },
+  "transactions": [
+    {
+      "to": "0x97997023aAB1D6b9760538Eb621bF10cfCD84868",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "claimAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maximumSharesToBurn",
+            "type": "uint256"
+          }
+        ],
+        "name": "sellVoucher_newPOL",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "claimAmount": "106114233772116024377328",
+        "maximumSharesToBurn": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+      }
+    }
+  ]
+}
