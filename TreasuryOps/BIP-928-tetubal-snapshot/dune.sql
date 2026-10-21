@@ -4,6 +4,7 @@
 --                    GaugeDepositor → old/new Tetu BPT vaults
 -- Dropped (no >10 BAL recipients): new vault’s own tetuBAL;
 --                                 new-gauge EOAs other than GaugeDepositor
+-- Public tables only (no balances_* Enterprise dataset)
 -- Expected: bal_behind ≈ 2,791,186.14 · 50% per tetuBAL ≈ 2.53896
 
 WITH params AS (
@@ -25,6 +26,7 @@ WITH params AS (
     0x1f46804e2d4b11ce7a61e36720df316b7343b023 AS gauge_depositor,
     0xe4f7ed41e2461f162c9409015874716a1e96776f AS old_bpt_vault,
     0xbd06685a0e7ebd7c92fc84274b297791f3997ed3 AS new_bpt_vault,
+    0x0000000000000000000000000000000000000000 AS zero,
     0.5 AS fraction,
     10.0 AS min_bal_50pct
 ),
@@ -53,8 +55,8 @@ bpt_supply AS (
   SELECT
     SUM(
       CASE
-        WHEN "from" = 0x0000000000000000000000000000000000000000 THEN CAST(value AS DOUBLE)
-        WHEN "to" = 0x0000000000000000000000000000000000000000 THEN -CAST(value AS DOUBLE)
+        WHEN "from" = p.zero THEN CAST(value AS DOUBLE)
+        WHEN "to" = p.zero THEN -CAST(value AS DOUBLE)
         ELSE 0
       END
     ) / 1e18 AS bpt_supply
@@ -89,27 +91,41 @@ macro AS (
   CROSS JOIN params p
 ),
 
+-- Cumulative ERC-20 balances from public transfer events (not balances_*)
 token_balances AS (
-  SELECT token_address, address, balance
+  SELECT
+    contract_address AS token_address,
+    address,
+    SUM(delta) / 1e18 AS balance
   FROM (
     SELECT
-      u.token_address,
-      u.address,
-      u.balance,
-      ROW_NUMBER() OVER (
-        PARTITION BY u.token_address, u.address
-        ORDER BY u.block_number DESC, u.timestamp DESC
-      ) AS rn
-    FROM balances_polygon.updates u
+      t.contract_address,
+      t."to" AS address,
+      CAST(t.value AS DOUBLE) AS delta
+    FROM erc20_polygon.evt_Transfer t
     CROSS JOIN params p
-    WHERE u.block_date <= p.snap_date
-      AND u.block_number <= p.poly_block
-      AND u.token_address IN (
+    WHERE t.evt_block_number <= p.poly_block
+      AND t.contract_address IN (
         p.tetubal, p.xtetu_vault, p.old_pool, p.new_pool,
         p.old_gauge, p.new_gauge, p.old_bpt_vault, p.new_bpt_vault
       )
-  )
-  WHERE rn = 1 AND balance > 0
+    UNION ALL
+    SELECT
+      t.contract_address,
+      t."from" AS address,
+      -CAST(t.value AS DOUBLE) AS delta
+    FROM erc20_polygon.evt_Transfer t
+    CROSS JOIN params p
+    WHERE t.evt_block_number <= p.poly_block
+      AND t.contract_address IN (
+        p.tetubal, p.xtetu_vault, p.old_pool, p.new_pool,
+        p.old_gauge, p.new_gauge, p.old_bpt_vault, p.new_bpt_vault
+      )
+  ) x
+  CROSS JOIN params p
+  WHERE address <> p.zero
+  GROUP BY 1, 2
+  HAVING SUM(delta) > 0
 ),
 
 tetubal_raw AS (
@@ -215,7 +231,6 @@ old_pool_claims AS (
 ),
 
 -- New pool: direct BPT + ONLY GaugeDepositor → new BPT vault
--- (other new-gauge EOAs intentionally not looked through)
 new_depositor_amt AS (
   SELECT COALESCE(SUM(amt), 0) AS depositor_amt
   FROM new_gauge_bals g
