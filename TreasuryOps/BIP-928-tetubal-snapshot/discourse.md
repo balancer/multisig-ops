@@ -29,7 +29,7 @@ Positions in the following were attributed to underlying holders: Tetu `xtetuBAL
 
 ### Dune check
 
-Concise verification query (direct tetuBAL balances only; no look-through): [`dune.sql`](./dune.sql).
+Verification query with the same look-through (xtetuBAL vault, both pools, gauges, GaugeDepositor → Tetu BPT vaults), 50% share, and `>10 BAL` filter: [`dune.sql`](./dune.sql).
 
 ### Holders (>10 BAL at 50%)
 
