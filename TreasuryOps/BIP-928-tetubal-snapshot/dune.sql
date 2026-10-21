@@ -5,11 +5,13 @@
 -- Dropped (no >10 BAL recipients): new vault’s own tetuBAL;
 --                                 new-gauge EOAs other than GaugeDepositor
 -- Public tables only (no balances_* Enterprise dataset)
+-- Pool token balances: block-exact via balancer_v2_*.token_balance_changes
+--   (Vault Swap + PoolBalanceChanged + PoolBalanceManaged), not daily liquidity
+-- Entitlement: absolute rate vs tetuBAL totalSupply (matches on-chain snapshot)
 -- Expected: bal_behind ≈ 2,791,186.14 · 50% per tetuBAL ≈ 2.53896
 
 WITH params AS (
   SELECT
-    DATE '2026-09-14' AS snap_date,
     CAST(25977785 AS bigint) AS eth_block,
     CAST(93806051 AS bigint) AS poly_block,
     0x9cc56fa7734da21ac88f6a816af10c5b898596ce AS bal_locker,
@@ -66,16 +68,29 @@ bpt_supply AS (
     AND t.evt_block_number <= p.eth_block
 ),
 
+-- Block-exact BAL in 80/20 pool (Vault events through eth_block)
 bal_in_pool AS (
-  SELECT token_balance AS bal_in_pool
-  FROM balancer.liquidity l
+  SELECT SUM(t.delta_amount) AS bal_in_pool
+  FROM balancer_v2_ethereum.token_balance_changes t
   CROSS JOIN params p
-  WHERE l.blockchain = 'ethereum'
-    AND l.pool_address = p.bpt_80_20
-    AND l.token_address = p.bal
-    AND l.day <= p.snap_date
-  ORDER BY l.day DESC
-  LIMIT 1
+  WHERE t.pool_address = p.bpt_80_20
+    AND t.token_address = p.bal
+    AND t.evt_block_number <= p.eth_block
+),
+
+tetubal_supply AS (
+  SELECT
+    SUM(
+      CASE
+        WHEN "from" = p.zero THEN CAST(value AS DOUBLE)
+        WHEN "to" = p.zero THEN -CAST(value AS DOUBLE)
+        ELSE 0
+      END
+    ) / 1e18 AS tetubal_supply
+  FROM erc20_polygon.evt_Transfer t
+  CROSS JOIN params p
+  WHERE t.contract_address = p.tetubal
+    AND t.evt_block_number <= p.poly_block
 ),
 
 macro AS (
@@ -83,11 +98,15 @@ macro AS (
     l.locked_bpt,
     s.bpt_supply,
     b.bal_in_pool,
+    ts.tetubal_supply,
     b.bal_in_pool * l.locked_bpt / s.bpt_supply AS bal_behind_locker,
-    b.bal_in_pool * l.locked_bpt / s.bpt_supply * p.fraction AS bal_behind_50pct
+    b.bal_in_pool * l.locked_bpt / s.bpt_supply * p.fraction AS bal_behind_50pct,
+    b.bal_in_pool * l.locked_bpt / s.bpt_supply / ts.tetubal_supply AS bal_per_tetubal,
+    b.bal_in_pool * l.locked_bpt / s.bpt_supply * p.fraction / ts.tetubal_supply AS bal_50pct_per_tetubal
   FROM locker_locked_bpt l
   CROSS JOIN bpt_supply s
   CROSS JOIN bal_in_pool b
+  CROSS JOIN tetubal_supply ts
   CROSS JOIN params p
 ),
 
@@ -161,24 +180,16 @@ new_pool_bpt AS (
   WHERE tb.token_address = p.new_pool
 ),
 
+-- Block-exact tetuBAL in old/new pools (Vault events through poly_block)
 pool_tetubal AS (
   SELECT
-    MAX(CASE WHEN l.pool_address = p.old_pool THEN l.token_balance END) AS old_pool_tetu,
-    MAX(CASE WHEN l.pool_address = p.new_pool THEN l.token_balance END) AS new_pool_tetu
-  FROM (
-    SELECT
-      l.pool_address,
-      l.token_balance,
-      ROW_NUMBER() OVER (PARTITION BY l.pool_address ORDER BY l.day DESC) AS rn
-    FROM balancer.liquidity l
-    CROSS JOIN params p
-    WHERE l.blockchain = 'polygon'
-      AND l.token_address = p.tetubal
-      AND l.pool_address IN (p.old_pool, p.new_pool)
-      AND l.day <= p.snap_date
-  ) l
+    SUM(CASE WHEN t.pool_address = p.old_pool THEN t.delta_amount END) AS old_pool_tetu,
+    SUM(CASE WHEN t.pool_address = p.new_pool THEN t.delta_amount END) AS new_pool_tetu
+  FROM balancer_v2_polygon.token_balance_changes t
   CROSS JOIN params p
-  WHERE rn = 1
+  WHERE t.token_address = p.tetubal
+    AND t.pool_address IN (p.old_pool, p.new_pool)
+    AND t.evt_block_number <= p.poly_block
 ),
 
 -- Direct tetuBAL (skip strategy, Balancer Vault, new BPT vault — last is not looked through)
@@ -277,12 +288,13 @@ economic AS (
   HAVING SUM(amt) > 0
 ),
 
+-- Absolute rate vs full tetuBAL supply (same as on-chain snapshot / discourse.md)
 entitled AS (
   SELECT
     e.address,
     e.tetubal,
-    e.tetubal / SUM(e.tetubal) OVER () * m.bal_behind_locker AS bal_100pct,
-    e.tetubal / SUM(e.tetubal) OVER () * m.bal_behind_50pct AS bal_50pct
+    e.tetubal * m.bal_per_tetubal AS bal_100pct,
+    e.tetubal * m.bal_50pct_per_tetubal AS bal_50pct
   FROM economic e
   CROSS JOIN macro m
 )

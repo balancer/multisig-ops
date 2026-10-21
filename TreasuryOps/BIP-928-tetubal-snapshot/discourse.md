@@ -36,7 +36,7 @@ Not applied (no recipients above threshold): new BPT vault’s own tetuBAL balan
 
 ### Dune check
 
-Verification query with the same look-through set: [`dune.sql`](./dune.sql).
+Verification query with the same look-through set and **block-exact** Vault pool balances (`balancer_v2_*.token_balance_changes`, not daily `balancer.liquidity`): [`dune.sql`](./dune.sql).
 
 ### Holders (>10 BAL at 50%)
 
