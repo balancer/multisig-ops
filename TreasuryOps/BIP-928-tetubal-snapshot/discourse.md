@@ -27,6 +27,10 @@ Snapshot of tetuBAL economic holders at the block of the [original BIP-928 forum
 
 Positions in the following were attributed to underlying holders: Tetu `xtetuBAL` vault; Balancer pools `tetuBAL-BALWETH` (old `0x7af6…` and new `0xB797…`); their gauges; Tetu `GaugeDepositor` → Tetu BPT vaults. Direct wallets and Safes are left as-is.
 
+### Dune check
+
+Concise verification query (direct tetuBAL balances only; no look-through): [`dune.sql`](./dune.sql).
+
 ### Holders (>10 BAL at 50%)
 
 | # | Address | tetuBAL | BAL (100%) | **BAL (50%)** |
