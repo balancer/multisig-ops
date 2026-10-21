@@ -1,7 +1,9 @@
--- BIP-928 tetuBAL snapshot (forum post block) + look-through
+-- BIP-928 tetuBAL snapshot (forum post block) + material look-through only
 -- ETH 25977785 / Polygon 93806051 / 50% share / >10 BAL @50%
--- Look-through: xtetuBAL vault, both tetuBAL-BPT pools, gauges,
---               GaugeDepositor → Tetu BPT vaults
+-- Look-through kept: xtetuBAL vault; old/new pools; old gauge EOAs;
+--                    GaugeDepositor → old/new Tetu BPT vaults
+-- Dropped (no >10 BAL recipients): new vault’s own tetuBAL;
+--                                 new-gauge EOAs other than GaugeDepositor
 -- Expected: bal_behind ≈ 2,791,186.14 · 50% per tetuBAL ≈ 2.53896
 
 WITH params AS (
@@ -27,20 +29,19 @@ WITH params AS (
     10.0 AS min_bal_50pct
 ),
 
--- ---------- ETH: BAL behind BalLocker ----------
 locker_locked_bpt AS (
   SELECT
     (
       COALESCE((
         SELECT SUM(CAST(value AS DOUBLE))
-        FROM balancer_ethereum.VotingEscrow_evt_Deposit d
+        FROM balancer_ethereum.veBAL_evt_Deposit d
         CROSS JOIN params p
         WHERE d.provider = p.bal_locker
           AND d.evt_block_number <= p.eth_block
       ), 0)
       - COALESCE((
         SELECT SUM(CAST(value AS DOUBLE))
-        FROM balancer_ethereum.VotingEscrow_evt_Withdraw w
+        FROM balancer_ethereum.veBAL_evt_Withdraw w
         CROSS JOIN params p
         WHERE w.provider = p.bal_locker
           AND w.evt_block_number <= p.eth_block
@@ -88,12 +89,8 @@ macro AS (
   CROSS JOIN params p
 ),
 
--- ---------- Polygon: last balance at/before snapshot ----------
 token_balances AS (
-  SELECT
-    token_address,
-    address,
-    balance
+  SELECT token_address, address, balance
   FROM (
     SELECT
       u.token_address,
@@ -108,78 +105,46 @@ token_balances AS (
     WHERE u.block_date <= p.snap_date
       AND u.block_number <= p.poly_block
       AND u.token_address IN (
-        p.tetubal,
-        p.xtetu_vault,
-        p.old_pool,
-        p.new_pool,
-        p.old_gauge,
-        p.new_gauge,
-        p.old_bpt_vault,
-        p.new_bpt_vault
+        p.tetubal, p.xtetu_vault, p.old_pool, p.new_pool,
+        p.old_gauge, p.new_gauge, p.old_bpt_vault, p.new_bpt_vault
       )
   )
-  WHERE rn = 1
-    AND balance > 0
+  WHERE rn = 1 AND balance > 0
 ),
 
 tetubal_raw AS (
-  SELECT address, balance AS amt
-  FROM token_balances tb
-  CROSS JOIN params p
+  SELECT address, balance AS amt FROM token_balances tb CROSS JOIN params p
   WHERE tb.token_address = p.tetubal
 ),
-
 xtetu_shares AS (
-  SELECT address, balance AS shares
-  FROM token_balances tb
-  CROSS JOIN params p
+  SELECT address, balance AS shares FROM token_balances tb CROSS JOIN params p
   WHERE tb.token_address = p.xtetu_vault
 ),
-
 old_bpt_vault_shares AS (
-  SELECT address, balance AS shares
-  FROM token_balances tb
-  CROSS JOIN params p
+  SELECT address, balance AS shares FROM token_balances tb CROSS JOIN params p
   WHERE tb.token_address = p.old_bpt_vault
 ),
-
 new_bpt_vault_shares AS (
-  SELECT address, balance AS shares
-  FROM token_balances tb
-  CROSS JOIN params p
+  SELECT address, balance AS shares FROM token_balances tb CROSS JOIN params p
   WHERE tb.token_address = p.new_bpt_vault
 ),
-
 old_gauge_bals AS (
-  SELECT address, balance AS amt
-  FROM token_balances tb
-  CROSS JOIN params p
+  SELECT address, balance AS amt FROM token_balances tb CROSS JOIN params p
   WHERE tb.token_address = p.old_gauge
 ),
-
 new_gauge_bals AS (
-  SELECT address, balance AS amt
-  FROM token_balances tb
-  CROSS JOIN params p
+  SELECT address, balance AS amt FROM token_balances tb CROSS JOIN params p
   WHERE tb.token_address = p.new_gauge
 ),
-
 old_pool_bpt AS (
-  SELECT address, balance AS amt
-  FROM token_balances tb
-  CROSS JOIN params p
-  WHERE tb.token_address = p.old_pool
-    AND address <> p.bal_vault   -- drop composable phantom BPT in Vault
+  SELECT address, balance AS amt FROM token_balances tb CROSS JOIN params p
+  WHERE tb.token_address = p.old_pool AND address <> p.bal_vault
 ),
-
 new_pool_bpt AS (
-  SELECT address, balance AS amt
-  FROM token_balances tb
-  CROSS JOIN params p
+  SELECT address, balance AS amt FROM token_balances tb CROSS JOIN params p
   WHERE tb.token_address = p.new_pool
 ),
 
--- tetuBAL sitting in each Balancer pool (via Vault)
 pool_tetubal AS (
   SELECT
     MAX(CASE WHEN l.pool_address = p.old_pool THEN l.token_balance END) AS old_pool_tetu,
@@ -188,10 +153,7 @@ pool_tetubal AS (
     SELECT
       l.pool_address,
       l.token_balance,
-      ROW_NUMBER() OVER (
-        PARTITION BY l.pool_address
-        ORDER BY l.day DESC
-      ) AS rn
+      ROW_NUMBER() OVER (PARTITION BY l.pool_address ORDER BY l.day DESC) AS rn
     FROM balancer.liquidity l
     CROSS JOIN params p
     WHERE l.blockchain = 'polygon'
@@ -203,8 +165,7 @@ pool_tetubal AS (
   WHERE rn = 1
 ),
 
--- ---------- Look-through claims (tetuBAL units) ----------
--- 1) Direct tetuBAL, skipping wrappers that are looked through
+-- Direct tetuBAL (skip strategy, Balancer Vault, new BPT vault — last is not looked through)
 direct_claims AS (
   SELECT t.address, t.amt
   FROM tetubal_raw t
@@ -212,60 +173,39 @@ direct_claims AS (
   WHERE t.address NOT IN (p.xtetu_strategy, p.bal_vault, p.new_bpt_vault)
 ),
 
--- 2) xtetuBAL strategy → vault shareholders (1:1 PPFS)
+-- xtetuBAL strategy → vault shareholders
 xtetu_claims AS (
   SELECT
     s.address,
     s.shares * COALESCE(st.amt, 0) / NULLIF(SUM(s.shares) OVER (), 0) AS amt
   FROM xtetu_shares s
   CROSS JOIN params p
-  LEFT JOIN tetubal_raw st
-    ON st.address = p.xtetu_strategy
+  LEFT JOIN tetubal_raw st ON st.address = p.xtetu_strategy
 ),
 
--- 3) new BPT vault's own tetuBAL balance → its shareholders
-new_vault_tetu_claims AS (
+-- Old pool: gauge EOAs + GaugeDepositor → old BPT vault
+old_gauge_eff AS (
   SELECT
-    s.address,
-    s.shares * COALESCE(nv.amt, 0) / NULLIF(SUM(s.shares) OVER (), 0) AS amt
-  FROM new_bpt_vault_shares s
-  CROSS JOIN params p
-  LEFT JOIN tetubal_raw nv
-    ON nv.address = p.new_bpt_vault
-),
-
--- 4) Old pool BPT → effective holders (gauge → GaugeDepositor → old BPT vault)
-old_gauge_eff_bpt AS (
-  SELECT
-    CASE
-      WHEN g.address = p.gauge_depositor THEN NULL  -- handled below
-      ELSE g.address
-    END AS address,
-    CASE
-      WHEN g.address = p.gauge_depositor THEN 0
-      ELSE g.amt
-    END AS amt,
+    CASE WHEN g.address = p.gauge_depositor THEN NULL ELSE g.address END AS address,
+    CASE WHEN g.address = p.gauge_depositor THEN 0 ELSE g.amt END AS amt,
     SUM(CASE WHEN g.address = p.gauge_depositor THEN g.amt ELSE 0 END) OVER () AS depositor_amt
   FROM old_gauge_bals g
   CROSS JOIN params p
 ),
-
 old_depositor_to_vault AS (
   SELECT
     s.address,
     s.shares * d.depositor_amt / NULLIF(SUM(s.shares) OVER (), 0) AS amt
   FROM old_bpt_vault_shares s
-  CROSS JOIN (SELECT MAX(depositor_amt) AS depositor_amt FROM old_gauge_eff_bpt) d
+  CROSS JOIN (SELECT MAX(depositor_amt) AS depositor_amt FROM old_gauge_eff) d
 ),
-
 old_eff_bpt AS (
   SELECT address, amt FROM old_pool_bpt CROSS JOIN params p WHERE address <> p.old_gauge
   UNION ALL
-  SELECT address, amt FROM old_gauge_eff_bpt WHERE address IS NOT NULL AND amt > 0
+  SELECT address, amt FROM old_gauge_eff WHERE address IS NOT NULL AND amt > 0
   UNION ALL
   SELECT address, amt FROM old_depositor_to_vault WHERE amt > 0
 ),
-
 old_pool_claims AS (
   SELECT
     e.address,
@@ -274,38 +214,26 @@ old_pool_claims AS (
   CROSS JOIN pool_tetubal pt
 ),
 
--- 5) New pool BPT → effective holders (gauge → GaugeDepositor → new BPT vault)
-new_gauge_eff_bpt AS (
-  SELECT
-    CASE
-      WHEN g.address = p.gauge_depositor THEN NULL
-      ELSE g.address
-    END AS address,
-    CASE
-      WHEN g.address = p.gauge_depositor THEN 0
-      ELSE g.amt
-    END AS amt,
-    SUM(CASE WHEN g.address = p.gauge_depositor THEN g.amt ELSE 0 END) OVER () AS depositor_amt
+-- New pool: direct BPT + ONLY GaugeDepositor → new BPT vault
+-- (other new-gauge EOAs intentionally not looked through)
+new_depositor_amt AS (
+  SELECT COALESCE(SUM(amt), 0) AS depositor_amt
   FROM new_gauge_bals g
   CROSS JOIN params p
+  WHERE g.address = p.gauge_depositor
 ),
-
 new_depositor_to_vault AS (
   SELECT
     s.address,
     s.shares * d.depositor_amt / NULLIF(SUM(s.shares) OVER (), 0) AS amt
   FROM new_bpt_vault_shares s
-  CROSS JOIN (SELECT MAX(depositor_amt) AS depositor_amt FROM new_gauge_eff_bpt) d
+  CROSS JOIN new_depositor_amt d
 ),
-
 new_eff_bpt AS (
   SELECT address, amt FROM new_pool_bpt CROSS JOIN params p WHERE address <> p.new_gauge
   UNION ALL
-  SELECT address, amt FROM new_gauge_eff_bpt WHERE address IS NOT NULL AND amt > 0
-  UNION ALL
   SELECT address, amt FROM new_depositor_to_vault WHERE amt > 0
 ),
-
 new_pool_claims AS (
   SELECT
     e.address,
@@ -316,33 +244,19 @@ new_pool_claims AS (
 
 all_claims AS (
   SELECT address, amt FROM direct_claims
-  UNION ALL
-  SELECT address, amt FROM xtetu_claims
-  UNION ALL
-  SELECT address, amt FROM new_vault_tetu_claims
-  UNION ALL
-  SELECT address, amt FROM old_pool_claims
-  UNION ALL
-  SELECT address, amt FROM new_pool_claims
+  UNION ALL SELECT address, amt FROM xtetu_claims
+  UNION ALL SELECT address, amt FROM old_pool_claims
+  UNION ALL SELECT address, amt FROM new_pool_claims
 ),
 
 economic AS (
-  SELECT
-    address,
-    SUM(amt) AS tetubal
+  SELECT address, SUM(amt) AS tetubal
   FROM all_claims
   CROSS JOIN params p
   WHERE address NOT IN (
-    p.xtetu_strategy,
-    p.bal_vault,
-    p.xtetu_vault,
-    p.old_pool,
-    p.new_pool,
-    p.old_gauge,
-    p.new_gauge,
-    p.gauge_depositor,
-    p.old_bpt_vault,
-    p.new_bpt_vault
+    p.xtetu_strategy, p.bal_vault, p.xtetu_vault,
+    p.old_pool, p.new_pool, p.old_gauge, p.new_gauge,
+    p.gauge_depositor, p.old_bpt_vault, p.new_bpt_vault
   )
   GROUP BY 1
   HAVING SUM(amt) > 0
