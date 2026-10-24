@@ -1,0 +1,13 @@
+FILENAME: `MaxiOps/add_rewards/ethereum/i45934-ciharvest.json`
+MULTISIG: `multisigs/omni (mainnet:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `15b2f8cb54e5aadb10437ae169db3150302e6450`
+CHAIN(S): `mainnet`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/00bb54b5-b29c-433f-bc3c-cc64ae0d8bbf)
+
+```
++---------+-------------------------------------------------------------+-------+--------+------------+----------+
+| fx_name | to                                                          | value | inputs | bip_number | tx_index |
++---------+-------------------------------------------------------------+-------+--------+------------+----------+
+| !!N/A!! | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e (multisigs/omni) | 0     | "N/A"  | N/A        |   N/A    |
++---------+-------------------------------------------------------------+-------+--------+------------+----------+
+```
