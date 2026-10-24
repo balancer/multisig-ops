@@ -1,0 +1,13 @@
+FILENAME: `MaxiOps/add_rewards/ethereum/i46043-orch.json`
+MULTISIG: `multisigs/omni (mainnet:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `9519f64dcd93b0b3ebbce4e9a578d4adeb27b2a1`
+CHAIN(S): `mainnet`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/35eafb47-3e9a-4684-bfed-761907a4d1cb)
+
+```
++---------+-------------------------------------------------------------+-------+--------+------------+----------+
+| fx_name | to                                                          | value | inputs | bip_number | tx_index |
++---------+-------------------------------------------------------------+-------+--------+------------+----------+
+| !!N/A!! | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e (multisigs/omni) | 0     | "N/A"  | N/A        |   N/A    |
++---------+-------------------------------------------------------------+-------+--------+------------+----------+
+```
