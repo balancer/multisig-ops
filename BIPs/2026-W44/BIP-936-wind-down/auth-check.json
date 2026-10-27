@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-10-27T10:45:23Z",
+  "env_names": {
+    "DRPC_KEY": true,
+    "SAFE_API_KEY": true,
+    "ETHERSCAN_API_KEY": true,
+    "DUNE_API_KEY": true,
+    "TENDERLY_ACCESS_KEY": true,
+    "TENDERLY_ACCOUNT_NAME": true,
+    "TENDERLY_PROJECT_NAME": true
+  },
+  "results": {
+    "drpc": "ok (eth_blockNumber)",
+    "etherscan": "ok (v2 eth_blockNumber)",
+    "safe": "ok (api.safe.global Bearer + tx-service DAO nonce 283)",
+    "tenderly": "ok (simulate grantRole success; unauth disable -> BAL#401)",
+    "dune": "ok (key accepted; execute returns 400 deprecated engine, not 401)"
+  },
+  "snapshot": {
+    "id": "0x47126e7bd8e02a63ee7022e32c01ec2884a4443c770b9533621391b001663563",
+    "state": "active",
+    "end": 1793124000,
+    "scores": [
+      6306478.97437142,
+      0.004999999999999999,
+      0
+    ],
+    "scores_total": 6306478.979371421,
+    "votes": 30,
+    "quorum": 5000000
+  }
+}

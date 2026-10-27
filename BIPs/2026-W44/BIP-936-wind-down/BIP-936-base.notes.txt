@@ -1,0 +1,31 @@
+grant disable 20241205-v3-stable-pool/StablePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20241205-v3-stable-pool/StablePoolFactory 0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88
+grant disable 20241205-v3-weighted-pool/WeightedPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20241205-v3-weighted-pool/WeightedPoolFactory 0x5cF4928a3205728bd12830E1840F7DB85c62a4B9
+grant disable 20250120-v3-gyro-2clp/Gyro2CLPPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20250120-v3-gyro-2clp/Gyro2CLPPoolFactory 0xf5CDdF6feD9C589f1Be04899F48f9738531daD59
+grant disable 20250121-v3-stable-surge/StableSurgePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20250121-v3-stable-surge/StableSurgePoolFactory 0x4fb47126Fa83A8734991E41B942Ac29A3266C968
+grant disable 20250124-v3-gyro-eclp/GyroECLPPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20250124-v3-gyro-eclp/GyroECLPPoolFactory 0x5F6848976C2914403B425F18B589A65772F082E3
+grant disable 20250324-v3-stable-pool-v2/StablePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20250324-v3-stable-pool-v2/StablePoolFactory 0xC49Ca921c4CD1117162eAEEc0ee969649997950c
+grant disable 20250404-v3-stable-surge-pool-factory-v2/StableSurgePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20250404-v3-stable-surge-pool-factory-v2/StableSurgePoolFactory 0x8e3fEaAB11b7B351e3EA1E01247Ab6ccc847dD52
+grant disable 20251205-v3-fixed-price-lbp/FixedPriceLBPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20251205-v3-fixed-price-lbp/FixedPriceLBPoolFactory 0xb96524227c4B5Ab908FC3d42005FE3B07abA40E9
+grant disable 20260115-v3-weighted-pool-v2/WeightedPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260115-v3-weighted-pool-v2/WeightedPoolFactory 0xBDbADc891BB95DEE80eBC491699228EF0f7D6fF1
+grant disable 20260116-v3-stable-pool-v3/StablePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260116-v3-stable-pool-v3/StablePoolFactory 0xFc2986feAB34713E659da84F3B1FA32c1da95832
+grant disable 20260117-v3-stable-surge-pool-factory-v3/StableSurgePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260117-v3-stable-surge-pool-factory-v3/StableSurgePoolFactory 0x6623d1CEEaB236ae93aCAfB285dDFB77336B6981
+grant disable 20260123-v3-gyro-2clp-v2/Gyro2CLPPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260123-v3-gyro-2clp-v2/Gyro2CLPPoolFactory 0x312600bc7645E47a4926dc658827398AF070D431
+grant disable 20260126-v3-gyro-eclp-v2/GyroECLPPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260126-v3-gyro-eclp-v2/GyroECLPPoolFactory 0x86a0E97eC0D5dB8DAE106D3067358d41968fD12c
+grant disable 20260428-v3-reclamm-pool-v3/ReClammPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260428-v3-reclamm-pool-v3/ReClammPoolFactory 0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF
+grant disable 20260501-v3-liquidity-bootstrapping-pool-v4/LBPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260501-v3-liquidity-bootstrapping-pool-v4/LBPoolFactory 0x6642863979e66d995717A2B836A121700595069A
+grant V3 pausePool (20241204-v3-vault/VaultAdmin) -> gosuto

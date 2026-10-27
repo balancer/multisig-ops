@@ -1,0 +1,42 @@
+grant disable 20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory 0x85a80afee867aDf27B50BdB7b76DA70f1E853062
+grant disable 20220609-stable-pool-v2/StablePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20220609-stable-pool-v2/StablePoolFactory 0xf23b4DB826DbA14c0e857029dfF076b1c0264843
+grant disable 20230320-composable-stable-pool-v4/ComposableStablePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20230320-composable-stable-pool-v4/ComposableStablePoolFactory 0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD
+grant disable 20241205-v3-stable-pool/StablePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20241205-v3-stable-pool/StablePoolFactory 0x22625eEDd92c81a219A83e1dc48f88d54786B017
+grant disable 20241205-v3-weighted-pool/WeightedPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20241205-v3-weighted-pool/WeightedPoolFactory 0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863
+grant disable 20250120-v3-gyro-2clp/Gyro2CLPPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20250120-v3-gyro-2clp/Gyro2CLPPoolFactory 0x7fA49Df302a98223d98D115fc4FCD275576f6faA
+grant disable 20250121-v3-stable-surge/StableSurgePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20250121-v3-stable-surge/StableSurgePoolFactory 0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42
+grant disable 20250124-v3-gyro-eclp/GyroECLPPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20250124-v3-gyro-eclp/GyroECLPPoolFactory 0xEa924b45a3fcDAAdf4E5cFB1665823B8F8F2039B
+grant disable 20250324-v3-stable-pool-v2/StablePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20250324-v3-stable-pool-v2/StablePoolFactory 0x161f4014C27773840ccb4EC1957113e6DD028846
+grant disable 20250404-v3-stable-surge-pool-factory-v2/StableSurgePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20250404-v3-stable-surge-pool-factory-v2/StableSurgePoolFactory 0x45fB5aF0a1aD80Ea16C803146eb81844D9972373
+grant disable 20251205-v3-fixed-price-lbp/FixedPriceLBPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20251205-v3-fixed-price-lbp/FixedPriceLBPoolFactory 0xD9E91f7aD501929b089992842a3f193795E6479e
+grant disable 20260115-v3-weighted-pool-v2/WeightedPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260115-v3-weighted-pool-v2/WeightedPoolFactory 0x78Ad1e1c10033b18ceaa20088e4e490BE42A5417
+grant disable 20260116-v3-stable-pool-v3/StablePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260116-v3-stable-pool-v3/StablePoolFactory 0x9338F9484120FdFe8f8abEa8E5d6d9D8D055962D
+grant disable 20260117-v3-stable-surge-pool-factory-v3/StableSurgePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260117-v3-stable-surge-pool-factory-v3/StableSurgePoolFactory 0x59D55FA503Faea8D95935a561f34153C273255DD
+grant disable 20260123-v3-gyro-2clp-v2/Gyro2CLPPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260123-v3-gyro-2clp-v2/Gyro2CLPPoolFactory 0x1c58cc548a23956469c7C528Bb3a846c842dfaF9
+grant disable 20260126-v3-gyro-eclp-v2/GyroECLPPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260126-v3-gyro-eclp-v2/GyroECLPPoolFactory 0x1C53aF9D683A4424d03f61D70D9f6Bc53aF7Fcc1
+grant disable 20260428-v3-reclamm-pool-v3/ReClammPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260428-v3-reclamm-pool-v3/ReClammPoolFactory 0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF
+grant disable 20260501-v3-liquidity-bootstrapping-pool-v4/LBPoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20260501-v3-liquidity-bootstrapping-pool-v4/LBPoolFactory 0x6642863979e66d995717A2B836A121700595069A
+grant setPaused(bool) 20211202-no-protocol-fee-lbp -> gosuto
+grant pause() 20220609-stable-pool-v2 -> gosuto
+grant enableRecoveryMode 20220609-stable-pool-v2 -> gosuto
+grant pause() 20230320-composable-stable-pool-v4 -> gosuto
+grant enableRecoveryMode 20230320-composable-stable-pool-v4 -> gosuto
+grant V3 pausePool (20241204-v3-vault/VaultAdmin) -> gosuto

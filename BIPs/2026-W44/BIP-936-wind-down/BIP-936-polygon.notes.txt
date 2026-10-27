@@ -1,0 +1,9 @@
+grant disable 20220609-stable-pool-v2/StablePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20220609-stable-pool-v2/StablePoolFactory 0xcA96C4f198d343E251b1a01F3EBA061ef3DA73C1
+grant disable 20230320-composable-stable-pool-v4/ComposableStablePoolFactory -> 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e
+disable 20230320-composable-stable-pool-v4/ComposableStablePoolFactory 0x6Ab5549bBd766A43aFb687776ad8466F8b42f777
+grant pause() 20220609-stable-pool-v2 -> gosuto
+grant enableRecoveryMode 20220609-stable-pool-v2 -> gosuto
+grant pause() 20230320-composable-stable-pool-v4 -> gosuto
+grant enableRecoveryMode 20230320-composable-stable-pool-v4 -> gosuto
+no V3 pausePool action id on this chain

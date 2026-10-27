@@ -1,0 +1,60 @@
+grant disable 20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory 0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD
+grant disable 20220817-aave-rebalanced-linear-pool/AaveLinearPoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20220817-aave-rebalanced-linear-pool/AaveLinearPoolFactory 0x2E96068b3D5B5BAE3D7515da4A1D2E52d08A2647
+grant disable 20220906-composable-stable-pool/ComposableStablePoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20220906-composable-stable-pool/ComposableStablePoolFactory 0xf302f9F50958c5593770FDf4d4812309fF77414f
+grant disable 20220908-weighted-pool-v2/WeightedPoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20220908-weighted-pool-v2/WeightedPoolFactory 0xC128a9954e6c874eA3d62ce62B468bA073093F25
+grant disable 20221122-composable-stable-pool-v2/ComposableStablePoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20221122-composable-stable-pool-v2/ComposableStablePoolFactory 0x85a80afee867aDf27B50BdB7b76DA70f1E853062
+grant disable 20221207-aave-rebalanced-linear-pool-v3/AaveLinearPoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20221207-aave-rebalanced-linear-pool-v3/AaveLinearPoolFactory 0x1cbbE6cEa5E4fE7D69c586b4e362A646DEEf105d
+grant disable 20230206-aave-rebalanced-linear-pool-v4/AaveLinearPoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20230206-aave-rebalanced-linear-pool-v4/AaveLinearPoolFactory 0xf23b4DB826DbA14c0e857029dfF076b1c0264843
+grant disable 20230206-composable-stable-pool-v3/ComposableStablePoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20230206-composable-stable-pool-v3/ComposableStablePoolFactory 0xacAaC3e6D6Df918Bf3c809DFC7d42de0e4a72d4C
+grant disable 20230206-weighted-pool-v3/WeightedPoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20230206-weighted-pool-v3/WeightedPoolFactory 0x6e4cF292C5349c79cCd66349c3Ed56357dD11B46
+grant disable 20230320-composable-stable-pool-v4/ComposableStablePoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20230320-composable-stable-pool-v4/ComposableStablePoolFactory 0x1802953277FD955f9a254B80Aa0582f193cF1d77
+grant disable 20230320-weighted-pool-v4/WeightedPoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20230320-weighted-pool-v4/WeightedPoolFactory 0x230a59F4d9ADc147480f03B0D3fFfeCd56c3289a
+grant disable 20230410-aave-linear-pool-v5/AaveLinearPoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20230410-aave-linear-pool-v5/AaveLinearPoolFactory 0xE605Dbe1cA85dCdb8F43CEfA427f3B0fC06f6ba6
+grant disable 20230411-managed-pool-v2/ManagedPoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20230411-managed-pool-v2/ManagedPoolFactory 0x4C32a8a8fDa4E24139B51b456B42290f51d6A1c4
+grant disable 20230711-composable-stable-pool-v5/ComposableStablePoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20230711-composable-stable-pool-v5/ComposableStablePoolFactory 0x4fb47126Fa83A8734991E41B942Ac29A3266C968
+grant disable 20240223-composable-stable-pool-v6/ComposableStablePoolFactory -> 0x58099b94e660bBe19848547F6c5d76DcA7282E45
+disable 20240223-composable-stable-pool-v6/ComposableStablePoolFactory 0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e
+grant setPaused(bool) 20211202-no-protocol-fee-lbp -> gosuto
+grant pause() 20220817-aave-rebalanced-linear-pool -> gosuto
+grant enableRecoveryMode 20220817-aave-rebalanced-linear-pool -> gosuto
+grant pause() 20220906-composable-stable-pool -> gosuto
+grant enableRecoveryMode 20220906-composable-stable-pool -> gosuto
+grant pause() 20220908-weighted-pool-v2 -> gosuto
+grant enableRecoveryMode 20220908-weighted-pool-v2 -> gosuto
+grant pause() 20221122-composable-stable-pool-v2 -> gosuto
+grant enableRecoveryMode 20221122-composable-stable-pool-v2 -> gosuto
+grant pause() 20221207-aave-rebalanced-linear-pool-v3 -> gosuto
+grant enableRecoveryMode 20221207-aave-rebalanced-linear-pool-v3 -> gosuto
+grant pause() 20230206-aave-rebalanced-linear-pool-v4 -> gosuto
+grant enableRecoveryMode 20230206-aave-rebalanced-linear-pool-v4 -> gosuto
+grant pause() 20230206-composable-stable-pool-v3 -> gosuto
+grant enableRecoveryMode 20230206-composable-stable-pool-v3 -> gosuto
+grant pause() 20230206-weighted-pool-v3 -> gosuto
+grant enableRecoveryMode 20230206-weighted-pool-v3 -> gosuto
+grant pause() 20230320-composable-stable-pool-v4 -> gosuto
+grant enableRecoveryMode 20230320-composable-stable-pool-v4 -> gosuto
+grant pause() 20230320-weighted-pool-v4 -> gosuto
+grant enableRecoveryMode 20230320-weighted-pool-v4 -> gosuto
+grant pause() 20230410-aave-linear-pool-v5 -> gosuto
+grant enableRecoveryMode 20230410-aave-linear-pool-v5 -> gosuto
+grant pause() 20230411-managed-pool-v2 -> gosuto
+grant enableRecoveryMode 20230411-managed-pool-v2 -> gosuto
+grant pause() 20230711-composable-stable-pool-v5 -> gosuto
+grant enableRecoveryMode 20230711-composable-stable-pool-v5 -> gosuto
+grant pause() 20240223-composable-stable-pool-v6 -> gosuto
+grant enableRecoveryMode 20240223-composable-stable-pool-v6 -> gosuto
+no V3 pausePool action id on this chain

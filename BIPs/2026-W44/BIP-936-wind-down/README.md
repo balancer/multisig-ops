@@ -1,0 +1,33 @@
+# BIP-936 post-vote queue (factory disables + pause grants)
+
+Snapshot: [`0x47126e…3563`](https://snapshot.org/#/s:balancer.eth/proposal/0x47126e7bd8e02a63ee7022e32c01ec2884a4443c770b9533621391b001663563)
+
+**Do not import / propose these to Safe until BIP-936 has closed and passed.**
+
+## Shape (agreed)
+
+| Chain set | Safe | Contents |
+|-----------|------|----------|
+| Ethereum | DAO `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` | Factory `disable()` (+ self-`grantRole` where needed) + V2 pause/recovery grants + V3 `pausePool` grant |
+| Live omni-admin chains | Omni `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e` | Same pattern |
+| BSC | `0x58099b94e660bBe19848547F6c5d76DcA7282E45` (6-of-11) | Parallel / non-blocking |
+
+Grants are `grantRole(actionId, account)` only. Pause EOA (gosuto): `0x4BC8121278056BFCaC2BD14D455659224d6dDf48`.
+
+- V2: one `pause`/`setPaused` role and one `enableRecoveryMode` role **per factory**
+- V3: one `pausePool` role **per chain** (vault action id)
+- Role revokes wait until **1 Dec**
+- Partner / extension pools (21) are **not** in this batch; Friday pause scripts skip them
+
+Fraxtal and Mode: no enabled factories and no V3 vault pause action — nothing to queue.
+
+## Rebuild
+
+```bash
+export DRPC_KEY=...   # or DRPC_API_KEY
+python3 tools/python/wind_down/build_bip936_post_vote_queue.py
+```
+
+## Files
+
+See `summary.json` for per-chain tx counts and factory lists. Each `BIP-936-<chain>.json` is Safe Transaction Builder format; matching `.notes.txt` lists call intent in order.
