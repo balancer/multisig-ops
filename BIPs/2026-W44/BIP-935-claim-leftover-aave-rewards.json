@@ -3,8 +3,8 @@
   "chainId": "1",
   "createdAt": 1792501521000,
   "meta": {
-    "name": "BIP-XXX Claim Leftover AAVE Rewards",
-    "description": "BIP-XXX: Claim 9.306104517152944285 AAVE left unclaimed by the DAO multisig after its stkAAVE position was unstaked during the Treasury Council migration. The rewards are claimed directly to the managed Treasury Safe. Reference simulation of the claim mechanism: https://dashboard.tenderly.co/public/safe/safe-apps/simulator/3f2584cd-f110-4626-85b2-442cf63d5d47",
+    "name": "BIP-935 Claim Leftover AAVE Rewards",
+    "description": "BIP-935: Claim 9.306104517152944285 AAVE left unclaimed by the DAO multisig after its stkAAVE position was unstaked during the Treasury Council migration. The rewards are claimed directly to the managed Treasury Safe. Reference simulation of the claim mechanism: https://dashboard.tenderly.co/public/safe/safe-apps/simulator/3f2584cd-f110-4626-85b2-442cf63d5d47",
     "txBuilderVersion": "1.18.0",
     "createdFromSafeAddress": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
   },
