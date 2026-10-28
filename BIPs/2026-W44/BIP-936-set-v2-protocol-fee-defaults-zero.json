@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1792501521000,
+  "meta": {
+    "name": "BIP-936 Set V2 Protocol Fee Defaults to Zero",
+    "description": "BIP-936: Grant the DAO multisig setFeeTypePercentage on the V2 ProtocolFeePercentagesProvider, then set protocol fee defaults to 0 for swap (feeType 0) and yield (feeType 2). Current defaults are 50% (5e17).",
+    "txBuilderVersion": "1.18.0",
+    "createdFromSafeAddress": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
+  },
+  "transactions": [
+    {
+      "to": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "role",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "name": "grantRole",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "role": "0x4907aec017cb19a28528e722251b40fd7c5eadd4f4a0f0c6a9bca9888f8a0b7f",
+        "account": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
+      }
+    },
+    {
+      "to": "0x97207B095e4D5C9a6e4cfbfcd2C3358E03B90c4A",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "feeType",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "newValue",
+            "type": "uint256"
+          }
+        ],
+        "name": "setFeeTypePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "feeType": "0",
+        "newValue": "0"
+      }
+    },
+    {
+      "to": "0x97207B095e4D5C9a6e4cfbfcd2C3358E03B90c4A",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "feeType",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "newValue",
+            "type": "uint256"
+          }
+        ],
+        "name": "setFeeTypePercentage",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "feeType": "2",
+        "newValue": "0"
+      }
+    }
+  ]
+}
