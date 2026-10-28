@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1790748213705,
+  "meta": {
+    "name": "Treasury: claim unstaked POL (Ethereum) — step 2/2",
+    "description": "Claim POL from unbond nonce 1 after pol-unstake-ethereum.json has been executed and StakeManager.withdrawalDelay (~80 checkpoints) has elapsed. Do not execute before the unbonding period completes; Tenderly will revert until then.",
+    "txBuilderVersion": "1.18.2",
+    "createdFromSafeAddress": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89"
+  },
+  "transactions": [
+    {
+      "to": "0x97997023aAB1D6b9760538Eb621bF10cfCD84868",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "unbondNonce",
+            "type": "uint256"
+          }
+        ],
+        "name": "unstakeClaimTokens_newPOL",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "unbondNonce": "1"
+      }
+    }
+  ]
+}
