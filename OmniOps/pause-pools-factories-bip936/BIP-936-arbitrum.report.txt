@@ -1,0 +1,60 @@
+FILENAME: `OmniOps/pause-pools-factories-bip936/BIP-936-arbitrum.json`
+MULTISIG: `multisigs/omni (arbitrum:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `local-uncommitted`
+CHAIN(S): `arbitrum`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/b05e4614-6b88-4d45-84c5-dbafbdceb4e0)
+
+```
++----------------------+----------------------+--------------------------------------------+---------------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+| function             | caller_name          | caller_address                             | fx_paths                                                                  | action_ids                                                         |   bip   | tx_index |
++----------------------+----------------------+--------------------------------------------+---------------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20220609-stable-pool-v2/StablePoolFactory/disable()                       | 0x104e21cfa646e801371552a94fe5645e24a75486e468a0c64c1303e05dcb4ed8 | BIP-936 |    0     |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20230320-composable-stable-pool-v4/ComposableStablePoolFactory/disable()  | 0x2459196cb4ed0fe6ae2ab5497be53008d92acf640cb0174ce413b1e613d56e35 | BIP-936 |    2     |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20241205-v3-stable-pool/StablePoolFactory/disable()                       | 0x0b57c528b17bebb5b75282268198cc2f48585d04488cdc16020206499ed61769 | BIP-936 |    4     |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20241205-v3-weighted-pool/WeightedPoolFactory/disable()                   | 0x1be4d8436c8723792a5d64b8ed2f84912f721ac143f81403ed63103056322793 | BIP-936 |    6     |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250120-v3-gyro-2clp/Gyro2CLPPoolFactory/disable()                       | 0x8962b605c4877aadeecae387492d3bc0bfb2f52c30aa0633200cf1e8c3238f3c | BIP-936 |    8     |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250121-v3-stable-surge/StableSurgePoolFactory/disable()                 | 0xfdae18cb216aeaa8c8bfbb7a875699bd6b0e7d31cc28292a26a182860745d00c | BIP-936 |    10    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250124-v3-gyro-eclp/GyroECLPPoolFactory/disable()                       | 0x95095549d7b771b285d8bc313117157a9c18db08596228d492e3fbc7c5dc751b | BIP-936 |    12    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250324-v3-stable-pool-v2/StablePoolFactory/disable()                    | 0x54d04f96e1384dacfbc4bb06d4876678ad3ba07c255782bd693bc9df4b367e24 | BIP-936 |    14    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250404-v3-stable-surge-pool-factory-v2/StableSurgePoolFactory/disable() | 0xed6f8a5f0602534601834cae86e16a9424b7bf30c562d15bd781fbcd5026d9a1 | BIP-936 |    16    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20251205-v3-fixed-price-lbp/FixedPriceLBPoolFactory/disable()             | 0x563e4481a97a41cdd413da1f83ac6635161c37618c79f5212599f5d564353f36 | BIP-936 |    18    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20260115-v3-weighted-pool-v2/WeightedPoolFactory/disable()                | 0xf2ba8ee437d51234f84659a503679184d5b06f06f85eae2b2e1319177f6e2cd9 | BIP-936 |    20    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20260116-v3-stable-pool-v3/StablePoolFactory/disable()                    | 0xd8cd6f4a6e906357c1a19c0360fea43290a59efa4f7e1e27eff867e7369ffd75 | BIP-936 |    22    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20260117-v3-stable-surge-pool-factory-v3/StableSurgePoolFactory/disable() | 0x795164235c0dde5d12fe96e40481bca453010c9a1d847db918106ca8a73c6f5b | BIP-936 |    24    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20260123-v3-gyro-2clp-v2/Gyro2CLPPoolFactory/disable()                    | 0xaecb6d6555b854c4e2677ad76c97b7c832bcb3849719ae9c3998f87b7a7d30da | BIP-936 |    26    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20260126-v3-gyro-eclp-v2/GyroECLPPoolFactory/disable()                    | 0xc928a5c48ca587e720fff7458a623e98faf6cf21feef466e2a1e34af4126fc8c | BIP-936 |    28    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20260428-v3-reclamm-pool-v3/ReClammPoolFactory/disable()                  | 0xbf15008f80846e2c02997bacfd212e9d833b54945f1017902b349e7a8c2d9976 | BIP-936 |    30    |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20260501-v3-liquidity-bootstrapping-pool-v4/LBPoolFactory/disable()       | 0x547f0f109bf2934c5c301cb9ec94fbaac37c2c3c51fc3047d90c714cd5b17f27 | BIP-936 |    32    |
+| Authorizer/grantRole | EOA/deployers/gosuto | 0x4BC8121278056BFCaC2BD14D455659224d6dDf48 | 20240223-composable-stable-pool-v6/ComposableStablePool/pause()           | 0x04221c483f49fe794f5ce394e0ffc086722e106b9fef863610ccfbe1a019b997 | BIP-936 |    34    |
+| Authorizer/grantRole | EOA/deployers/gosuto | 0x4BC8121278056BFCaC2BD14D455659224d6dDf48 | 20241204-v3-vault/VaultAdmin/pausePool(address)                           | 0xae26501f09c96de9e98977fff0d65a23cb22db73a58ddef38127af1a616cf272 | BIP-936 |    35    |
++----------------------+----------------------+--------------------------------------------+---------------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+```
+FILENAME: `OmniOps/pause-pools-factories-bip936/BIP-936-arbitrum.json`
+MULTISIG: `multisigs/omni (arbitrum:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `local-uncommitted`
+CHAIN(S): `arbitrum`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/b05e4614-6b88-4d45-84c5-dbafbdceb4e0)
+
+```
++---------+--------------------------------------------------------------------------------------------------------------+-------+--------+------------+----------+
+| fx_name | to                                                                                                           | value | inputs | bip_number | tx_index |
++---------+--------------------------------------------------------------------------------------------------------------+-------+--------+------------+----------+
+| disable | 0xEF44D6786b2b4d544b7850Fe67CE6381626Bf2D6 (20220609-stable-pool-v2/StablePoolFactory)                       | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x2498A2B0d6462d2260EAC50aE1C3e03F4829BA95 (20230320-composable-stable-pool-v4/ComposableStablePoolFactory)  | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863 (20241205-v3-stable-pool/StablePoolFactory)                       | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0xD961E30156C2E0D0d925A0De45f931CB7815e970 (20241205-v3-weighted-pool/WeightedPoolFactory)                   | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x65A22Ec32c37835Ad5E77Eb6f7452Ac59E113a9F (20250120-v3-gyro-2clp/Gyro2CLPPoolFactory)                       | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x86e67E115f96DF37239E0479441303De0de7bc2b (20250121-v3-stable-surge/StableSurgePoolFactory)                 | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x88ED12A90142fDBFe2a28f7d5b48927254C7e760 (20250124-v3-gyro-eclp/GyroECLPPoolFactory)                       | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x44d33798dddCdAbc93Fe6a40C80588033Dc502d3 (20250324-v3-stable-pool-v2/StablePoolFactory)                    | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc (20250404-v3-stable-surge-pool-factory-v2/StableSurgePoolFactory) | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x7f246E7Bab4CdC8C7AB41EaDA8290009a5b26E0D (20251205-v3-fixed-price-lbp/FixedPriceLBPoolFactory)             | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x83bf399FA3DC49Af8fb5c34031a50c7C93F56129 (20260115-v3-weighted-pool-v2/WeightedPoolFactory)                | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x1FC7F1F84CFE61a04224AC8D3F87f56214FeC08c (20260116-v3-stable-pool-v3/StablePoolFactory)                    | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x8A8B9f35765899B3a0291700141470D79EA2eA88 (20260117-v3-stable-surge-pool-factory-v3/StableSurgePoolFactory) | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x64b7dfE8a3972639712EFA124D180DC3Ff0f5bcF (20260123-v3-gyro-2clp-v2/Gyro2CLPPoolFactory)                    | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0xe31715e75207acC8bfadd96902FF522058928479 (20260126-v3-gyro-eclp-v2/GyroECLPPoolFactory)                    | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF (20260428-v3-reclamm-pool-v3/ReClammPoolFactory)                  | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x6b7DEd11F15D6AB9959c29cEd3Cd101D69A14c35 (20260501-v3-liquidity-bootstrapping-pool-v4/LBPoolFactory)       | 0     | {}     | BIP-936    |   N/A    |
++---------+--------------------------------------------------------------------------------------------------------------+-------+--------+------------+----------+
+```

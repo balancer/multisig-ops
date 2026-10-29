@@ -1,0 +1,29 @@
+FILENAME: `OmniOps/pause-pools-factories-bip936/BIP-936-polygon.json`
+MULTISIG: `multisigs/omni (polygon:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `local-uncommitted`
+CHAIN(S): `polygon`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/3bdc427b-44d4-4608-882c-eade091ee610)
+
+```
++----------------------+----------------------+--------------------------------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+| function             | caller_name          | caller_address                             | fx_paths                                                                 | action_ids                                                         |   bip   | tx_index |
++----------------------+----------------------+--------------------------------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20220609-stable-pool-v2/StablePoolFactory/disable()                      | 0x5246e49c3587304b46030dc20873caf997ac07e739c7254fde18043814c31696 | BIP-936 |    0     |
+| Authorizer/grantRole | multisigs/omni       | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20230320-composable-stable-pool-v4/ComposableStablePoolFactory/disable() | 0xa544127d0ad449e0603bfabd973ce71e16260ff91463b98f8e17ca841b863671 | BIP-936 |    2     |
+| Authorizer/grantRole | EOA/deployers/gosuto | 0x4BC8121278056BFCaC2BD14D455659224d6dDf48 | 20240223-composable-stable-pool-v6/ComposableStablePool/pause()          | 0x0483d53ea1eab1f6633a661730adf42ee3fa58361709e86cea2f136357ac0198 | BIP-936 |    4     |
++----------------------+----------------------+--------------------------------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------+---------+----------+
+```
+FILENAME: `OmniOps/pause-pools-factories-bip936/BIP-936-polygon.json`
+MULTISIG: `multisigs/omni (polygon:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `local-uncommitted`
+CHAIN(S): `polygon`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/3bdc427b-44d4-4608-882c-eade091ee610)
+
+```
++---------+-------------------------------------------------------------------------------------------------------------+-------+--------+------------+----------+
+| fx_name | to                                                                                                          | value | inputs | bip_number | tx_index |
++---------+-------------------------------------------------------------------------------------------------------------+-------+--------+------------+----------+
+| disable | 0xcA96C4f198d343E251b1a01F3EBA061ef3DA73C1 (20220609-stable-pool-v2/StablePoolFactory)                      | 0     | {}     | BIP-936    |   N/A    |
+| disable | 0x6Ab5549bBd766A43aFb687776ad8466F8b42f777 (20230320-composable-stable-pool-v4/ComposableStablePoolFactory) | 0     | {}     | BIP-936    |   N/A    |
++---------+-------------------------------------------------------------------------------------------------------------+-------+--------+------------+----------+
+```
