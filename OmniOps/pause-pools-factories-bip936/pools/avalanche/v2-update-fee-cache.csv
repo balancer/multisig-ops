@@ -1,0 +1,49 @@
+pool,name,factory,api_tvl_usd,total_supply,swap_fee_cache,yield_fee_cache,paused
+0x0df1be54b29aa9828bea1de6a6dfe3d03ec63082,AF Culture Coins,20230320-weighted-pool-v4/WeightedPoolFactory,9339.29,112436079.99599,0.5,0.5,False
+0x812958dda053219842e0499d05934be1b2fe02aa,softpaws-private,20230411-managed-pool-v2/ManagedPoolFactory,3894.4,2596148429264259.0,0.5,0.5,False
+0xda479115800b16a271388f35cc3eac67fe4608ce,50WAVAX-50FRACTION,20230320-weighted-pool-v4/WeightedPoolFactory,760.94,0.6339429140757347,0.5,0.5,False
+0x7c6e42aac7494a62eb7b8691e2e2501b6aef7aa0,FUTUR,20230411-managed-pool-v2/ManagedPoolFactory,425.76,2596148429267415.0,0.5,0.5,False
+0xb26f0e66317846bd5fe0cbaa1d269f0efeb05c96,Balancer USDC-USDT Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,293.92,2596148429267382.5,0.5,0.5,False
+0xd18a45c72a7362dc4f6be7505604fdd28710bcbd,Best Of Avalanche,20230411-managed-pool-v2/ManagedPoolFactory,217.16,2596148429260109.0,0.5,0.5,False
+0xd109e874e2fc4708205227a96e9ce4e6da2fe75e,80XAV-20WAVAX,20230320-weighted-pool-v4/WeightedPoolFactory,155.82,283275.5752268811,0.5,0.5,False
+0x856561c3b21efca7e483b1ad197e4ab5fb56ccdb,Low Risk Kacy,20230411-managed-pool-v2/ManagedPoolFactory,70.53,2596148429267414.0,0.5,0.5,False
+0xaa4eee23426bff1af8d79d6179e5a5c311f6adcc,Culture Vol Farm,20230320-weighted-pool-v4/WeightedPoolFactory,69.28,1173500.145962466,0.5,0.5,False
+0x20fa4dba0e5baa7da26fad0f45514a5280eb08b1,Ice Cap,20230411-managed-pool-v2/ManagedPoolFactory,61.85,2596148429266782.0,0.5,0.5,False
+0x121b0dfc48444c4d10cadded9885d90e7453e878,Balancer SWEEP-USDC StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,57.36,2596148429267495.5,0.5,0.5,False
+0xefc4b97cb57e8a09cba82d20261e78475ceffaac,80XAV-20USDC,20230320-weighted-pool-v4/WeightedPoolFactory,43.59,123473.31441322569,0.5,0.5,False
+0xb8a049353e647f29cf94f32b609bad6f67aff080,50BTC.b-50sAVAX,20230320-weighted-pool-v4/WeightedPoolFactory,32.44,0.03300356640085308,0.5,0.5,False
+0x721bd1900aeabc29009b08e44be37529f518f2c2,33VCHF-33sAVAX-33VEUR,20230320-weighted-pool-v4/WeightedPoolFactory,22.04,11.686479339226368,0.5,0.5,False
+0x956ff4e3f61344da97ff3438254a2374cd40cad9,SnowBall,20230411-managed-pool-v2/ManagedPoolFactory,21.54,2596148429267340.5,0.5,0.5,False
+0x96518f83d66bdc6a5812f01c54f8e022f6796399,Balancer 50BTC.b 50USD,20230320-weighted-pool-v4/WeightedPoolFactory,21.33,0.0738405442738001,0.5,0.5,False
+0xb6e374cd4805073780ae49be0ff814f3dd5eef7e,AvalancheWide,20230411-managed-pool-v2/ManagedPoolFactory,18.86,2596148429267425.0,0.5,0.5,False
+0xa39d8651689c8b6e5a9e0aa4362629aef2c58f55,Balancer 80BAL/20WAVAX,20230320-weighted-pool-v4/WeightedPoolFactory,14.03,54.62961071943885,0.5,0.5,False
+0x9fa6ab3d78984a69e712730a2227f20bcc8b5ad9,Balancer yyAVAX-WAVAX Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,12.42,2596148429269439.0,0.5,0.5,False
+0x3bde1563903ebb564ca37d5736afbb850929cfd7,Balancer ankrAVAX-ankrETH,20230320-weighted-pool-v4/WeightedPoolFactory,10.39,0.031055434307057456,0.5,0.5,False
+0x26f28215c57dc22560be2efb09e784892802eb02,33XPOW-33APOW-33WAVAX,20230320-weighted-pool-v4/WeightedPoolFactory,8.96,199.25734541065955,0.5,0.5,False
+0xb06fdbd2941d2f42d60accee85086198ac729236,80HATCHY-20WAVAX,20230320-weighted-pool-v4/WeightedPoolFactory,5.1,3798.8336379575358,0.5,0.5,False
+0x9c74c167902cd1108fe3b76a9eb311c9ef9dd074,40sAVAX-25ggAVAX-10WAVAX-25yyAVAX,20230320-weighted-pool-v4/WeightedPoolFactory,3.79,0.3186334070384084,0.5,0.5,False
+0xc13546b97b9b1b15372368dc06529d7191081f5b,Balancer ggAVAX-WAVAX Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,2.17,2596148429272290.5,0.5,0.5,False
+0xb10968b6ca2ea1c25d392a9a990559ed3f686861,80WAVAX-20USDC,20230320-weighted-pool-v4/WeightedPoolFactory,1.51,0.18302862334019712,0.5,0.5,False
+0x594fe86e60d8df04ec9c5b2f7fec09dc14175804,40KIMBO-13COQ-20TECH-14WAVAX-13USDC,20230320-weighted-pool-v4/WeightedPoolFactory,1.19,7200.004943816085,0.5,0.5,False
+0xab567c27450e3fa1b4ee4e67ca7d1003c49e7ea8,93BTC.b-7USDC,20230320-weighted-pool-v4/WeightedPoolFactory,1.17,3.7781206700412e-05,0.5,0.5,False
+0x670734d704eb7ef424d75321670f921fbf42e9cf,Balancer sAVAX-ankrAVAX,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.92,2596148429267435.0,0.5,0.5,False
+0xf35d6c319ef5812f74b72670a3d74fa6fbd0a632,20WAVAX-80EGS,20230320-weighted-pool-v4/WeightedPoolFactory,0.9,3.69676307474734,0.5,0.5,False
+0x111440768a7e23b94f3771d1deaa33b10e05d3fd,50VEUR-50WAVAX,20230320-weighted-pool-v4/WeightedPoolFactory,0.89,0.16671924963384377,0.5,0.5,False
+0x516db57bac67fcb68f26c885eacc4e842bd4cf5b,Balancer 50BAL/50WAVAX,20230320-weighted-pool-v4/WeightedPoolFactory,0.69,0.144808147264466,0.5,0.5,False
+0xfd2620c9cfcec7d152467633b3b0ca338d3d78cc,Balancer sAVAX-WAVAX Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.63,2611178217751252.5,0.5,0.5,False
+0x1f43a5286c57813f75fb8edeef8b2c5e1878ec2d,33BTC.b-33USDt-33USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.49,0.01002574482794558,0.5,0.5,False
+0x8783e0156cd747d0cc012087d3d3afc897f2328c,Balancer sAVAX/ggAVAX/yyAVAX,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.42,2596148429267413.0,0.5,0.5,False
+0x9dc0fe02e4619f4336a14f4689cc3bec63590ab6,30sAVAX-40JOE-30WAVAX,20230320-weighted-pool-v4/WeightedPoolFactory,0.39,0.09955124886909471,0.5,0.5,False
+0xc977f325be82198d57f5a24e8d78347a8684e3db,50KIMBO-50TECH,20230320-weighted-pool-v4/WeightedPoolFactory,0.32,22448.660658546512,0.5,0.5,False
+0x3396cca90c9335565ecdbae3a260dafb13a7959e,80BETS/20sAVAX Pool Token,20230320-weighted-pool-v4/WeightedPoolFactory,0.24,121.58176432562846,0.5,0.5,False
+0x58892ccbaf25f585862a3b8504d7a69dca2cc661,20BTC.b-20USDt-20WAVAX-20USDC-20BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.1,0.005174664192214475,0.5,0.5,False
+0x90065d5e455e6b26a4eaf630c26289f6b6735647,Balancer QI-GGP-USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.08,0.24182218235608435,0.5,0.5,False
+0xbf3e9c69a997776cd83cbd80cf22095c916e39b8,50USDt-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.016783414892155752,0.5,0.5,False
+0x15365dad32910a37584233af9e28383ff276887a,14KIMBO-14COQ-14TECH-14NOCHILL-14WAVAX-14USDC-14GEC,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,45.35124725947925,0.5,0.5,False
+0xdbcadaaaab7f4c37539a9538b838836dffd50d0e,50WAVAX-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,0.5,0.5,False
+0xd9710759d76b0c46b3b1a1d2aec087ee7fddf394,33BTC.b-33USDt-33USDC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x3441a6f48f0f5a1ada460885df5b461deb2ee494,50BTC.b-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000065e-12,0.5,0.5,False
+0x24760c9090eafed160209fd012eb583ae5df72bb,80WAVAX-20USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,0.5,0.5,False
+0x3fc26a34594ec8adfd9431ff3b9e8fce00bedd19,50USDC-50EUROC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000769e-12,0.5,0.5,False
+0x01ef165c47bc594e6091911dda54a0afd139587e,99ggAVAX-1USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,0.5,0.5,False
+0x6b401dc1909b9608e4fc81fd51d285ad7a6c57de,6BTC.b-94USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.016366e-12,0.5,0.5,False

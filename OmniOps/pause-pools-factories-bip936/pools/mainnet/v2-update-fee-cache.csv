@@ -1,0 +1,223 @@
+pool,name,factory,api_tvl_usd,total_supply,swap_fee_cache,yield_fee_cache,paused
+0x3de27efa2f1aa663ae5d458857e731c129069f29,20wstETH-80AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,2604166.17,12578.519120795921,0.5,0.5,False
+0x39eb558131e5ebeb9f76a6cbf6898f6e6dce5e4e,QiDao Governance Pool,20230320-weighted-pool-v4/WeightedPoolFactory,534673.05,9143572.772771614,0.5,0.5,False
+0x8353157092ed8be69a9df8f95af097bbf33cb2af,Balancer GHO/USDT/USDC,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,120204.66,2596148429409746.5,0.5,0.5,False
+0x4446d101e91d042b5d08b62fde126e307f1acd57,80VLR/20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,44881.79,6288175.142531041,0.5,0.5,False
+0x4f883b5c0c01fe13cedd05c684f00266b0626e23,80wDAG-20USDC,20230320-weighted-pool-v4/WeightedPoolFactory,25259.38,2114837.7498027678,0.5,0.5,False
+0x36be1e97ea98ab43b4debf92742517266f5731a3,Balancer 50wstETH-ACX,20230206-weighted-pool-v3/WeightedPoolFactory,22790.06,1826.3520699173619,0.5,0.5,False
+0xdf2c03c12442c7a0895455a48569b889079ca52a,80ARCH-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,22734.59,154985.29759126337,0.5,0.5,False
+0x5f1f4e50ba51d723f12385a8a9606afc3a0555f5,Balancer 50wstETH-LDO,20230206-weighted-pool-v3/WeightedPoolFactory,14796.73,451.0052015680924,0.5,0.5,False
+0xf16aee6a71af1a9bc8f56975a4c2705ca7a782bc,20WETH-80ALCX,20230206-weighted-pool-v3/WeightedPoolFactory,14054.91,1811.8950860079126,0.5,0.5,False
+0xcf7b51ce5755513d4be016b0e28d6edeffa1d52a,RDNT-WETH,20230320-weighted-pool-v4/WeightedPoolFactory,11153.64,1167835.2060932878,0.5,0.5,False
+0x4e1325ff075a387e3d337f5f12638d6d72b12780,25OLAS-25WBTC-25DAI-25WETH,20230320-weighted-pool-v4/WeightedPoolFactory,10268.8,166.0215404757507,0.5,0.5,False
+0x6055689f452d2f9d86945f3597e1d47ee819254d,50mkUSD-50PRISMA,20230320-weighted-pool-v4/WeightedPoolFactory,6811.37,81378.75017095818,0.5,0.5,False
+0x9f9d900462492d4c21e9523ca95a7cd86142f298,Balancer 50rETH-50RPL,20230206-weighted-pool-v3/WeightedPoolFactory,5132.03,77.44221380594409,0.5,0.5,False
+0x0aaba3d6a05a606b7a794877dd0befda47474db0,Balancer KAI-WETH Weighted Pool,20230320-weighted-pool-v4/WeightedPoolFactory,4864.64,1940.7519180684549,0.5,0.5,False
+0x759fabc513accd292ada967c4dd7bb94da39232e,Balancer 80RATE/20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,3502.85,5011.509260355094,0.5,0.5,False
+0xdcb5ed405a9b11250def047ae8016008fae7d69b,WETH-lpETH,20230320-composable-stable-pool-v4/ComposableStablePoolFactory,2952.85,2596148429267415.0,0.5,0.5,False
+0xe91888a1d08e37598867d213a4acb5692071bb3a,20R-80RAFT,20230320-weighted-pool-v4/WeightedPoolFactory,2824.8,37992619.74822975,0.5,0.5,False
+0x62e57e37e3185871c13a422a363293780d17305b,Balancer kaiAURA-AURA Weighted Pool,20230320-weighted-pool-v4/WeightedPoolFactory,2607.5,154075.95805359053,0.5,0.5,False
+0x08775ccb6674d6bdceb0797c364c2653ed84f384,Balancer 50WETH-50-3pool,20230206-weighted-pool-v3/WeightedPoolFactory,2339.39,41.50977807583345,0.5,0.5,False
+0x1a44e35d5451e0b78621a1b3e7a53dfaa306b1d0,baoETH-ETH StablePool,20230206-composable-stable-pool-v3/ComposableStablePoolFactory,2283.96,2596148429267434.5,0.5,0.5,False
+0x79c58f70905f734641735bc61e45c19dd9ad60bc,Balancer USDC-DAI-USDT Stable Pool,20230206-composable-stable-pool-v3/ComposableStablePoolFactory,2092.62,2596148430069375.0,0.5,0.5,False
+0xad07b1fdc60fe102931ca713ae6dd578e965b94d,50AUSD-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,1993.19,1991.8545766719353,0.5,0.5,False
+0xd8721e92ba0f8235b375e9ec9a7b697ec4e2d6c6,80BIDS-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,1976.31,1591837.1875434325,0.5,0.5,False
+0x82b8c7c6fb62d09cfd004309c1f353fb1a926edc,EPOCH-LP,20230320-weighted-pool-v4/WeightedPoolFactory,1924.37,1266416.2938864247,0.5,0.5,False
+0x7e9afd25f5ec0eb24d7d4b089ae7ecb9651c8b1f,baoUSD-LUSD StablePool,20230206-composable-stable-pool-v3/ComposableStablePoolFactory,1823.6,2596148429281197.5,0.5,0.5,False
+0xee3959fd00a0b996d801fc34b7ce566bd037f5f5,80MIMO-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,1331.34,28905.344897125757,0.5,0.5,False
+0x2b6af1b557c4f81a238a38f1c2dc51cda0ceb45b,80LNDX-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,1235.01,14513.704434392761,0.5,0.5,False
+0x1ee442b5326009bb18f2f472d3e0061513d1a0ff,Balancer 50rETH-BADGER,20230206-weighted-pool-v3/WeightedPoolFactory,1165.37,40.80001581919885,0.5,0.5,False
+0xb986fd52697f16be888bfad2c5bf12cd67ce834b,80$ADS-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,1145.62,76922.63771385272,0.5,0.5,False
+0x01536b22ea06e4a315e3daaf05a12683ed4dc14c,wUSK/paUSD/USDC,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,941.07,2596148429268244.5,0.5,0.5,False
+0x08cc92fedc1ce2d8525176a63fcff404450f2998,50B-baoUSD-LUSD-BPT-50BAO,20230320-weighted-pool-v4/WeightedPoolFactory,939.33,111825.67580766957,0.5,0.5,False
+0x68e3266c9c8bbd44ad9dca5afbfe629022aee9fe,Balancer wjAURA wETH Pool,20230320-weighted-pool-v4/WeightedPoolFactory,890.02,2025.2926300730073,0.5,0.5,False
+0x88794c65550deb6b4087b7552ecf295113794410,Balancer pxETH/wETH StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,790.56,2596148429267424.0,0.5,0.5,False
+0x20a61b948e33879ce7f23e535cc7baa3bc66c5a9,R/DAI Stable Pool,20230320-composable-stable-pool-v4/ComposableStablePoolFactory,770.61,2596148429654411.0,0.5,0.5,False
+0xc5c91aea7551095c3e1ff0f94f682c45b347ad73,Balancer 80BAL20wETH/wETH,20230320-weighted-pool-v4/WeightedPoolFactory,758.02,16.725686423606177,0.5,0.5,False
+0xb06bfbd7b50f80c8d9da57fc4cf5cbd5b3e2f148,Balancer pxETH/frxETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,741.27,2596148429267415.0,0.5,0.5,False
+0xff42a9af956617e4c3532ef2fc7567465efe4909,Balancer 50KEP/50rsETH,20230320-weighted-pool-v4/WeightedPoolFactory,652.85,52.884414388375944,0.5,0.5,False
+0x87cf784ee055d0260ad3ab7ee40888d4a0a5d364,Balancer 50ZRS-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,608.68,2803.744504723856,0.5,0.5,False
+0x18fdf15ff782e44c1f9b6c5846ff6b0f0004f6a2,50OHM-50LUSD,20230320-weighted-pool-v4/WeightedPoolFactory,589.29,134.1301938232282,0.5,0.5,False
+0xa8210885430aaa333c9f0d66ab5d0c312bed5e43,50wstETH-50sUSDe,20230320-weighted-pool-v4/WeightedPoolFactory,517.53,8.454233877392646,0.5,0.5,False
+0xe4e72f872c4048925a78e1e6fddac411c9ae348a,2BTC,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,510.15,2596148429267414.0,0.5,0.5,False
+0x42fbd9f666aacc0026ca1b88c94259519e03dd67,50COIL-50USDC,20230206-weighted-pool-v3/WeightedPoolFactory,503.96,1535.9404962223898,0.5,0.5,False
+0xb8e2cbb2455e80ad0eb536ae30a5290bdd7baa91,80BREWSKI-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,492.46,199154.66938685157,0.5,0.5,False
+0x093254005743b7af89e24f645730ba2dd8441333,50APW-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,458.65,56.40835377937885,0.5,0.5,False
+0x77b692c5ca2cceaeef4dcc959d6c3bd919710b66,80BREWSKI-20USDC,20230320-weighted-pool-v4/WeightedPoolFactory,431.77,836126.120370874,0.5,0.5,False
+0x87a867f5d240a782d43d90b6b06dea470f3f8f22,Balancer 50COMP-50wstETH BPT,20230320-weighted-pool-v4/WeightedPoolFactory,415.5,1.6446014447704453,0.5,0.5,False
+0x6dfe1f148da882ddf00a365a9ae86ec2484207c0,50PAXG-50XAUt,20230320-weighted-pool-v4/WeightedPoolFactory,406.51,0.10082764308812592,0.5,0.5,False
+0x6228f64d5ba8376652bfe7e36569d595347cf6fb,80T-20TBTC,20230320-weighted-pool-v4/WeightedPoolFactory,376.03,3342.122561533388,0.5,0.5,False
+0x3b9fb87f7d081ceddb1289258fa5660d955317b6,50B-baoETH-ETH-BPT-50BAO,20230320-weighted-pool-v4/WeightedPoolFactory,374.77,961.8822816092751,0.5,0.5,False
+0x47e1cf97a0586367349a14306a65f54ba0b8f1b6,20WETH-80ALTR,20230320-weighted-pool-v4/WeightedPoolFactory,333.11,7539.762880067837,0.5,0.5,False
+0x56bc9d9987edec2fc6e1990e27af4a0987b53096,99goldCOMP-1WETH,20230320-weighted-pool-v4/WeightedPoolFactory,329.81,9.289532857744698,0.5,0.5,False
+0xa2e9242163d54b536583368a01b5d232c95aa884,Balancer ePENDLE/PENDLE,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,318.83,2596148429269494.5,0.5,0.5,False
+0x8bd4a1e74a27182d23b98c10fd21d4fbb0ed4ba0,Balancer 50TEMPLE-50DAI,20230206-weighted-pool-v3/WeightedPoolFactory,294.69,169.9027116006152,0.5,0.5,False
+0x3fa8c89704e5d07565444009e5d9e624b40be813,Balancer GHO/LUSD Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,265.94,2596148429262602.5,0.5,0.5,False
+0x034e2d995b39a88ab9a532a9bf0deddac2c576ea,80SD-20ETHx,20230320-weighted-pool-v4/WeightedPoolFactory,262.75,359.3194396496822,0.5,0.5,False
+0x7cb1756e25c41eb921b2c9039f1f368f85e46995,Nektar,20230320-weighted-pool-v4/WeightedPoolFactory,243.97,1454.822784166023,0.5,0.5,False
+0x9d0d36cc9e989598f01a4656e0efff73896c30ed,33APU-33PEPE-33SPX,20230320-weighted-pool-v4/WeightedPoolFactory,233.23,687533.6873459683,0.5,0.5,False
+0x57766212638c425e9cb0c6d6e1683dda369c0fff,80GEM-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,227.8,5156.421618760815,0.5,0.5,False
+0x8334215586e93ee85e3f1a281eaf66e52015754d,50WETH-50FIEF,20230320-weighted-pool-v4/WeightedPoolFactory,227.53,190.38188485416126,0.5,0.5,False
+0x4445899c226bcb451ac8e2c42070510859557fb6,25xFT-V2T1-25xFT-V2T2-25xFT-V2T3-25WETH,20230320-weighted-pool-v4/WeightedPoolFactory,205.01,0.2011893487492616,0.5,0.5,False
+0xfceb92864553f78540b4c08c7c1f4d67b095edbf,"10% WETH, 10% WBTC and 80% NODED",20230320-weighted-pool-v4/WeightedPoolFactory,204.25,91018402.43280001,0.5,0.5,False
+0x6e5ba97e42e4bd036a9b785db964dc8aad1c699d,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,199.96,199.999999999996,0.5,0.5,False
+0x382dc5b2eca1c1308eb7e2b40c0f571afb899ac8,14DNT-14WBTC-14VEE-14KEY-14SNT-14QSP-14WETH,20230320-weighted-pool-v4/WeightedPoolFactory,167.12,217.337191597923,0.5,0.5,False
+0x09b03b7cbb19b3dae94f884cf60dbc3c99a3947b,Balancer pyUSD/sDOLA Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,155.22,2596148429270842.0,0.5,0.5,False
+0x3ff3a210e57cfe679d9ad1e9ba6453a716c56a2e,Balancer STG/USDC,20230320-weighted-pool-v4/WeightedPoolFactory,153.18,366.12776326855237,0.5,0.5,False
+0x19df5bb37380186bc8efc5ad91516373a2c5459f,20B-baoETH-ETH-BPT-80BAO,20230320-weighted-pool-v4/WeightedPoolFactory,144.93,69350.87511193423,0.5,0.5,False
+0x6f4906c181e6acb096908238c5ffd088cca6ba9f,"""ChadPepe""",20230206-weighted-pool-v3/WeightedPoolFactory,137.66,1023.7386216593692,0.5,0.5,False
+0x6b9e75fcc75be00a13b238da521815af1cedec03,5WBTC-10BAL-10WETH-75NODED,20230320-weighted-pool-v4/WeightedPoolFactory,130.59,56755488.171307586,0.5,0.5,False
+0x4729f67394030472e853cb61954fe784bfb36c3b,25WBTC-50USDC-25WETH,20230320-weighted-pool-v4/WeightedPoolFactory,124.18,1.11606324940511,0.5,0.5,False
+0x771fbbfcbd8ba252f7f1ee47c1a486bdb0b5bc62,50RSR-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,123.3,60.08812420139271,0.5,0.5,False
+0x380aabe019ed2a9c2d632b51eddd30fd804d0fad,50R-50wstETH,20230320-weighted-pool-v4/WeightedPoolFactory,118.96,102.1934702320873,0.5,0.5,False
+0x69d6e9636df140440eca285acc1f6c097aa57beb,Balancer KAI-WETH Weighted Pool,20230320-weighted-pool-v4/WeightedPoolFactory,94.56,4.905356863604174,0.5,0.5,False
+0x6987633f18ca0b4a10831331fcc57211941b6ba0,20AGI-80WETH,20230206-weighted-pool-v3/WeightedPoolFactory,89.73,1.091754094386318,0.5,0.5,False
+0x26cc136e9b8fd65466f193a8e5710661ed9a9827,80BETS/20wstETH Pool Token,20230320-weighted-pool-v4/WeightedPoolFactory,88.75,128669.77056430778,0.5,0.5,False
+0x98b76fb35387142f97d601a297276bb152ae8ab0,20WETH-80ONDO,20230320-weighted-pool-v4/WeightedPoolFactory,73.9,37.43072668723487,0.5,0.5,False
+0x7d98f308db99fdd04bbf4217a4be8809f38faa64,Balancer 80wstETH/20GHO,20230320-weighted-pool-v4/WeightedPoolFactory,67.2,0.1414623489177011,0.5,0.5,False
+0x470581ca95c071728e85a6e28a5b1754cd489be2,50OCEAN-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,66.14,3.8800537883946897,0.5,0.5,False
+0x848a5564158d84b8a8fb68ab5d004fae11619a54,Balancer weETH/ezETH/rswETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,61.83,2596148429268198.0,0.5,0.5,False
+0x988f2b03aea264378518b7235d08c6cb2583aaa4,29WBTC-4wstETH-67TRAC,20230206-weighted-pool-v3/WeightedPoolFactory,55.52,4.051191955526227,0.5,0.5,False
+0x6f0ed6f346007563d3266de350d174a831bde0ca,Balancer 50KNC-25WETH-25USDC,20230320-weighted-pool-v4/WeightedPoolFactory,50.43,21.639639676351926,0.5,0.5,False
+0x03610f4f8b4539954b335295f67773843d27d5d2,Flipper2,20230320-weighted-pool-v4/WeightedPoolFactory,49.43,550.3353918032683,0.5,0.5,False
+0x54ca50ee86616379420cc56718e12566aa75abbe,50wUSDM-50wstETH,20230320-weighted-pool-v4/WeightedPoolFactory,46.86,0.8308092625478815,0.5,0.5,False
+0x9412206f58cc72b9b4e340422a95354372a3ec3d,20B-baoUSD-LUSD-BPT-80BAO,20230320-weighted-pool-v4/WeightedPoolFactory,41.62,92220.95620590901,0.5,0.5,False
+0xd278166dabaf26707362f7cfdd204b277fd2a460,Balancer 50USH-50WETH,20230206-weighted-pool-v3/WeightedPoolFactory,40.13,54.55866837811913,0.5,0.5,False
+0xd689abc77b82803f22c49de5c8a0049cc74d11fd,80USH-20unshETH,20230206-weighted-pool-v3/WeightedPoolFactory,39.91,10281.83957188547,0.5,0.5,False
+0x3a2819b07981234f825e952f32cf977db5edbf7c,80UNION-20wstETH,20230320-weighted-pool-v4/WeightedPoolFactory,35.54,1071.4560965528801,0.5,0.5,False
+0x5002eb99f569405987d56e53cec01fbb5da28968,50WAR-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,34.48,0.7020608864534211,0.5,0.5,False
+0x82e80ce9d4890baf288b70ac548aa256599bf044,80mevETH-20FOLD,20230320-weighted-pool-v4/WeightedPoolFactory,33.76,0.15139187927432973,0.5,0.5,False
+0x2d62dc792237b6360daa3f0c5d908edaef0a0d9a,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,33.62,33.56028056406818,0.5,0.5,False
+0x6873789a71b18efa98a8e8758a5ea456d70c178f,50GIV-50FOX,20230320-weighted-pool-v4/WeightedPoolFactory,32.72,23060.428536184543,0.5,0.5,False
+0x383e7859271b2d0589b013b6d944572a0a8be3cb,DOLA mkUSD Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,31.85,2596148429268508.0,0.5,0.5,False
+0x0ec120ed63212a4cb018795b43c0b03c59190424,33GOLD-33USDC-33WETH,20230320-weighted-pool-v4/WeightedPoolFactory,31.51,2.2414831128137247,0.5,0.5,False
+0x064bcc35bfe023fe717a87574fae9333f98aae4d,80RATE-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,31.45,44.68430639601745,0.5,0.5,False
+0xdd59f89b5b07b7844d72996fc9d83d81acc82196,Balancer uniETH-WETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,30.45,2596148429267418.5,0.5,0.5,False
+0x0fadd10f606554fec1574f28398469d98d68d297,Balancer 80XEX 20USDC Pool Token,20230206-weighted-pool-v3/WeightedPoolFactory,28.35,33591566.03481058,0.5,0.5,False
+0x8ed9e70bfa17a1e2c4f8e561c8d0c2d1acc092fa,33LCNY-33LUSD-33WETH,20230320-weighted-pool-v4/WeightedPoolFactory,27.35,3.317462830772236,0.5,0.5,False
+0xdb3575310dd8f6c9e51be290fed9a2db32743fde,Balancer inankrETH/ankrETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,25.81,2596148429267414.0,0.5,0.5,False
+0x1b6e13673f29688e27311b332af1527f1ebf1d28,80PSDN-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,24.75,80.89036167128134,0.5,0.5,False
+0x10f8ea49255e8a865ca4eda1630168c85cc8ee81,ELFI/WETH 50/50 Weighted Pool,20230320-weighted-pool-v4/WeightedPoolFactory,22.91,7.968704642694205,0.5,0.5,False
+0xd3f8ab9c5928fdf53153e7757131ad7815fe3146,Balancer vETH/wstETH StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,22.69,2596148429267414.0,0.5,0.5,False
+0x271d57ce059780462f89800141a089008ca78d4a,80PRTC-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,21.96,419.1528535828398,0.5,0.5,False
+0xb209468fc8c99360657d48238e1a7cf0b13362b6,80SWIV-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,21.88,32581.636549435767,0.5,0.5,False
+0x065f5b35d4077334379847fe26f58b1029e51161,80SGT-10DAI-10WETH,20230206-weighted-pool-v3/WeightedPoolFactory,21.02,172.6357286971949,0.5,0.5,False
+0x7fd800d3ecd9e83322cfcb8d416eb93f56edb781,50PAXG-25USDC-25WETH,20230320-weighted-pool-v4/WeightedPoolFactory,20.95,0.04831008499602067,0.5,0.5,False
+0x70d5e3234f6329c1d5a26796dcf4e109d69a3488,Balancer uniETH/wstETH/rETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,20.7,2596148429267415.5,0.5,0.5,False
+0x8e6c196e201942246cef85718c5d3a5622518053,Balancer 80 LE 20 WETH,20230320-weighted-pool-v4/WeightedPoolFactory,20.31,86982.53914510067,0.5,0.5,False
+0x02ca8086498552c071451724d3a34caa3922b65a,80ROOT-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,19.49,2618.2483170364553,0.5,0.5,False
+0xbe19d87ea6cd5b05bbc34b564291c371dae96747,Balancer GHO/3pool Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,19.34,2596148429284975.5,0.5,0.5,False
+0x8c5f3c967eef7da094582d831fb1c80f92ecf5dd,50SNT-50WETH,20230206-weighted-pool-v3/WeightedPoolFactory,19.31,4.507904505322696,0.5,0.5,False
+0x9cc64ee4cb672bc04c54b00a37e1ed75b2cc19dd,80Silo-20WETH,20230206-weighted-pool-v3/WeightedPoolFactory,19.07,1626.4681184286455,0.5,0.5,False
+0xc88c76dd8b92408fe9bea1a54922a31e232d873c,80ASX-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,18.65,1301.8507340757435,0.5,0.5,False
+0xebdd200fe52997142215f7603bc28a80becdadeb,50OLAS-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,18.05,72.92628739613804,0.5,0.5,False
+0x42ed016f826165c2e5976fe5bc3df540c5ad0af7,wstETH-rETH-sfrxETH-BPT,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,16.89,2596148429270016.0,0.5,0.5,False
+0xbb41e62ba1a743376119fa83ec6dd575ea796613,50dETH-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,14.1,0.006817412980275362,0.5,0.5,False
+0x6ae5a7857aad26722cb02cc168e38c52e0e4e45d,Balancer TBY-feb1924 USDC Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,12.96,2596148429267376.0,0.5,0.5,False
+0x08209ed93725328828cb199afbe0e068c8e5e215,34WBTC-12MATIC-12AAVE-42stETH,20230206-weighted-pool-v3/WeightedPoolFactory,12.85,0.008644769883246596,0.5,0.5,False
+0x67f117350eab45983374f4f83d275d8a5d62b1bf,Oats And Grains,20230206-weighted-pool-v3/WeightedPoolFactory,12.56,106.98362280353383,0.5,0.5,False
+0x6aa6d7542310cdc75d1179b8729e1e6ec8d42bf1,Balancer 50wstETH/50sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,12.32,0.20673781605734176,0.5,0.5,False
+0x6a2e09758cac6c81ea64b5a600067a4f122823db,99WHALE-1WETH,20230320-weighted-pool-v4/WeightedPoolFactory,12.01,35418.6530362504,0.5,0.5,False
+0xe96a45f66bdda121b24f0a861372a72e8889523d,Balancer 80TRUF/20LINK,20230320-weighted-pool-v4/WeightedPoolFactory,11.99,1598.5430286698147,0.5,0.5,False
+0xa1df257176a81e3e9fe2e99f8a06806079a25d01,50B-baoETH-ETH-BPT-50B-baoUSD-LUSD-BPT,20230320-weighted-pool-v4/WeightedPoolFactory,11.73,0.3336816405382668,0.5,0.5,False
+0xdd378a2a1dd89a90ee1de05aff195a4f2e476c49,Balancer KNC/WETH/USDC,20230320-weighted-pool-v4/WeightedPoolFactory,11.53,1.5840073506819152,0.5,0.5,False
+0x7758237b1ee34b7e702c5315f562b859481e344b,NOVA-WETH,20230320-weighted-pool-v4/WeightedPoolFactory,11.29,3.649306226030704,0.5,0.5,False
+0x95f1a3ca4af4d08b9c42d65ef07b66e8222ed85a,50somm-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,10.51,11.162820569767506,0.5,0.5,False
+0x4da83bbe43235d600b914ec3dbde8b2eaa801869,NOVA-WETH,20230320-weighted-pool-v4/WeightedPoolFactory,10.37,248.31795085286657,0.5,0.5,False
+0x7e765515e8f8e6751bfc58937460eb4f4fe8e8a4,Balancer mswETH/rswETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,10.13,2596148429267414.0,0.5,0.5,False
+0x58b645fa247b60f2cb896991fd8956146c9fcb4a,Balancer 80mevETH/20FOLD,20230320-weighted-pool-v4/WeightedPoolFactory,9.31,0.0394870097166956,0.5,0.5,False
+0x58b153cfe6ed22022642a8303d242315f4fa6406,Balancer DINERO/wETH,20230320-weighted-pool-v4/WeightedPoolFactory,8.53,1.4487235761179273,0.5,0.5,False
+0xdac7ef49161bdbf0e8f0b4c8e2d38df19d972874,Balancer jAURA wETH Pool,20230320-weighted-pool-v4/WeightedPoolFactory,5.2,13.797296614611872,0.5,0.5,False
+0xd6abbfd427398ea463b4f15f405624bab520db03,Balancer cbETH-wstETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,5.18,2596148429267414.0,0.5,0.5,False
+0x0f9fdc4d883f6d85b68ce1b8b96aa706a3538e5b,Balancer 80 gVEC 20 vETH,20230320-weighted-pool-v4/WeightedPoolFactory,3.82,0.1998821340244671,0.5,0.5,False
+0x158e0fbc2271e1dcebadd365a22e2b4dd173c0db,80IDLE-20USDC,20230320-weighted-pool-v4/WeightedPoolFactory,3.8,1042.1624384247382,0.5,0.5,False
+0xa468570db143321bc034bbd74a6cc2694d15b252,Balancer SWEEP-USDC StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,3.44,2596148429267415.0,0.5,0.5,False
+0x05b1a35fdbc43849aa836b00c8861696edce8cc4,50mevETH-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,3.03,0.001230702005713562,0.5,0.5,False
+0x74e5e53056526b2609d82e85486005ef2a2db001,Balancer TruMATIC-MATIC Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,3.02,2596148429269605.0,0.5,0.5,False
+0xb819feef8f0fcdc268afe14162983a69f6bf179e,Balancer sUSDe/USDC,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,2.71,2596148429179795.5,0.5,0.5,False
+0x40fb0516ac8ff93b48bcf9da7717e523e78c34f7,17DNT-17WBTC-17KEY-17SNT-17USDC-17WETH,20230206-weighted-pool-v3/WeightedPoolFactory,2.64,2.8781276462159253,0.5,0.5,False
+0x9ce746ded4d6031e4f2da842936c57d0e50f8d0e,50BAO-50baoUSD-STABLE,20230206-weighted-pool-v3/WeightedPoolFactory,2.54,218.281469667029,0.5,0.5,False
+0x93d199263632a4ef4bb438f1feb99e57b4b5f0bd,Balancer wstETH-WETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,2.48,2686273638050056.5,0.5,0.5,False
+0x6418e83944a40a254b3f2859b00224eb454d95ce,AUSD-USDT,20230320-weighted-pool-v4/WeightedPoolFactory,2.09,2.091960332023088,0.5,0.5,False
+0xa9dd57145ca13a2f05199d85e3f2739af6478427,80TBTC-20WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,1.94,2.1843439223388e-05,0.5,0.5,False
+0x7056c8dfa8182859ed0d4fb0ef0886fdf3d2edcf,Balancer 80OETH/20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,1.84,0.000790830040455089,0.5,0.5,False
+0xaaab20561e5d478b476e6f23476d6c4ad4826204,50APU-50BITCOIN,20230320-weighted-pool-v4/WeightedPoolFactory,1.74,2234.107227944718,0.5,0.5,False
+0xa1e81ac3450edc5d0fa9c22addf7350f6a054daa,Balancer VEC/pSVEC,20230320-weighted-pool-v4/WeightedPoolFactory,1.69,1.259364919314468,0.5,0.5,False
+0x58aadfb1afac0ad7fca1148f3cde6aedf5236b6d,Balancer rsETH-WETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,1.53,2600519461505806.5,0.5,0.5,False
+0x487f94d114e41af8d533a31abc8a49e24d3fa38d,50st-yETH-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,1.43,0.001839256685954861,0.5,0.5,False
+0x49cbd67651fbabce12d1df18499896ec87bef46f,Balancer sDAI/3Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,1.4,2596148429299507.0,0.5,0.5,False
+0xdb02f620a59f1b16146edd0e8dbeb27d94e9c25c,Balancer 50STG-503POOL,20230320-weighted-pool-v4/WeightedPoolFactory,1.14,2.5351765224535634,0.5,0.5,False
+0xed0df9cd16d806e8a523805e53cf0c56e6db4d1d,Balancer ShezUSD/sDAI,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,1.08,2596148429827906.5,0.5,0.5,False
+0xb9debddf1d894c79d2b2d09f819ff9b856fca552,Balancer weETH-WETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,1.07,2596148429267421.5,0.5,0.5,False
+0xe4af3c338260aabf119b5023d497437974769413,20USDC-80FOLD,20230320-weighted-pool-v4/WeightedPoolFactory,1.06,22.38079667717763,0.5,0.5,False
+0x5ba160bbe0f47c94a2bb226580e6f69c4cd0eee7,50ZYN-50BITCOIN,20230320-weighted-pool-v4/WeightedPoolFactory,1.0,95.70471802159564,0.5,0.5,False
+0x3c7228d4cc3da130dbb6bdca39f41063936a93a6,20B-baoETH-ETH-BPT-80BAO,20230320-weighted-pool-v4/WeightedPoolFactory,0.95,466.29981513236606,0.5,0.5,False
+0x596192bb6e41802428ac943d2f1476c1af25cc0e,Balancer ezETH-WETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.9,2908986869929358.5,0.5,0.5,False
+0x67b279e2a3c0da05d12af131616230ad13335e99,50KAI-50wstETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.76,0.14380945976324128,0.5,0.5,False
+0xba9cc2cff8858cfa72b28d316f3bf3f31b68e080,BTC-ETH-GOLD,20230320-weighted-pool-v4/WeightedPoolFactory,0.69,9.3292584523e-07,0.5,0.5,False
+0x12cfd9e548ec9ece99cea691fbe6bce0cc21cbe4,50BITCOIN-50SPX,20230320-weighted-pool-v4/WeightedPoolFactory,0.6,5.280899507344708,0.5,0.5,False
+0x2d1582020867c03a6a94afa429d30789821ee4c3,80OSAK-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.58,46144.13276172961,0.5,0.5,False
+0x386ab93f2efe7270e35b6b3d031aacbbc1bcc8fc,Balancer rsETH/wETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.57,2596148429267414.0,0.5,0.5,False
+0x3de1b8854ec4f1a6e45fc56b8008abb14eb103fb,Balancer USDV/sDAI,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.47,2596148429267414.0,0.5,0.5,False
+0x9ca0ffcbae87a66a8f4604bfec724da04e2474ae,Balancer USDV/USDC,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.45,2596148429267414.0,0.5,0.5,False
+0xdacf5fa19b1f720111609043ac67a9818262850c,Balancer osETH/wETH StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.42,2596148429022574.0,0.5,0.5,False
+0x05ff47afada98a98982113758878f9a8b9fdda0a,Balancer weETH/rETH StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.42,1675313773726164.8,0.5,0.5,False
+0xdd36fda7329291db8666540186cb36fcf0e36eac,Balancer sDAI/DOLA StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.41,2596148429267414.5,0.5,0.5,False
+0x753ee44c4690649c17a7873b14ce6657e9320662,50ZYN-50SPX,20230320-weighted-pool-v4/WeightedPoolFactory,0.4,26.367565700394586,0.5,0.5,False
+0x664c6a02dcdbaada80838c20c1e7f21e5b3ea90e,Whole GRAIN,20230206-weighted-pool-v3/WeightedPoolFactory,0.37,19.26839825725365,0.5,0.5,False
+0xb54e6aadbf1ac1a3ef2a56e358706f0f8e320a03,Balancer vETH/WETH StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.36,2596148429267422.5,0.5,0.5,False
+0x38ca7131cfd8e3d734129416e2e4559c21eb6aca,20WETH-80UNIDX,20230320-weighted-pool-v4/WeightedPoolFactory,0.35,0.22728229885355014,0.5,0.5,False
+0x264062ca46a1322c2e6464471764089e01f22f19,sDOLA Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.34,2596148429293659.0,0.5,0.5,False
+0x4114fd8554e63a9e0f09ca2480977883fea06430,50WETH-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.33,0.00632455532033663,0.5,0.5,False
+0x63e0d47a6964ad1565345da9bfa66659f4983f02,Balancer pufETH/wstETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.31,2596148429267503.0,0.5,0.5,False
+0x51c72451eddfcc08aae540fd36434bb7ba340d33,Balancer mstETH/wstETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.29,2596148429267414.0,0.5,0.5,False
+0xe074fbcc87e18615d6b099ee603bd37de562416b,50WAGMI-50ICE,20230320-weighted-pool-v4/WeightedPoolFactory,0.28,42.68228140818788,0.5,0.5,False
+0xf1f6004398e29437801257ecc2b0a852717430b7,50ASX-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.26,0.021674328606956495,0.5,0.5,False
+0xb91159aa527d4769cb9faf3e4adb760c7e8c8ea7,Balancer ETHx/wstETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.25,2596148429267487.5,0.5,0.5,False
+0x2e848426aec6dbf2260535a5bea048ed94d9ff3d,wbETH-wstETH StablePool,20230206-composable-stable-pool-v3/ComposableStablePoolFactory,0.24,2596148429267422.5,0.5,0.5,False
+0x38fe2b73612527eff3c5ac3bf2dcb73784ad9274,Balancer saETH/wstETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.24,2596148429267414.5,0.5,0.5,False
+0xdfe6e7e18f6cc65fa13c8d8966013d4fda74b6ba,Balancer ankrETH/wstETH StablePool,20230320-composable-stable-pool-v4/ComposableStablePoolFactory,0.21,2596148429267648.5,0.5,0.5,False
+0x4f2e0f963794a3876a54c503ec63de95e9f24a75,50EVA-50WETH,20230206-weighted-pool-v3/WeightedPoolFactory,0.16,0.037889086679359744,0.5,0.5,False
+0x37b18b10ce5635a84834b26095a0ae5639dcb752,Balancer ETHx-WETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.16,2596148429267423.0,0.5,0.5,False
+0xa3b42269ef2b63403b347ee85c1cfb0988cde9ac,Balancer kaiAURA-AURA Weighted Pool,20230320-weighted-pool-v4/WeightedPoolFactory,0.13,0.99999999999998,0.5,0.5,False
+0x0560e7e02cd054055d535c3c2b59baf565c6899b,Balancer kaiAURA-AURA Weighted Pool,20230320-weighted-pool-v4/WeightedPoolFactory,0.13,1.0217093477630967,0.5,0.5,False
+0x7e3f8be87b5fc9b3b28b20d10608c54b4b870daa,AUSD-USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.12,0.12499251530067303,0.5,0.5,False
+0x47a4f5440ab097cf3ec7abeedf1afecc5749a4e2,Balancer aETH/wstETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.07,2596148429267414.5,0.5,0.5,False
+0xe3e0022d25194431a98e8bf5034d2617c96e1d44,Balancer InstETH/wstETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.06,2596148429267414.0,0.5,0.5,False
+0x6aa5a6b9257ca6e18b2da94e1a5fbe57ce2947ca,Balancer genETH/wstETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.06,2596148429267414.0,0.5,0.5,False
+0xdedb11a6a23263469567c2881a9b9f8629ee0041,Balancer svETH/wstETH StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.05,2596148429267419.0,0.5,0.5,False
+0x8b66c529148690891a187379dbdb2873a4e0c449,Moonerium,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.001408899267208972,0.5,0.5,False
+0x9a172e1cb0e99f7e6dcc4c52e4655e8f337d5c00,Balancer GHO/MAI Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.04,2596148429267394.0,0.5,0.5,False
+0x35c5c8c7b77942f9d44b535fa590d8b503b2b00c,Balancer DUSD/sDAI StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.04,2596148429267909.5,0.5,0.5,False
+0x7761b6e0daa04e70637d81f1da7d186c205c2ade,Balancer rsETH / ETHx,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.04,2596148429267440.0,0.5,0.5,False
+0x50359088f666a9e70dc00b565ecd9f853a572c7c,Balancer osETH<>ETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.03,2596148429267413.5,0.5,0.5,False
+0x1201faa7258a48b820619dd57cd8fdeb25d49b2c,Deployment Test Pool,20221021-managed-pool/ManagedPoolFactory,,0.0,0.5,0.5,False
+0x9d7a0b279512a4f55b3e8e3f1f72a284892c9530,SmartManagedPool,20221021-managed-pool/ManagedPoolFactory,,2596148429267413.0,0.5,0.5,False
+0x70a47a0d1d27648cb8571465a29a4ff0a3b2fd8b,20WETH-80ALCX,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x09a4551eea71d368358fa42acc9bed8d51566f2e,33DAI-33USDC-33USDT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,0.5,0.5,False
+0xeab8b160903b4a29d7d92c92b4ff632f5c964987,50REW-50USDC,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,0.5,0.5,False
+0xf656a566c9d3b2cb046481351a1179017530c6c9,heph10PoolDaiAura,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1.001579e-12,0.5,0.5,False
+0x31aa8cc6654ecabc33b7cc837dae6788f2e844e0,35OATH-15USDC-15WETH-35GRAIN,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x911fc393355fe415a667893d55fff6703c57c72e,50ETHx-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,0.5,0.5,False
+0xc4fd39b52100c96a5f7dcd3c6522485897329889,Balancer KAI-WETH Weighted Pool,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000009e-12,0.5,0.5,False
+0xb2b918f2d628b4c8ff237b0a1c6ac3bea222fedc,Balancer 50GHO/50OHM,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000371700907395283,0.5,0.5,False
+0x00612eb4f312eb6ace7acc8781196601078ae339,20GHO-80PSP,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.08165523612176799,0.5,0.5,False
+0xcebb73246fd3f0ba3e42a4ba6ff6b40d0cd02fb3,20wstETH-50ETHx-20sfrxETH-10rETH,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,0.5,0.5,False
+0x0afa7eccd7335748d7495e13152fc0ee073fd245,33sfrxETH-33rETH-33stETH,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,0.5,0.5,False
+0xe7e2c68d3b13d905bbb636709cf4dfd21076b9d2,Balancer swETH-WETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,,2596148429267487.0,0.5,0.5,False
+0xd5d99b7e9697ba8bb1da48f07ba81900c7572cea,Balancer DUSD-3POOL Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.0,2596148429295028.0,0.5,0.5,False
+0x623729861bc3837c503708f995b93d317c3c1d7c,Balancer TBY-feb1924 USDC Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.0,2596148429267363.5,0.5,0.5,False
+0x40c806394d03d350420d13cd7d1de1c806f34956,Balancer qETH/WETH ,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.0,2596148429267315.0,0.5,0.5,False
+0x7a7c857156ce3fbf58bf8f52dd4447ad111889a6,50mevETH-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x150d969723bc8924dc667ba3254bacd967fad266,NOVA-WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1352992.9857286606,0.5,0.5,False
+0x0a2a6c2996007da3fc8b30ca26179e1292c2ef0a,NOVA-WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1270179.9122282043,0.5,0.5,False
+0x5b3b589b45531a2f0ae203d5044782ba46aefc4c,17DNT-17CVC-17OCEAN-17POLY-17USDC-17ENJ,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,7.87888513002e-07,0.5,0.5,False
+0xb814ca71d95d294826806f092ed87fdf5c076055,50OCEAN-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0xbb5820734d6d1623c1a8b39c848bcfb1417bac19,50wstETH-50rETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000002e-12,0.5,0.5,False
+0x99f14af1116a1b896eb9a0ea372db1c30f1190d9,50OLAS-10WBTC-10DAI-10USDC-10WETH-10USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x9d9d299cb3ce504a5d1f8e82344472f9492bd67f,99WHALE-1WETH,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x0be5302a7d6b330afe6a530e6625ca787e1071f6,40st-yETH-60GOLD,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000029e-12,0.5,0.5,False
+0x44b3c943e45e1cf96c95b6f192e07b4d350bf611,25GHO-50UNION-25USDC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x1c3c87bbe37e9c04553549af35f8936bdf49c7b2,33ZYN-33BITCOIN-33SPX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.333333e-12,0.5,0.5,False
+0xf6523156bf25215b06cc66862675b850ad22d78e,20WETH-80GFI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000446436230571711,0.5,0.5,False
+0xa3604999b3102ee4bfbeb0ae4b51f60d61cbe0a5,Singularity Ecosystem Index Liquidity Pool,20230411-managed-pool-v2/ManagedPoolFactory,,2596148429259181.0,0.5,0.5,False

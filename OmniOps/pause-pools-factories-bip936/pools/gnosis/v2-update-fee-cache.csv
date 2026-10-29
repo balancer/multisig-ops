@@ -1,0 +1,153 @@
+pool,name,factory,api_tvl_usd,total_supply,swap_fee_cache,yield_fee_cache,paused
+0x79c872ed3acb3fc5770dd8a0cd9cd5db3b3ac985,50OLAS-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,423377.95,1636090.4279152432,0.5,0.5,False
+0x21d4c792ea7e38e0d0819c2011a2b1cb7252bd99,50COW-50GNO,20230206-weighted-pool-v3/WeightedPoolFactory,79632.04,20064.395662521987,0.5,0.5,False
+0x4665228b80cf5cd016277157237c40b6d7bd2c65,20osGNO-80SWISE,20230320-weighted-pool-v4/WeightedPoolFactory,26753.18,762330.3320536203,0.5,0.5,False
+0xbc2acf5e821c5c9f8667a36bb1131dad26ed64f9,Balancer 50sDAI-50wstETH,20230320-weighted-pool-v4/WeightedPoolFactory,9292.47,141.65244098696925,0.5,0.5,False
+0xae2a38545167be5a2eba9b931b28de5a7d95315e,50bCSPX-50sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,9146.8,307.944692639225,0.5,0.5,False
+0x00df7f58e1cf932ebe5f54de5970fb2bdf0ef06d,Balancer 50wstETH-25BAL-25AURA,20230320-weighted-pool-v4/WeightedPoolFactory,7090.47,583.6925314057156,0.5,0.5,False
+0xfbc3112172ba256454047d7436d1e08b3cdc5031,80MIVA-20WXDAI,20230206-weighted-pool-v3/WeightedPoolFactory,5062.67,1471597.1715112615,0.5,0.5,False
+0x8189c4c96826d016a99986394103dfa9ae41e7ee,WXDAI-GNO,20230320-weighted-pool-v4/WeightedPoolFactory,4070.03,337.53940620277683,0.5,0.5,False
+0x8f5f9554fd1aee851b6f69d0863bb0f48c2a8402,METESTSUP33sDAI67,20230320-weighted-pool-v4/WeightedPoolFactory,4048.47,17778.736866695865,0.5,0.5,False
+0x4683e340a8049261057d5ab1b29c8d840e75695e,Balancer 50wstETH-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,3763.25,6.237404950775033,0.5,0.5,False
+0x7644fa5d0ea14fcf3e813fdf93ca9544f8567655,Balancer Stable USD,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,1818.9,2596148429381792.5,0.5,0.5,False
+0x4cdabe9e07ca393943acfb9286bbbd0d0a310ff6,Balancer 50wstETH-50COW,20230320-weighted-pool-v4/WeightedPoolFactory,1536.81,73.05489626536645,0.5,0.5,False
+0x388cae2f7d3704c937313d990298ba67d70a3709,Balancer 50AGVE-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,1155.79,18.80469725585371,0.5,0.5,False
+0x17794db163dd298bba1ffa4d42918c6b8474d948,10REG-90USDC,20230320-weighted-pool-v4/WeightedPoolFactory,1020.96,2327.242124888873,0.5,0.5,False
+0x5c78d05b8ecf97507d1cf70646082c54faa4da95,Balancer Stable agEUR EURe pool,20230320-composable-stable-pool-v4/ComposableStablePoolFactory,824.76,2596148429306936.0,0.5,0.5,False
+0xfa0017abd72bb87443c3f39b9434d357cc1eec27,40FRACTION-40MIVA-20GNO,20230206-weighted-pool-v3/WeightedPoolFactory,447.05,60.39161471675157,0.5,0.5,False
+0x717633a41211c944c7808013b44824c3d9bb63cd,50WBTC/50WSTETH,20230320-weighted-pool-v4/WeightedPoolFactory,355.79,0.020725452370943104,0.5,0.5,False
+0x22d3f4e4dada5d7a3007a58dd191897ad8578160,50REG-50sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,315.21,2868.205030192947,0.5,0.5,False
+0x2b70a38debcada7f90b88a9662024cefd64db29e,10BAL-45GROSH-15crvUSD-15sDAI-15WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,304.0,28932.358951281716,0.5,0.5,False
+0x4d7d7b769cc617a00ed98ff3426c350a50e72712,USDC.e-USDT-BAL-GROSH-sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,288.34,28919.52950900185,0.5,0.5,False
+0x11467c3beea894d9e8618d80b9a006c9baa9344c,50FRACTION-50MIVA,20230206-weighted-pool-v3/WeightedPoolFactory,227.55,59.75422450043692,0.5,0.5,False
+0x4d7adc5e362a97b5ba1b02bc0447249ac81e76ad,SmartManagedPool,20230411-managed-pool-v2/ManagedPoolFactory,157.52,2596148429267463.5,0.5,0.5,False
+0x2086f52651837600180de173b09470f54ef74910,Balancer Stable USD,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,114.06,2596148428423116.0,0.5,0.5,False
+0xe89023c28eb5f7079f88a284546dec8fb8c3cd02,s-ZUCRCW66sDAIW33,20230320-weighted-pool-v4/WeightedPoolFactory,99.02,426.3160048797024,0.5,0.5,False
+0x1445d65adcce244505491ccad8a86d161252a0de,BFN50WBTC50,20230320-weighted-pool-v4/WeightedPoolFactory,91.81,3.356873545428774,0.5,0.5,False
+0x66888e4f35063ad8bb11506a6fde5024fb4f1db0,Balancer staBAL3-WETH-WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,59.57,0.06823646360991752,0.5,0.5,False
+0x7caef9e452ce161dec936ace7eab571d1023b209,Balancer 50wstETH-50NEXT,20230320-weighted-pool-v4/WeightedPoolFactory,50.29,3.0677629512967735,0.5,0.5,False
+0x0a24f8a142fec1c3da01398d2f4dda168443a915,50VITA-50WETH,20230206-weighted-pool-v3/WeightedPoolFactory,49.84,0.06402294569329865,0.5,0.5,False
+0xa9b2234773cc6a4f3a34a770c52c931cba5c24b2,B-50SAFE-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,34.54,9.583627984656479,0.5,0.5,False
+0x31a43002e60d4b66084f4cc4e68585358c362b44,50bNVDA-50sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,30.88,1.8297967827344257,0.5,0.5,False
+0xa99fd9950b5d5dceeaf4939e221dca8ca9b938ab,Balancer 25WETH-25BAL-25GNO-25wxDAI,20230320-weighted-pool-v4/WeightedPoolFactory,27.73,1.3960439545703887,0.5,0.5,False
+0xcb3adcf147da57c4e129c5bd34ab0429501454e5,50bTSLA-50sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,27.62,1.1901142802268796,0.5,0.5,False
+0x4bcf6b48906fa0f68bea1fc255869a41241d4851,50WXDAI-50MPS,20230206-weighted-pool-v3/WeightedPoolFactory,27.18,8.186116703343071,0.5,0.5,False
+0xfed80d133fb70101dcb69c5a0598d31127e564c2,50sDAI-50bIB01,20230320-weighted-pool-v4/WeightedPoolFactory,25.47,2.0138260837260336,0.5,0.5,False
+0xadf65e3da99f7d1efe7c5dea899abec9720139d0,50sDAI-50bCOIN,20230320-weighted-pool-v4/WeightedPoolFactory,25.2,1.4560563214181632,0.5,0.5,False
+0x7b2928df0bfdc08fa7d48766327a50b311742a3b,50bMSTR-50sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,24.66,1.5305554547287419,0.5,0.5,False
+0x28535e9bbdc5f5a3095b4c999f50b7f7fe62c023,50bGME-50sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,22.1,3.9912003207054596,0.5,0.5,False
+0x81a22596001f64d4ecdd0f6cd2793d1dacf7dfb3,50AGVE-50sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,16.02,2.2998816482592708,0.5,0.5,False
+0x026e352458409db7113cda942149c1e19693ac80,50WETH-50HOP,20230206-weighted-pool-v3/WeightedPoolFactory,12.77,10.573108328461748,0.5,0.5,False
+0xdccaa73705dc7457bcfb3dafee529b30920e3008,B-50GIV-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,11.52,54.68330919795237,0.5,0.5,False
+0x2178ef6e2d4408ce87a1f1da886e3023a0b57708,MetriTestersSupergroup Pool,20230320-weighted-pool-v4/WeightedPoolFactory,6.39,19.978795632094,0.5,0.5,False
+0x93b016a688d198d88821b4bee5c4afc5e6fa76c7,Swarm,20230320-weighted-pool-v4/WeightedPoolFactory,6.37,182.1641052047458,0.5,0.5,False
+0x95a2e3f73cdcef576a7d9b9e0d11efb5df90f166,80REG-20GNO,20230320-weighted-pool-v4/WeightedPoolFactory,6.34,148.93066377834913,0.5,0.5,False
+0x7d6947ec2c1d9ad65550ac977fe29b75ffb9a5ce,50WBTC-50MPS,20230320-weighted-pool-v4/WeightedPoolFactory,6.14,0.000134756988351058,0.5,0.5,False
+0x72f9a28b95d50a66ac0f3cb008d1e932e142cb72,50CRV-25crvUSD-25USDC,20230320-weighted-pool-v4/WeightedPoolFactory,5.8,4.5399981518564365,0.5,0.5,False
+0x274dedb9356c3e1e24bfe2bf3d4349fbdbfa0d14,Balancer staBAL3-GNO,20230320-weighted-pool-v4/WeightedPoolFactory,5.44,0.4585650834600438,0.5,0.5,False
+0xdd439304a77f54b1f7854751ac1169b279591ef7,Balancer EURe/sDAI,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,5.44,2596148443118515.5,0.5,0.5,False
+0xb8bb1ce9c6e5401d66fe2126db6e7387e1e24ffe,50WETH-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,3.63,0.006534264836929215,0.5,0.5,False
+0xe2343512dcf8a23d81e6cdc2fac656db1ff83aa1,B-50WBTC-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,3.09,0.000207409514075355,0.5,0.5,False
+0xd19ec5133d567f9611ad61e902c821742699275f,CRC Pool,20230320-weighted-pool-v4/WeightedPoolFactory,3.03,5.99999999999988,0.5,0.5,False
+0x360b4ff22b268af38ced941193e48d183b924a95,50MIVA-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,2.75,6.109172838014506,0.5,0.5,False
+0xea54604e7e1ddec8320cf838cfe857fbf44aad9f,Balancer 50GBPe-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,2.57,2.211968684084338,0.5,0.5,False
+0x915938ff0a2b54e575068ff1a95007cafba7d277,80REG-20WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,2.28,155.34265395861104,0.5,0.5,False
+0x06135a9ae830476d3a941bae9010b63732a055f4,Balancer Stable stEUR EURe pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,1.98,2596148429307274.0,0.5,0.5,False
+0x739607cb81f559dc52f6a9e054a89c572e5b2baf,50COW-50wstETH,20230320-weighted-pool-v4/WeightedPoolFactory,1.96,0.06108533418914743,0.5,0.5,False
+0x2c0276f204eebf1dae08d1c83588ba90caa9e33e,GROSH-GNO,20230320-weighted-pool-v4/WeightedPoolFactory,1.8,30515.623267175582,0.5,0.5,False
+0x3b28e683d0f7012e3194d2dbc0247d227b859b00,50SAFE-50OLAS,20230320-weighted-pool-v4/WeightedPoolFactory,1.74,21.717645640368456,0.5,0.5,False
+0xd37b12e79958fc7dcc9245fcea73e233c9c635e6,wstETH-GROSH,20230320-weighted-pool-v4/WeightedPoolFactory,1.51,7122.360759838718,0.5,0.5,False
+0x09d50d1cab16bf9c69034ff15221bc3ed84df259,BFN50WBTC50,20230320-weighted-pool-v4/WeightedPoolFactory,1.14,0.01703069848547414,0.5,0.5,False
+0xc9f00c3a713008ddf69b768d90d4978549bfdf94,Balancer crvUSD/sDAI,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,1.05,2596148429243125.0,0.5,0.5,False
+0x5dc587361652a791a4b271e635b060665a1d4cef,15sDAI-85SLX,20230320-weighted-pool-v4/WeightedPoolFactory,1.04,0.5274019189757254,0.5,0.5,False
+0x0c147051622fb6a45ccdfaa94308e3e1061091c0,GROSH-EURe,20230320-weighted-pool-v4/WeightedPoolFactory,0.78,65187.18590846008,0.5,0.5,False
+0x5519e2d8a0af0944ea639c6dbad69a174de3ecf8,Balancer BAL - GNO - wstETH/WETH - WXDAI WeightedPool,20230320-weighted-pool-v4/WeightedPoolFactory,0.54,1.563113814698685,0.5,0.5,False
+0xc5df11757f4a8dfaccc731d13b9577f67055c6c6,Balancer 50EURe-50GBPe,20230320-weighted-pool-v4/WeightedPoolFactory,0.53,0.4243942469641172,0.5,0.5,False
+0x21cb6436adbab74a1f27c665b6385d46801125c8,30WETH-20HNY-10GNO-40WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.47,0.03365456837586984,0.5,0.5,False
+0x2ef8705ffe0a116cbc6c3eddd585096714240c8e,15NEXT-85USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.46,1.0440621628614288,0.5,0.5,False
+0x77672c8c5c91976d79785661f7bff7281ee529ca,50WETH-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.38,0.000613217626630021,0.5,0.5,False
+0xa515361b6a769e82f6d2f3f4596af6553fa30b84,90REG-10USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.28,39.715124584707,0.5,0.5,False
+0x0ef212abfec20642326a0be06cfa5cd8f08d9b22,50sDAI-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.23,0.2090313384639986,0.5,0.5,False
+0x333c19b134553fdc75b2e252b7f56dd3ec34c1f9,13REG-13staBAL3-13wstETH-13WBTC-13GNO-13sDAI-13OLAS-13WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.23,0.0129753479089874,0.5,0.5,False
+0x3306f9356f6645bedd7dc3803bd6872dfd48f058,50USDC-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.22,0.003855849684681669,0.5,0.5,False
+0x48a50106d9123efaebf5ee402f3f7e1c3da49f27,40REG-30sDAI-20WBTC-10wstETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.22,0.013476821285199846,0.5,0.5,False
+0xcdb3863fae60fe9fee4d62820e9002f924644332,51WETH-49WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.21,0.003779907505789275,0.5,0.5,False
+0x72a040c63496c9306ab3409a11dff73176e203fd,Balancer sBAL3/crvUSD,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.19,2596148429267394.0,0.5,0.5,False
+0x15d17723bc3840f6e86ab47819843fcd7558f410,50agEUR-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.15,0.12078841770706084,0.5,0.5,False
+0xfa1f69d54c472b59d0094400e3f3cf297a8a4c2b,20WETH-80WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.14,0.03439755590201127,0.5,0.5,False
+0xbc130c4989e10941142b34f054eb38d69fdce9df,20XOC-80USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.13,0.21079030029256834,0.5,0.5,False
+0xbad20c15a773bf03ab973302f61fabcea5101f0a,Balancer Stable WETH wstETH pool,20230320-composable-stable-pool-v4/ComposableStablePoolFactory,0.12,2596148432772531.5,0.5,0.5,False
+0x65fdcd3c159845f0b33a274aad527391cfe0583e,50agEUR-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.1,0.08431654084411498,0.5,0.5,False
+0x1225d4e9ad9aceb34d03473d514346d07bc04327,HNY-BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.1,0.06129235451939423,0.5,0.5,False
+0x901a2d7e3267674dbd16775f6883c750e155a718,50CRV-50crvUSD,20230320-weighted-pool-v4/WeightedPoolFactory,0.1,0.0940855452840693,0.5,0.5,False
+0x327e7fd9c7fd521305d35c513ce2e561f3c3126c,60REG-20sDAI-20USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.1,0.17359404114873583,0.5,0.5,False
+0x864f76eabe542b0a83d09257afad59ad6f4eedc3,20WETH-80BAL,20230206-weighted-pool-v3/WeightedPoolFactory,0.06,0.01203811544823628,0.5,0.5,False
+0x123839d2dec96a2ac166c9ad9921443d7bbee39e,50WETH-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,0.000922820673860228,0.5,0.5,False
+0x7bcc01ba7242e73cb5c93b29cbaac22fba44b6b3,50USDT-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.000800649346824466,0.5,0.5,False
+0xdfe4f5b252b24784805343983c588c657741d408,50WETH-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,4.255857126333e-05,0.5,0.5,False
+0x92a3be6ce4cd693af08756fd71ee23bb60a97c61,50GNO-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,0.002828427124746132,0.5,0.5,False
+0x8fcadfdfe786c6f8e1cf82fbd1bd243501a18341,50COW-25USDC-25WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,0.05002846673487752,0.5,0.5,False
+0xce527b9f739c4becdd05b416ffa70470a7eec565,50agEUR-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.0199999999999996,0.5,0.5,False
+0xeb30c85cc528537f5350cf5684ce6a4538e13394,Balancer 50USD-50wstETH ,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.000391563503439352,0.5,0.5,False
+0xf94e8be09a276d2ca75aeb02113893dc5034bb66,50USDT-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.02021700483354339,0.5,0.5,False
+0xc9ca1a35a3abb3607a91b4362923df9cd2c0e8e0,BAL-GROSH-sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,38.53669206398257,0.5,0.5,False
+0xa59d6ec93b050bb755ddc9723ad577aff48d46d6,BAL-GROSH-WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,47.63283225083781,0.5,0.5,False
+0x052e3a676034fd4dddf2ed1242be296e54002182,30USDC.e-10BAL-60GROSH,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,51.86203455047051,0.5,0.5,False
+0x8264b90052f7c6104b49f71d921344ddf93867a2,AURA-BAL-GROSH,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,88.46630950932997,0.5,0.5,False
+0x013fdedd2bd8a49d6ec9447125bf32dab2f5648e,33WETH-33USDC-33WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000600309802258582,0.5,0.5,False
+0x3f3df4deee2067e7972d436980d2887103a3ed4d,Balancer 50USD-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000114354517435847,0.5,0.5,False
+0x5237a12e9d9095cc085f2bdd4e32393993f73c15,50agEUR-50EURe,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.008466971906672706,0.5,0.5,False
+0xe6098b5511b36134717e678658a658104a7f70f0,Balancer EURe/crvUSD,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.1063106289243702,0.5,0.5,False
+0xd07748006d338ac12b8aa60d27f8645481461914,55WETH-45WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000232700508632104,0.5,0.5,False
+0x3b7f9b579cb50b00bdb71672fa1a26f6eada9114,50WETH-50EURe,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000169150175921736,0.5,0.5,False
+0xc2e5bb9902290165e9bc8d314881389d6ae4b75f,BAL-GROSH-crvUSD,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,31.66488402545149,0.5,0.5,False
+0x992d07ded155239f64adbb798c7a1b9e90b834e0,30USDT-10BAL-60GROSH,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,32.46486495557706,0.5,0.5,False
+0x6474add3d442025bbb2ef3409c226032893961c5,90RAID-10WETH,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x2cb249540d7b84fb4a03b60383de3e968f7f20f8,50WETH-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,4.9974868893e-07,0.5,0.5,False
+0x86d616cd0499451045e0add700f2f223a836097b,50WETH-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,0.5,0.5,False
+0xfc79073963f97ff72c5ef8ef7a92f71ce5f5b91e,50agEUR-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x20b147fe8695755ab1dee3be001b547657a1b1cf,50agEUR-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0xcd21228b8de502f7b002eca389e1dfbbbb46229d,50WETH-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x36c7c45c2ed92e28584f35f5a91a35b7b7342132,51WETH-49GNO,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.905205203926e-06,0.5,0.5,False
+0xc55e936eaf4d4560db327f7bd585d9a351a53708,30agEUR-70HNY,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0xbde8fe92e76d7518acf291420af7a60d43657496,50USDC-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x915148cde625618e91b76edc7a20f00f12dfc4c1,5XOC-95USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000103e-12,0.5,0.5,False
+0xe45e5dbdf602e15810cd254a2b6ea38e3dcf46bb,5XOC-95USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,8.4626882487395e-05,0.5,0.5,False
+0x12f943471f1f697820ab5009876dc5333e26e8a0,50WETH-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0xcc05baef642ea43ed27559d3a238401118505f2c,50WETH-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0xeae5e24b40343f475676241fde1a86041f212084,B-50wstETH-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,9.78506231541e-07,0.5,0.5,False
+0xad5fb05b2ade70b046e4cf2b5daf731e44347e4f,Balancer 50wstETH-25BAL-25AURA,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,2.0288347048242e-05,0.5,0.5,False
+0x7dcfd0fe4493611ee9549b06ded97e4f22d938c2,Balancer 50wstETH-50COW,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,9.8115441965484e-05,0.5,0.5,False
+0xf6bfffb47bc125564cbb6cc0e7633eb7addaefce,Balancer 50USD-50bIB01,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000004e-12,0.5,0.5,False
+0x9a4a5ee55898900c1805bf11577b6e82b085f9f9,Balancer 50USD-50bBTA,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,0.5,0.5,False
+0xe85eb550e98ee66d19c667de24c5c8e10fee6504,Balancer 50USD-50bCSPX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000124385894288337,0.5,0.5,False
+0x77e5bf699db38c578b2982c3e262e9c5f1f50fd0,Balancer 50USD-50bIBTA,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000184781742611692,0.5,0.5,False
+0x442a01a7b1641ac9c6b2b0d6d6dff31e0a2d2e42,50staBAL3-50crvUSD,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,0.5,0.5,False
+0x69e1cf7c9da9ab008920ece7a31aa9d83f5ff7ad,50crvUSD-50EURe,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,0.5,0.5,False
+0xe24f9e0e04cfd758c8decef155185b48b6f79ede,Balancer sDAI/crvUSD,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,,0.0,0.5,0.5,False
+0x6a2529deacabaebfc28fa36338fe83f00870cf02,80AGVE-20sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000597e-12,0.5,0.5,False
+0x6f4ae97d73c295d69828618ef18bdd1ba0593df1,Balancer Stable USD 4pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.0,2596148429267410.0,0.5,0.5,False
+0x034172394829089653060163f1059efd62290524,50EURe-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x3c1080e2fb70dbfec8db920f9fe862a84f4ec742,60WBTC-40WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x571aa9125a32b88c8b4b68c24fcbbfe384491786,50WBTC-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.00005e-12,0.5,0.5,False
+0x7f96d8a3d850f0c19f6263be0250925529ab6e2f,Balancer 50EURe-50GBP3,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.00001e-12,0.5,0.5,False
+0x70e1ee4f63131c1e2a7c24ee0af3396a71963641,Balancer 50EURe-50GBPe,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.00001e-12,0.5,0.5,False
+0xe42ebbd354d9aad787e7730064187acabe4317ad,50MIVA-50sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.06534271508658421,0.5,0.5,False
+0x5a1eb5b94c45ef45fab087b4aa7d1d8e6943b00e,50MIVA-50GNO,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x9c36c16fe4a4c3867d589f23c899081942d35ca7,50SRC11-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0xa621c2996c910ab06c3ed0aa689e12b856472405,50sDAI-50WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,9.237619311053e-06,0.5,0.5,False
+0xddafa272b737c387ab1a677f35ad05609ef072bb,20GNO-80OLAS,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.00190117963556377,0.5,0.5,False
+0xf11ad03bbe64a493482c9a263995a6bec4343d6b,80REG-20sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,0.5,0.5,False
+0x794b2633de8f8b2ac008b8f780a26fdfe0094ca0,50GNO-50GNOBBY,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,8.05540812118e-07,0.5,0.5,False
+0x3a2e363c09a8d38e88d68630c426b394023fe5d0,49WETH-51WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000012e-12,0.5,0.5,False
+0x440dfa59b820e07677f4cba29d64755eb1c9508e,80WETH-20WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.915361997424e-06,0.5,0.5,False
+0x3cdea13813d71ec255f44302531316766d7653ab,33GNOBBY-33GNO-33SDAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x50909c89b69bdaa1e07a7f23f7d2ff84197e6fe3,33GNOBBY-33GNO-33SDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,6.6264703212e-08,0.5,0.5,False
+0xee0e7b0d82da252a30aeccedef6840d6275ffc43,33GNOBBY-33GNO-33sDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,5.5390811658e-08,0.5,0.5,False
+0xd0a5eec33e69e3e85fe844bb4f608f1e117cbc1d,50WETH-50EURe,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x84bb71a70685bd3f129314370431a2965e349380,33USDT-33USDC-33WXDAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.2719244851e-08,0.5,0.5,False
+0xbf382457939cc42ceeeca4af9e366cedc10ceda2,20osGNO-80SWISE,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0xd3369419180b293e9262f8d8c927f928a496414e,20osGNO-80SWISE,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0xed8e0eb46598a6823261f49cf116bb3d16a68b21,50mockWXDAI-50baseToken,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,37.46196972776018,0.5,0.5,False
+0x464734a39fd1ce524a832636c4089fd4e60fca44,CRC Test,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,0.5,0.5,False
+0x2fd74fb2b2b79db5f7e53061ca420087a29570fc,GNO-sDAI Index,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.11211415316e-07,0.5,0.5,False

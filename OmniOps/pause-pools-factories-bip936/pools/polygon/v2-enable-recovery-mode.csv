@@ -1,0 +1,977 @@
+pool,name,factory,api_tvl_usd,total_supply,paused
+0x15ca66b2160b71018b8e8e67c1a3798a14bf7877,1WETH-99USD,20230206-weighted-pool-v3/WeightedPoolFactory,389434.14,4.0889305942830465e+33,False
+0x9dd7c9867c0078d8ad42b3366ffc6ba1ee89eaec,StarSeeds Protocol WMATIC-USDC EcoSystem Vortex Router V3,20230320-weighted-pool-v4/WeightedPoolFactory,173445.11,1078476.750562699,False
+0x8b46cb990b117dea9ba918f5ba5f6ba01a4bf556,STARV4-SS SuperPool by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,87541.57,3642.1883457189006,False
+0x3bd8a254163f8328efcc4f8c36da566753462433,TELxUSDC,20230320-weighted-pool-v4/WeightedPoolFactory,79853.83,15851298.136961013,False
+0x62309056c759c36879cde93693e7903bf415e4bc,50WMATIC-50OLAS,20230320-weighted-pool-v4/WeightedPoolFactory,75518.53,980757.3227729627,False
+0xca6efa5704f1ae445e0ee24d9c3ddde34c5be1c2,TELxWETH,20230320-weighted-pool-v4/WeightedPoolFactory,62384.83,2763392.453463066,False
+0x1bc9a8f8855ca78896eee5d1d573fb5cbca2ce75,LP Arbitrage Testing Pool - Volatile Money Machine,20230320-weighted-pool-v4/WeightedPoolFactory,58939.86,54.63297467436552,False
+0xe1e09ce7aac2740846d9b6d9d56f588c65314ecb,TELxWBTC,20230320-weighted-pool-v4/WeightedPoolFactory,57766.46,1261946.6488091005,False
+0x2e7f4db55bf11e0d8c25b0007728dfb2d138f904,STARV2 Volatile Fee Generator by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,55378.94,0.37161577762160136,False
+0x513cdee00251f39de280d9e5f771a6eafebcc88e,2eur (PAR),20230206-composable-stable-pool-v3/ComposableStablePoolFactory,54395.76,2596148429286935.5,False
+0x2e1924000f3821e29430c2d73591ef3a75af7970,Interest Bearing STARV3 Core Router,20230320-weighted-pool-v4/WeightedPoolFactory,25873.21,1000.0941381672507,False
+0xe603104baf3743ce615cce88f08f229f9620c924,STARV2 Oracle by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,22739.06,20.141246764950502,False
+0x210b1f90dad7236b48b02bc1be099f00dff26d9e,50WMATIC-50FOOT,20230206-weighted-pool-v3/WeightedPoolFactory,15431.69,62214.92500695237,False
+0x70ff0078d55ce9c1a0e668f35eb4400a4300122d,2CHF (VCHF),20230711-composable-stable-pool-v5/ComposableStablePoolFactory,13672.91,2596148429298159.5,False
+0x83db290ae85e02fef7ccf45c1b551e75e7f8cc82,Polygon Social Index,20230411-managed-pool-v2/ManagedPoolFactory,13011.07,2596148429258486.0,False
+0x6944e4ef181169a12a980d3e8a81f0e6b7e142ad,80SHN-20DAI,20230320-weighted-pool-v4/WeightedPoolFactory,10086.58,1075243.7880841221,False
+0x17abb6ffe47e4ab120aa57de5e1c7fc6fe307633,STARV2-wstETH Core Arbitrage Pool by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,9148.31,0.14084181202713475,False
+0x40e57c0b2b674c8fbe5ba9e1e3bafce9f16f94be,80AURA-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,7872.47,38136.055018021296,False
+0x6484ead3c38c11d6656540a6fcfe053c4d4c3a2c,STARV4/SS/BULL Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,6319.71,111.83571123913966,False
+0x90dccf391004380bdafee7910cdd002b8c4de81d,Two Old Friends - Low-Friction Router,20230320-weighted-pool-v4/WeightedPoolFactory,4384.96,56.895098605806716,False
+0x19127998126b6c7d32d596ee15d32719b1789c8e,TELxMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,3856.45,1302046.505680547,False
+0x69301ddb9273918303171b003e9e4ba27527176b,STARV3 Core Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,3748.03,1.9742714996563677,False
+0x78796deb4eefb5c61dd5a55a3f72ec982594246f,STARV3 Primary Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,3443.44,0.5944150394581728,False
+0x7af62c1ebf97034b7542ccec13a2e79bbcf34380,tetuBal-BPT-80BAL-20WETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,2604.56,2596148429269575.0,False
+0x26a48e18feea36b7e4c9f3259750b4a32c044df6,STARV4-SS/BULL Vortex Router V372,20230320-weighted-pool-v4/WeightedPoolFactory,2175.23,42.98257310857494,False
+0x432d58fe7a40c5cf159c229ee5874f1f0ce44c91,Volatile Fee Generator V2 by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,1948.3,51.480114886177184,False
+0xda1503426f6cd9ebbab2964106f42b35c745d453,STARV2-stMatic Exit Router,20230320-weighted-pool-v4/WeightedPoolFactory,1893.3,171.84752890117556,False
+0x6a69f0d0cc1bb7dc94d64bc26975a91e3deb8eb0,STAR-GOV3 EcoSystem Vortex Router V12,20230320-weighted-pool-v4/WeightedPoolFactory,1756.95,47572.87965441632,False
+0x6da7f1c193ab6c4bd16eb14a6305bba8d25737ff,Balancer DUSD-USDC Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,1406.18,2596148429279510.5,False
+0x1ae0ae6917f52a40748142f0373859e9635d3396,STARV3-STARV2 Volume Router LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,1319.93,45.517232220584376,False
+0x37a4b3d215199971c171ebd5ba16f5fc82fb5c13,50WETH-50FRACTION,20230320-weighted-pool-v4/WeightedPoolFactory,1317.42,0.23825472695824304,False
+0xa821753df9ba98483cd80cab1765271965edc809,Toggle 80-20,20230411-managed-pool-v2/ManagedPoolFactory,1220.3,2596148429267337.0,False
+0xc260f3c5a57caf193d1813d8fd0a02442073d6fa,40DFX-20USDC-40TEL,20230320-weighted-pool-v4/WeightedPoolFactory,1165.99,298763.69382266887,False
+0xd180aa48964776c74636dc9bc6fb424e26ba1b51,50DAO-50STARV4,20230320-weighted-pool-v4/WeightedPoolFactory,1023.11,140.1868308715151,False
+0x061dffa319c0ff4a97eaaccdb723cf4f7513ca02,STARV3 Revenue Router V44,20230320-weighted-pool-v4/WeightedPoolFactory,946.19,4.963108876430428,False
+0xb91bf2c2ed618a8073c8250681323c510211a6e9,50FRACTION-50MIVA,20230320-weighted-pool-v4/WeightedPoolFactory,875.26,91.94140091586989,False
+0x577f6076e558818a5df21ce4acde9a9623ec0b4c,Balancer 80SD-20maticX,20230206-weighted-pool-v3/WeightedPoolFactory,773.47,7392.195661513481,False
+0x6f698b3d51c40430d551aa736181cb421c809cd4,STAR-GOV3 Growth Router V92,20230320-weighted-pool-v4/WeightedPoolFactory,744.69,4061.142479347078,False
+0x68786b11847300e8ba607af79b62f20b2585f20d,STAR-GOV3 WETH Vortex Router V7,20230320-weighted-pool-v4/WeightedPoolFactory,654.81,2303.2675211259066,False
+0x6f662a90bc9c48a2acb0958df49c71f35d7bf248,50tetuQi-50STARV2,20230320-weighted-pool-v4/WeightedPoolFactory,632.92,145.84008685376122,False
+0xd6e971a18d0901e2dc040e4763a7bc543bac0ddd,STARV4 BTC$Witch SS Vortex Router V375,20230320-weighted-pool-v4/WeightedPoolFactory,630.73,19.83341897588446,False
+0x16761d0e33f37c9154571a0cc408d711ce4d2ea0,STARV3 & STAR-GOV Supply Reducer,20230320-weighted-pool-v4/WeightedPoolFactory,630.35,19.360052621883185,False
+0x9abb5ff9fbb1b5d2d2c6a65be5f2fdf9ac1d2a7b,STARV3 - BTC - ETH - MATIC - USDC Growth Router V7,20230320-weighted-pool-v4/WeightedPoolFactory,618.34,0.8446135794154904,False
+0xcd992a3d58e4dfa59135333c1dc018ab68c85e2f,STARV3-M - WBTC - USDC Core Router V4B,20230320-weighted-pool-v4/WeightedPoolFactory,612.56,27.88138653333683,False
+0xdd736d581466e99fec2c3b3964e77ac91078c9e7,STARV4-GHST SS Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,572.11,150.64699977353078,False
+0xc17b8c60d67cc7e550076d9c0708b68552f04591,STAR-GOV3 WETH Growth Router V93,20230320-weighted-pool-v4/WeightedPoolFactory,552.81,1811.2027383231323,False
+0x791f47f9b1d9c95853ab6e9d866e9e6c7d05689d,STAR-Materia Exit Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,527.67,262.92518006968027,False
+0x41542ee4896c85d3255ba895c57bb892f926a51d,STARV3-MATIC-ETH Core Router V6,20230320-weighted-pool-v4/WeightedPoolFactory,520.28,0.11523499929201811,False
+0xd041829822b8af6b199c9031a966184ecda086ce,StarSeeds Protocol Ecosystem Stability Router,20230320-weighted-pool-v4/WeightedPoolFactory,507.09,613.8175502784443,False
+0xda53afe8ca5f935e19d1af46d7524460cea09862,Polygon Storage,20230320-weighted-pool-v4/WeightedPoolFactory,467.42,861757.1156678477,False
+0x16e009212e7f1465d8b5085f68201be70082454e,STARV3 EcoSystem WETH Vortex Router V6,20230320-weighted-pool-v4/WeightedPoolFactory,445.38,38688.80084275178,False
+0x66fff1abb51ca188942a2417d1650fe09fd23a74,STARV3 Double Retro Volatile Exit Router,20230320-weighted-pool-v4/WeightedPoolFactory,445.26,0.6248790072966226,False
+0x47cdb07cc4f0078f9122ebb77b565dfebf26668b,STARV3 & Yield Index Series EcoSystem Vortex Router V13,20230320-weighted-pool-v4/WeightedPoolFactory,327.69,820.928109758131,False
+0xe2eeb77b6f149fabcf8d64485ec14ad302d7e709,STARV3 Exit Growth Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,324.29,311.18895891733115,False
+0x75f454fb643bdb3b57512987a58a038f7656efa9,7DAO-36SP-1STARV3-47STAR-L-2STARV2-7STARV3-M,20230320-weighted-pool-v4/WeightedPoolFactory,318.97,14486140673.192846,False
+0xc22bb237a5b8b7260190cb9e4998a9901a68af6f,Keir Krew Fund,20230411-managed-pool-v2/ManagedPoolFactory,316.8,2596148429267444.5,False
+0x5367e1f7f691c6be07a16ded1c9b05f3cf38b217,STARV3-WBTC Core LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,303.86,0.023986792340750206,False
+0xbb7c1c329595c7b5fcd51ec39527d27a3aed3869,STAR-Power oRETRO Volatility Mixer V41,20230320-weighted-pool-v4/WeightedPoolFactory,299.74,13129.23242983829,False
+0xd5b22175c938690eaa112ffc690326341cc86327,STARV4-WMATIC SS Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,289.15,79.54922707758406,False
+0x0d8573d0b4542797be945f741cb8e6b7117dc751, XTETUBAL-BALWETH Arbitrage LP & Price Oracle by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,282.81,0.6989332308545403,False
+0xbf527eaa829ae397d6d6eacd6c5492c17f85f4cb,STARV3 Experimental Growth Router V4,20230320-weighted-pool-v4/WeightedPoolFactory,270.08,0.04858305324579269,False
+0x8135a990806dba0825984bff925b0dbe6425ac27,STAR-Materia WBTC EcoSystem Vortex Router V9,20230320-weighted-pool-v4/WeightedPoolFactory,266.63,88.98813573915882,False
+0x376bb22376e0c57b4dd50efee1bd3c986978a490,STARV3-STARV2 Volatile Fee Generating LP by Starseeds Protocol ,20230320-weighted-pool-v4/WeightedPoolFactory,265.0,33.451113621450624,False
+0x4b7586a4f49841447150d3d92d9e9e000f766c30,Balancer USDC/USDT/DAI,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,257.64,2596148429281250.0,False
+0xcd46cae6479bd64cab28b9225fc3b2461493f91a,STAR-GOV3 & Matic Yield Index by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,248.09,1770.8698707902213,False
+0x9a9563a975e8c61f60620971e10cc09eadc3716c,STARV3/M oRETRO Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,242.15,1570.0309518125212,False
+0x45b8fa37cf7b68330a754e30a248d328e7853802,STAR-GOV3 BTC Ecosystem Vortex Router V7,20230320-weighted-pool-v4/WeightedPoolFactory,241.38,2.245136585334793,False
+0xf57c2f90a769233cd4d77cb1ab2c2ba836e3d614,STAR-GOV3 EcoSystem Vortex Router V7,20230320-weighted-pool-v4/WeightedPoolFactory,228.05,17.55962889555306,False
+0xe93a1e6fb57d2e2be40377841a6477cfe1ef55c2,35AGA-20wstETH-3USDC-8stMATIC-35AGAr,20230320-weighted-pool-v4/WeightedPoolFactory,226.28,104.9572475103846,False
+0x7b4c318d8b5c711e2c4615d575cdd6c83b51647e,StarSeeds Protocols Experimental BP V1,20230320-weighted-pool-v4/WeightedPoolFactory,215.06,95.91260145659503,False
+0x97df6ba8a1ffc15ea410218212ca1de34f314748,STARV3 Growth Router V7.1,20230320-weighted-pool-v4/WeightedPoolFactory,215.02,0.006597043726017699,False
+0x9c559661cff20d73fa435f6040c2c81b748f1b9f,DeFi Yield Series by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,213.53,0.2313792106580101,False
+0xfd2b6b09fa1f1add782bda6be7f41ddf7a38436a,StarSeeds Protocol Foundational EcoSystem Router,20230320-weighted-pool-v4/WeightedPoolFactory,207.15,480.5852291084758,False
+0xba92fdde8d27540d50dfff601b673bf8ef5614d0,StarSeeds Protocol ETH Ecosystem Stability Router,20230320-weighted-pool-v4/WeightedPoolFactory,202.26,273.86623066442866,False
+0xf8acfb0b082d69fb50d75e8387ddce1d24978c48,STARV4/SS/WBTC Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,196.38,3.6357161253156685,False
+0x33f2d5c8d7790f19fd5757a541dc59147f96667f,Index volume,20230411-managed-pool-v2/ManagedPoolFactory,192.53,2596148429267413.5,False
+0xab83e7251819d0919270f5e6a64f551f38b78837,StarSeeds Ethereum Balancer Tetu Router,20230320-weighted-pool-v4/WeightedPoolFactory,188.65,0.028579697542782608,False
+0x84483c816c687d686219566f9d9ab34e260975a0,STARV4/SS/WETH Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,185.57,7.0696984561125715,False
+0x2afac430f42e572ba2db375e43195fed75fef74b,STARV4-SS/WETH Vortex Router V372,20230320-weighted-pool-v4/WeightedPoolFactory,185.05,0.25688041114642735,False
+0x9662eb5aab72de20113c97a91364a6285008460e,STAR-Materia WBTC Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,184.72,52436.70163463857,False
+0x3c2f277eedac899f67116ad598664f0f91bac210,20AGA-20RNDR-20MANA-20DIMO-20AGAr,20230320-weighted-pool-v4/WeightedPoolFactory,184.12,292.8847755952807,False
+0xda5d9e93f9d3506781c0660265fe195da96b84c7,STARV3 live/o/RETRO Exotic Router V4.1,20230320-weighted-pool-v4/WeightedPoolFactory,183.67,29.37449125645465,False
+0x1dcea0bfbbe6848f117640d534c9b60f41b9f2a8,Balancer wBTC/wETH/USDC,20230320-weighted-pool-v4/WeightedPoolFactory,174.15,0.2954779585222611,False
+0xcdc143b295b4b4f2f8052b1ae57b68bcf8171b99,STARV3 & Yield Index Series Vortex Mixer,20230320-weighted-pool-v4/WeightedPoolFactory,173.03,0.052398620520895944,False
+0x54ef2bc9019e88c0e30ee40e73ea6fff1767bf8c,STARV3 ETH Ecosystem Vortex Router V11,20230320-weighted-pool-v4/WeightedPoolFactory,171.26,203.47060728122628,False
+0x9eafd3b6d65b0d099747e2942eed730176068267,STARV2 MATIC Low-Friction Router,20230320-weighted-pool-v4/WeightedPoolFactory,165.22,2.458915361308948,False
+0x55e9b802a217cc898bf71de5992a7973e5888ea9,Gain,20230411-managed-pool-v2/ManagedPoolFactory,162.47,2596148429267414.0,False
+0x2bd3a592711be60332d00fa4c21cec86e45f53ad,STARV3 EcoSystem Vortex Router V14,20230320-weighted-pool-v4/WeightedPoolFactory,156.22,36387.80726831652,False
+0xf9b956ffa8ca1c850e9a63eec4305a8d75f44fc9,STAR-GOV3 MATIC EcoSystem Vortex Router V7,20230320-weighted-pool-v4/WeightedPoolFactory,152.76,423.72430915223646,False
+0xd449403d21f8f7af7b0658049d053ede7badffd9,Blue Chip,20230411-managed-pool-v2/ManagedPoolFactory,152.08,2596148429267414.0,False
+0xd87166bda6c20cabdc1dc149ad1273f765247e15,10WMATIC-40STARV4-20SP-10WETH-20STARV3,20230320-weighted-pool-v4/WeightedPoolFactory,151.99,77.72603342536964,False
+0x65d6e1341ac3bf6d11bea4f5ca20a910fac349ed,STARV3 EcoSystem WETH Vortex Router V5.1,20230320-weighted-pool-v4/WeightedPoolFactory,148.52,15014.474021103872,False
+0x2122186d224a586246a534577aa14c8c77a7a5f2,1WMATIC-99waWMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,145.82,1201.5211490179324,False
+0x144a7fa17661ca06241d9a598bad0f893fd58c45,STARV3-WBTC Low-Friction Volume Router V4.2,20230320-weighted-pool-v4/WeightedPoolFactory,140.2,0.025217222475893766,False
+0xcd04c6e8390c660b79e3fa1eced74dd8696a1cec,StarSeeds Protocol RBW EcoSystem Vortex Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,139.03,27612.914840213525,False
+0x2213a9eff264928ec7a0b2eaa4be1e9ec3cdfa9a,DAO/WMATIC Uni-Steer V3-LP Price Oracle LP,20230320-weighted-pool-v4/WeightedPoolFactory,136.03,25.71891144219693,False
+0x446f7c6e2f44df67ac9d85baa0bef7fbcd26fff3,STARV3 S Yield Series USDC Vortex Router V14,20230320-weighted-pool-v4/WeightedPoolFactory,135.16,0.4588272750153369,False
+0xe3880fbbd06c2432e4ea752b5a3701f9f0a71e45,34SP-66STARV3,20230320-weighted-pool-v4/WeightedPoolFactory,131.76,557.5799814281505,False
+0x2d6acbf1aeb0aa494cda8742c5aff697112e8bf6,MVaR Strategy Fund ,20230411-managed-pool-v2/ManagedPoolFactory,130.83,2596148429267414.0,False
+0x50df79ec2b3e7b2181efc6ed481d5ab971fc9da2,tetu/v/Qi Blender by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,124.67,1781.6733126056665,False
+0x8d95d14a46b2c535494e725e532b3756e9026c72,STARV3-FBX Routing LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,124.0,0.5122014808486115,False
+0x91c22f98d8ca24a86a443c122c484ff91e38835b,STARV3-wstETH Arbitrage LP by StarSeeds Protocol ,20230320-weighted-pool-v4/WeightedPoolFactory,121.75,0.005473810109940292,False
+0xf15e1278b69bf3b0ce0761c010a620ccefc2ca33,StarSeeds WBTC Ecosystem Router V3,20230320-weighted-pool-v4/WeightedPoolFactory,119.08,37.34753835412133,False
+0xf2c0bc92ce33b512c4fe422dd6688fa828682034,STARV4 Altcoin SuperPool V7,20230320-weighted-pool-v4/WeightedPoolFactory,118.64,52.58238091372279,False
+0x107cb7c6d67ad745c50d7d4627335c1c6a684003,DeFi Blue Chips,20230411-managed-pool-v2/ManagedPoolFactory,113.84,2596148429267429.5,False
+0x7c173e2a341faf5c90bf0ff448cd925d3731c604,50WMATIC-50PORIGON,20230320-weighted-pool-v4/WeightedPoolFactory,112.21,51889.91557292785,False
+0x748d7abd46c879dba06843a6ae0221688e8d08c1,Duality Volatility Router,20230320-weighted-pool-v4/WeightedPoolFactory,111.24,724.2938175572172,False
+0xea62af18e468eafb9b8d1b479eeec22f1e867347,DAO Legacy Router,20230320-weighted-pool-v4/WeightedPoolFactory,108.0,916.2730569223714,False
+0xae8a4f72eb54c80dc484178bcae5bbcb7a3b44e1,STAR-Credits & STAR-Materia Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,106.19,19812892.180454165,False
+0xa2c2766fcbe7b44ab35e6bf949720fb19fdb2516,STARV4-USDC.E SS Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,104.3,21.021450486409822,False
+0xf04b01d6f8ca6178464457198e2df610f45c4d50,SSG & SSC MATIC Router,20230320-weighted-pool-v4/WeightedPoolFactory,103.89,9012.538869938102,False
+0xb797adfb7b268faeaa90cadbfed464c76ee599cd,tetuBal-BPT-80BAL-20WETH Stable Pool,20220609-stable-pool-v2/StablePoolFactory,103.44,768.5162635961553,False
+0x038ea3611fe46d441680ee72134d60e68f90599e,STARV4-STARV3 Classic Router,20230320-weighted-pool-v4/WeightedPoolFactory,98.66,2.8911383881122696,False
+0xb1cdf7dfe2076ffc722568e94aba7cf486928d9e,STARV3-oRETRO Experimental Router,20230320-weighted-pool-v4/WeightedPoolFactory,98.0,3.989933381042569,False
+0x2a2eab56adbdd3cf27e1a8da5b16791f8f93cb53,25AVAX-25LINK-25USDT-25AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,97.92,10.713838325060152,False
+0x5e36bcffa79f0061cc1e266225359d36a0e4b71e,DAO-WBTC Core LP,20230320-weighted-pool-v4/WeightedPoolFactory,95.15,10.720435988366837,False
+0xa1ecb0981d74bd9e31fcd7a38fa3fdebcc7ccff4,Polygon Ecosystem,20230411-managed-pool-v2/ManagedPoolFactory,94.9,2596148429267401.5,False
+0x84ff1ba4faf7d74bc8e66693b2d3905424b93327,STARV3-TETU Arbitrage LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,94.89,9.629452176488924,False
+0x34766324e1ec748ced10069ac0b66f1090829580,STARV3-wstETH Low-Friction Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,94.32,0.060902937073665786,False
+0xd1a56c30ce4d6ce25568fd12fbdf8f49ddd4b136,Gold,20230411-managed-pool-v2/ManagedPoolFactory,91.4,2596148429267413.0,False
+0xe3cabafd5a6add5f63ab00df175e951af7f9835e,Consensus Managed DE-MATIC,20230320-weighted-pool-v4/WeightedPoolFactory,90.5,45353.95737380565,False
+0xf2588ec06f915c58b65115fe0ba65fab0d743fb8,STARV3 USDC/MATIC Yield EcoSystem Vortex Router V3.9,20230320-weighted-pool-v4/WeightedPoolFactory,89.01,839.474507906449,False
+0x2bbf7a2296a848b5097a27bf45b91e5369b051cb,StarSeeds WETH Ecosystem Router V3,20230320-weighted-pool-v4/WeightedPoolFactory,88.96,236.4002438885781,False
+0x13d11d91ff8d935e18f23fb7ea6fa1ca6b2cb04a,80STARD-20STARV2,20230320-weighted-pool-v4/WeightedPoolFactory,88.4,40.193111889858315,False
+0xcd66584758106fb3ea5576980c5c41a25aca0ead,STARV3 & Yield Token Series Index,20230320-weighted-pool-v4/WeightedPoolFactory,88.16,0.1369601659770447,False
+0x406102fac5993c3ce675a66083cc4994b14f4004,STARV4/WMATIC SuperPool V5,20230320-weighted-pool-v4/WeightedPoolFactory,85.61,51.271492079041025,False
+0x8e21b7c9e7612f28e8904825fdb360d2cf45505c,Got Matic? - By Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,81.89,0.3034058405683017,False
+0x518350d75d7c7b7c037f44fd1b21a91f4945ca75,50USDC-50EMI,20230320-weighted-pool-v4/WeightedPoolFactory,81.74,334.77654685306953,False
+0xd550982a2840efae469fc17d107522b2ae87fe87,STARV3 Retro Volatile Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,81.6,0.7410248865883492,False
+0x18a9a941c65ffa50c2cc56e60d9c3e553b52a4ad,STARV3 MATIC-S Growth Router V47,20230320-weighted-pool-v4/WeightedPoolFactory,81.39,5.566920996770979,False
+0x258d82b1b87b8b7b383b8c040768f1b7df473889,STAR-Light Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,81.36,1349875.737915846,False
+0x365e13f973bd62024be8a70a225684c58baad03c,Miki pool,20230411-managed-pool-v2/ManagedPoolFactory,75.91,2596148429267413.0,False
+0x2fb9cc718d45867688da816c35858a436c1b62e4,STARD-STARV2,20230320-weighted-pool-v4/WeightedPoolFactory,74.59,15.498812049291498,False
+0x665ebbf1728f51c85aef837c191f4ab202a1da6c,STARV3 & WETH SP Accumulator V1,20230320-weighted-pool-v4/WeightedPoolFactory,72.15,15.653418778523378,False
+0x711604535a526b22da674a04910b7d62d4c80934,STARV3 EcoSystem WMATIC Vortex Router V6,20230320-weighted-pool-v4/WeightedPoolFactory,71.39,24296.77628323769,False
+0x29b57a05b80ccbdb16a4304dd2c2b00d753cafb6,STARV4-ANYINU (AI) SS Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,70.98,195.42706272840923,False
+0x8cff4f4ae0a3809ff91273bd0cd3e6805462d184,25WBTC-25mooCompoundPolygonUSDC-25ICHI_Vault_LP-25ICHI_Vault_LP,20230320-weighted-pool-v4/WeightedPoolFactory,69.17,0.004297750460391732,False
+0x140bec9e5749dfd6ea04c8587a87027617c381d2,STARV3-WETH Core LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,69.03,0.022556444501578655,False
+0xc32fcf4e4e0e3dfd69763afbccb4d36e4d276246,STARV3 & Bitcoin Yield Index Classic Router,20230320-weighted-pool-v4/WeightedPoolFactory,68.99,0.0357078896659714,False
+0xfea8f0f9bfb402a761c4d3a899f22ed9aa8c33c9,STARV3 & SP / MATIC & ETH Vortex Router V10,20230320-weighted-pool-v4/WeightedPoolFactory,67.63,127.30852513809803,False
+0x3dbb91bdd5fc74c49146819ed58d7d204cf5a016,20WETH-80MIMO,20230320-weighted-pool-v4/WeightedPoolFactory,64.28,1380.3759459550593,False
+0xe12b6551958c832dc5c268c9c5ca8f0a05f4a033,STARV3 - Matic Yield Index by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,62.07,1.7329572471047354,False
+0x418681127fb0c4fb5ee01202fbe4ab8c8f4eb84a,33TXAG-33WETH-33TXAU,20230320-weighted-pool-v4/WeightedPoolFactory,61.62,0.3933527577123405,False
+0x44a0f5e2b99e83fee14719259ba8f0035e93f9da,STARV4-MATIC Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,61.5,6.328870866751776,False
+0xc9357cc86fa836b1761caad9b13fce0863cf281a,Large Cap Vector Pool,20230206-weighted-pool-v3/WeightedPoolFactory,61.31,0.14576965065964112,False
+0x9841438683c2efbfb28c94ec341544b94e4f6dd5,25WBTC-25USDC-25PAXG-25WETH,20230320-weighted-pool-v4/WeightedPoolFactory,59.59,0.05870521809298375,False
+0xc44129224d395d3f2dff7a2fd93d60af1c1a81ea,StarSeeds Protocol TEL EcoSystem Vortex Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,59.11,3070.4764762511304,False
+0xb4e75a4dd4e4566984cdd93dbac3754fe55cbd17,20SP-80STARV3,20230320-weighted-pool-v4/WeightedPoolFactory,58.53,19.436618213278024,False
+0xb9e45844449b9cee784fe55c5937ddcfb283928b,Testing,20230411-managed-pool-v2/ManagedPoolFactory,57.41,2596148429267407.0,False
+0xa11cc998c83547fa007d8b4a93a098cc4af77684,33USDC-33WETH-33XSGD,20230320-weighted-pool-v4/WeightedPoolFactory,56.25,4.348660206975604,False
+0x769d6f13b4a8442f6bccbc6524f6651f2b2e578e,StarSeeds Protocol LINK EcoSystem Vortex Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,55.19,451.2249572526169,False
+0xb56ff8104cf3e42065b1613b4549aab12fa91646,STARV2-WBTC Core Arbitrage Pool by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,54.68,0.002336065924520427,False
+0xa2a6639815c2147ce904308ddfea38b6f1ab8ddd,50COPM-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,54.36,61.43996056356053,False
+0xd8c24b92ec2c23f685a77133b1d63e0cfff44504,STARV4 GHST WMATIC SS Vortex Router V375,20230320-weighted-pool-v4/WeightedPoolFactory,51.24,56.85096310686306,False
+0xa135f5a2fb085c15bf56e5703e61167fb5ae7e42,Miki,20230411-managed-pool-v2/ManagedPoolFactory,50.0,2596148429267232.0,False
+0x34689e3c2d4920e217a50836f8f7a3fa9cff8d27,STARV3 Yield Series BTC Vortex Router V14,20230320-weighted-pool-v4/WeightedPoolFactory,49.86,0.007153888019601181,False
+0x11ff73fa7ffa63d3de1d2e1afb77894274259d88,STARV2-Link Core Arbitrage Pool by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,49.61,0.07063223674359131,False
+0x02d71553597f2ed2a371e92fb6065f859bed9dcc,STARV3 EcoSystem WETH Vortex Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,48.7,1870.9738392440058,False
+0x632d71dd6aba342da55915997c969d5089b28251,STAR-Materia WBTC/USDC Core Router V8,20230320-weighted-pool-v4/WeightedPoolFactory,48.46,1059.820438897726,False
+0xf9cc17cb43c9e29916a12c986fda58a45c911abd,StarSeeds WMATIC Ecosystem Volume Router V2A,20230320-weighted-pool-v4/WeightedPoolFactory,48.4,5913.11779324438,False
+0x6a2e50e02aa0e37473f03d2243fa59af61985b9f,STARV3 MATIC-S Vortex Router V201,20230320-weighted-pool-v4/WeightedPoolFactory,48.15,48.32209638556428,False
+0x4d1249c87e451de44b5bd7d4f17b2d333b3c3723,STARV3-XTETUBALWETH Routing LP by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,46.38,0.61368239092328,False
+0xb4c0b70cac7d690c1abc3c1cb5beb96bb379a57e,STARV4/SS/Bonsai Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,46.12,60.60490450315899,False
+0x5eb79ae444ff5c52b56b2a6875d516b2bf866c17,STARV4/WMATIC SuperPool V4C,20230320-weighted-pool-v4/WeightedPoolFactory,45.44,12.112909198668762,False
+0x21a5e99a438ff4044327581ed8c11df3c36b8955,STARV4/USD-S/MATIC-S Vortex Router,20230320-weighted-pool-v4/WeightedPoolFactory,45.13,16.627128345644262,False
+0x945f337307ea76fdaa2590d083423850f64e247f,27wstETH-7WMATIC-25WBTC-7USDC-18stMATIC-8WETH-8DAI,20230320-weighted-pool-v4/WeightedPoolFactory,43.35,0.31949061969327297,False
+0x46356123e062f93d6b0d56f6ff6c3744e87c22d7,Balancer wFRK/PAR/jEUR,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,43.21,2596148429267449.5,False
+0x1049feba7c1471fded82f668acfa38b5cb892b0f,STARV3-vQi Exotic Router,20230320-weighted-pool-v4/WeightedPoolFactory,42.01,4.275391073623132,False
+0x4cd8a3df2536100ec552a37c813a9414123e1c03,Balancer SWEEP-USDC StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,41.87,2596148429267451.5,False
+0x71cd984fcda586ff58240d2ab480bdce8dda9088,50USDT-50EMI,20230320-weighted-pool-v4/WeightedPoolFactory,41.08,321.7340829911483,False
+0xaee816029d12abca57636fb299e7262a1f2c0ba8,STAR-Light EcoSystem Vortex Router V2.7,20230320-weighted-pool-v4/WeightedPoolFactory,41.03,672843.1662428888,False
+0xc19540addaf4e664278ae9f9738003cdf5984326,RAW Land Shares Liquidity-as-a-Service V-SS-373 by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,39.88,98.60171384270613,False
+0x9c70cc8d2f347208f26131f06385b978e9099a95,70CGC/30WETH,20230320-weighted-pool-v4/WeightedPoolFactory,39.25,0.03022368001503965,False
+0x416101d98df2187ddc0ff29b787ded19dd8c9740,Medium Risk Kacy,20230411-managed-pool-v2/ManagedPoolFactory,38.29,2596148429267422.0,False
+0x9fb6bbab51ef7f1715e683fc4d0acd305af9e38d,STARV3 EcoSystem WBTC-USDC Vortex Router V3,20230320-weighted-pool-v4/WeightedPoolFactory,37.75,15.935201942740141,False
+0xea645e6ce8dbdebb78f512cb932bac9a9d89ef82,STAR-Credits Growth Router V14,20230320-weighted-pool-v4/WeightedPoolFactory,37.38,118.32258143153364,False
+0x8bea6aa483a787e6c5b994db1811f458637a0071,STARV3 oRetro Volatile EcoSystem Vortex Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,37.07,1658.7722564248488,False
+0xe19ed40a47f9b0cea4ca6d372df66107758913ec,2BRL(BRZ),20230206-composable-stable-pool-v3/ComposableStablePoolFactory,36.43,2596148429331596.5,False
+0xc81c548108dd13589e9fa7b966c21ba3f1c396b6,50WBTC-50BTCw3,20230320-weighted-pool-v4/WeightedPoolFactory,36.14,0.007672039294596281,False
+0xff56b4ecca40f03a6e318eb8d00b5db306a92375,15wstETH-12WBTC-8stMATIC-5PAXG-60VINU,20230320-weighted-pool-v4/WeightedPoolFactory,35.66,24956.9436014961,False
+0x76d0dda880d4bd0fc771356d6f29104cb740aeaf,STAR-GOV3 & STAR-Power Supply Sponge,20230320-weighted-pool-v4/WeightedPoolFactory,34.34,38187.44042270063,False
+0x749bc036967cfd017e5475da2eb4c8b2188ad951,STARV3 Exit Growth Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,33.87,2.2080251669595015,False
+0xcc8d3ec35d8c1faa613c73878f1571d2e5646cad,50WBTC-50BTCw3,20230320-weighted-pool-v4/WeightedPoolFactory,32.84,0.007643658970363834,False
+0xca6fbe9a344868a5e7c8e48b239bd43018a34c3d,STAR-GOV3 Growth Router V93,20230320-weighted-pool-v4/WeightedPoolFactory,32.82,2043.9272742497756,False
+0x1e087a0fcfbeb9dd3487728d3fefafb22a65b660,StarSeeds WstETH-FBX V3-LP Ecosystem Router V2C,20230320-weighted-pool-v4/WeightedPoolFactory,32.44,1150.037380169922,False
+0x8659fdc3fe6e514d012fab063e8528778f364a75,STARV4 SuperPool V2,20230320-weighted-pool-v4/WeightedPoolFactory,32.19,205.04423766750347,False
+0x3443e3942053fc44ee07b7ad62a04276dd52b4a9,STARV3-WMATIC 80/20 Core LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,31.94,0.6067265819287697,False
+0xd9a70c2f517262f88834373583eadb150b29199a,STARV3-Materia - tBTC Core Router V4,20230320-weighted-pool-v4/WeightedPoolFactory,31.88,21.114809412239712,False
+0x261b84933e803867f50a9f06dfe9a391955b1bad,STARV4-USDC.E Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,31.82,2.026378973663443,False
+0xa0ef0f4f24662050b7e504d1015a8cd7d2a8a51f,20BAL-80TEL,20230320-weighted-pool-v4/WeightedPoolFactory,31.45,10570.221626857785,False
+0xfbb90cc3dcfd2929342863974bc35f91adea115f,STAR-Materia & BTC Yield Index Classic Router,20230320-weighted-pool-v4/WeightedPoolFactory,31.42,30.332148584567054,False
+0xfc17c5156a56512852c1942caf086350fd4a9094,STARV4 GHST SuperPool V5,20230320-weighted-pool-v4/WeightedPoolFactory,30.31,17.525227439057804,False
+0x4fb042c8ef4484f5d16b4450a0a5fae08334dc66,STARV3 ETH-MATIC EcoSystem Vortex Router V3.1,20230320-weighted-pool-v4/WeightedPoolFactory,30.01,23.78649191125106,False
+0xfaf3bc722d34146be83a2aac40b43148a51a9126,50KACY-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,28.25,23.05899983366385,False
+0xf68e34eb2e1d46e222de3f651b8b190051b50eaf,StarSeeds Protocol Mixer V8,20230320-weighted-pool-v4/WeightedPoolFactory,28.16,1.2642132632735874,False
+0x763f96e09e77518b82108ba9d8cd014467813157,STAR-Power & DAO Ecosystem Router,20230320-weighted-pool-v4/WeightedPoolFactory,27.76,1019397.2418333924,False
+0x6646b0f3ceceb8e11cd2270801a2e467793d88ad,STAR-GOV3 Vortex Router,20230320-weighted-pool-v4/WeightedPoolFactory,26.51,9.127130031555412,False
+0x3f33dc5e2e6dd9c3619ba3aed37f8c5568161ab9,STARV3-STARV2 Volume Generating LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,26.17,4.547282049266735,False
+0xb4fbbe7caf8c168db44f43f793f5cffe452a6686,STARV4-ETH Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,25.59,0.32622365313689633,False
+0x5e65a0ef0c1a57cdcda3eaa162dac46dd6286af8,STARV3-DYST Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,25.53,3.520814539215386,False
+0xf16dc9f530ad9a68b7321911a85844a45b90bd67,STARV3 TriGrowth Exotic Router,20230320-weighted-pool-v4/WeightedPoolFactory,25.2,1.8637871990096284,False
+0xbb270af43dd95e492eb23e5e927a8e6dd9b9184c,StarSeeds Protocol UNIM EcoSystem Vortex Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,24.57,3216.1388258034717,False
+0x6094a86695d8dfcbae2c9d2b5f2e2a3942235983,BTC$Witch Price Oracle,20230320-weighted-pool-v4/WeightedPoolFactory,24.13,38.083727096595155,False
+0x629426671d9d0b136ec4c0a7139b9faef0da121b,50wstETH-50LDO,20230206-weighted-pool-v3/WeightedPoolFactory,24.02,0.728296834154115,False
+0x5aaf98c9f8368d714c2a9ccf30fda6e5d09cf24a,STARV3/tetuQi - Volume & Growth Router V4.1,20230320-weighted-pool-v4/WeightedPoolFactory,23.87,8.693667710670377,False
+0xb21a2fbc34671434646307263e15e15783030629,STAR-Light & STAR-GOV3 Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,23.15,5464.821426954125,False
+0x1b8eb3c602714cefc08dacdc735ee53113a5e1f5,STARV4-LINK SS Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,22.58,2.949607577773788,False
+0x3557eb12eb5936172b098d20f7a14c472e7d0bdf,STARV2 & STAR-Power Ecosystem Router,20230320-weighted-pool-v4/WeightedPoolFactory,22.13,5557.139023777859,False
+0x552bac9eb753f04a6b527da5b65832e476c7c06d,STARV4-SS/USDC Vortex Router V372,20230320-weighted-pool-v4/WeightedPoolFactory,21.34,0.9123536655371948,False
+0x7104ad560c1d74aabc108bc51114db121b927a9d,Balancer 80XEX/20USDC Pool Token,20230206-weighted-pool-v3/WeightedPoolFactory,20.82,45357624.830065235,False
+0xadd7f155a7b52e9c35cc0490f68092f658f4d2cc,50USDC-25PAXG-25WETH,20230206-weighted-pool-v3/WeightedPoolFactory,20.59,0.3438441521144637,False
+0x4deb1cafcf25265045d1d7e7e5e75450d012a95e,STARV3 BTC-S Vortex Router V203,20230320-weighted-pool-v4/WeightedPoolFactory,20.55,1.0221557492242663,False
+0x161df8c81f8f4f04b77cee5fa048e181a9b6bfb1,33WBTC-33PAXG-33WETH,20230320-weighted-pool-v4/WeightedPoolFactory,19.87,0.001983351224735671,False
+0x5dee84ffa2dc27419ba7b3419d7146e53e4f7ded,frxETH-WETH,20220609-stable-pool-v2/StablePoolFactory,19.61,0.00807842517278871,False
+0x20703aa47956deb5aa826dedb3e6d2a3e2603dc4,High-Risk Keir Krew ,20230411-managed-pool-v2/ManagedPoolFactory,19.27,2596148429271087.0,False
+0xec98c63a3843e4b8b20649ba0563a83b50f76347,BTC$Witch Liquidity-as-a-Service Vortex Router V373C,20230320-weighted-pool-v4/WeightedPoolFactory,19.11,0.3263016807647046,False
+0x132c8c14179c495ec662b00284c86e89fc25717e,STARV4-SS/SFL Vortex Router V372,20230320-weighted-pool-v4/WeightedPoolFactory,19.05,2.773307979824114,False
+0xb99a2ca6bc3ee5f57a26e3945f3718aa67926354,StarSeeds MiMATIC Ecosystem Router V3,20230320-weighted-pool-v4/WeightedPoolFactory,18.09,74.5649126811849,False
+0x06d78cb8ef46174c379fd3433a7fb3d6eb042d61,STARV3/oRETRO - Volume & Growth Router V4,20230320-weighted-pool-v4/WeightedPoolFactory,17.6,4.346354154468821,False
+0x15219e7b03c7e67a79b8fd6b427a3f008b4837c8,STAR-Materia BTC-USDC-MATIC Core Router,20230320-weighted-pool-v4/WeightedPoolFactory,17.45,306.8808485831948,False
+0x47d009a9745ba182d435abdeedb1b00bd7bcefc6,STARV4/SS/OM Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,17.38,5.72967431890059,False
+0xa5787be3be104b739184ded5534702d47e2203e7,STAR-GOV3 WMATIC Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,17.35,274.3949420162935,False
+0xa01ca371a70d8d89c017c85ce855f36e59b30810,STARV3 & STAR-Credits Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,17.24,6602.316421978025,False
+0x37dae53197d3cc7ff2ce5eaab7eaeffec2286057,STARV4 SS SuperPool V6,20230320-weighted-pool-v4/WeightedPoolFactory,17.05,0.23787993215573633,False
+0x96d75c1289a24b6debe3c66600b202fcb53dd823,The Moon Pool 🌕 🚀,20230411-managed-pool-v2/ManagedPoolFactory,16.8,2596148429267412.0,False
+0xbdd21c863b7b2ed65550c68dbeeedf1be534eb3d,STARV4 SuperPool V3,20230320-weighted-pool-v4/WeightedPoolFactory,16.16,4.363374687612274,False
+0x691975eb3a86db07a659861959e91bb053518831,STARV4/USDC.E SuperPool V5,20230320-weighted-pool-v4/WeightedPoolFactory,16.14,12.08947936881557,False
+0xfe0737e6e22f7e4c39c526a458e44f618af53b40,STARV3-M/STARV2 Volume Volatility Router,20230320-weighted-pool-v4/WeightedPoolFactory,16.12,401.57854834198474,False
+0x9149d41d7948fec0d3abfd01e930884d824f12ee,JARVIS-ETH 9802 1%,20230320-weighted-pool-v4/WeightedPoolFactory,16.07,1940.1748894990412,False
+0xd77ac8ce31819b78cdbce2fa3a2c73f161b49cdf,B-80VAULTX-20WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,15.87,25118864.315095298,False
+0x06df9365a25d9655ae1b63e465fd2488e6444f96,25WMATIC-25WBTC-25WETH-25GNS,20230206-weighted-pool-v3/WeightedPoolFactory,15.01,0.2708996846151772,False
+0x6178958a64393ef312a048e56e898755c77ed80a,STARV4-SS Vortex Router V372,20230320-weighted-pool-v4/WeightedPoolFactory,14.76,2.056910062419911,False
+0xaab20a3d6f587b86d48bd78cd79a4080bb2fb1c1,STARV4/USDC SuperPool V4,20230320-weighted-pool-v4/WeightedPoolFactory,14.57,18.897607663179066,False
+0xa1f3e490d4af2774ff2bd9132f026ee29196919a,B-50VAULTX-50WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,14.16,927979575.2805907,False
+0xc1039c2e5ac873f4736057b20c7811d2a572fa78,STAR-Power oliveRETRO Growth Router V7.2,20230320-weighted-pool-v4/WeightedPoolFactory,13.88,8449.439598691219,False
+0xbe0434ca47d8cbdc0e67c2045b2fdd683ca1f814,STARV3-FBX Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,13.84,0.2191061174344203,False
+0x117d4934272eb3e28b80a7d8b4227b32cabdcb1a,STARV3 - TEL Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,13.66,0.5822890079365031,False
+0x2d4f4009a0ae25054e1a9e41213ccc0bf954766d,sTABLE & MORE,20230411-managed-pool-v2/ManagedPoolFactory,13.6,2596148429267412.0,False
+0x1399d2b825c927409ccd77e86447c40e378dc580,33VNXAU-33VCHF-33VEUR,20230320-weighted-pool-v4/WeightedPoolFactory,13.54,2.829693356989524,False
+0x4240702329478516149b2eff78445e60e87aa53b,STARV3 & STAR-Power MATIC/ETH Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,13.1,16.183769077944365,False
+0x776ae4036a0c4cf7fcc8e49570c74d4218d6f8a1,STARV4/SS/SFL Vortex Router V373,20230320-weighted-pool-v4/WeightedPoolFactory,12.77,5.029641828371627,False
+0x77e97d4908be63394bc5dff72c8c7bddf1699882,2eur (agEUR),20230206-composable-stable-pool-v3/ComposableStablePoolFactory,12.73,2596148429267415.0,False
+0x343faca5cdd6d203ed616d93a899d282d287676b,STAR-Light Growth Router V116,20230320-weighted-pool-v4/WeightedPoolFactory,12.61,11851.057736849929,False
+0xa09b32dac1b669603074120077ea19b4ecac5ca2,STARV4-GHST SuperPool V4,20230320-weighted-pool-v4/WeightedPoolFactory,12.5,13.713319741953205,False
+0x5cd533140618743be9b2bcbf91f50238f3479578,StarSeeds-Tetu-Balancer APR+ Super Pool,20230320-weighted-pool-v4/WeightedPoolFactory,12.34,0.0784973886698027,False
+0x6ef8d440bb825f64b85cd4feb0b70636a29ef6b3,STARV3 - WMATIC Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,12.33,0.3373668963696273,False
+0xe8c5826866321e8160f3703281ca9f6bf2e465ce,STARV4-SS/OM Vortex Router V372,20230320-weighted-pool-v4/WeightedPoolFactory,12.24,2.2295716248265287,False
+0xaaf737aeb1e5f1dc9429de4a639fe16c42fa1fe3,50fireEP-50FBX,20230320-weighted-pool-v4/WeightedPoolFactory,12.19,1.6137653850162952,False
+0x51b52d8a6fa6f761fdb115b1b7dd78fac2b0cc5f,STARV3 - WETH Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,12.05,0.06639256287220674,False
+0x2dc47abce2a3d5644139c663493c2bb825d2b103,STARV3-LINK Core LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,11.93,0.035282895496133344,False
+0x70118a4f48f494047d8397bfa341e61990fe40f5,50wstETH-50WHALE,20230206-weighted-pool-v3/WeightedPoolFactory,11.42,0.3756761804022969,False
+0xc71be57b68941ee0c7870b166bf6930fea0578e6,STARV3-Materia BTC Ecosystem LSD Router,20230320-weighted-pool-v4/WeightedPoolFactory,11.33,0.043095965752180186,False
+0x53a3c44ea1cff14c2671a39c629591277af20cb3,STARV3 S Yield Series WBTC Vortex Router V14,20230320-weighted-pool-v4/WeightedPoolFactory,11.11,0.013631325965528653,False
+0xe2b1b8ae0a5440ee91ebd586506fbb4c0a8500bd,oRETRO-WMATIC Price Oracle LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,11.06,346.7932104016444,False
+0x91efb2e3d2c3c936ac1a83fa25400188f7f2aeef,STARV3 BTC-MATIC EcoSystem Vortex Router V3.1,20230320-weighted-pool-v4/WeightedPoolFactory,11.04,9.464256854513415,False
+0x0df5dabfccbf5b077ce71ea3c8fa461c81fbc45e,STARV3 & ETH Yield Index Classic Router,20230320-weighted-pool-v4/WeightedPoolFactory,10.96,0.00536960127046917,False
+0x38f086ecd7194c89470e6e03ac9608d2ed2101a8,STAR-Light WBTC EcoSystem Vortex Router V2.7,20230320-weighted-pool-v4/WeightedPoolFactory,10.94,54199.032378097814,False
+0x9288c1d61fdbc03e3ec95d78c9f4851946c82ec1,STARV3 USD-S Vortex Router V202,20230320-weighted-pool-v4/WeightedPoolFactory,10.61,4.485711320830281,False
+0x42942cdec85078cf0e28e9cb5acd40cb53997ed6,2BRL (BRZ),20230711-composable-stable-pool-v5/ComposableStablePoolFactory,10.42,2596148429267780.5,False
+0x0156e921739ac090c3717e84d78b64bd08ea94ca,STARV3-LIVERETRO Exotic Volatile Router LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,10.28,2.826548257505305,False
+0xae8f935830f6b418804836eacb0243447b6d977c,20USDC-80GHST,20230206-weighted-pool-v3/WeightedPoolFactory,10.27,121.18620926709316,False
+0xc19b243ce160a4645da287e605c31e5c3757cd9c,Farming Fund,20230411-managed-pool-v2/ManagedPoolFactory,10.13,2596148429267413.5,False
+0xc227f321a78dcf2e6d0aec71438a0450ce49554b,20USDC-80miMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,9.98,12.335203466998047,False
+0xa326d263145bd9849698eee4e0669fc0dedbab70,STARV3 MATIC Core LP V2,20230320-weighted-pool-v4/WeightedPoolFactory,9.96,0.20890789674795332,False
+0x7536a79c4c10c5058ad6c841af8e1142b3fbda1f,B-50VAULTX-50WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,9.9,1407124.7279470006,False
+0xf91c7dcba22757ba10ebd1245a837700d66641cc,STARV3 - xtetuBAL Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,9.75,0.164440558948645,False
+0xeab6455f8a99390b941a33bbdaf615abdf93455e,50THX-50stMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,9.53,1668.6111918548422,False
+0xb09f896f6fe2cf4fe5bee2eab5ddef16ecea7acd,70wstETH-30WETH,20230320-weighted-pool-v4/WeightedPoolFactory,9.26,0.00366700035464179,False
+0xa4da55ea14652a7db35c6584cd392e31aeb09141,STARV3-wstETH-stMATIC Ecosystem Growth Router V6,20230320-weighted-pool-v4/WeightedPoolFactory,9.19,23.972882830391026,False
+0xc76df676b10beabe8d730be74c950b030969cd82,50QI-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,9.14,17.86906991363072,False
+0x43aa957bff5c08458a7c88242e733f5cd962c712,STARV4/WETH SuperPool V5,20230320-weighted-pool-v4/WeightedPoolFactory,9.1,0.5892837706928589,False
+0x05414284073c15a428a9eff3fcf3dffed4849ca7,O-P-T 2,20230411-managed-pool-v2/ManagedPoolFactory,9.04,2596148429267414.0,False
+0x58830189ac431c2c492829cd9e6d6527829281ec,STARV3-DAO-STARV3-Materia Ecosystem LP,20230320-weighted-pool-v4/WeightedPoolFactory,9.0,64.49190180417055,False
+0x7120e2d47ca5f912d7c125d5c10b35afca93e849,STAR-Light ETH Ecosystem Vortex Router V2.7,20230320-weighted-pool-v4/WeightedPoolFactory,8.91,295589.85120272316,False
+0x55e26b2511d5b543feacaa6e48ecbc1c8aa765d7,STARV3-WMATIC Volume Router V4.3,20230320-weighted-pool-v4/WeightedPoolFactory,8.52,0.26005294050255595,False
+0x34c0cf546e1a2e9321146c4f01cb675617dc09bc,BAL & STAR-Materia Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,8.52,57.9843977246295,False
+0x705b4aec6525cd064c2c450a1bc8cbb10c5061c4,STARV4-SS/BONSAI Vortex Router V372,20230320-weighted-pool-v4/WeightedPoolFactory,8.4,12.669713984057116,False
+0x625bfdd5052c27c45c8482efb26990af66aea94a,15WMATIC-15USDC-70MASQ,20230206-weighted-pool-v3/WeightedPoolFactory,8.22,426.4004395542254,False
+0x61b58ad4eb2e278c1f35f77ef4ed44c71ee16ad8,80STARV4-20SP,20230320-weighted-pool-v4/WeightedPoolFactory,8.12,51.447702347413845,False
+0x6cdf112502e809017e0ef2f41a004495e488a55f,STAR-Light Growth Router V115,20230320-weighted-pool-v4/WeightedPoolFactory,8.11,4148823.4005706753,False
+0x79673cd4989d21db6fb69265a042c48a33d70398,Super Ethereum by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,8.01,0.29479511121404967,False
+0xe5bb11a1fac1ec7962bfb687f10714e2fd0225ee,50DFX-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,7.98,582.6513659747665,False
+0x2ddcd41d2aa1ca8586aaa46737d3ee2729941c87,STARV4/WBTC SuperPool V4D,20230320-weighted-pool-v4/WeightedPoolFactory,7.83,1.1382281007531274,False
+0x2f1a7bbd5e5eb5c1bd769f2787de5cba22c3006c,16USDC-80RVRS-4lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,7.8,46108.571031817926,False
+0x1cfb761fc8e626f83f4e4b235623029e8ca06a42,STARV3/M tetuQi Exotic Router,20230320-weighted-pool-v4/WeightedPoolFactory,7.59,1448.1092979209338,False
+0x7990f5939b4b07948b902e7e92376aa5ac1327ed,STARV4/WETH SuperPool V4B,20230320-weighted-pool-v4/WeightedPoolFactory,7.27,1.3662434769974914,False
+0x78914052b9dc10318482fb1af3a624852eed3101,Test Managed Pool,20230411-managed-pool-v2/ManagedPoolFactory,7.05,2596148429267409.5,False
+0xa9d2bdb4307b1a65854b22ed51d46c202308e43e,STARV3 - LINK Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,6.67,0.07173658264667718,False
+0x012b18da3f53aca8d36f7c2212445b29614ff1b5,StarSeeds Protocol's oRetro Ecosystem Router,20230320-weighted-pool-v4/WeightedPoolFactory,6.3,8165.067160646603,False
+0x8ea81c2c0dcd0baf5ecbbc2dec334ebd56dec545,STARV3-MAI Volatile Router LP by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,6.22,0.1339037506955036,False
+0x0e844bd17884cb0c6167f6ba561eb3d0534b29a2,STARV3 Rainbow Unicorn Ecosystem Vortex Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,6.09,337.9075056850925,False
+0xc7c9a198865abeb4d47f4a84f8bebac396aa8177,STARV Altcoin SuperPool V7,20230320-weighted-pool-v4/WeightedPoolFactory,6.08,13.896393815364275,False
+0x611ee2908ac1ee2ad84815d3d1489717d6050175,STARV3/M vQi Exotic Router,20230320-weighted-pool-v4/WeightedPoolFactory,6.04,250.61445146083412,False
+0xcfaa8bbc421b4c8ac86b3654a22b86c10b4757b9,33WMATIC-33WBTC-33USDC,20230320-weighted-pool-v4/WeightedPoolFactory,5.82,0.2989089524135475,False
+0x016f6004f6081e935a330832dfd05514c43b8534,STARV3 - BAL Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,5.69,0.09805361541731308,False
+0xcd78a20c597e367a4e478a2411ceb790604d7c8f,Balancer maticX-WMATIC Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,5.68,2596148488576500.0,False
+0xafb5d11629f3fe66ff2d2595180c1ed83a5e7b55,Volatile Money Machine V1 by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,5.63,3.5613016136938076,False
+0xe24eb63845948597506f3cf3d97c8c978a40e0fc,B-50VAULTX-50WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,5.56,1407124.7279470006,False
+0xeba5452e53293d195bf436dc53750c594504b34e,STARV3-TETUBAL-WETH Routing LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,5.54,0.0521288345641983,False
+0xace19bba448c0cb21fa00350f3cba7e4f1429042,STAR-Power Staked MATIC/ETH Mixer,20230320-weighted-pool-v4/WeightedPoolFactory,5.45,2370.348283669147,False
+0xa7b7b1534f2dcf31da4563be3d5c6167bd133378,STARV4-SS/USDC.E Vortex Router V372,20230320-weighted-pool-v4/WeightedPoolFactory,5.43,0.6916871058909163,False
+0xeb51266192adcc8eadab4357ce4f8fc97b5ffc64,STARV3 liveRETRO Volatile Router,20230320-weighted-pool-v4/WeightedPoolFactory,5.24,79.03268869844966,False
+0x43152bdc283c7c263aabb74cf1d27a5e611dc219,25USDC-25LINK-25WETH-25NEX,20230206-weighted-pool-v3/WeightedPoolFactory,5.1,0.6439405133078984,False
+0xf9cb800eff583c70ae64cf3b40384aa76a216b7a,50ankrMATIC-50ANKR,20230206-weighted-pool-v3/WeightedPoolFactory,5.1,217.38258619006197,False
+0x9742c7c93691c679b4f66814d4c92e1175eec4ec,20LDO-80TEL,20230206-weighted-pool-v3/WeightedPoolFactory,5.05,1387.937733632242,False
+0xc474b8512664edc9e746ee5e786478aea15887d2,Balancer frxETH-WETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,4.92,2596148429267414.0,False
+0x450a401a2c1b174775b6848acfe1faa45a44518e,STARV3 - WBTC Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,4.89,0.022657352722663757,False
+0x51a7c7be986f890faa9de665a8fd7f4d9398d9a1,LIVERETRO-WMATIC Price Oracle LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,4.84,11.40258528730071,False
+0xba67ccbcba84932950f49672c689cacfdd475fff,Matic Yield Index Price Oracle by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,4.72,0.05774701123408483,False
+0x72f4de7ef3e2cebf98ae2aff38533fe899629ebf,THX-stMATIC-SPHERE-GROSH-MaticX,20230206-weighted-pool-v3/WeightedPoolFactory,4.69,4031.354883356722,False
+0x53c0022e9425454e37a54d067e2116695ac2af2d,20SUSHI-80TEL,20230206-weighted-pool-v3/WeightedPoolFactory,4.52,1406.7477677474608,False
+0xe40673c96b2ebc214c4599140eafecacac46f1c2,25wstETH-5WMATIC-5WBTC-5WETH-5QUICK-25dQUICK-5QUICK-25MaticX,20230206-weighted-pool-v3/WeightedPoolFactory,4.49,1.8346626920504483,False
+0xdd35f8d90ca82a44eedcd2ef4fd06aaaccd94eed,STAR-Credits & STAR-Power Volume Router V3 ,20230320-weighted-pool-v4/WeightedPoolFactory,4.3,18784177.250338938,False
+0xa874e67a1b203819bce84f161eba4b4eb3f4359b,50USDC-50TRYB,20230320-weighted-pool-v4/WeightedPoolFactory,4.12,30.108940865845216,False
+0x71e5ab137cd36ae28d40533f3e997d55d86f3442,Teg Pool,20230411-managed-pool-v2/ManagedPoolFactory,4.08,2596148429267414.0,False
+0xbc0144caf275099e5812b42724d4f432771efd3c,50EAV-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,3.71,63.24555320336632,False
+0x2607bed0f8022eca127368710d1d4a1582677129,GHST & STARV3 Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,3.69,0.03509718864609284,False
+0xb7167bcfe2df6950ea32bdfc8adfa451026a3c62,50WBTC-50LINK,20230320-weighted-pool-v4/WeightedPoolFactory,3.68,0.003668787265568752,False
+0xcc38b7f7254397a4c197c9e8249c802f01506c08,20WETH-20wstETH-20WBTC-12LINK-12AAVE-12stMATIC-2USDC-2USDT,20230320-weighted-pool-v4/WeightedPoolFactory,3.54,0.009429531310716027,False
+0xc731e1b43fe9587288b3f84505d6a4869b2578ce,test,20230411-managed-pool-v2/ManagedPoolFactory,3.51,2596148429267414.0,False
+0xf2b12fe65b7dbf32bbb6f61a2185d9d4571709ae,STAR-Light Growth Router V114,20230320-weighted-pool-v4/WeightedPoolFactory,3.5,4237.685261950786,False
+0x0e1a9cbf1d97347b4ac3fc95ce1edfa7e65416d1,20USDC-80RVRS,20230206-weighted-pool-v3/WeightedPoolFactory,3.48,14678.051425166164,False
+0x520a8798f5ac3e1641c23e06ebfe1109b5ed6ef7,3D-EURO,20230320-weighted-pool-v4/WeightedPoolFactory,3.34,0.9999999999954995,False
+0xf9d52b458ad70e8c61ac96915cffa51d62549bfb,STARV3 - GHST Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,3.24,0.08073236978475631,False
+0x74c7a222fb745628760b01ca99f51f9473377b95,10wstETH-90MASQ,20230320-weighted-pool-v4/WeightedPoolFactory,3.05,118.7658778899405,False
+0xdff26b180019205afd9c4a05bbf40de6e27081b7,STARV4 STAR-L WMATIC GHST Router,20230320-weighted-pool-v4/WeightedPoolFactory,3.0,56735.49034167896,False
+0x99ea8823656aa635a809e538f2e78a253f9add24,35WBTC-20STARV4-15MATIC-S-15SP-15USD-S,20230320-weighted-pool-v4/WeightedPoolFactory,2.96,0.0762205406017289,False
+0xf9e4d41f781a386faf0d481a91be8949972cec46,STARV4-SS/AI Vortex Router V372,20230320-weighted-pool-v4/WeightedPoolFactory,2.86,18.955224145005698,False
+0xa7554e192c1915ccc02ce9ead2b9c1860ce11500,DAO - SP Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,2.83,33.901773248239294,False
+0xcfc65d7f4ae593935b1f50420794568ebdd22f88,50wstETH-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,2.65,0.0009931535821986,False
+0x88b657ce391a034939e86d0698574c6b3a3e6365,STARV3-wstETH-FBX-Vault Routing/Arbitrage LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,2.57,0.054212037595672995,False
+0x89b753153678bc434c610b7e9182297cada8ff29,Balancer stMATIC-WMATIC Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,2.52,2596148429267427.0,False
+0x93a97f352c8be88d1468b8f7e0c24ce535be9eae,Storage Farming,20230320-weighted-pool-v4/WeightedPoolFactory,2.5,121.30431582933392,False
+0x4e416f139efdfe48afd2f8312747fc85600b227e,ApeMAticPool,20230411-managed-pool-v2/ManagedPoolFactory,2.48,2596148429267417.5,False
+0xb1cc24df1d3d2c6cb798b1129ddaae9e29d437c0,25wstETH-5WMATIC-5WBTC-5USDC-25stMATIC-5WETH-5QUICK-25MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,2.41,0.33671610973865423,False
+0x801048e776b5c89ee8fe8dbb0bb4f385f89a1002,WM-THX-SPHERE-BGROSH,20230206-weighted-pool-v3/WeightedPoolFactory,2.38,1699.8484733493312,False
+0x21c35be1caf1c0e9ca4dcb3956b4a09db788e8a7,STAR-Light Yield Vortex Router,20230320-weighted-pool-v4/WeightedPoolFactory,2.36,2202.839651327604,False
+0x6830f35dfbf8d93f53528c109d593572dd2982ef,STARV4-GHOST Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,2.22,0.23841577791490323,False
+0xfff3a0c1a7d3d3d4531c2c455954dea79fa94cbf,20RBW-80UNIM,20230320-weighted-pool-v4/WeightedPoolFactory,2.14,48779.37063137629,False
+0xc611d6d3fa671e1530fb1ce7786d6bbd64ad90f8,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,2.09,4.064953990056164,False
+0x70c7f91f35fb6b7bc9c80e810dacca62b111a8dd,STARV3-DYST Exotic Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,2.09,3.656519412010063,False
+0x1f82eadfd3778c3735f1d1aee4cfcb4351c1615b,4USDC-80RVRS-16lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,2.08,13948.873816213776,False
+0xab25b6d70f746970900589bb3891436708435837,25WMATIC-25LINK-25WETH-25NEX,20230206-weighted-pool-v3/WeightedPoolFactory,2.06,0.4143445813435813,False
+0xd80ef9fabfdc3b52e17f74c383cf88ee2efbf0b6,Balancer tetuQi StablePool,20230206-composable-stable-pool-v3/ComposableStablePoolFactory,2.03,2596148429290797.0,False
+0x8c89fb53d4d83173dd65b7a94569558ce393460f,Balancer FRAX-USDC Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,2.02,2596148429267414.0,False
+0xe48ec83fbe5f1fbd226460d1047615993d390606,STARV4 WMATIC-USDC SS Vortex Router V376,20230320-weighted-pool-v4/WeightedPoolFactory,2.02,0.02547215967281492,False
+0x5f04bf9cae499bb971911f3af385c469398739ba,STARV4-BTC Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,2.01,0.02379166177722646,False
+0xf5e6e343f44f1fbf28d83476e936f1689bf42b52,20wstETH-24WBTC-4USDC-14LINK-20WETH-4USDT-14AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,1.91,0.001778586122404513,False
+0x033bde353d7d3ea611e964acf0de445af8ccb665,STAR-Light & Yield Index Series EcoSystem Vortex Router V12,20230320-weighted-pool-v4/WeightedPoolFactory,1.9,2011.0971075623736,False
+0x63376dd1ace0b06117acff556a2ab515636568a0,StarSeeds stMATIC Ecosystem Volume Router V2B,20230320-weighted-pool-v4/WeightedPoolFactory,1.86,137.4815646145729,False
+0xaecbdbeb6f4c1e4ee5b65e397249a49691b538fc,20USDC-50PAXG-10DAI-20USDT,20230320-weighted-pool-v4/WeightedPoolFactory,1.84,0.0370684130146169,False
+0x89c0e0991c2b0dd35dbb91ee972ddda7d225015b,STARV3 - RBW Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,1.79,0.10821858693754495,False
+0x921b0bf476cfad7f2e3a5a31892de84a1b54322a,STAR-Credits Experimental Mixer V90,20230320-weighted-pool-v4/WeightedPoolFactory,1.77,3670.66017580492,False
+0xb93e0b311cc52ac2d206737ceaa9f7a28bb3680a,40WBTC-10SD-30WETH-10BAL-10LDO,20230206-weighted-pool-v3/WeightedPoolFactory,1.75,0.003444105051477659,False
+0x644259a08957614e0c9b7ed5fdddb19182d19148,STARV4 WMATIC GHST SS Vortex Router V378,20230320-weighted-pool-v4/WeightedPoolFactory,1.75,0.0376689284286312,False
+0x97bfa798025505367266b1804b30a5dcd3f38bc3,50LINK-50LDO,20230320-weighted-pool-v4/WeightedPoolFactory,1.74,0.6324555320336632,False
+0xdd8d4dd3aaf5c00a297fd0b422ed38a9d26f9721,45WMATIC-19WETH-35USDT,20230320-weighted-pool-v4/WeightedPoolFactory,1.73,1.525392804528764,False
+0xaade36d880b5a528ed6b9ebd348f7003ceaed6c0,STAR-Materia mooUSDC/wtBTC/MATIC/ETH Experimental Growth & Stability Router,20230320-weighted-pool-v4/WeightedPoolFactory,1.72,4.43443837539547,False
+0xacb0bd6f7206174c64cef5e05c4d7871ea888d33,33WBTC-33WETH-33NEX,20230320-weighted-pool-v4/WeightedPoolFactory,1.67,0.005595966756869724,False
+0xb48f108dbd5122a59616db806de59bf347fe6369,STARV3 ETH Core LP V2,20230320-weighted-pool-v4/WeightedPoolFactory,1.65,0.01329913346380373,False
+0x60f46b189736c0d2ae52a79382b64c1e2a86b0d9,DAO-st/WMATIC(C) Core LP,20230320-weighted-pool-v4/WeightedPoolFactory,1.62,10.722759432434984,False
+0x3ecd0ca99dcbf534028025ea01196ff3d3c57807,50WETH-50FBX,20230320-weighted-pool-v4/WeightedPoolFactory,1.6,0.0815197588809854,False
+0xf1ac085911e5bccbdcfc4094251c346d58d97741,50STARV4-50MATIC-S,20230320-weighted-pool-v4/WeightedPoolFactory,1.6,4.433780586536989,False
+0x7eb8a014e14d349fbca9374fb7592be4416b2ab5,STAR-Materia USDC 80/20 Router,20230320-weighted-pool-v4/WeightedPoolFactory,1.58,6909.907117199473,False
+0x143084f520179dbb8f5a80bd359db6c3c8afde94,The supporter,20230411-managed-pool-v2/ManagedPoolFactory,1.57,2596148429267414.0,False
+0x2e1fd968a7185f52cfb933e51b5bb7f8f43e6105,10WBTC-10USDC-40WETH-40NEX,20230320-weighted-pool-v4/WeightedPoolFactory,1.57,0.03914798744362304,False
+0xf313acc24aaa76af362ee4371251312cec90884d,STARV3/M oRetro Exotic Volatile Router,20230320-weighted-pool-v4/WeightedPoolFactory,1.55,102.78190699100604,False
+0xc59e114c470c96da70f45e67583a25dca0dbc259,STARV3/M liveRETRO Exotic Volatile Router,20230320-weighted-pool-v4/WeightedPoolFactory,1.53,116.74953719085164,False
+0x1d17bfefbf304b04939519b46c4c75fcf4889623,15WMATIC-10BAL-15SAND-45GROSH-15TEL,20230320-weighted-pool-v4/WeightedPoolFactory,1.5,438.709638892194,False
+0xc04a924213f8654239189d700759bd508c5fbd6d,50UAHT-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,1.5,0.16509937246755746,False
+0x8a352ffbc8c8bc87d7e33255a34f2cf5543e6416,80CNT(NEW)-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,1.48,1511529.876528559,False
+0x590d5b01468868bb3af8fc130c77219a1d968db8,STARV3-STARV3-Materia Ecosystem Router,20230320-weighted-pool-v4/WeightedPoolFactory,1.44,1315.916738820124,False
+0x58e18d874668a2387ef982548aead4e907f49428,40NEX-40WBTC-10WETH-10rETH,20230320-weighted-pool-v4/WeightedPoolFactory,1.44,0.008814622532038779,False
+0xcb9f21caca820dfc342a114b46d3dc18253c0532,STARV3/M Mixer V3,20230320-weighted-pool-v4/WeightedPoolFactory,1.42,45.98676577760393,False
+0x41682f67b30d011fcb045550d572655b22040985,STARV3-MAI Volatility Generating LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,1.39,0.02862319588764668,False
+0xedf5dabf96a06f5828263cf7e27915a58e3a9d7f,STARV3-M-WMATIC Volatile Volume Router V4.4C,20230320-weighted-pool-v4/WeightedPoolFactory,1.37,56980.77343231487,False
+0x74da9cfaef6c12e3433ef9576fc153ed8a194383,50WMATIC-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,1.37,3.2116574812569345,False
+0x5a56cfa6637d44efe1491b86cb6221a8acd2998d,25AGA-50RVRS-25AGAr,20230206-weighted-pool-v3/WeightedPoolFactory,1.34,316.5893189826204,False
+0x206a331f22c9fd4dd76980bcfb6ecc8c79ddf783,StarSeeds Dystopia Ecosystem Router V3B,20230320-weighted-pool-v4/WeightedPoolFactory,1.34,2116.3693505941765,False
+0x77816998ed420f9c6eb5d6cb3f9a5f9eff884c11,MoonShots DeFi Index,20230411-managed-pool-v2/ManagedPoolFactory,1.31,2596148429267414.0,False
+0x55dc13df97ed3f053f672baf56288c70c7f11c91,STAR-Materia Core Growth Router V4,20230320-weighted-pool-v4/WeightedPoolFactory,1.29,0.05207002579711947,False
+0x18e0b2e1aef65366ae4d37054580dea4a466d21c,STARV4 Vortex Router V377,20230320-weighted-pool-v4/WeightedPoolFactory,1.26,0.014115852802483902,False
+0xc9605650ed21f1cf80b09060b0ff208f90b50558,20PYR-80TEL,20230206-weighted-pool-v3/WeightedPoolFactory,1.24,229.29254341957315,False
+0xb49bd41ed56340674e2d2d3cfbfa9807e4e1fe27,25SUSHI-25WETH-25AAVE-25agEUR,20230320-weighted-pool-v4/WeightedPoolFactory,1.24,0.047184297753461904,False
+0xa39cefa0b9eefb52aab6bf4af2d4e656afe481cf,Consensus Managed DE-WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,1.24,14.122947174335144,False
+0xedad802d9cdad9cf9bfb9911fc6b1bc7055a5915,40AGA-20wstETH-40AGAr,20230320-weighted-pool-v4/WeightedPoolFactory,1.23,0.1686719778745828,False
+0x9228ce1c5ea62e13d1c0a267087ecab16b08c61e,OPT-6,20230411-managed-pool-v2/ManagedPoolFactory,1.22,2596148429267414.0,False
+0xdceaf9ea3eab751eb28070fbd07c95dba6ad9b7d,OPT-6,20230411-managed-pool-v2/ManagedPoolFactory,1.22,2596148429267414.0,False
+0x7af5fa2a725a62c97dd047513cabec584077ba43,K P,20230411-managed-pool-v2/ManagedPoolFactory,1.22,2596148429267414.0,False
+0x08c53bd60f3ea06ea7dfeb2281a7a48a91eed2b5,K P,20230411-managed-pool-v2/ManagedPoolFactory,1.22,2596148429267414.0,False
+0x387e43fc1dfb63ec871822eeb5eb445039209d9f,O-P-T 3,20230411-managed-pool-v2/ManagedPoolFactory,1.21,2596148429267414.0,False
+0x58591e492f7a19ee8d9966dd4beed9e9446e5069,O-P-T 3,20230411-managed-pool-v2/ManagedPoolFactory,1.21,2596148429267414.0,False
+0x99d4d135f86f04a96be81f53216c4780882e8a9f,O-P-T 5,20230411-managed-pool-v2/ManagedPoolFactory,1.21,2596148429267414.0,False
+0x6312884d02cee5b797bef80389472413354518bb,STAR-Materia & WBTC Growth Router V4.4G,20230320-weighted-pool-v4/WeightedPoolFactory,1.21,2010.4106002085548,False
+0xcb78065d1593dde50a347d23b75595b5c26d34bc,STARV3-wCASH-USDC(C) Exotic Ecosystem Stability Router V3,20230320-weighted-pool-v4/WeightedPoolFactory,1.2,1.5961754618296486,False
+0x788d7f70ce60a4c1a91e5d0a7ee63d636177c52a,MATIC/UAHT,20230320-weighted-pool-v4/WeightedPoolFactory,1.19,18.111346293510525,False
+0x3027c4be97505a871284c41eeeb6daeae8d83861,50UAHT-50WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,1.14,0.023033856137091926,False
+0x513f69b2e2a6fa0347529e6178002213cf60ce3d,50WETH-50AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,1.11,0.001366600265340587,False
+0x81f80fec58e2a75519052ba884b9e811a3f3c216,STAR-Power BIFI (old) Mass Router V1,20230320-weighted-pool-v4/WeightedPoolFactory,1.1,22941.059639868086,False
+0x0ba53b730efc9890493ae50195f692303d4e6b11,RETRO Fee Generator by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,1.08,6.685579808281244,False
+0x54c1cd3db3d6eeb1f041d02140b80639068a636c,25WMATIC-25WBTC-25WETH-25NEX,20230320-weighted-pool-v4/WeightedPoolFactory,1.06,0.015292549489967241,False
+0x39aec55261362a4f22298fe34a049ff002e49ff5,Balancer Test Pool,20230411-managed-pool-v2/ManagedPoolFactory,1.05,2596148429267414.0,False
+0x5a1eafedbe2037a9e2cb55d89248d2af92eab5e6,aaaaaaaaaa,20230411-managed-pool-v2/ManagedPoolFactory,1.02,2596148429267414.0,False
+0x796c8c7f5faf29fcf9b509e16910e154f5741033,33WMATIC-33USDC-33stMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,1.0,2.6654573111101985,False
+0x1cca7b11a3b36082c13e022d441b2da3a4d7206f,33rETH-33WETH-33NEX,20230320-weighted-pool-v4/WeightedPoolFactory,1.0,0.006405935643260784,False
+0x46ff08b620b2586fc068ae26b12db4422c405a95,Decentralized Pool,20230320-weighted-pool-v4/WeightedPoolFactory,1.0,3.3319415446892338,False
+0xf5a17027a2332df9510f8bd03b7a0ee1529479f3,STARV3-BTC S Yield Series Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,1.0,0.00229992659561683,False
+0xbb6afaff926aa25f9edb21c7a90bc4b53a33968c,30DFX-30GHST-40GROSH,20230320-weighted-pool-v4/WeightedPoolFactory,1.0,290.97104302877585,False
+0x26563dccdb24b7045d207a0538e83c90e7e82731,B-80VAULTX-20WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,1.0,275945932.29223746,False
+0x6dd581203c687db4e65933427c5aeaee4f5e1ba3,99USDC-1DAI,20230206-weighted-pool-v3/WeightedPoolFactory,0.99,9.45567926785e-07,False
+0x6927684862349a48ec8e74250792f9595034e39b,All Gone,20230411-managed-pool-v2/ManagedPoolFactory,0.98,2596148429267166.5,False
+0x570dac502e4468fbdbfb00421f73b855b50b2825,OPT-6,20230411-managed-pool-v2/ManagedPoolFactory,0.97,2596148429267414.5,False
+0xa3c724d6b57643984c1e08a2ab82d2b0b308d327,50WMATIC-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.96,1.905191702172524,False
+0x1f7f9a5fa7176512214665c3843d01e1452314a6,STARV3 WETH-USDC Stability Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,0.95,0.003012422693168307,False
+0x5092977abbe36232bf48a9c5f053bac47848ea63,25WMATIC-75USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.95,1.5320267745195393,False
+0x55dcee4549128393316ff55639f257916a69e3ab,50wstETH-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.94,0.000325774598626042,False
+0x8b2f8d4ececfd114d201e152187f52836f420f66,STARV3 EcoSystem Vortex Router V20,20230320-weighted-pool-v4/WeightedPoolFactory,0.94,38.308200669837596,False
+0x51fc57e13a7837d4890f1bcffbad285b7d00f7c1,80DE-20WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,0.92,14.052502258813899,False
+0x8c4916a75d084778d82f251b2a209a74cae4684a,STARV3-ETH/FBX(V3-LP) Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.9,0.000530615514204855,False
+0xcc1cd2c2e7bdc3b82d6754bce4c4cff8cf9a03c1,Consensus Managed DE-AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.88,11.143589487480687,False
+0x17a00f034836c7a9c666cd46086713af3b58a9a5,STARV3-oRETRO Exotic Volatile Router LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.87,0.9939081356713292,False
+0x9973d5a0487c8fa93c2dd8beba076c635145b56e,The Queens Ultimate Mixer,20230320-weighted-pool-v4/WeightedPoolFactory,0.87,1.3906132764268597,False
+0x2a7a9b5b4926306a75bdb5b71a1aad8a64181ec6,80RVRS-20lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.85,4260.883009221856,False
+0xee6b0935fdf581e591a93d5d2e2448b518e631d0,STAR-Power & MaticX Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.85,283391.9075550217,False
+0x4e8c97baa6777ae00ed3fe1acb4dd54fb8fe19c5,80WBTC-20ICHI_Vault_LP,20230320-weighted-pool-v4/WeightedPoolFactory,0.85,9.9459828418437e-05,False
+0x6c3a72d5f31fc824fd007421da8674145bb97eef,STAR-Power DYST Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.85,463578.78731474146,False
+0x559abdfcde5d1970dc1c98992742e0beb7441c00,QI Lives On by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.84,2689.4686430275146,False
+0xaa68bb84ee4ebddac7c966aaa298d0428bd18047,STAR-Credits Ecosystem Vortex Router V4.1,20230320-weighted-pool-v4/WeightedPoolFactory,0.84,1621.2449237182047,False
+0x682d2c37ece8f62b112fcd94e42419fa606bbcc0,Tetu & SP Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.84,11984.922739157837,False
+0xc7c800090356429d1da0be55dba7e60a633409e8,STARV3 WMATIC EcoSystem Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.84,37.28841989373644,False
+0xebe8cc9154edf747ef1bd6f9becb674b90de707c,aaa,20230411-managed-pool-v2/ManagedPoolFactory,0.83,2596148429267414.0,False
+0xc7c09bd12aa00099d45e350e4b2d9b082a374aac,STARV3/Materia Revenue Router V45,20230320-weighted-pool-v4/WeightedPoolFactory,0.8,0.09339839149085971,False
+0x2f67bae2f1b84dec6f8a25425470a4a77082574a,STARV3 Yield Series MATIC Vortex Router V14B,20230320-weighted-pool-v4/WeightedPoolFactory,0.78,0.016046599535604625,False
+0x860ba7490e390c81cee1848e4539ebd613f6c456,50wstETH-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.77,0.02409962287495957,False
+0x8670b3b82ddf5e1137c638969c3f747923268d77,UAHT/USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.77,4.995860786811589,False
+0x809c86c9d01ef7e44345a8110474c551359aac44,UAHT/USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.75,4.852059574469406,False
+0x1ebe9517c8c0756dd7ab7847aeb77c229f19b30e,20USDC-80MTB,20230320-weighted-pool-v4/WeightedPoolFactory,0.74,0.6401661633380243,False
+0x1b82799aefc5049ea30a88b89171702b3cacfa74,5020WETH-80BAL-50tetuBAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.73,0.2238500522469376,False
+0x173f7cf0b29b1178b64aa9c0ebdcec5955c61f6b,STARV3 oRETRO Ecosystem Volatility Router V3.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.73,9.62982013721966,False
+0x6248761a5617aef3ed46bf9bede38b53e9f91ebe,50RBW-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.72,21.22350300549126,False
+0x5250525a8fd922ec87b42c42b0ea71fd46565cb0,xWARU,20230320-weighted-pool-v4/WeightedPoolFactory,0.69,121.15882521699682,False
+0xf64f6ab5cac83a464403a4f331a4fee73cd3fc36,33WBTC-33QI-33SP,20230320-weighted-pool-v4/WeightedPoolFactory,0.69,604.0647151645811,False
+0xec8d0684418a3fa715a7ce01aa1794d8d29628ac,STARV3 EcoSystem WBTC-stMATIC Vortex Router V3,20230320-weighted-pool-v4/WeightedPoolFactory,0.68,0.7524789935835194,False
+0x4938d6a9bf4800c0d2406c9e3af019c824f1e99c,STAR-Power & STAR-Materia Ecosystem Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.66,44706.87750537643,False
+0xd8889d2a6f96aa3e3624258de9cd4cb5319b3d31,OPT-6,20230411-managed-pool-v2/ManagedPoolFactory,0.65,2596148429267414.0,False
+0x24c31061fdd7160bd9c2071ca7608b39dbe2ad63,OPT-6,20230411-managed-pool-v2/ManagedPoolFactory,0.65,2596148429267414.0,False
+0x4766d4e0099adce50d2754d38b03514d45facce0,STARV3-M-WETH Volume Router V4.4E,20230320-weighted-pool-v4/WeightedPoolFactory,0.65,5288.788081020325,False
+0x4f689c1110e0bbaf4563babea88f3c27eaa0d0ee,STARV4-SS/AIMX Vortex Router V372,20230320-weighted-pool-v4/WeightedPoolFactory,0.64,0.32807072553344524,False
+0xf7fd196c4606fb78178a85d1059f8224ddbccd2d,50DAI-50miMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,0.63,0.6324555320336632,False
+0xfc3cb74efae04e0f85f161a3110f326a1bbdbf4f,STARV4-USDT Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.63,0.08774622138229525,False
+0x643a05c533dfa3b21ba139d65bc67705f4e0858e,25SD-25USDC-25BAL-25LDO,20230206-weighted-pool-v3/WeightedPoolFactory,0.62,2.1539288430942425,False
+0x6b4ea171602eb6ac1b6d8216e5ea88875d57144c,50wstETH-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.61,0.000209917890604908,False
+0xbf04af559b2e934ebe8290fb41bc2c0dac2ebfb7,StarSeeds Protocol MiMATIC EcoSystem Vortex Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,0.61,22.625488297082093,False
+0xf19f347166665bfb0fa954d9b0b8eb74dd3841b3,40SOL-10BAL-50GROSH,20230320-weighted-pool-v4/WeightedPoolFactory,0.61,10.397270604366543,False
+0x97d5f448cf3846619a34595c1664f6bbf74a76fe,STARV3 MATIC-S EcoSystem Vortex Router V4,20230320-weighted-pool-v4/WeightedPoolFactory,0.61,1.5620277272859922,False
+0xce220a47b80cc8ec2dfc62732448fbc17c13bd83,20wstETH-21WBTC-5AVAX-5SNX-12LINK-20WETH-12AAVE-5SOL,20230320-weighted-pool-v4/WeightedPoolFactory,0.61,0.00123556563035262,False
+0xeee3b1590bd51fc3a02136d2f56c691aa8f388ae,50wstETH-50FBX,20230320-weighted-pool-v4/WeightedPoolFactory,0.6,0.04756055425013604,False
+0xa8c128cf5c08c42b38a0974f3e9a5735e065b37b,STARV3 WMATIC-USDC Stability Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,0.6,0.015102889684485027,False
+0x63683efe7839bb3c4e746bf5c4d1f5ee785a6a02,STAR-Power wstETH Bond Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.59,54768.81112158031,False
+0xc31f6ecbafaa6c3a3c69d837f7ffdda74391fc83,STARV3-JRT Exotic Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.58,0.004032892123906741,False
+0xd1c9aabd7695309cf69f0fb34163b5340d010d68,STAR-Light & STAR-Power MATIC/ETH Growth Router V111,20230320-weighted-pool-v4/WeightedPoolFactory,0.57,11032.464983273687,False
+0x8ede76c41a387fd5a4359d74230c3b0c0cb73b26,33GHST-33stMATIC-33LDO,20230320-weighted-pool-v4/WeightedPoolFactory,0.57,1.0531935312124885,False
+0x212aba600698125d1e947898a93e155379166a33,STAR-Power & Star-Light WMATIC Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.57,1400974.434783345,False
+0xafd8a58780f08fdac15c8c36cae7b1d6fa3f7616,25WBTC-25SOIL-25WETH-25NEX,20230320-weighted-pool-v4/WeightedPoolFactory,0.56,0.009202207663034137,False
+0x54459ff1bdc67294e023f0667068171049fac9db,55WMATIC-20QI-25UNI,20230320-weighted-pool-v4/WeightedPoolFactory,0.55,0.04392790816769088,False
+0xa4a03a57c89f39c66f2237c0643ba6eec36da5ec,STAR-Power WETH Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.54,75328.75020037174,False
+0x1c1934ef0511a95e6fd6a04b6549472af22cda80,STARV3 MaticX wstETH Ecosystem Growth Router V2.1,20230320-weighted-pool-v4/WeightedPoolFactory,0.52,0.8432983493030253,False
+0xf7379614925685c5d5c4710f918b8473cadeae14,STAR-Power-oRETRO Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.5,3093487.3107150556,False
+0xaa9dcf8f1519a0fa767d3565072860e24cadcf5a,STARV3 WBTC-USDC Stability Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,0.5,0.001297397475091255,False
+0x09eef1d077caded7e507526cfa8ca8d8692504fb,STAR-Light Growth Router V112,20230320-weighted-pool-v4/WeightedPoolFactory,0.49,3651.8110931168653,False
+0x73117e763a58181a053680323b61d76bad00a6c0,STARV3-oRETRO Low-Friction Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.48,0.13592422332885604,False
+0xff58f63dec700fb178b1f1f83b3b2f33e00b9e43,Consensus Managed DE-WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.48,23.98696176057306,False
+0xcb14b8be85093205d353a4cb9c712879f2e325a7,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.48,0.48120573783361176,False
+0x2e03c1bcd3975db4965bd84fc00f700e0962f203,STAR-Power ol'QI Chaos Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,0.47,1051255.7855845946,False
+0x1265ad6024c9db3c70e2337e20007eafcef6ded2,STARV3-MAI Volatile Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.46,0.012957502510381969,False
+0x65e4b8d153b5458610f0acfc56f41ad3c4909368,Consensus Managed DE-BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.46,17.13294093113672,False
+0x6cfdf37a48c7531b1ba96bfa270644ff0f143900,STAR-Power ETH 80/20 Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.45,4262.457717515979,False
+0x6db090cc3b571d0fb365b8d0f1b8859a75554a59,Consensus Managed DE-CRV,20230320-weighted-pool-v4/WeightedPoolFactory,0.45,17.83991311555726,False
+0xe2e6d4b7611fa9be4e6604ed46d604c2d62152e4,25USDC-50GHST-25WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.43,0.08527299844013278,False
+0xd9a6efb07ff8cc69bcb20a0c2229486e949c2270,Polygon tetuBal-BPT-80BAL-20WETH Stable Pool,20220609-stable-pool-v2/StablePoolFactory,0.41,0.8315885359931878,False
+0x35b75c5a12420ed11487a7fd6e21a545650068f2,STARV3-csMATIC Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.41,0.003395112594214528,False
+0x5ada63b2112f4299199ee9cc2bf632dfe37c2058,STARV3 DeNet Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.41,0.005683434716604152,False
+0x97957cf303f7e6d7fc56959edc0b2eab27d3eee5,FBX & STARV3 Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.4,0.006208974943204951,False
+0x30aeac2ed5dcb59ed02c1218f88924ef1309d754,80mooCompoundPolygonUSDC-20ICHI_Vault_LP,20230320-weighted-pool-v4/WeightedPoolFactory,0.39,1.08171087e-10,False
+0x6a6525d88de3c2434dc060f54eaec8fdfa12869c,2brl (BRLA),20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.38,2596148429267414.0,False
+0x3c4c55db89b1411d978a4dfb0fe563aaa91e9cac,STARV3 & oRetro Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,0.38,0.07729023804556263,False
+0x2b9b87240a36197c6b119581e81db21adcea026d,STAR-Credits Growth Router V15,20230320-weighted-pool-v4/WeightedPoolFactory,0.38,0.5051603566447905,False
+0xbc01f6f0df116c8e624935dc318ae9655c6f3dc0,STAR-Power & MiMATIC Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.37,18893.515338566256,False
+0x035476819e3d074d8d734552be7738e055f773cc,JARVIS-ETH 8020 1%,20230320-weighted-pool-v4/WeightedPoolFactory,0.37,2.0490899984141953,False
+0x0e263c7e02e00a3960ac9399aa16c7030d0488a9,50SUSHI-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.37,0.4155023187886963,False
+0x13eb17b5c3d9f073159c2b09447030133a18a538,STARV3 WBTC Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.37,0.000385882092697328,False
+0x99596b4595d4343ef388a706b214ad8ac05e5436,25WMATIC-25USDC-25WETH-25DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.37,0.07211943621188276,False
+0x65d5cfd61cf474674eaa94e8f6a53851dd071b2a,50STARV4-50SP,20230320-weighted-pool-v4/WeightedPoolFactory,0.37,515.6157458315791,False
+0x54885ebb31822e18fe70c0c99f74fdd52559dc5c,70CGC/30USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.37,0.001633579388567759,False
+0xd7786ac3f9071ddacaf9a5b0bf443c58f8d6cf67,25MKR-25WETH-25DAI-25NEX,20230320-weighted-pool-v4/WeightedPoolFactory,0.36,0.0135654035778334,False
+0xd56ddd6c3597e2954cee8aa7d0a2999ea54fff1e,STAR-Power & WstETH-FBX V3-LP Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.36,8555.987032512945,False
+0x8d4cef43e7ceeed6fbd532f8cbd38ded61aa1163,STAR-Power oRETRO Growth Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,0.35,17557.351562623506,False
+0x9c57dc0639523e7cc1dba4846d17d3f31d12f45a,STARV3-FIRE_EP Routing LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.34,0.00257760080312963,False
+0x8a70adba1114a969e801fe93fb9acbd12bc27cbd,STARV3 Volatile Router Experiment 1,20230320-weighted-pool-v4/WeightedPoolFactory,0.34,0.05657343934840722,False
+0xb8989bbb0626297412a768f38dc0c5d6fb1afb0e,STARV3-TETU Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.34,0.11957756639733957,False
+0x4df038673461f25d5de2ef609777cff4d2232140,STARV3 EcoSystem wstETH-MiMATIC Vortex Router V3,20230320-weighted-pool-v4/WeightedPoolFactory,0.34,0.518441931099245,False
+0x0c4165257ec93ffed385531dded9d725a1648de8,STAR-Credits & WETH Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.34,279.0754747939206,False
+0x9f053c97afc558a7015642368db177d23280db87,50LINK-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.33,0.0015746917524383,False
+0xc2e911350af91b727d8f30d4ab475b11b7e97e45,50wstETH-50DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.33,0.005739392604254072,False
+0x439723303b075a0ee1969391513a2e071d9b5184,STAR-Power wstETH Core Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.33,95220.61209630014,False
+0x30a73d5470f86dd1b6a0f970bc3f80e2b42e5e15,STAR-Power stMATIC JustALittleBetter Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.33,954900.142544921,False
+0xc02c1397184f55896077981026830d8ccf5bf781,STARV4 STAR-L USDC Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.33,4608.3666930465015,False
+0xe0818ec63e546726952ee3e11dd6506aee421d65,Consensus Managed DE-DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.31,3.340911403746533,False
+0x3e5cb9be6f40855bcac3c8c2ada1998b2876babf,33TETU-33BAL-33AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.31,0.48475007305252743,False
+0x13d931d85402a88ccf5fef939a4e208224fcb028,BAL & STARV3 Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.3,0.002580801115913417,False
+0xd0ada860544a74c81c78323811ec729566b09911,STARV4 & STAR-Power WMATIC Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.3,1288.2868893469895,False
+0xa81864a7a20c813a9ca4bcf828745682c596a7aa,STARV3 - MiMATIC Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,0.29,0.003661067521792543,False
+0x6a859910bb60a6ef6c5b8886ff39e5e5311f6d8e,STAR-Credits Matic Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.29,18769.003653051546,False
+0xfa9fdbf9bfab4dacaf93dc1219782c4b8b5ab47a,STARV4 SuperPool V1,20230320-weighted-pool-v4/WeightedPoolFactory,0.29,3.054160877356006,False
+0x6ad3997cb8820e3af5a7b9dd71401d61b7b817b7,50WBTC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.28,0.000815269280667418,False
+0xa500c998642f1eaa75b099faf381c6403d101cb7,STARV3 RETRO Exotic Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.26,0.016350099735597867,False
+0x657f5af41d65bec3f50e17db052de673b0335449,50WMATIC-50WT,20230206-weighted-pool-v3/WeightedPoolFactory,0.25,14.142135623730667,False
+0xb3d72152ebf624a1d876cb05ae0e108d25c3c295,BPT-ankrMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,0.25,1.1736368302825757,False
+0x5f215d9034c38a01fbade4c1b864c4a3d9e0f48e,STAR-Power-WMATIC Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.24,1148608.6627590735,False
+0xb75795998cee74e8b1dc33d1399f170cc02fc12e,Colct Swap Composite ,20230320-weighted-pool-v4/WeightedPoolFactory,0.24,0.2350691514328294,False
+0x2a18d8e9f1f2744578b2f144c8b5b8d9bef4b82d,4USDC-80RVRS-121CT-4lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.23,2152.755003594195,False
+0xe2ff0ba7f46031b0284ebb3f0124b6454d67db15,50Poo-50USDT,20230206-weighted-pool-v3/WeightedPoolFactory,0.23,0.46204710725047793,False
+0xfbc390e65bc08bef5c81971a5941f3e2142142b6,JARVIS-ETH 5050 1,20230320-weighted-pool-v4/WeightedPoolFactory,0.23,0.011132387182277548,False
+0x9105c470449921fb7061efceb318e30662d14621,The Big Three by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.23,0.003268525001283616,False
+0x1fed618d1d7fa27970d927cc93f3d21e60f34b88,STAR-Power & STARV3 Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.23,48586.47787382128,False
+0xdfc570440745295ebfa489789daa96a5d18dfd0a,STARV3 & MASQ Classic Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.22,0.015335287623238825,False
+0xbbeb4969c46f65cab77a178997da920df34e801c,50FRAX-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.21,0.0041625397090415,False
+0x6036b4d28685d28cc0891b5f63c3449543cb9821,50USDC-50DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.2,0.199999999999996,False
+0x1fe67acef14b51a70b54d4eacc950b6c143c4527,STARV3-RETRO Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.2,0.0612230127199256,False
+0xecc529860084aad5976568e3a571eaf093e875d7,STAR-Power & Interest Bearing STARV3 Ecosystem Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.19,3147641.467398862,False
+0x22f220b66caa512e291f7b04fa64ac43ac363294,STAR-Power stMATIC Core Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.19,261650.625083695,False
+0x4f5f802125b22598b8a63585222cf7373204313e,STAR-Power LiveRETRO Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.19,48849.54763304421,False
+0x6a375e938cee961a76d7ba0ed713055c3bb8d469,ETH Toros-Leverage Tokens Price Oracle by StarSeeds Protocol ,20230320-weighted-pool-v4/WeightedPoolFactory,0.19,9.07588883860793,False
+0x75816b25b89bfd4c9aa7571b1f5526ad6a901181,TBY-DE Swap,20230320-weighted-pool-v4/WeightedPoolFactory,0.19,0.436533389188607,False
+0x8c2335705ce02be9ebfba503187eb9640bfd29a1,STARV3-ETH S Yield Series Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.19,0.001518070235196727,False
+0xc8bd2457d65f5fa728728be53827b142c6e36d54,Top List,20230411-managed-pool-v2/ManagedPoolFactory,0.18,2596148429267410.0,False
+0x17fe4b9395e1171e12a8e1204f333a57caca01c1,STARV3 & STAR-Power Ecosystem Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.18,7940.033831221957,False
+0xb42660a24fbbb024deecc1c29a037d1c60f1c495,STAR-Power & ETH Yield Index Classic Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.18,906.8800408426504,False
+0x39128312f2e01a0f0076671001127be81fa535c8,20WMATIC-80STAR-L,20230320-weighted-pool-v4/WeightedPoolFactory,0.18,5329967.399167443,False
+0xe8ade6802184f096425f74d75552a1b7f1dc873e,15USDC-70GHST-15WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.18,0.11014803508564033,False
+0xb5308a1112b93e133fd7ec2d90b0bb3ba022ab84,20mOCEAN-80TEL,20230206-weighted-pool-v3/WeightedPoolFactory,0.16,1.311956472804617,False
+0xd2ad70856dab2b68a9c43f63e2211053c2232c31,50GRT-50wPPC,20230320-weighted-pool-v4/WeightedPoolFactory,0.16,0.8691339748237793,False
+0x5855e62f286563e84c83c91357b9ecee3852b71d,RETRO & SP Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.16,48041.57847956958,False
+0xbbaaa66e8df3a6427f68145f3e0713ed61b52a41,STARV3-MATICX Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.15,0.017859836082130574,False
+0xb417b223ce4c75d34430fb3e26f6e5cf77ae47c4,50WMATIC-50DAO,20230320-weighted-pool-v4/WeightedPoolFactory,0.15,0.3125554786573604,False
+0xa3ebff7685522a7766b25f7b2f4667171989b074,50wstETH-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.14,0.002414697478547168,False
+0xd6e5704d4b43d79f1ea597a9c36105baf2dea993,The Big Three V2 by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.14,0.000927197247293223,False
+0xe605370fb09d841e114367f21381e5b8cfd2a28b,STARV3 - USDC(C) Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,0.14,0.000181464238707826,False
+0x19d836c64388a8a3c732c007c4840e9e11eec2aa,STARV3 GRT Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.14,0.000160158279585772,False
+0x4da228faf736437cc24cd368a294d3cbf94c05de,33WMATIC-33ankrMATIC-33USDC,20230206-weighted-pool-v3/WeightedPoolFactory,0.13,0.32174320466784767,False
+0x1196bc00808d8512fd122b48a567e4ac31b6ae0e,Polygon test,20230411-managed-pool-v2/ManagedPoolFactory,0.13,2596148429267414.0,False
+0xd9eb6bbd54aa9a51ab02b624371929a8e08bc0f5,Yee ol Qi Price Oracle by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.13,4.868394723136204,False
+0xa9347bf6e6841a57ab3ab25e6f43e9434c9d293a,STARV3 Staked + V3 ETH & MATIC Experimental Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.13,0.009913401793936764,False
+0xeb275b51b2a02d430e75146523894ed644de56ab,95USDC-5USDT,20230206-weighted-pool-v3/WeightedPoolFactory,0.12,0.199999999999996,False
+0x7f49a51970e4b4ce3b4ca2d47cd7c4e9978a110a,Appreciation Vector Pool,20230206-weighted-pool-v3/WeightedPoolFactory,0.12,9.8915824188986e-05,False
+0x63434fc927525f1a20c33d4d0dab83c08449c4c9,STARV3-wstETH Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.12,0.006208731302938862,False
+0x5e6306d79b88a543885fc692864b9a090d6a80af,STAR-Power & oRetro Classic Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.12,213.6925805922869,False
+0xd7a8bd108ef57c9055e75832172c012de94e2be0,STARV3 USDC Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.12,8.1660544331782e-05,False
+0xd2f530efe8c8c3d98eb11ceeab22bae48ffd8595,STAR-Light MATIC Yield Series Growth Router V115,20230320-weighted-pool-v4/WeightedPoolFactory,0.12,2.5975389962283657,False
+0x432f22762ac6a2f4cc9c2845c93cabeebd03eee7,GHST/WETH/WMATIC/USDC.e,20230320-weighted-pool-v4/WeightedPoolFactory,0.12,0.04568322836745954,False
+0x85778ce577e2c3ed5ca32f56ba22304ed5269819,50WMATIC-50WBTC,20230206-weighted-pool-v3/WeightedPoolFactory,0.11,0.000609639361443967,False
+0x10ebd96c543e79ae8f7229aaacf20f3d4cd83890,50FRAX-50DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.11,0.10944729461846299,False
+0xd7b928ead272e9e610db5df16d4a607e31cc2587,Pax Golden Storage,20230320-weighted-pool-v4/WeightedPoolFactory,0.11,0.2559318462602353,False
+0xd99cba6607d96f286b4b78bb0a0585394afe5e48,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.11,0.11207697354942939,False
+0xf33eca7cacbb2adb86e92f9bbb98c8c752f00276,STAR-Light Arbitrage Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.11,2.551206526461001,False
+0x78e0f9e91fe77058d13a7162b72a5d5e5f2bbd23,50STARD-50wUSDR,20230320-weighted-pool-v4/WeightedPoolFactory,0.1,0.0933007706915041,False
+0xd559c09e48d9882bc2da98de3d885c21bd130676,10stMATIC-90SP,20230320-weighted-pool-v4/WeightedPoolFactory,0.1,38999.25442659431,False
+0x6b99a931a02f4a1da5d45e10f30589157f9cb48f,GHST & SP Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.1,6624.335737796799,False
+0x36f86269c9dae8d7367de239f48d1de9c535d7f7,50USDC-50DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.1,0.099999999999998,False
+0x40fa4e4ff4fee4536defaf9f0bda49ff207a74de,20USDC-60GHST-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.1,0.0333971149766755,False
+0x37ef9ca66376a96bdf5eb9974738132757ed0730,SD-HEX-THX-SPHERE-BAL-SAND-LDO-GROSH,20230206-weighted-pool-v3/WeightedPoolFactory,0.09,28.16648525591345,False
+0x258075e37377a0395efede6b4194f915c4fa2a07,50USDT-50LNK,20230206-weighted-pool-v3/WeightedPoolFactory,0.09,501.97718965783207,False
+0xd27cc01b975f16abc8e49b747440d2b71c943da0,80TETU-20USDC,20230206-weighted-pool-v3/WeightedPoolFactory,0.09,29.742245312986313,False
+0xcd34aaf229f2715e51411a610663b4479f131ca6,3WMATIC-3ankrMATIC-3USDC-3stMATIC-79RVRS-3lsMATIC-3MaticX-3csMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.09,1064.6290549664673,False
+0xa3d7e7fccc7a957f4ab16f0ec6f526e9bd5ea615,STARV3-Materia-vQi Exotic Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.09,1012.5214747388827,False
+0x53fd82181b88f8d8ac299c449f9413320d1258a0,STARV3 MASQ Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.09,5.7537668974418e-05,False
+0xaafafaef775ebadd68341ba8d3cc912df8386896,STAR-Power stMATIC WstETH Core Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.09,710.851404471259,False
+0x36b4cb4b596025776c0fd0c2fdb2f883814a089c,WM-HEX-BAL-SAND-GROSH,20230206-weighted-pool-v3/WeightedPoolFactory,0.08,2.529591467380594,False
+0xcd5421f97d8229b82ca060ccdac36dde990051a1,STARV3-oRETRO Exotic Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.08,0.004709890271229751,False
+0xaa63aab023a7770049d4c3e8dad5989935debcf0,STARV3-JRT Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.08,0.003342611535227861,False
+0x1ed031beb9eea8f2138fc60e0ed521d5c7771be3,STAR-Power Matic/ETH/oRetro Core Mixer V36,20230320-weighted-pool-v4/WeightedPoolFactory,0.08,62997.43337235661,False
+0xe4c260646d18746cd9314da7e67ca733db923a3c,STARV3 & ETH-S & MATIC Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.08,0.000772535075532551,False
+0x9a86a281540b48fe8e61b16b9e6dca1f42113f8e,STAR-Light & STARV3 Classic Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.08,0.2951226290594373,False
+0xd0201ed56c08d1ade14a2587b55cf39208c95c4c,25WBTC-25USDC-25WETH-25NEX,20230320-weighted-pool-v4/WeightedPoolFactory,0.08,0.001001924907956638,False
+0xe9d79508d22543e36f941ef51aab1e15ac1f7ba5,RAW Land Shares - WMATIC 80/20,20230320-weighted-pool-v4/WeightedPoolFactory,0.08,4.162228949049488,False
+0xe7ca5575779e5ff74f5735e01051951d123527d2,18USDC-70RVRS-21CT-10lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.07,154.18217974123522,False
+0x7f6a9b65cf1fc091b0e012c2908f0f711dfc95b5,80mooMvxMVLP-20wUSDR,20230320-weighted-pool-v4/WeightedPoolFactory,0.07,0.097378386404034,False
+0x3516b726d9b8fd0bc39b4e0a33f9d0bcb2a86f4a,15wstETH-15WBTC-15PAXG-55VINU,20230320-weighted-pool-v4/WeightedPoolFactory,0.07,12.706883497019241,False
+0x7b66c0f2bd1c66028ad3916b043cf79686d6e898,Matic Yield Index - WETH Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.07,0.03456859788825049,False
+0x7d31147efef097bbf41767e5591ae72a4463882b,STAR-Credits Growth Router V50,20230320-weighted-pool-v4/WeightedPoolFactory,0.07,1.329399546869259,False
+0x9ba442091c6bdb491643dded1108223b54c5edde,STAR-Credits Growth Router V16,20230320-weighted-pool-v4/WeightedPoolFactory,0.07,18.246162246001038,False
+0x12e0ad411080bf860aea108dd78ba3288fed2ddb,STARV3 MATIC-S WETH Growth Router V17,20230320-weighted-pool-v4/WeightedPoolFactory,0.07,0.00296774152500069,False
+0xf82b621431145639db353b7ce17a434c64467969,80LINK-20TEL,20230320-weighted-pool-v4/WeightedPoolFactory,0.07,0.025473002381800686,False
+0xe3aae5748bac1fdf68108070a506fcce46e1e337,DFX & SP Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.07,31272.157866467795,False
+0xba504da13cf653756dfc94c2d6278dc2fb753165,Bonsai Price Oracle by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.07,2.511913556772531,False
+0xda9d54877ee43679d2f5787929067409ce589150,B-50VAULTX-50WMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.06,6259.436331493634,False
+0x48784d00f218a581fb01eb27d14eb33e7cbe4e18,VinuBTC Farm,20230320-weighted-pool-v4/WeightedPoolFactory,0.06,0.712646313141406,False
+0x6532926e7effdfc9899d54cc5ef7ed1d6e405524,40WMATIC-20STARV4-40STAR-L,20230320-weighted-pool-v4/WeightedPoolFactory,0.06,87.53940126166373,False
+0x8bb60ecea0cadea9aa129a04a30b8a7b8475824e,20WMATIC-80MDAI,20230206-weighted-pool-v3/WeightedPoolFactory,0.05,22.26049727070249,False
+0x56e7f3bce9ed1d6d84d59c57a88b294e776cf0d6,20WMATIC-80TDAI,20230206-weighted-pool-v3/WeightedPoolFactory,0.05,23.038200294905078,False
+0xcd6736a8d39036ec79c7588baab62e035137a597,20WMATIC-80TET,20230206-weighted-pool-v3/WeightedPoolFactory,0.05,23.19294923768579,False
+0x9ca391abc2627ffafd3dba522e6595e9731fa140,10WMATIC-15WBTC-18USDC-16WETH-16DAI-16USDT-10LDO,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,0.002637227494413999,False
+0x82b59db93a0a7ec45db31d14811e23b0c345b0ce,Zen Index,20230411-managed-pool-v2/ManagedPoolFactory,0.05,2596148429267414.0,False
+0x5e84d15a958e732f44ee5e799c0f02ece7be01b8,Test Managed Pool,20230411-managed-pool-v2/ManagedPoolFactory,0.05,2596148429267414.0,False
+0x401721a526e82d5c652fac001b691bb053380ff5,80BETS/20stMATIC Pool Token,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,61.61492186133696,False
+0x4830eac1aaae42d62d1e596237997158e4beea0f,50DE-50TBY,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,0.1385640646055074,False
+0x6e9e1395534cc43b7295ae412e0293b48844dc0e,1USDC-99SOL,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,0.000598180565046353,False
+0x3234df8de6108482c3bd24eadcb4ed0f777b113e,80DE-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,0.3780767761404261,False
+0x122c69609ea77758694050d6aca03dc95cbc6c30,STARV3-TETUQI Volatile Fee Generating LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,76.89385497513965,False
+0xe5ccde10aa827c643142ea85c3b8200eb1bf7c70,STARV3-M Big Three Volatility Mixer,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,0.05985662429928252,False
+0xc3badbce85bb5528fdd6f50b8b3660894dd69c74,WETH-WMATIC Uni-Steer Wide V3-LP Price Oracle LP,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,1.5843265294689581,False
+0x11fd6ceb8ee0571b24222ac725dadae0b1eb74eb,Matic Yield Index Core Router by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,1.8731587806593772,False
+0x35404ffdbc187cf7e88040fbd09b3c75ec142e16,Matic Yield Index - USDC Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,1.2117662513601795,False
+0x1d91cfb5c4a98d1d9835201b3e7dd9f56ee50512,Bitcoin Yield Index & WBTC Core Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,2.82183533123e-07,False
+0xf8e58924060c1c33978b96401292086f3acfb30c,BAL & SP Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,2245.4033013629187,False
+0xa859a21d1aa5aa2cd52b0127b9df38348e92e169,VinuGold Farm,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,3.423255742068445,False
+0x349efc0a5c4f67b1c6fa6f2720f1a7cc9600ea7b,JARVIS-ETH 8020 0.3,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.0436650072931204,False
+0x952ebdbcd22db8a9a10bb5117b3d18684d5c414c,50FRAX-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.04023555654693828,False
+0xf96efa96db0b7a7c4b1de17ff11daf70e1370955,25WBTC-25SOIL-25WETH-25NEX,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.000607055535896968,False
+0x530c6845f4acebc324e1f549589b4944e7b17079,25WBTC-25WETH-25SOL-25NEX,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.000114296809393041,False
+0x4e09635a37aae4681206cbbd1644a6be84dbe988,STARV3-Materia-tetuQi Exotic Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,1158.1645378538142,False
+0x128e46e6a6aa282a3ef995317403a211ac02bbd3,STARV3-M-oRETRO Experimental Volatile Router V4.4D,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,856.4228927337562,False
+0x951d84e358dd8ad6b3ae6220981bcfc4baf95c84,Balancer TruMATIC-WMATIC Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.04,2596148429315907.5,False
+0x2c791387b56a7b1e47fe11903a2800fb6993ec00,50USDT-50FACTR,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,1.788854381999796,False
+0x48f4ab52367badf2d36ddb6c05f6d148ce3a4c61,STAR-Credits WBTC Growth Router V16,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,8.323201957944097,False
+0x37860d295058cc54ebd97f3f0cd7ee4a593bfc2e,STARV3 MATIC-S WBTC Growth Router V17,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.000893482176688966,False
+0x71f5a6139f4b340bbf32ee7577c93e19b5ed379a,FBX & SP Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,2917.619932764336,False
+0xc3bb2db921d6f7314a66083b8e9e2903ca1feee8,50WBTC-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.000110833929822952,False
+0xc8d0b65150dc559331e3718536d3180831a60868,50USDC-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.07481161731236652,False
+0x99d32658012027ff500a1446c35a8e5419ba45c0,33wstETH-33tetuBAL-BALWETH-33STARV2,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,0.001061838694923165,False
+0x5f1109b2ff7ec99fc47c81b20b6344aec3843a94,STARV3-Materia-ETH Core LP,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,18.707539068687385,False
+0x0c6bad275868f65a8bb2dd6bef292a5c32b74667,STARV3-M-oRETRO Experimental Volume Router V4.4E,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,154.35107445542334,False
+0x4508547a807334b3a83f8da8262bbc3f230e3748,DYST-WMATIC Fee Router by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,10.976269236022029,False
+0xc191cf918143bc615a58238e8c57a86a51284c8d,50wstETH-50WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,0.000894427190999896,False
+0xc4578ccf14d48b6a387126c1dd26d84fe8c7774a,33TETU-33BAL-33AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,0.04479641190854927,False
+0x1ba6741462371177dd2db19f5c58a469f80d3714,50USDC-50jGBP,20230206-weighted-pool-v3/WeightedPoolFactory,0.02,5.6946377336122e-05,False
+0x4905d01c9786b2612cfd8d58182b1e6611744c72,6520USDC-80RVRS-35lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.02,6.689347133818366,False
+0x3fa5bc9d4713979f86dfdddd15eee534cf3b6c24,Vector Appreciation Pool,20230206-weighted-pool-v3/WeightedPoolFactory,0.02,9.1761344684e-06,False
+0x9e76ab239a78a5ee72450b06c50483a4cfad7c91,33AF-33BTT-33WBNB,20230206-weighted-pool-v3/WeightedPoolFactory,0.02,31.454962291665147,False
+0x88303033c7d8fa5cc05c2926ece72d253495600f,20USDC-80WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,4.9413394001351e-05,False
+0x55f67c8723270108d856f18e6587d0dc410b9a8c,StarSeeds Protocol's STARV2,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.005531030048696462,False
+0xa88e4fae334a2237e300592ae7d52705cade95a0,50WBTC-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,9.2749565394814e-05,False
+0xdc31233e09f3bf5bfe5c10da2014677c23b6894c,Balancer wstETH-WETH Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.02,2596148429267414.0,False
+0x3078fcdfe3a34feebcb13bbfc74a02790d0ad1cd,WFSD,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,5237.256205341893,False
+0x9627205fc978b118c2d10a8b7761974a26582d77,70WBTC-30USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,5.320687472304e-06,False
+0x4a818e84e67866484abbf0003da1bed9cc2bbafc,Tetu Balancer Liquidity Swap Test by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.028646022348949807,False
+0xd04ad53b5d81bd9d129aaef7731eee1843c8dae0,STARV2-MAI Core Arbitrage Pool by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.045170893602284205,False
+0xf655d9280ad6f3d564675e10cc3aee33e6bb898b,80mooBalancer jEUR-PAR-20ICHI_Vault_LP,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.12360991963770433,False
+0x29eaf134a98442044e3765fef60ca67552099ead,STAR-Power Growth Router V3,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,1813.7040608585785,False
+0x5177f1422a80003a507d50bc1dd47cb065ddc0b2,iBSTARV3 Matic Price Oracle,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,1.3501047657612328,False
+0x223e7d4e9a4fd1ca689bfb87cc5542bcfdc4bdf5,50miMATIC-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.046415357215864296,False
+0x95c89c796ee66c9a2e15c1ae6ec42f101d2d44dc,STAR-Power oRETRO Matic Volatile Growth Router V39,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,138806.7022856524,False
+0xa4c11238cbdab9dd18e6fb209e62741c3cdb1d89,What happened to olBifi? ,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,31337.182334351102,False
+0xdc8ac5b19a8ea42deecef2b2ea2376fa8d87be83,17WMATIC-17WBTC-17USDC-17WETH-17DAI-17USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.000771622353019097,False
+0x5b79c5f195aba417ebaf811ac64b276369477653,STAR-Light & STARV3 ETH/MATIC-S Growth Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.9455403605355629,False
+0xf41f6bc0f13a27931766492e6286f3721bfba68e,VinuwstETH Farm,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,1.9411120249421916,False
+0x156268ac20d6296e2134f6150c25538d62b4e7a0,25WMATIC-75USDC,20230206-weighted-pool-v3/WeightedPoolFactory,0.01,0.012266883053043671,False
+0x93c80864434ce312a7f6a8e8aa94a3a147538a91,8wstETH-8WBTC-2USDC-8stMATIC-75VINU,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,1719.2127157824389,False
+0xad54780f1c937497a39809373f346c636c6a9670,50wstETH-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000112624413414601,False
+0xb974b974e84015f5abcb8a358817c51f550c967e,B-50VAULTX-50WMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.01,1426.2841290656922,False
+0xe7c77f651105dc7d5affc5b00dfe7f5395bb366a,33USDC-33jEUR-33jBRL,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.029247396661117045,False
+0xe6dfdcb43e075623aeb0679c24b2a25542646f4b,yeet,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,2.4503176609611055,False
+0x8e0b7fcf64bcc621ac1309c27932ed51b46dd4c9,50SUSHI-50WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.01758634495062242,False
+0x456dddb3d27368c3a51eb455dcedca2791f55a0c,10WMATIC-90USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.019999999999999594,False
+0xa7a3ec93f3cb3dc67eec9443c9a808ec6ab473d8,50agEUR-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.015591135134200252,False
+0x7702a652b86d851d3582067f1f4aae5ef7854dee,StarSeeds Protocol's TetuQi/Qi Pool,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,140.4227149374377,False
+0xe4f47361480bc3b37dc2d2842f97dee2da17f31b,AVAFSD,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,148.74281688701035,False
+0x9c362d37a40d0cd3cac9ffc2427eb5239dd4b194,33USDC-33WETH-33DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000355887928223076,False
+0xdcd3fc34d581ee474520b0f6bce9412df7d2e32f,95DE-5DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000133441189741225,False
+0x1f93622a4e04c819258d87fc822e4cd20ea1b981,25WBTC-25mooCompoundPolygonUSDC-25ICHI_Vault_LP-25ICHI_Vault_LP,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,4.12102405136e-07,False
+0x589e973033cd02bb4426b4438b54297591779dd4,50WBTC-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,4.13331061e-10,False
+0x17aa61c1af021759a0a2d21f3bfe8b7731083bfd,STARV3-TetuQI LP Experiment,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.02734791917539084,False
+0x41530f7c7f118f07116a927253b10705116118c7,STARV3-Materia-st/WMATIC Core LP,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,304.95936185566234,False
+0x95c1383fea3b4a2223d374549c2a2881a11d923b,WstETH-FBX Price Oracle by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.05295122918333649,False
+0x0c3391612cafc5f5d2d76b165c088d9819e712a4,80WMATIC-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.008059478274478024,False
+0x25a60a89eb718cb191ee53882332ce9c4d7a351c,20WETH-80DPI,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,9.0697331820469e-05,False
+0x7cc02d5606aa8da29928ebe634986c99dc7dafb7,STARV3-M-tetuQi Exotic Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,500.8726659134597,False
+0x9c2d9d722ccd1d0c20379b6b3841c3cb97100bc3,STARV3-M-Qi(Old) Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,2576.944010523561,False
+0x541a59c0019750aada67678daf4150ae5b0bde56,50USDT-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000120392164130386,False
+0x75f91277820f77b4811abcd4d04597f2f10fe7b1,STAR-Power WMATIC 80-20 Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,829975.3600354005,False
+0x61a3819458e4872f7c95a71b76d68c46a5b74a0c,STAR-Power oRETRO Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,6868415.016521269,False
+0x59d6ad2d4b282167b63f23783c2c61b41c697045,STAR-Power Growth Router V4,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,5556.48134741419,False
+0xe9376f78cfb41c5be528837de40ab70021a78b7f,STAR-Power DYST Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,8060180.274349683,False
+0xa18f0237a910a7e406434f5e69df6170af1f3452,STAR-Materia MaticX Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,510.3911347919503,False
+0xa9ac2aa4fac0f42445a68671e3cc49fadcc35b7d,33USDC-33WETH-33XSGD,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000966776993615537,False
+0x9497bd5657a745c531f1a0da69d218dc5fda4b61,STAR-Power ETHBULL3X Volume Router V4,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,3314.7236643190668,False
+0x671cdaf4b49e0707535ed67adc4bd259a7fab6f6,ETH Yield Index & WETH Core Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,3.4907761766828e-05,False
+0xacbfbf441cc804fdf5a6421265be042fd5e49403,MASQ & SP Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,3847.128148283427,False
+0x2374355a0aaccf4fcceed7307799b3d4610e230b,STAR-Light & STAR-GOV3 Core Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,413.82008801416316,False
+0x8b11b5ef87538a6700c7fbba092bfcca234452ec,20WMATIC-20WBTC-20USDC-20WETH-20NEX,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000485601537388815,False
+0xd9a173a234c971474893c7356c517d77499e3d76,50WBTC-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,1.5223732353931e-05,False
+0x782dfd1b91938a7b040287bfff80ddd8fbd3a65e,50WMATIC-50PORIGON,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.24033670714228755,False
+0x5192e55b7f93e0d06fac821376c24b4c1817b773,33WMATIC-33WETH-33PORIGON,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.00359573259422886,False
+0x1f88ac601b4802e20ac89f96fe54d24c7415a5b8,33USDC-33USDGLO-33SBC,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.007635397889319306,False
+0x88df384821a8190cbea8624fb6cac37d0bdcbaa7,50stMATIC-20BAL-30LDO,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.013153397670065344,False
+0xbd475be32fa01a2bf0da7ee232a8f66f7deb9e19,40wstETH-10USDC-35stMATIC-15LDO,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.000683937295710498,False
+0xcee3ca3b684a8865eb823d14a2319add43cccf81,20stMATIC-80STAR-L,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,482247.3395659094,False
+0xec38f3c22046661083ecaa377bb1ae6a26b17173,33TETU-33BAL-33AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.011784931846543731,False
+0x0cbd30577981b48f815833aabf31b35a277620e5,50BAL-50AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,0.00067027895743974,False
+0xb4b22bd6cdad0ab828be6f8a4086dfa54e9b3736,Polygon tetuBal-BPT-80BAL-20WETH Stable Pool,20220609-stable-pool-v2/StablePoolFactory,,1e-12,False
+0x2492b06d0c980c5a480c72c20e6791eb27e92b24,tetuBal-BPT-80BAL-20WETH Stable Pool,20220609-stable-pool-v2/StablePoolFactory,,0.0,False
+0x4b3fd0347b7fb1b7bafa61da841e40d5bf6fe0f5,tetuQi-QI Stable Pool,20220609-stable-pool-v2/StablePoolFactory,0.0,3.4747501816950197,False
+0xb8df2a8d22d535ade515de4d0740782473c3740b,spTETU-BPT-80TETU-20USDC Stable Pool,20220609-stable-pool-v2/StablePoolFactory,,0.0,False
+0xdcd2bbb2ae4e336dce8a13d8fd124d49a2f2525f,50MaticX-50csMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0xf043f4bddc59554de51bc163590686fafdfb44ca,25WMATIC-25LINK-25WETH-25NEX,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0xcf61cf1da7806b8a77d0ee7b4c752b9ab20ab5c3,33LINK-33WETH-33NEX,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1.000209e-12,False
+0xe42859378e4ab9a26625c5293506ce89cb79a57c,50BUSD-50AAVE,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x39595f653905c1509efb06bb63daf5e40f104fe7,50WMATIC-50BT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,5.9234887775906655,False
+0x219b0d735dbdc5836fa057a043a0db7001b66810,25USDC-75DAI,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1.000004e-12,False
+0x79e02896e4e30f144df91e6007d3be54131b8fa6,50USDC-50TUSD,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1.000003e-12,False
+0x12dfae028de1533ee1999e93caa90d1a9a836bf1,20WMATIC-80TNT,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x97ae207391f81e24d05a2e8baebc8589a5ceb1a6,20WMATIC-80TNT,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x2943ce5e3f5d27ecf1a3dc8d957bbc006481ce6e,70RVRS-30lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0xa1e8b62a2922bf3fda3dfa35a0317903b08bd008,50stMATIC-50lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,,1e-12,False
+0x80a97317497f80adb6cb96fecc537412bfff0ea4,80VISION-20WETH,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x5c6f81b7cbc427745d95219f10bcb05cf1ece4d8,8020USDC-80RVRS-21CT-18lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,3.12844784129e-07,False
+0x59d4b5a5ecf58484b5e7562b659faa4b9ca227d4,50WBTC-50WETH,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x74358a222259ab6b6aa4b367f333595f6563d96e,8020USDC-80RVRS-20lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1.09069078213e-07,False
+0x2b8572cf7775243a03a92a0db80ef427682da0c2,8020USDC-80RVRS-201CT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,3.4231923312e-08,False
+0x0b1044f4ac5ebc55eb2ced7102f12b8bc5eca7aa,30AGA-4020USDC-80RVRS-30AGAr,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,3.134567938e-09,False
+0x8b42b196e497a91a2668e95c949e067037af2922,80RVRS-201CT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,2e-12,False
+0x37b83b1d3f61b1fae6906603059cba0708abe6d2,8020USDC-80RVRS-20lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,0.001480276428552054,False
+0xb3442f5f309b45cb22bac506e96a7edf81e57f0b,4USDC-80RVRS-16lsMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0xa3a1fbfeab9120cd0abb540794a78c8a5450ed62,20USDC-80GHST,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x345c59e93de1e87509327795ab9ed4d158884a96,50FTRA-50WMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,8.97619036e-10,False
+0x8d8723ae74cec3f01633dcfe27751edb6ec68712,FTRA,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1.014092e-12,False
+0xe176269aa1962481e8494dbe7d0613f597bba278,50ABRAR-50USDT,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x3545f2797b3058bf726f57d1d4786f6ddaa20a66,50ABRAR-50USDT,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0xa6e366dfe08bfc18fdbb1fdf6eac6c0908349639,50ABRAR-50USDT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0x83b93de97caa6ea3d89c9b4355b8041af7c58d6e,33AF-33BTT-33WBNB,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x5343209d11a25cf9e65e66dcadbc3a259ae7b120,80ABRAR-20USDT,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x93538e66e9375395bd104d110a3b2d9632136828,80ABRAR-20USDT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0xae7729e24b67b9c0396af335216ea35159121783,50USDT-50Cho,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1.000003e-12,False
+0x697e2a12fcb9c06290917c5bb5ae255fb86f3458,50WMATIC-50USDC,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0x80792b1d5dd38b5d21a4a8417563d27d1048af38,20SUSHI-80TEL,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0xf6b193c11cfc1db55220566f6a6cae331ddbc512,20WMATIC-80USDC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x6c7e2ebf1b9ccfde5b8794e2715f4563c14586e7,40WMATIC-60USDC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0xc05c8edc67081ecef0c27815088df039d7fe2d77,55WMATIC-45USDC,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,0.002997951609349699,False
+0x1fb9c153228aeeb0496a81e4b4ce282a31ebd823,20WMATIC-80USDC,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0x1926d0edfe4df53ffb62e4c3e6c516da605978c3,50Cum-50USDT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0x176ca59466e3fe31862b27ebf289b7dea9a42da6,50USDT-50Cho,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0x340acda1661159e4faacd33c497d53883238ce99,50USDT-5050Poo-50USDT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0x93b251d5bb6fa3df58f86ca07b32ebbb0bce61f1,50Cum-50USDT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,0.001522013329406466,False
+0x5b12079a26223c91602e8a8922af6f81f3b44ea4,50SUSHI-50TEL,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x6f74b34c93e5be166196aff2bba338d72870b8ed,20SUSHI-80TEL,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x086c7dd3f091f41846cb2e78272959706cd8ee95,20PYR-80TEL,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0xa27ddb63c7e4313222b95a2efdab41bb2d912b6a,50SUSHI-50USDC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x51c61c157c1bbed7c6c130ecd53fbe777c415a16,50SUSHI-50USDC,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,0.002683319685746606,False
+0x61e6dfe93de08ee29c0c16560261d710e6b68088,ABRAR ERC20,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1.008849e-12,False
+0x10288edab94fb8e0e41dc89db24800b989de0b01,ABRAR Pool,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0xd8520f004cc85fb6d8f6dfbc953db94e6269d9b0,98ABRAR-2USDT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,0.03400282569552626,False
+0x7afd06b881b119400767d26ea3d769ed05d4621a,33USDC-33BUSD-33USDT,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0xe3357e53a941e5a75ebc12507fc8b5ea7e00fcd0,50USDC-50wUSDR,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0x4e8371b006a26751137f1ce8ab2fbc304c51a0b9,5DAI-95TB,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x18bc4086a28b78ba4db9a23325727331d8b9e05b,50TETU-50SPHERE,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,2.261590093439093,False
+0x925cc7d662966373c74431bc9f4b8d1f1680dc8a,50TETU-50USDC,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0x4997a4aefe857bf0cbc2beba79fcee4478f0f469,Balancer 80XES/20USDC Pool Token,20230206-weighted-pool-v3/WeightedPoolFactory,0.0,1e-12,False
+0x860c8da9ab0e31397d6954ab655051a6a1e42ef1,B-50VAULTX-50WMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x2e872b3927f9a437c095be55315210726c10d1f2,B-50VAULTX-50WMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0xb0085a902f8012bb57fd9cab2507cc12d9af00f9,B-50VAULTX-50WMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x56e46b96d36e7440d5a77572b19d52316de15f80,B-50VAULTX-50WMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x75480efa0c5d5d478a4371a1593a3db12f224bd6,20WMATIC-20CRV-20AXS-20WETH-20BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000037e-12,False
+0xf2887805219269ea30850be62ca6cad7dac0a059,25WMATIC-25CRV-25AXS-25BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,3.50710612e-09,False
+0x7086022d907fab64f2c98ca143b7afb393c67157,50SUSHI-50GHST,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x84ceafdee68d7a3d83c1e8adb56370b6de4f51c2,20CRV-20WBTC-20GRT-20SAND-20AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000354e-12,False
+0xb717a8de7ceb31dde31ccaae350f89b7203b7c97,O-P-T,20230411-managed-pool-v2/ManagedPoolFactory,0.0,2596148429267396.0,False
+0x763db85040032ad8b8430af336d3b265eafe58ba,Topzeira Pool,20230411-managed-pool-v2/ManagedPoolFactory,0.0,2596148429267409.0,False
+0x45f9b0ecb70165260bd2727dc0688ab953f451f8,B-50VAULTX-50WMATIC,20230206-weighted-pool-v3/WeightedPoolFactory,,0.0,False
+0x987cb40b8ac091b027432b9b072c5b085f08589a,50wstETH-50SUSHI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,9.4984456578598e-05,False
+0xfb5c754b6b2f5de2a27daf27aa8ef811a73e073a,50wstETH-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.26917620841e-06,False
+0xbadcdaf6212b0bacf45cc32447cb615f85fe6adf,25WETH-25wstETH-50NEX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000201186232073725,False
+0x7e80fc9ddb5bb391c393a4eb841bf086692102ef,50WMATIC-50LINK,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.00001e-12,False
+0xb941b4042fa30cebdaa0dd486919436a395e16fc,25wstETH-5WMATIC-5WBTC-5USDC-25stMATIC-5WETH-5QUICK-25MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xf8f2f28a79aed6ded9e65d054546bc6f7638e91b,25wstETH-5WMATIC-5WBTC-5USDC-25stMATIC-5WETH-5QUICK-25MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xc15a3acec5cafc5db5b4f7881112bbbc626f2c88,50WMATIC-50agEUR,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000243090750937596,False
+0xad5f69b7b4e3e7d9ca7e5e64404cadd8546b00aa,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xd4bcb83bafbafc92b718e6d5cfde57852169bec8,50USDC-50jGBP,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x2768a9bd4c934f723eb7b3cf16f9d2bdbff41ac3,90USDC-10DAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xb7bec34eabed1a5d6a44529f3e9d5e16cf9fd9ef,90USDC-10DAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x6148855689142320e44375744ddf8ad9a4b3ef50,50WMATIC-50TNGBL,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000086e-12,False
+0x52885cf18250e47f6e33b28aef4bf662f58004fb,25SUSHI-25USDC-25BAL-25USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000760867926047663,False
+0x3b430985224f8bc164ddb8a1da757674c6ad7cf4,20USDC-80QI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,False
+0x5b39a84688eb9855d2dd6a33fc07b5db716fdb6b,80SD-20MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0xbb07ad817c06c228d68370c8c814dfbb54104c3e,20CRV-30SNX-25GRT-15APE-10SAND,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000005e-12,False
+0xe01d5c6f5b0ef7f3a83c65dd5137e087f96366eb,50WETH-50miMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x71fa4198116b226de7b75f1a12d99f8ae28d3ee6,20jMXN-80MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0x9c8f84161647cbacd1bd8ebaeed6df11c9b256b4,33RAI-33USDC-33TUSD,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xf9c54b169bb0fa823ab2b22caebf136c1676f803,Axelar MAI,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0x32301dded0fd2eb07bb9978691b3e1e55ec6f2f9,2WETH-98fxJARVIS,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000573e-12,False
+0x7aed69ada97ada50cce945e75db005e7b0d9b4e0,JARVIS-ETH 9802 0.1,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.003989846911818253,False
+0xa8a356a74cf5fb3751521ffc36d31c09b27349f7,StarSeeds Protocols STARV2 SuperPoolV1,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x84c4ef08d2fdbf4ac4e5bcf9b9f2b325b56b24b8,40AGA-15wstETH-5stMATIC-40AGAr,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000947e-12,False
+0xbaf6ef465e44d3b8b453779f52809cc7f34895bc,33WMATIC-33USDT-33MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.006727794239654024,False
+0xca0f8eb1b81e1a69fac97f1c898e0938c768eb20,30WBTC-702BRL (BRZ),20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000329e-12,False
+0xc720bb465bdfb7026545bf507b376bc81cbab010,50miMATIC-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x5e4d7a94dcfe043325e604fc7f5f24b60ff8f054,50miMATIC-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x24cbe8963c83b1711bbc502f989114794675f62a,50miMATIC-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x2814a9f16d7b5b5826df47f702f16279ccd799c8,50WMATIC-50stMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0x12bfd9138cce3db6073c5e9c636968f8defb8c2d,50USDC-50MKR,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xc12d3497331f674ea6e1744b7f9389c6cc962c40,50WBTC-50MANA,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xd3f0793706bb2fe93b3c7e4e88625cc60ea60aea,50wstETH-50WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xd09138807ffc74b9f1e93e8cc775d17891638d6a,50wstETH-50WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x2ed47d985797f62a9be679a74a124480ede5faa5,50WMATIC-50GHST,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0xe4ffe73271188b7ca97272ccc7e5cf125d5d8f31,50WETH-50DAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x2a6c3ab8de536025475cd982b77ae812bc888391,50WETH-50DAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x2f782fddf373dcf2ba8c8808b8eb017b51f04d4f,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x074989909cd9bc378864e8440ab232f8f99f10b9,50WMATIC-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,5.05701015684e-07,False
+0x1c22fbf737f1804bfb0af3bf645624418672940f,50USDC-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x7770f86f11ed2584a36df76ab97e72c68d4ac6f3,50WMATIC-50WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x9f7c04454e935dafa4c2c122636c7ba183408e14,20USDC-80DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.003039e-12,False
+0x7af45dd6fc7d9160109922fb2181f30339871187,30USDC-70USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x8bba6770ce62107403d8ddb93be1deb2493ed103,30USDC-70USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x8a2a9b29a0d2ed3ca578eb45b0d2fa837842bfe5,50fireEP-50FBX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.001733e-12,False
+0xb6d0cb0da65dbb8a64548d589e3fe2f8b32d99b0,0USDC-100KACY,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.009345e-12,False
+0x4949d826ea3acd3cedff8956673d0306385ff4fe,50USDC-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,2.095898981117e-05,False
+0xd41bf81f7a8782afa0882de3781f3f6e476f4ebe,30USDC-70WETH,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xe0a086a12f187be8f463437396bf80d0d8b8056c,50USDC-50UNI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x82564437aa24ace0bc471e88a72bf278666b55af,50USDC-50UNI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x8713cc3807bb0508633c87f8269cc41594237757,50MATE-50CRIOLLO-Weighted,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,2236.0679774997448,False
+0x2ec366ef5d0c335d3aae30e1b9e78840ef8f2644,50miMATIC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x84fead5f6fc27ca9ba5b89ddc3d6035dce511013,50miMATIC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,False
+0x0e6d6ec825c9db806384da12eba4fb67a85769fd,50ankrMATIC-50stMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0x7b9edb6755c27723b3338c90f2a7902d009782ab,65DE-5TBY-15QI-15UNI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000198e-12,False
+0xc976855d2201298b8b35ad523dfb4cbd67ad6838,50WETH-50NEX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000046e-12,False
+0x3a2aa293507c68102798f88d74bbd2f855d82c34,50SUSHI-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x0dd7398a4366efad04bad15ad0d6f3efd1682cd0,50SUSHI-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000249938912897108,False
+0xc75daa752fb3f160b4c96364f2ee12e3434df655,50wstETH-50bIB01,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000031e-12,False
+0xd0d85149981a881508f49d54bfec47e96ca9e2e6,50WMATIC-50bb-a-WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0x4a7a27094f9a20bad3e554a10e0be3cd5567f80f,50CRV-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x754bf00573c4e1846d06714e76095891e5f9718e,50CRV-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x8a23f6d31ce7687ca622bbecd089e6a6dd015a33,50UNIM-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000907e-12,False
+0x040211b2492d7540ebb6e81ec84b116684fed129,85tetuQi-15QI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,6.15301038009337,False
+0x1f769840cb572b853ef3b0df1a566d74dbc1b8de,70tetuQi-10QI-20vQi,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,2.3770860215935414,False
+0x34299dd7f2971ce9673a6c156b9a5a49844492d0,50DE-50DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000004e-12,False
+0xd2d5f07deb6749088b3e3a1aff19bf18800a1e0c,50DE-50DAI,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0xba9d1eb58c4f1f884037f194bd5f1bc6a8961c5e,50WBTC-25WMATIC-25USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000029e-12,False
+0x24245bcf231d40c233d3964b40c0af425a6a608d,10WMATIC-90FSD,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x41120f1c121a70bd32147e87153da37ba67b6a0f,1WMATIC-99FSD,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x80bd7a851d9ca7f2b708aa3d395c64be0bb049b7,1WMATIC-99AVA,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0x09ee1393cbd2209c42c79e20d95df96e78bbb37a,WFSD,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0x0f146f2e02d2144709735729b070dec8c7cec797,10WMATIC-90FSD,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x6ad06841ce54b8498d7159f50b22ecb05ea46b7c,50fireFBX-50fireEP,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000148496838370719,False
+0x590b7bb6a79827edcd93ebc5b27dc1d73fab69de,20WETH-80NEX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.00089e-12,False
+0x66c04940329aa0e4049eeed830061622f5888289,WETH-BAL-FSD,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x79e7325c00012769a8d6c4b04c7e789a613ed2c7,50wstETH-50WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000113205217083344,False
+0x5910455c01550f169c9d5bddaab12aa87931691c,fsdweth,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,2e-12,False
+0x02db2baa9a2b90b931416703ee83a11943d5c571,50wstETH-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,5.73699224419e-07,False
+0x3faa281a7c2212ab12e22921ba88726bb192e4b2,10DAI-90USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x7666f4daca9f9243a796aa429a7f43c77060470a,10USDC-90SPHERE,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,9.010047905949147,False
+0xf328b5e34dd99e10ada6d31a52badb4d7d0cb75a,20USDC-50PAXG-10DAI-20USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xf8c6f6223ee9d7fa55a508ef96f951f92f412612,20WMATIC-80EAC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,428.31823022264325,False
+0xa5b7c3e5fdd26bb99a50a5dcb32b16bfa5060595,JARVIS-ETH 8020,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.011425875158864868,False
+0x06c4342d2c5cd8ad26fe92b22789c2da6dcf683c,StarSeeds & Firebot Protocols Arbitrage LP,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000002e-12,False
+0xdc8787134cf477f1e70c5b0ae402e57ea198dbd0,StarSeeds & Tetu Protocols Arbitrage LP,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000257e-12,False
+0x0abc5370a1bced0e78222dba60ca69189aad7ed9,STARV3-XTetuBAL-WETH Arbitrage/Yield LP by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000023e-12,False
+0x2d753d4ebf91b137b161b69bdb8638cf4b80c4a5,50fireEP-50ICHI_Vault_LP,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.1908307893218e-05,False
+0x574cde698105f76a8abe0eecc53e4849518b4c46,Decentralized Alliance,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xdc7623c2c091c8f1f180a20de6443cfe4a8e7da7,50GRT-50wPPC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000059e-12,False
+0xd1a5778bcc8646a12f5a51b9a2544966553c7e88,FBX-WMATIC Price Oracle LP by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xaea9eac8fc07ed24502270d59fa41c03575758bb,50USDC-50wPPC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,False
+0xa66aefab923d6af0810d581b6484756a57ee28bf,50WMATIC-50wPPC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xda2e07ae9111821dea416ea1fbdaf4d2bd407fbc,50WMATIC-50wPPC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,False
+0x9a853058a6d8ba2d3b59b36f70704f8b080c0102,STARV3 Volatile Router Experiment by Starseeds Protocol ,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xbec434983d5025f6928c8c7dc13cc64b197baf2e,STARV3-MAI Volatile Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xc6cdf752b3437bf24220aba5d44851430e7abea3,Pax Golden Storage,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xd7ca77afaab24f8a4a66def0cbaad312bf465983,STARV3-WETH Micro Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000015e-12,False
+0x80653b59466f7720fd95b9d0210a8f8c9b3b8755,STARV3-Matter-ETH Core LP,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x29351dabbeec0a165354848450ac906523e37d54,40tetuQi-60STARV3-M,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xa67690cd2ca56b2d2f8c8cc6218b24891a50a85f,StarSeeds Ethereum Balancer Tetu Router,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x160a9d882fba03146d1f0e53d21411fa1c9674eb,25WMATIC-25WBTC-25USDC-25WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000019e-12,False
+0x9ad1238dd17fb9bc8dfd865e4420c399521948ca,Super Ethereum by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x3f9ae94936caed55c3eed19c78e1f59ecf311dcb,STARV3-oRETRO Low-Friction Volume LP Experiment,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x9bba6f8a262fedcd16dbe693d2a918ba6067be32,80WMATIC-20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x05e6bcf561769c5aae3b655d479f733513aea046,STARV3-oRETRO Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000045e-12,False
+0x59c5cffc50b214481da7a6b626ea42e6b414d8d3,STARV3-WBTC Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000022e-12,False
+0x314c7fcd6357c1c497023d3eebee4735a6e2c9f7,STARV3-WBTC Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000099e-12,False
+0x9577155196cc40100d56c44a1d461694673e55e1,STARV3-M-vQi Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,37.23295497411332,False
+0x5be8dd3c921a408b9e075a446e4cc5a4426d5964,STARV3-liveRETRO Volume Router V4.4B,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0xa1f4f98a7aacfcb311cdf74cc208e28e97972a42,20WETH-80MVI,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000007e-12,False
+0x58fc10a903ab6780598378d280b3c778ec171cb9,Interest Bearing STARV3 & MaticX Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.02290100720987597,False
+0x2493eedcc5a531480f94b9a8956e4d674f1b23b9,WCASH Price Oracle by Starseeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000005e-12,False
+0x70fd06d943ea9384034f746d489d0197eaa5629d,STARV3 & WBTC Volume Router V5,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xc38718d8ab36d6afb908cc99b67f728dfef18c1b,1BAL-99USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.3058653060893e-05,False
+0x12d3472a578572b963d9dc8b052025973b6e7f70,STAR-Power Growth Router V3,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xa4fa3ccf6b98999e5b37f9fa788f40ef96104afe,MooGyro(st)Matic Price Oracle,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.003635588606248374,False
+0xce32caa633be371ac9a7a1d01549b24bd3f28e3c,95XEQ-5USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x06aaef96ca9ce709f3d5078d31aa3e29e2bd002e,95XEQ-5USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x0ddee25784d3dfbf7a4debaa88f4a88679331ca1,95XEQ-5USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x769109e27c8a5d9b12b445f1de56980744811f71,95XEQ-5USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.007293230251940981,False
+0xa64eb2b4a1eb139f16a6cf51ad8d973d17b454db,Balancer TruMATIC-MATIC Stable Pool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,,0.0,False
+0x1ca3c110de7e0fe0f010878b28b20032f1be516c,STARV3 WBTC-USDC Stability Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x54021d986e7517c8eddb6a133a859c80ab550f78,STARV3 APE Volume Router V4.4,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,8.175714910616e-06,False
+0x1758128950b463de8820fe12bf3f49ea8024565c,StarSeeds Protocol WBTC EcoSystem Vortex Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.03229533317885164,False
+0xedea3b2fe99994ee778283186a27a73bbbd26d69,StarSeeds Protocol WETH EcoSystem Vortex Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.006864e-12,False
+0x513dde6bd1579f826e28a4354d42412ecc1c6b52,2WETH-98JARVIS,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.001238607273350033,False
+0x2ba794199ba4f72b1612c24984933db5679122c4,STARV3 DE Experimental Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000011e-12,False
+0xf6aedf6e057f5f816a14f69fb36e2e1b067b1115,Farm Plot #1,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.412451e-12,False
+0x80b7e553bae1e69e1f8bb63cff5c3367c88c18a6,Farm Plot #2,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.09300421889987405,False
+0x3822a7348446f83fa07909de92d6f1509623fc10,STARV3 WETH Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xa0f31fb91d5b29c8a0f3eadb62ffd832fc03b2cb,STARV3 WETH Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,2.479017637668e-06,False
+0xe1b94c3f2e892152a036dce7ce1429c9a2c0a4ad,50WMATIC-50stMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.01676247717683399,False
+0x844ca8232b75dbbd70ba7414f072fb03096e0297,STAR-Power BIFI Chaos Router V2,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,2e-12,False
+0x7c895b97e58b03d616024fef86519c4a547cb021,STAR-Power BIFI Chaos Router V2.1,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.111111e-12,False
+0x5fd544ca5bc85d962356870f21aa3f6391d5ab33,STAR-Materia MiMATIC Prime Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,2e-12,False
+0x7ebe077cf88d2b730fa9e16bf30eb7f07a57903b,50JLT-B23-50JLT-F23,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.07431962524977695,False
+0xfceb87363c798af585d2463f63730ad475e0c208,50CRV-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.00267115103308937,False
+0x12aa27e8a4215a91486fbd3e980d1f91393932bd,Consensus Managed DE-ETH,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x29f373bb06b6c611e40ee403f2218b3246d7ea89,The Queens Ultimate Mixer,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x05f72ccbab9b3536583603e5c13dc54671869379,33SUSHI-33USDC-33AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x83c4b4a4012c9a9f1a4de7f0662b48ce7deb18e0,50WMATIC-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xa8d0f5db2c67253b75c1b348a9767184e21930ec,STARV3 oRETRO-MATIC Volatile EcoSystem Vortex Router V3.1,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.01202e-12,False
+0xf4a88e05705ed34eb8f377db8a6dd56a1c77c33b,30USDC-70USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.001490898091231356,False
+0x0feee018588356e6f92aecb0f384cbe3aaaff48e,33wstETH-33WMATIC-33WETH,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x90768a0a58912fb129e982163e932100bf0f2dbc,50wstETH-50WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x68496904066c9a08226af0cc42805d49ce50fd3b,33WMATIC-33mOCEAN-33GRT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.001089597836587172,False
+0xd819064c12ec65b7dffacbb4986059272e5e527e,STAR-Power oRETRO Volatility Router V19,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,151599.92858105036,False
+0xa452458a141153b1c25088b9941c62d2613cc8f4,33WMATIC-33DAI-33AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000193699199650163,False
+0x5834a0ebdc461603d9fcddb46bb1afe35a7992bd,STAR-Power ETHBULL3X Volume Router V4,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x71d13c58e880f0c44dd6dd2c8defc53848fae258,Matic Yield Index - stMATIC Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.009991051946247415,False
+0xcb5a4e502118fd3ef79e086bc3cf842382039441,StarSeeds Protocol Ecosystem Router,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x59ab15d4bf1ffd5a3ae6e61ed55fbdc206a9f40f,STAR-Credits Matic Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x70e5b0c93dec8cf47e6b22ab8a65417ec538813a,STAR-Credits & MATIC-S Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,7.918672400640135,False
+0xb6d505aa298fc07ce72f02d6190c0b2344660b06,5WMATIC-95BAL,20230320-weighted-pool-v4/WeightedPoolFactory,,1e-12,False
+0x1f845a3d1c4147cdc78de8171c73d5ba71076193,STARV3 & BTC-S & MATIC Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000183308184794443,False
+0xf3999322af14a626edb05b98a34d13790e088d68,BAL & STARV3 Liquidity-as-a-Service by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x78e21d00b6a24b11d1bc8a48870c8dbb2f5145bb,33SUSHI-33WMATIC-33USDC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x59966c6e67e749337ebdd84b69c4541dff46707e,USD Yield Index by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,2.55159130466e-07,False
+0x1d74cf51e2348a55b5d4cf18ec3bbcdcb2e176c2,Colct Swap Composite ,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000001e-12,False
+0xa416103c7265b5b817bf5f2ca51c597217b48f5f,50WBTC-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000001e-12,False
+0xdc33bb959ead63b555047a1412ef6f389b2230c8,50USDC-50GHST,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000511e-12,False
+0xbc7cf4200ca90a485c324160392c50c89f9dd275,DeFi Yield Series by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xd794289763b54a04d5fbbc8fd5710c618212eb84,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,False
+0x6e62aa2e6548152267d9d08ceeb71677af2de0ce,50RBW-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000076e-12,False
+0x4109b8d28486a4331c5bc1e1a9d96690630a98c1,50WMATIC-50DATA,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000001e-12,False
+0x5d23078653ecd4090ed049b1d64c699327b5c587,STARV4-BTC Volume Router,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x03662f6003cb75ae3a1659c994446e99b9b88b3b,50mOCEAN-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x2dc55e27787ac8296ab0ef8b082d68ba4b71facd,50mOCEAN-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x9a6d5cd0b3fa11f3ec57c4f9f98966ceaa592e04,99DE-1WMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.15069011977888677,False
+0x569d61d3aa7d8713f843d5556b4d34575538ae37,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,False
+0x3353664e3565f0b0815b785aa068e731da320096,Vinu Farm,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.11922951707605653,False
+0x2fdd357c1552daf710c279aff3f68e90891c8076,VinuGold Farm,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x4cde282ed8807e4fb485ef545d710ca9ff8ec5d5,VinustMatic Farm,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,37.71978039125889,False
+0x5c0a0475a8b7df870eac4aec378c5836ed4294f2,40USDC-60LDO,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1e-12,False
+0xdbca5f5ca17b33969dd754135328219a169bfa62,40WMATIC-60SP,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,58.572091932118795,False
+0x48034c1feba3e5cf29396e6f5481dd717adbe26f,50wstETH-10USDC-40LDO,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000003e-12,False
+0xa5a6c6417963a75967093c8f8aab07fb7f665dfa,50USDC-50DFX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000124e-12,False
+0x0e1e660d638b63731ffbe05a196f34ded06dc406,20GHST-25SP-25BAL-30LDO,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000102e-12,False
+0x4aef8601a5e10b3f40f3277c5a47e9634998a28e,20GHST-10SP-35BAL-35LDO,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xe4c175eb0a0791279b7ca7ad219f9e13a5f31db4,4WMATIC-92AAVE-4MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,8.564239162888e-06,False
+0x8f322ad0f2d135075a277c357f02506628b0296b,4WMATIC-4WETH-92AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.9794359951615e-05,False
+0xa990381f678c80b416175d92e805c049e4bd7125,Bonsai Price Oracle hy StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x26de530a56142118daf94365d81b30630d6865b3,2WMATIC-2WBTC-2USDC-2LINK-2WETH-2USDT-88AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000124e-12,False
+0x3aee217d02cdada92ea4bb22e4889faae727f617,3WMATIC-3WBTC-3LINK-3WETH-3BAL-85AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,3.936652946092e-06,False
+0x39fa8271f7b4a5e6bc192752379428b04483c946,3WMATIC-4USDC-3LINK-3WETH-3BAL-84AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,6.973606838652e-06,False
+0x1f2abd4e1b44649644ebe57a63d6fc9726674fcc,3WMATIC-3USDC-3LINK-3WETH-90AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,7.6633566928218e-05,False
+0x061b1bef03e5ba324ea46dfa87fc1ce646cf6c64,5wstETH-90AAVE-5MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.035774e-12,False
+0x87d14af48f958865a3503c4b7260654499615a4e,33wstETH-33AAVE-33MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.485140009951e-05,False
+0x7334dd035ac0a0f309776a25759369ae20f4adb3,50AAVE-50MaticX,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,4.4712104876634e-05,False
+0xdfc4c53dc2262128fd305243f4a546c5121367c8,40USDC-60USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xae32122c1d8df68f910d42f848c1f0d7e006dc54,ankrMATIC-Peg,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x451b9678dbc5167a6bf6c9e80286f01be0cc4256,BPT 3Volatile wMATIC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xfc076c004a6ebaa726d5502b1f6e0b4bc94956b2,STARV4 WMATIC GHST SS Vortex Router V378,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x57073fb5bc828e2af6e8d2ff003122218a65f8da,25USDC-15GRT-30RNDR-15MANA-15SAND,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x00d5a9122377b9a3deb08ee69c3cf8fc8356df4f,STARV4-SS SuperPool by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x8626bdd11b55ba0c163eef49485946a319e551ff,STARV4-SS SuperPool by StarSeeds Protocol,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x6aa27bbdf18063df74089be38d09b79c637e20c9,20TETU-80AAVE,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.062716e-12,False
+0xfca93073ef40a39f4028a1f4ee552d46481515fc,50TETU-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000095e-12,False
+0x5af3ff637b0a811dd42741b9af7e76dd676a1eaa,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.222464440951e-06,False
+0x85d560e4d88db065f8c32d58a2e27cad8e2eea76,50TETU-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.09491956682496552,False
+0x32569b8ef7eb87780089f90c85943f1448046308,25USDC-50GHST-25WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.000821328347018198,False
+0x36370e71ff115f2ca762b9374102b72ae5786a6b,50WBTC-50BTCw3,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x05b7bbf4e9305226cd982c351266561041c3d1c7,asdf,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x955460d3c7661ce30fbcee6745da21e4b1876b1d,70CGC/30WETH,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xdbc52be5f14c65f634eb4892ff62a48d4ce54c1f,70CGC/30USDC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xed8796f28e1788c7d6cdd8665406a4ca4b5d5ed8,70CGC/30USDC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xcdf979b6cee32a7427d2297298cf5d138b26407c,70CGC/30USDC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
