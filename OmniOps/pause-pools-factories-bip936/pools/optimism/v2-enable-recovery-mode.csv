@@ -1,0 +1,122 @@
+pool,name,factory,api_tvl_usd,total_supply,paused
+0x5bb3e58887264b667f915130fd04bbb56116c278,50WETH-50OLAS,20230320-weighted-pool-v4/WeightedPoolFactory,66300.36,5549.5276548513675,False
+0xadf86a03af1c77d81380f9fa7c4c797a3ebf2d3a,Optimism Prime Soundwave,20230320-weighted-pool-v4/WeightedPoolFactory,25314.76,80805395.62025677,False
+0x2f6b6973f38381fe453ea819b7e0f0897adeaae7,AURA VILLAGE,20230320-weighted-pool-v4/WeightedPoolFactory,7227.82,37863.95803396857,False
+0x11f0b5cca01b0f0a9fe6265ad6e8ee3419c68440,Blue Rev,20230320-weighted-pool-v4/WeightedPoolFactory,5561.17,358701.6191648118,False
+0x731290da2fa9970304e270940a91f3244b4637c9,99USDC/1USDT,20230320-weighted-pool-v4/WeightedPoolFactory,4997.1,9455.573098602083,False
+0x9620b74077e2a9f118cd37ef60001aeb327ec1a7,20WETH/80VLR,20230320-weighted-pool-v4/WeightedPoolFactory,3619.57,508449.8975898648,False
+0x9da11ff60bfc5af527f58fd61679c3ac98d040d9,Native Stable Beets,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,530.77,2596148430479178.5,False
+0xd4156a7a7e85d8cb2de2932807d8d5f08d05a889,50WETH-50FRACTION,20230320-weighted-pool-v4/WeightedPoolFactory,441.85,0.07761209461843481,False
+0x2feb76966459d7841fa8a7ed0aa4bf574d6111bf,Yield Concerto by FRAX,20230320-weighted-pool-v4/WeightedPoolFactory,389.81,11.4690602949467,False
+0xacfe9b4782910a853b68abba60f3fd8049ffe638,Sonata for Two: DOLA & USDC,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,249.97,2596148431987626.0,False
+0xd13d81af624956327a24d0275cbe54b0ee0e9070,Bonded OATH Token,20230320-weighted-pool-v4/WeightedPoolFactory,139.25,48680.822991097695,False
+0x2a5139cd86c041aa3467e649f5ee0880a5de2f2f,Staked Duet,20230320-weighted-pool-v4/WeightedPoolFactory,69.98,1.2820936574172268,False
+0x373643b17cd80e37675c8c98ef774efe6ca0b4de,Optimistic Steady Beets,20220609-stable-pool-v2/StablePoolFactory,43.11,42.289101258922805,False
+0x3dc09db8e571da76dd04e9176afc7feee0b89106,Come Together,20220609-stable-pool-v2/StablePoolFactory,32.25,1024.962997121437,False
+0x5457e7098013fb703078a5b5b69e0836eba002cd,Synthesizer,20230320-weighted-pool-v4/WeightedPoolFactory,25.58,176.40945983990596,False
+0xc1f46ce83439886f0ea9c21512b36e7e67239d2c,Roast Beets,20230320-weighted-pool-v4/WeightedPoolFactory,22.32,421.37365627675445,False
+0x9a339cab07c16c0b0df874d7c546f6b7a69c8fa1,Maraca$s,20230320-weighted-pool-v4/WeightedPoolFactory,21.2,926.3739133282974,False
+0xffca204a8417c259555563e7da7ddc89437a374a,MicroPhone,20230320-weighted-pool-v4/WeightedPoolFactory,19.66,0.557324731575565,False
+0xf5521ca6a3295babb4b2729931cd358be35da7e3,Pool,20230320-weighted-pool-v4/WeightedPoolFactory,18.41,4.282456722292451,False
+0x59aba93eb2fb1d12ae0a292d96655a13469417a0,The Earth Rocket Bomb,20230206-weighted-pool-v3/WeightedPoolFactory,17.78,1576.630182521261,False
+0x0244b0025264dc5f5c113d472d579c9c994a59ce,A Night at the OPara,20230320-weighted-pool-v4/WeightedPoolFactory,17.5,8501.349623803744,False
+0x10d89732c7e3c5b548e766805b40bc0ecdca4499,Balancer rsETH/wETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,14.5,2596148429267414.0,False
+0xc38c2fc871188935b9c615e73b17f2e7e463c8b1,Keep the BAL rolling,20230320-weighted-pool-v4/WeightedPoolFactory,13.77,13.268881022238721,False
+0x390c2a1ffe5576ce97c07850f027cb5c0628fac4,Pool 2,20230320-weighted-pool-v4/WeightedPoolFactory,12.46,5.752506755890788,False
+0x085edd09c21b33f6b35dfa6ac2c5cd0dbe275799,80USDC/20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,12.05,3.0767948504120555,False
+0xf246fd9800a36907602a02c7c8bf2b11c585218a,50USDC-50OP,20230320-weighted-pool-v4/WeightedPoolFactory,11.34,31.355685283022925,False
+0x73a7fe27fe9545d53924e529acf11f3073841b9e,Balancer wrsETH/wETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,7.51,2596148429267639.0,False
+0x747d0a5b18ac88e1e44fcea9f7022990e2c1b7ac,Synthetix Treasury,20230320-weighted-pool-v4/WeightedPoolFactory,7.43,0.35743611358136623,False
+0xc4ee406970047a70aed14621d97b3b460a7dea0b,Balancer SWEEP-USDC StablePool,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,7.19,2596148429267418.5,False
+0x478980c67d53cd990f2b7bab311ddc9934324e7b,All Roads Lead to Frax,20230320-weighted-pool-v4/WeightedPoolFactory,6.23,0.12411492820281142,False
+0x00b82bc5edea6e5e6c77635e31a1a25aad99f881,Overnight Opening Ensemble,20230320-weighted-pool-v4/WeightedPoolFactory,5.71,7.42852666227781,False
+0x5f8893506ddc4c271837187d14a9c87964a074dc,Ethereum Triplets,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,5.51,2596148429262851.5,False
+0x7e40fe211c8053b78f31d6c4c15157a430a03349,50imxB (OPP-ETH)-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,3.69,3.9104827950615646,False
+0x7498470d6ac742b31644298413714d63496f3a22,5OP-95BEETS,20230320-weighted-pool-v4/WeightedPoolFactory,3.63,1053.4214969776897,False
+0x8337ce79a6d99865ff23c92bff558cc7b611e984,20WETH/80XYZ,20230320-weighted-pool-v4/WeightedPoolFactory,3.44,72.79683767483723,False
+0x38db9cb893bafcc4668e143e22fe08ecf9104229,50imxB (OPP-opxVELO)-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,3.12,3.3243768962328364,False
+0x50bd3d0414fda3acb1559d8e2efbbdce974584e1,50BEETS-50OP,20230320-weighted-pool-v4/WeightedPoolFactory,3.01,94.72718722731949,False
+0x20ac7c9329822ee3cf61d244bd4816941b50cf7a,test53,20230320-weighted-pool-v4/WeightedPoolFactory,2.72,0.054474302354782005,False
+0x004700ba0a4f5f22e1e78a277fca55e36f47e09c,Ankr's Galactic Harmony,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,2.16,2596148429267667.0,False
+0x4055c21130112f8cf8f4fab7a04236deee9fac29,test_80BEETS-20USDC,20230320-weighted-pool-v4/WeightedPoolFactory,1.69,80.2682888586717,False
+0x0770cbf42a5c142f0060b7c8241f541fc8357ff4,80XYZ/20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,1.67,45.0165763832629,False
+0x44ab8efb8909330b4c646b509ee593815c0f0ec5,33USDC-33WBTC-33USDT,20230320-weighted-pool-v4/WeightedPoolFactory,1.45,0.029678021795051183,False
+0x250a1381f79593b96b462fb0d575c75795f80332,Balancer weETH/wETH,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,1.29,2596148429267414.0,False
+0x95b7da84d58869366178d6d8caf80469b49527a2,50WETH-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,1.18,0.02357003431722968,False
+0xab3bcd6365c7b3e80f9633c2c54ebf09d66c616d,50OPP-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,1.12,1.213354842300568,False
+0xdc125d09891c5b6b66061e3170e9a1e1c5cf9be4,Galactic Dragon Act II,20230206-weighted-pool-v3/WeightedPoolFactory,1.06,0.03964854596868133,False
+0x4519c64266c8320a188800558d52cb6d0e1f00cf,20LINK-20UNI-20AAVE-20SNX-20LDO,20230320-weighted-pool-v4/WeightedPoolFactory,1.0,0.15297154485039274,False
+0x2bb4712247d5f451063b5e4f6948abdfb925d93d,Stake me baby one more time,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.85,2596148429267779.5,False
+0xbc80540bb282e7724be7f1e0b92b4ea51340ddbf,20wstETH-25LINK-25OP-20WBTC-10LDO,20230320-weighted-pool-v4/WeightedPoolFactory,0.84,0.01991594979090778,False
+0xd501e07c1b0640a4be471ea6a0a29e2f34788b18,80TST/20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.84,19.253454379235524,False
+0xc05ab1b0ad472ce802e2c8db6f23e4a2865fdca6,Steady Mountain Rhythms,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.83,2596148429267415.0,False
+0xfef82dad4428471b8473c8c4c6f6ce2ac6b51c84,33CRV-33SNX-33BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.8,4.546526723754378,False
+0x3dd504bd492d0d8db245eb38b1b39220c1f72721,1WETH-99USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.7,1.189358698428017,False
+0xfe8c531ba9d4d9ccfd64167e389c15f47eb05fbe,50USDC-50WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,0.68,0.00195852076833508,False
+0xbe8dda0753ef6992a28759282585209c98c25de2,80XYZ/20WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.64,19.63215749901488,False
+0x7c52a0853de6e9e7c5b5940aac33ce095ebbd275,50USDC-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.62,0.011982187011021475,False
+0xe9949934c882c13d928e2fcf9d99138d3d16a52a,50BOB-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.51,0.001557389013501127,False
+0x4d6461f181cf2b26a1cb4e3a070d63d0d31a5155,50USDC-50BEETS,20230320-weighted-pool-v4/WeightedPoolFactory,0.48,2.8284271247461334,False
+0xa96a0545460d2f550d58a10e14d82073c55a8b67,50USDC-50BEETS,20230320-weighted-pool-v4/WeightedPoolFactory,0.48,2.8284271247461334,False
+0xd0fab195ef9db5365b289fb3e38d38ef6b5d0361,50USDC-50BEETS,20230320-weighted-pool-v4/WeightedPoolFactory,0.48,2.8284271247461334,False
+0xc4cd76040a87604c78627dee2450728ac5e971e5,test50,20230320-weighted-pool-v4/WeightedPoolFactory,0.4,0.007815714152634694,False
+0xf8be10127b47b532b7af1ac919e0d0cb46bcd294,50USDC-50USDT,20230320-weighted-pool-v4/WeightedPoolFactory,0.4,0.399999999999992,False
+0x3bc061a95b0aeeda3a9eca051f478468a03d5826,50uniBTC-50WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,0.37,7.013746414e-09,False
+0xd74e7d1bdfa2f79ea893542d864d2ee245476b69,50BEETS-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.34,1.99999999999996,False
+0xeb7ee98165b305fbbf9e6bce58229815570c654e,Living in Vibration,20230320-weighted-pool-v4/WeightedPoolFactory,0.34,0.6602551217694409,False
+0x92163a34af0365197447133c4f53f00a0454e8db,50OP-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.31,0.33929740352421056,False
+0x3f16f0301b62015b926c3b559b645a5a0e19d8aa,"Me, MAIself and I",20220609-stable-pool-v2/StablePoolFactory,0.3,9.945875765092563,False
+0x22ed403fadc58110f128246a7e13962f308841a1,test51,20230320-weighted-pool-v4/WeightedPoolFactory,0.25,0.004870164218399885,False
+0x6d26239ba2ec1a11ab9f68743e11c094d4c593a2,Synthetix Volatility Fund,20230320-weighted-pool-v4/WeightedPoolFactory,0.22,0.000505227350762926,False
+0x4136e861e0ad0642cb2f16962540a7808bbade53,Steady Mountain Rhythms,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.2,2596148429267414.0,False
+0x7ba1351e805bed53ecb1e6ad13113966024f7f43,50USDC.e-50DAI,20230320-weighted-pool-v4/WeightedPoolFactory,0.2,0.19974502656302798,False
+0x679c316bb2bfa7eca6b69d599d24e7646ea89729,50OP-50rETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.2,5.515982786965e-06,False
+0x14d92549e0570d226736ff3524515b9d91a7d0c7,50BEETS-50multiBeets,20230320-weighted-pool-v4/WeightedPoolFactory,0.12,6.5733736428756275,False
+0x5fc073e9c763af7cb02f403130acc62f9f034dbc,50BEETS-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.11,0.6324555320336632,False
+0x2c2549e410ebc7d2a709b37667f9a034f7d9af0b,Pool 3,20230320-weighted-pool-v4/WeightedPoolFactory,0.09,0.08627802676300073,False
+0xa71021492a3966eec735ed1b505afa097c7cfe6f,Fraximalist Ethereum,20230711-composable-stable-pool-v5/ComposableStablePoolFactory,0.08,2596148429267577.0,False
+0x947beaafe07d45a89425e7c00ab245bca02b9125,33CRV-33SNX-33BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.08,0.08400942770265642,False
+0x8abd32f63328de16fd4274e7c4a352b626b1ed7d,50WETH-50wrsETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,1.1481167983466e-05,False
+0x74716000811f20bb7f3a4744c074644c220d62f0,50OP-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,0.057919016864873905,False
+0x0f2f5723ffe5e8c9b29941b18248180f65e08be7,Synthetix Volatility Fund 2,20230320-weighted-pool-v4/WeightedPoolFactory,0.05,0.000121686339740302,False
+0xdd25a7c4ba6bd7e9fea298e4b231379abccca884,50OP-50USDC.e,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.04483467138160591,False
+0x19b5f4f829115cba31aecececfa9ba23aced91c4,50OP-50sUSD,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.0399999999999992,False
+0x59a8fc1c5b424473b39339783aa4765d40aa4d53,50OP-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.04,0.04708770594458688,False
+0xb5285238628f80f1399b286cd6a1ce280c61e2f7,50STG-50SNX,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,0.07615935750936377,False
+0xc523ec066e0ef4fa2dff4e4d336d8a03b3b0c8d5,COMP & wETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.03,6.4741853436582e-05,False
+0xcaca4544534f5c7c114c8fe939693e7595f370f7,50OPP-50imxB (OPP-ETH),20230320-weighted-pool-v4/WeightedPoolFactory,0.03,66.3043257581288,False
+0xcef953fb1563c5a2bc89c3b54712d03d16689a17,50STG-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.000799999999999982,False
+0x561193522f792f464018b01f43d264f5b3759930,50OP-50USDC,20230320-weighted-pool-v4/WeightedPoolFactory,0.02,0.017012719311170144,False
+0xb0305b8b5cb8cb8d20e8071cdf601977b40f6ba2,COMP & ETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.01,2.3340141085366e-05,False
+0x63c6ea3047ee8c90aa1f0d271a307b04fb87499c,50OPP-50imxB (OPP-opxVELO),20230320-weighted-pool-v4/WeightedPoolFactory,0.01,27.677697707832767,False
+0x2d7f35e02446e1d03a86d889b07fb7693b5dab67,Operation Test,20221021-managed-pool/ManagedPoolFactory,,0.0,False
+0x1f7c9d8ed305420aad47097a21af1ecd19b713c5,ManagedPoolTest,20221021-managed-pool/ManagedPoolFactory,,0.0,False
+0x150245f92f0b8d6f37c1f5c991f1873bb0d9f495,newTest,20221021-managed-pool/ManagedPoolFactory,,0.0,False
+0x6b704813007545df4f7e2c75ebc804d3a6317549,Stable Beets,20220609-stable-pool-v2/StablePoolFactory,,0.0,False
+0x42aa46ac4a0832302d25424edea78797ad79be79,A Night at the OPara,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x7d55e2f726a87490751cd0dcd059d4dcfceb8ae3,50USDC-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xe55721dd3a5500b77712783284c5ba4290b009d5,50USDC-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x87eb22859aec6fdd15aa15d18ce5cc8d7631a5bd,50USDC-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xc25e110fe80a6a5285734593be174c7bac62e9e7,50USDC-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xece874b7a9051154866ce79154d653481b0b8759,50BEETS-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.019999999999999594,False
+0xbdc4e9d83716317ddc1714133ab67f4ad964f35f,50BEETS-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x20cb4a1e7b607083f96c12beaa61d60bd8757bc2,Overnight Opening Ensemble,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xd12fd67d1522b79af539cf651f3d2f6981519fe9,50OATHv1-50BAL,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.05474486277268288,False
+0x84e27b600155a5b411e311285cac97889aea281a,DeFi Index,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000051e-12,False
+0x6bb0b88f4c74a9890ac9fb7253385010ee130861,50HND-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xd5c93bafadedae5b17f2289ee4b09d0ac3372c9d,50WETH-50WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x025db202cba62a0d804cf337df055ee6dabde843,20BEETS-40BAL-40OP,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000012e-12,False
+0x5d8e5b0d70ae61e9db53cc9b946e39288b16453d,25wstETH-10OP-4WBTC-9UNI-1SNX-50sUSD-1USDT,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xfedc53c698593e4283ab0b306d43daccd8914ef8,50OP-50WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000026e-12,False
+0x59a22a7859acb8505968344d463809211b0c9cf6,50OP-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.266257451183e-05,False
+0xdf73fd65f5f480d13a788d57b5ad42cdd6f34742,33USDC-33OP-33WBTC,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,1.000501e-12,False
+0xc9c444d2de235177b44c1fd8d98d0497c5fd0062,45USDC-55DAI,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x0dbe1881267fd226f702398d3f42dfdc950d56c5,50WETH-50USDC.e,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x2d658ecb4db8b8f0ae91d99239e56d5b0ca4f97d,COMP on Optimism,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x558c91142948de588edfcee6da6a8c3ace22e9f8,50wstETH-50WETH,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,5.50546701501e-07,False
+0x9ab692518817739e0cb111670e63cb7b08d6012c,60USDC-40OP,20230320-weighted-pool-v4/WeightedPoolFactory,0.0,0.001119173082873723,False
+0xdf1e820adc9e2e7934712d9aae04c120c768fb3a,MicroPhone,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0xee03c42596f4e0200757c31d39a774af7f022fbc,20WETH/80XYZ,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x5875ad3e15f8cdc3f3a114b82a47f2afa060584d,20WETH/80XYZ,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x8c02b1f4b86071b3d374927a71501b403bca6d8b,20WETH/80XYZ,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
+0x924b7001610308b032412d3a401b8ea8a935a9c3,20WETH/80XYZ,20230320-weighted-pool-v4/WeightedPoolFactory,,0.0,False
